@@ -1,0 +1,3 @@
+Verified six source transfer parts against local Git blob checksums.
+Import 50 text source files, 33 contacts and 50 sources into this private repository only.
+This one-time import does not deploy the application, send emails or activate research scheduling.
