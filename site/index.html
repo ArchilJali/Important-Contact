@@ -4,9 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive">
-<title>Important Contact | BHOC Strategic Network</title>
-<meta name="description" content="Private BHOC strategic contact intelligence workspace preview.">
+<title>Important Contact | Internal Workspace</title>
+<meta name="description" content="Private BHOC contact intelligence working dashboard.">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="internal.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -18,29 +19,24 @@
     </a>
     <div class="header-meta">
       <span class="private-pill"><i></i> Private repository</span>
-      <span class="preview-pill">PREVIEW</span>
+      <span class="internal-status">Internal workspace</span>
     </div>
   </div>
 </header>
 
 <main id="main">
-  <section class="hero">
+  <section class="hero workspace-hero">
     <div class="shell hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">BHOC · VETERINARY · SCIENCE · CONSERVATION</p>
-        <h1>Find the right people.<br><span>Keep the context.</span></h1>
-        <p class="hero-lead">A structured relationship-intelligence workspace for veterinary medicine, animal health, wildlife, biodiversity, science, investment and strategic partnerships.</p>
-        <div class="hero-actions">
-          <button class="primary" data-scroll="workspace">Open workspace</button>
-          <button class="ghost" data-scroll="directions">Explore directions</button>
-        </div>
+        <p class="eyebrow">BHOC CONTACT INTELLIGENCE</p>
+        <h1>Important Contact</h1>
+        <p class="hero-lead">Internal working database for people, institutions, publications and relationship status. Search first, open the record, then work from the evidence.</p>
       </div>
-      <div class="hero-metrics" aria-label="Workspace summary">
-        <article><strong>33</strong><span>indexed contacts & organisations</span></article>
-        <article><strong>10</strong><span>research directions</span></article>
-        <article><strong>1-10</strong><span>priority intelligence score</span></article>
-        <article><strong>20y</strong><span>historical evidence horizon</span></article>
-      </div>
+      <aside class="workspace-summary" aria-label="Working counts">
+        <div class="summary-row"><span>Authors</span><strong id="summaryAuthors">16</strong></div>
+        <div class="summary-row"><span>Investors</span><strong id="summaryInvestors">3</strong></div>
+        <div class="summary-row"><span>In contact</span><strong id="summaryInContact">0</strong></div>
+      </aside>
     </div>
   </section>
 
@@ -48,22 +44,22 @@
     <div class="shell">
       <div class="section-head">
         <div>
-          <p class="eyebrow dark">NETWORK ARCHITECTURE</p>
-          <h2>One workspace. Multiple strategic directions.</h2>
+          <p class="eyebrow dark">WORKSTREAMS</p>
+          <h2>Filter the working database.</h2>
         </div>
-        <p>Filter by person, organisation, country, species, role, evidence, activity and strategic relevance.</p>
+        <p>Use directions only as working filters. The contact record remains the source of truth.</p>
       </div>
       <div class="direction-grid">
         <button class="direction active" data-filter="all"><span>01</span><b>All contacts</b><small>Complete network</small></button>
-        <button class="direction" data-filter="veterinary"><span>02</span><b>Veterinary medicine</b><small>Clinicians & specialists</small></button>
+        <button class="direction" data-filter="veterinary"><span>02</span><b>Veterinary</b><small>Clinicians & specialists</small></button>
         <button class="direction" data-filter="wildlife"><span>03</span><b>Wildlife & zoos</b><small>Conservation medicine</small></button>
         <button class="direction" data-filter="science"><span>04</span><b>Science & institutes</b><small>Research & evidence</small></button>
-        <button class="direction" data-filter="industry"><span>05</span><b>Industry & partners</b><small>Animal health ecosystem</small></button>
+        <button class="direction" data-filter="industry"><span>05</span><b>Industry</b><small>Animal health partners</small></button>
         <button class="direction" data-filter="funding"><span>06</span><b>Investors & funds</b><small>Strategic capital</small></button>
-        <button class="direction" data-filter="grants"><span>07</span><b>Grants & programmes</b><small>Funding opportunities</small></button>
+        <button class="direction" data-filter="grants"><span>07</span><b>Grants</b><small>Programmes & funding</small></button>
         <button class="direction" data-filter="philanthropy"><span>08</span><b>Philanthropy</b><small>Mission-aligned donors</small></button>
         <button class="direction" data-filter="media"><span>09</span><b>Journals & media</b><small>Editors & publications</small></button>
-        <button class="direction" data-filter="biodiversity"><span>10</span><b>Biodiversity mission</b><small>Species protection network</small></button>
+        <button class="direction" data-filter="biodiversity"><span>10</span><b>Biodiversity</b><small>Species protection</small></button>
       </div>
     </div>
   </section>
@@ -72,10 +68,10 @@
     <div class="shell">
       <div class="workspace-titlebar">
         <div>
-          <p class="eyebrow dark">RELATIONSHIP INTELLIGENCE</p>
-          <h2>Contact workspace</h2>
+          <p class="eyebrow dark">WORKING DATABASE</p>
+          <h2>Contacts</h2>
         </div>
-        <span class="safe-note">Preview data only - private records are not published</span>
+        <span class="safe-note">Private internal workspace</span>
       </div>
 
       <nav class="tabs" aria-label="Workspace views">
@@ -95,86 +91,75 @@
       </div>
 
       <div class="table-toolbar">
-        <div><strong id="resultCount">6</strong><span> preview records</span></div>
+        <div><strong id="resultCount">6</strong><span> shown</span></div>
         <button id="reset" class="small-button">Reset filters</button>
       </div>
 
       <div class="cards" id="cards">
-        <article class="contact-card" data-category="veterinary science" data-country="United Kingdom" data-species="Dog Cat" data-priority="9" data-search="critical care veterinary hospital transfusion emergency">
-          <div class="card-top"><span class="type">Veterinary specialist</span><span class="score">9</span></div>
-          <h3>Critical Care Leader</h3><p class="role">University veterinary hospital · Emergency & critical care</p>
-          <div class="tags"><span>UK</span><span>Dog</span><span>Cat</span></div>
-          <div class="card-rule"></div><p class="evidence">Evidence profile: transfusion medicine, critical care, anaemia and emergency practice.</p>
-          <div class="card-bottom"><span><i class="dot verified"></i>High relevance</span><button class="view-btn" data-name="Critical Care Leader">View record</button></div>
+        <article class="contact-card" data-category="veterinary science" data-country="United Kingdom" data-species="Dog Cat" data-priority="9" data-search="Karen Humm Royal Veterinary College transfusion emergency critical care">
+          <div class="card-top"><span class="type">Veterinarian · Scientist</span><span class="score">9</span></div>
+          <h3>Karen Humm</h3><p class="role">Royal Veterinary College · Transfusion Medicine Service · Emergency & critical care</p>
+          <div class="tags"><span>UK</span><span>Dog</span><span>Cat</span><span>Transfusion</span></div>
+          <div class="card-rule"></div><p class="evidence">Direct topic fit: anaemia, transfusion and critical care. Contact status: not contacted.</p>
+          <div class="card-bottom"><span><i class="dot verified"></i>Research candidate</span><button class="view-btn" data-name="Karen Humm">View record</button></div>
         </article>
-        <article class="contact-card" data-category="wildlife biodiversity science" data-country="United States" data-species="Wildlife Multi-species" data-priority="9" data-search="wildlife zoo conservation one health biodiversity medicine">
+        <article class="contact-card" data-category="veterinary science" data-country="United States" data-species="Dog Cat" data-priority="9" data-search="Kate Hopper UC Davis emergency critical care lactate blood gas resuscitation">
+          <div class="card-top"><span class="type">Veterinarian · Scientist</span><span class="score">9</span></div>
+          <h3>Kate Hopper</h3><p class="role">UC Davis · Small-animal emergency & critical care</p>
+          <div class="tags"><span>US</span><span>Dog</span><span>Cat</span><span>Resuscitation</span></div>
+          <div class="card-rule"></div><p class="evidence">Critical illness, lactate, blood gases and resuscitation. Contact status: not contacted.</p>
+          <div class="card-bottom"><span><i class="dot verified"></i>Research candidate</span><button class="view-btn" data-name="Kate Hopper">View record</button></div>
+        </article>
+        <article class="contact-card" data-category="veterinary science" data-country="United States" data-species="Equine" data-priority="9" data-search="Kira Epstein University Georgia large animal equine emergency surgery coagulation">
+          <div class="card-top"><span class="type">Veterinarian · Scientist</span><span class="score">9</span></div>
+          <h3>Kira L. Epstein</h3><p class="role">Large Animal Medicine · Equine emergency, surgery & coagulation</p>
+          <div class="tags"><span>US</span><span>Equine</span><span>Large animal</span></div>
+          <div class="card-rule"></div><p class="evidence">High relevance for equine shock, coagulation and oxygen-transport work. Contact status: not contacted.</p>
+          <div class="card-bottom"><span><i class="dot verified"></i>Research candidate</span><button class="view-btn" data-name="Kira L. Epstein">View record</button></div>
+        </article>
+        <article class="contact-card" data-category="wildlife biodiversity science veterinary" data-country="United States" data-species="Wildlife Multi-species" data-priority="9" data-search="Sharon Deem Saint Louis Zoo conservation medicine wildlife One Health">
           <div class="card-top"><span class="type">Conservation medicine</span><span class="score">9</span></div>
-          <h3>Wildlife Health Leader</h3><p class="role">Zoo & conservation medicine · One Health</p>
+          <h3>Sharon Deem</h3><p class="role">Institute for Conservation Medicine · Wildlife & One Health</p>
           <div class="tags"><span>US</span><span>Wildlife</span><span>One Health</span></div>
-          <div class="card-rule"></div><p class="evidence">Evidence profile: wildlife health, species conservation, field medicine and biodiversity.</p>
-          <div class="card-bottom"><span><i class="dot verified"></i>High relevance</span><button class="view-btn" data-name="Wildlife Health Leader">View record</button></div>
+          <div class="card-rule"></div><p class="evidence">Connects wildlife medicine, zoos and planetary health. Contact status: not contacted.</p>
+          <div class="card-bottom"><span><i class="dot verified"></i>Research candidate</span><button class="view-btn" data-name="Sharon Deem">View record</button></div>
         </article>
-        <article class="contact-card" data-category="industry veterinary" data-country="Netherlands" data-species="Multi-species" data-priority="8" data-search="animal health distributor commercial veterinary partner europe">
-          <div class="card-top"><span class="type">Industry partner</span><span class="score">8</span></div>
-          <h3>European Animal Health Partner</h3><p class="role">Commercial & distribution network · Animal health</p>
-          <div class="tags"><span>NL</span><span>Europe</span><span>Multi-species</span></div>
-          <div class="card-rule"></div><p class="evidence">Evidence profile: veterinary distribution, market access and strategic partnership potential.</p>
-          <div class="card-bottom"><span><i class="dot watch"></i>Research active</span><button class="view-btn" data-name="European Animal Health Partner">View record</button></div>
+        <article class="contact-card" data-category="funding veterinary science industry" data-country="United States" data-species="Dog Cat Equine" data-priority="8" data-search="Cindy Cole Digitalis Ventures investor veterinary pharmacology animal health">
+          <div class="card-top"><span class="type">Investor · Veterinarian</span><span class="score">8</span></div>
+          <h3>Cindy Cole</h3><p class="role">Technical Partner · Digitalis Ventures</p>
+          <div class="tags"><span>US</span><span>Investor</span><span>Animal health</span></div>
+          <div class="card-rule"></div><p class="evidence">Veterinary pharmacology and animal-health venture expertise. Contact status: not contacted.</p>
+          <div class="card-bottom"><span><i class="dot watch"></i>Research candidate</span><button class="view-btn" data-name="Cindy Cole">View record</button></div>
         </article>
-        <article class="contact-card" data-category="funding philanthropy biodiversity" data-country="United Arab Emirates" data-species="Wildlife" data-priority="8" data-search="species conservation fund grants biodiversity wildlife philanthropy">
-          <div class="card-top"><span class="type">Conservation funding</span><span class="score">8</span></div>
-          <h3>Species Conservation Fund</h3><p class="role">Global biodiversity grants · Species protection</p>
-          <div class="tags"><span>UAE</span><span>Wildlife</span><span>Funding</span></div>
-          <div class="card-rule"></div><p class="evidence">Evidence profile: threatened species, conservation grants and global biodiversity programmes.</p>
-          <div class="card-bottom"><span><i class="dot verified"></i>Mission fit</span><button class="view-btn" data-name="Species Conservation Fund">View record</button></div>
-        </article>
-        <article class="contact-card" data-category="science veterinary" data-country="United States" data-species="Dog Cat Equine" data-priority="9" data-search="veterinary university research emergency transfusion physiology">
-          <div class="card-top"><span class="type">Academic institution</span><span class="score">9</span></div>
-          <h3>Veterinary Research Institution</h3><p class="role">Clinical research · Critical care · Translational science</p>
-          <div class="tags"><span>US</span><span>Research</span><span>Multi-species</span></div>
-          <div class="card-rule"></div><p class="evidence">Evidence profile: veterinary clinical research, oxygen delivery and translational medicine.</p>
-          <div class="card-bottom"><span><i class="dot verified"></i>High relevance</span><button class="view-btn" data-name="Veterinary Research Institution">View record</button></div>
-        </article>
-        <article class="contact-card" data-category="wildlife biodiversity philanthropy" data-country="South Africa" data-species="Wildlife" data-priority="8" data-search="wildlife rescue endangered species rehabilitation conservation africa">
-          <div class="card-top"><span class="type">Wildlife rescue</span><span class="score">8</span></div>
-          <h3>Endangered Species Rescue Network</h3><p class="role">Wildlife rehabilitation · Conservation operations</p>
-          <div class="tags"><span>ZA</span><span>Wildlife</span><span>Rescue</span></div>
-          <div class="card-rule"></div><p class="evidence">Evidence profile: endangered species rescue, veterinary intervention and conservation partnerships.</p>
-          <div class="card-bottom"><span><i class="dot watch"></i>Research active</span><button class="view-btn" data-name="Endangered Species Rescue Network">View record</button></div>
+        <article class="contact-card" data-category="funding industry biodiversity" data-country="United States" data-species="Multi-species" data-priority="8" data-search="Ben Jacobs Digitalis Ventures investor animal health pet care conservation">
+          <div class="card-top"><span class="type">Investor · Partner</span><span class="score">8</span></div>
+          <h3>Ben Jacobs</h3><p class="role">Partner · Digitalis Ventures</p>
+          <div class="tags"><span>US</span><span>Investor</span><span>Animal health</span></div>
+          <div class="card-rule"></div><p class="evidence">Animal-health investment and pet-care company building. Contact status: not contacted.</p>
+          <div class="card-bottom"><span><i class="dot watch"></i>Research candidate</span><button class="view-btn" data-name="Ben Jacobs">View record</button></div>
         </article>
       </div>
 
-      <div class="empty" id="empty" hidden>No preview records match these filters.</div>
+      <div class="empty" id="empty" hidden>No records match these filters.</div>
     </div>
   </section>
 
-  <section class="section methodology">
-    <div class="shell methodology-grid">
-      <div><p class="eyebrow dark">HOW IT WORKS</p><h2>Research first.<br>Outreach only after review.</h2></div>
-      <ol>
-        <li><span>01</span><div><b>Discover</b><p>Find relevant people, organisations, programmes and documented relationships.</p></div></li>
-        <li><span>02</span><div><b>Verify</b><p>Record sources, dates, evidence gaps and the reason each contact matters.</p></div></li>
-        <li><span>03</span><div><b>Prioritise</b><p>Score strategic relevance from 1 to 10 without turning research into automatic outreach.</p></div></li>
-        <li><span>04</span><div><b>Review</b><p>Human approval remains the decision gate before any relationship becomes active.</p></div></li>
-      </ol>
-    </div>
-  </section>
+  <div class="methodology internal-anchor" aria-hidden="true"></div>
 </main>
 
 <footer>
   <div class="shell footer-inner">
-    <div><b>Important Contact</b><span>BHOC Strategic Network</span></div>
-    <p>Static GitHub preview. No external services, analytics, third-party fonts or private contact records.</p>
+    <div><b>Important Contact</b><span>Private working database</span></div>
+    <p>ArchilJali/Important-Contact · internal research and relationship intelligence.</p>
   </div>
 </footer>
 
 <dialog id="recordDialog">
   <button class="dialog-close" aria-label="Close">×</button>
-  <p class="eyebrow dark">PREVIEW RECORD</p>
+  <p class="eyebrow dark">CONTACT RECORD</p>
   <h2 id="dialogTitle">Contact</h2>
-  <p class="dialog-lead">This is the presentation layer only. The public preview does not expose names, emails, internal assessments, private notes or relationship history.</p>
-  <div class="dialog-grid"><div><small>Priority</small><b>8-9</b></div><div><small>Evidence</small><b>Verified sources</b></div><div><small>Review</small><b>Human decision gate</b></div></div>
-  <div class="dialog-block"><b>Future full record</b><p>Role, organisation, countries, species, source links, publication history, documented activity, relationship map, strategic relevance, research gaps and next action.</p></div>
+  <p class="dialog-lead">Open the source record in the private database for full role, evidence, contact route, relationship history, research gaps and next action.</p>
+  <div class="dialog-grid"><div><small>Priority</small><b>1-10</b></div><div><small>Evidence</small><b>Source linked</b></div><div><small>Status</small><b>Internal</b></div></div>
 </dialog>
 
 <script src="app.js"></script>
