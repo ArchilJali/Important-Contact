@@ -1,5 +1,5 @@
 # Philanthropy
 
-Private category for individual and corporate donors, charitable foundations and public supporters with documented activity. Distinguish a pledge from a completed donation and cash from in-kind support.
+Open the authenticated Important Contact application and choose **Philanthropy**. All role and source-access rules apply. Contacts can belong to multiple views while retaining one canonical record.
 
-Use the authenticated application for editing once deployed. Do not publish private reviews or contact exports.
+Do not publish private contact exports or review notes in a public site.

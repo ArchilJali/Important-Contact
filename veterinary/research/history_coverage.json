@@ -1,0 +1,29 @@
+{
+  "requested_start": "2006-09-05",
+  "requested_end": "2026-09-05",
+  "complete": false,
+  "method": "Coverage must be documented by category, country, date window, executed queries, read sources and remaining gaps; one oldest hit is not full coverage.",
+  "windows": [
+    {
+      "start": "2006-09-05",
+      "end": "2010-12-31",
+      "status": "not_systematically_searched"
+    },
+    {
+      "start": "2011-01-01",
+      "end": "2015-12-31",
+      "status": "not_systematically_searched"
+    },
+    {
+      "start": "2016-01-01",
+      "end": "2020-12-31",
+      "status": "not_systematically_searched"
+    },
+    {
+      "start": "2021-01-01",
+      "end": "2026-09-05",
+      "status": "not_systematically_searched"
+    }
+  ],
+  "pilot_note": "Scattered records include 2007, 2018, 2019, 2020, 2022, 2023, 2024 and 2026, but no window is complete."
+}

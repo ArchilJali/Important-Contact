@@ -2,6 +2,8 @@
 
 Primary direction in the private `ArchilJali/Important-Contact` repository.
 
+[Browse the 33-contact seed index](CONTACTS.md) or [open the full original dataset](data/snapshot.json).
+
 | Group | Folder |
 |---|---|
 | Investors & Funds | [investors-and-funds/](investors-and-funds/) |
@@ -13,8 +15,8 @@ Primary direction in the private `ArchilJali/Important-Contact` repository.
 | Companies & Partners | [companies-and-partners/](companies-and-partners/) |
 | Journals & Media | [journals-and-media/](journals-and-media/) |
 
-The prepared private dataset has 33 contacts and 50 source records. Data transfer is being verified. No external facts have been re-verified during this repository setup. After secure deployment, the live database is the source of truth for current human decisions and access permissions.
+The initial private dataset is `data/snapshot.json`: 33 contacts and 50 source records. No external facts have been re-verified in this packaging update. The live database, after secure deployment, is the source of truth for current human decisions and access permissions.
 
-The research configuration describes a proposed 72-hour cadence, not an installed or running scheduler.
+Research specifications are in `research/`. They describe a proposed 72-hour cadence, not an installed or running scheduler. The private server and English interface are under `../app/`; database migrations are under `../sql/`.
 
 Keep this repository private. Do not publish its source tree or snapshots on GitHub Pages.

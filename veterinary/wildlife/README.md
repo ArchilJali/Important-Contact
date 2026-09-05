@@ -1,5 +1,5 @@
 # Wildlife
 
-Private category for wildlife health, species protection, Red Book connections, biodiversity and conservation networks.
+Open the authenticated Important Contact application and choose **Wildlife**. All role and source-access rules apply. Contacts can belong to multiple views while retaining one canonical record.
 
-Use the authenticated application for editing once deployed. Do not publish private reviews or contact exports.
+Do not publish private contact exports or review notes in a public site.

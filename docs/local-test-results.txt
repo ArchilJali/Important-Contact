@@ -1,0 +1,5 @@
+2026-09-05 package verification
+Command: python -m pytest tests/test_security.py tests/test_publisher.py -q
+74 passed in 1.91s
+56 backend tests; 18 publisher tests, including parametrized cases.
+All GitHub and Auth calls in these tests are simulated. No remote repository or access was created.

@@ -1,5 +1,5 @@
 # Grants & Programmes
 
-Private category for grants, funding calls, research programmes and eligibility requirements. Record deadlines, countries, eligible applicants and whether the opportunity is open, closed or unverified.
+Open the authenticated Important Contact application and choose **Grants & Programmes**. All role and source-access rules apply. Contacts can belong to multiple views while retaining one canonical record.
 
-Use the authenticated application for editing once deployed. Do not publish private reviews or contact exports.
+Do not publish private contact exports or review notes in a public site.

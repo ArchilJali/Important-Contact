@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "scope": "Browser-only mocked fetch, no network. Original private seed rendered for UI checks only; no real authentication, emails or deployed service tested",
+  "checks": [
+    "Unauthenticated page contains no contacts",
+    "Remember-until-revoked label replaces the old 30-day limit",
+    "Viewer sees 33 contacts, BHOC Active Contact and no edit/admin UI",
+    "Viewer contact detail has working-format links and no editable inputs",
+    "No active BHOC relationship is invented; all 33 are Not confirmed",
+    "390px mobile page does not horizontally overflow; table scrolls internally",
+    "Viewer can open all 50 source records",
+    "Editor can edit assessments and BHOC state but cannot delete"
+  ],
+  "browser_errors": []
+}

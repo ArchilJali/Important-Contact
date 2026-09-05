@@ -1,5 +1,5 @@
 # Investors & Funds
 
-Private category for investors, investment funds and relevant decision-makers. One canonical contact can belong to several categories without duplication.
+Open the authenticated Important Contact application and choose **Investors & Funds**. All role and source-access rules apply. Contacts can belong to multiple views while retaining one canonical record.
 
-Use the authenticated application for editing once deployed. Do not publish private reviews or contact exports.
+Do not publish private contact exports or review notes in a public site.

@@ -1,0 +1,4172 @@
+{
+  "entities": [
+    {
+      "id": "P001",
+      "name": "Karen Humm",
+      "entity_type": "person",
+      "groups": [
+        "Veterinarians",
+        "Scientists"
+      ],
+      "country_tags": [
+        "GB"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat"
+      ],
+      "role_summary": "Director of Transfusion Medicine Service; emergency and critical care",
+      "affiliation_id": "O001",
+      "aliases": [],
+      "source_ids": [
+        "S01",
+        "S02",
+        "S47",
+        "S50"
+      ],
+      "priority_score": 9,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 2,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Direct topic fit: anaemia, transfusion, emergency and critical care.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Personal LinkedIn is unverified; academic titles differ between official pages.",
+      "next_action": "Review the full text and coauthor network of the 2025 paper (DOI 10.1016/j.vaa.2025.02.014); deepen the anaemia and oxygen-delivery history.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": "KHUMM@rvc.ac.uk",
+      "email_status": "publicly_listed_deliverability_not_tested",
+      "contact_page": "https://www.rvc.ac.uk/about/our-people/karen-humm",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science"
+      ],
+      "last_activity_date": "2025-03-01",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S50"
+      ],
+      "last_activity_basis": "Red blood cell transfusion in canine and feline patients under general anaesthesia",
+      "last_activity_range_start": "2025-03-01",
+      "last_activity_range_end": "2025-03-01"
+    },
+    {
+      "id": "P002",
+      "name": "Kate Hopper",
+      "entity_type": "person",
+      "groups": [
+        "Veterinarians",
+        "Scientists"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat"
+      ],
+      "role_summary": "UC Davis Professor; small-animal emergency and critical care",
+      "affiliation_id": "O002",
+      "aliases": [],
+      "source_ids": [
+        "S03",
+        "S04"
+      ],
+      "priority_score": 9,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Critical illness, lactate, blood gases and resuscitation are relevant.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Relevant papers have been checked against institutional lists, not all in full text; personal LinkedIn is unverified.",
+      "next_action": "Verify authorship/DOI and identify studies with functional oxygen-delivery endpoints.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.vetmed.ucdavis.edu/faculty/kate-hopper",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science"
+      ],
+      "last_activity_date": "2024",
+      "last_activity_date_precision": "year",
+      "last_activity_source_ids": [
+        "S03"
+      ],
+      "last_activity_basis": "2024 RECOVER Guidelines: Updated treatment recommendations for CPR in dogs and cats",
+      "last_activity_range_start": "2024-01-01",
+      "last_activity_range_end": "2024-12-31"
+    },
+    {
+      "id": "P003",
+      "name": "Kira L. Epstein",
+      "entity_type": "person",
+      "groups": [
+        "Veterinarians",
+        "Scientists"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "horse",
+        "large_animal"
+      ],
+      "role_summary": "Department Head, Large Animal Medicine; emergency, surgery and coagulation",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S05"
+      ],
+      "priority_score": 9,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Equine and large-animal critical care; potential scientific assessment and study-design relevance.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "HBOC publications and personal LinkedIn are unverified; BHOC interest is unknown.",
+      "next_action": "Review equine shock, coagulation and oxygen-transport publications.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://vet.uga.edu/person/kira_l-_epstein/",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "P004",
+      "name": "Sharon Deem",
+      "entity_type": "person",
+      "groups": [
+        "Veterinarians",
+        "Scientists",
+        "Conservation"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "wildlife",
+        "elephant",
+        "turtle",
+        "jaguar"
+      ],
+      "role_summary": "Director, Institute for Conservation Medicine",
+      "affiliation_id": "O004",
+      "aliases": [],
+      "source_ids": [
+        "S06",
+        "S07",
+        "S08",
+        "S43",
+        "S44",
+        "S46"
+      ],
+      "priority_score": 9,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 2,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Connects wildlife medicine, zoos and planetary health.",
+      "research_depth": "D3",
+      "evidence_confidence": "B",
+      "known_gaps": "Full texts/videos were not fully reviewed. No current AAZV presidency is asserted; the recorded term is historical, 2023-2024.",
+      "next_action": "Link specific projects and partners; review accessible talks/publications rather than relying on a general biography.",
+      "linkedin_url": "https://www.linkedin.com/in/sharon-deem",
+      "linkedin_status": "public_index_or_official_link_only",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://drsharondeem.squarespace.com/contact",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science",
+        "wildlife",
+        "zoos-and-nature-reserves"
+      ],
+      "last_activity_date": "2023-11-01",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S06"
+      ],
+      "last_activity_basis": "Former president",
+      "last_activity_range_start": "2023-11-01",
+      "last_activity_range_end": "2023-11-01"
+    },
+    {
+      "id": "P005",
+      "name": "Cindy Cole",
+      "entity_type": "person",
+      "groups": [
+        "Investors",
+        "Veterinarians",
+        "Scientists"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat",
+        "horse"
+      ],
+      "role_summary": "Technical Partner, Digitalis Ventures",
+      "affiliation_id": "O008",
+      "aliases": [],
+      "source_ids": [
+        "S09",
+        "S11"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Veterinary pharmacology and animal-health venture expertise.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Current time commitment, personal LinkedIn and investment decision authority are unverified.",
+      "next_action": "Review original publications and the precise role in veterinary therapeutics assessment.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.digitalisventures.com/people/cindy-cole",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "investors-and-funds",
+        "veterinary-doctors-and-science"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "P006",
+      "name": "Ben Jacobs",
+      "entity_type": "person",
+      "groups": [
+        "Investors",
+        "Companies",
+        "Conservation"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat"
+      ],
+      "role_summary": "Partner, Digitalis Ventures",
+      "affiliation_id": "O008",
+      "aliases": [],
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Animal-health investment and pet-care company building.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "The employer links a personal LinkedIn profile, but the profile was not retrieved; do not mark it verified.",
+      "next_action": "Check the current investment remit and documented projects; separately map PetSmart Charities.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.digitalisventures.com/people/ben-jacobs",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "investors-and-funds",
+        "wildlife",
+        "companies-and-partners"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "P007",
+      "name": "Leonardo DiCaprio",
+      "entity_type": "person",
+      "groups": [
+        "Public figures",
+        "Philanthropic donors",
+        "Conservation"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "wildlife",
+        "endangered_species"
+      ],
+      "role_summary": "Founding Board Member, Re:wild",
+      "affiliation_id": "O009",
+      "aliases": [],
+      "source_ids": [
+        "S27",
+        "S28"
+      ],
+      "priority_score": 7,
+      "score_components": {
+        "strategic_fit_0_3": 2,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 0,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Documented conservation activity and an organisational connection, not an assumption about personal affection for animals.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Direct professional contact is unverified; personal willingness to support BHOC is unknown.",
+      "next_action": "Use a suitable conservation project and Re:wild organisational channels, not private information.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.rewild.org/team/leonardo-dicaprio",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "philanthropy",
+        "wildlife"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "P008",
+      "name": "Urs Giger",
+      "entity_type": "person",
+      "groups": [
+        "Veterinarians",
+        "Scientists"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat"
+      ],
+      "role_summary": "Veterinary transfusion / hematology expert; Penn emeritus status documented in 2020",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S39",
+        "S40",
+        "S41"
+      ],
+      "priority_score": 7,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 0,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Strong relevant historical research in veterinary transfusion medicine.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "No fresh confirmation of current role/availability; a 2007 paper email was not promoted to a current contact.",
+      "next_action": "First establish current public professional status and an up-to-date contact route.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": null,
+      "contact_status": "not_contacted",
+      "record_status": "historical_lead_current_status_unverified",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science"
+      ],
+      "last_activity_date": "2020-06-02",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S39"
+      ],
+      "last_activity_basis": "Penn Lifetime Achievement Award announcement",
+      "last_activity_range_start": "2020-06-02",
+      "last_activity_range_end": "2020-06-02"
+    },
+    {
+      "id": "P009",
+      "name": "Marcela (Marcy) Uhart",
+      "entity_type": "person",
+      "groups": [
+        "Veterinarians",
+        "Scientists",
+        "Conservation"
+      ],
+      "country_tags": [
+        "AR",
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "wildlife",
+        "whale",
+        "penguin",
+        "albatross",
+        "petrel"
+      ],
+      "role_summary": "IUCN WHSG Co-Chair; UC Davis Latin America Program director; professional base in Patagonia",
+      "affiliation_id": "O019",
+      "aliases": [],
+      "source_ids": [
+        "S38"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Wildlife health in South America; a connection between a university and an international network.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Personal LinkedIn/contact is unverified; AR identifies the professional base and US the organisation, not nationality.",
+      "next_action": "Review the current university profile and specific veterinary intervention projects.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://iucn.org/our-union/commissions/group/iucn-ssc-wildlife-health-specialist-group",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science",
+        "wildlife"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "P010",
+      "name": "Tiggy Grillo",
+      "entity_type": "person",
+      "groups": [
+        "Veterinarians",
+        "Scientists",
+        "Conservation"
+      ],
+      "country_tags": [
+        "AU"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "wildlife"
+      ],
+      "role_summary": "IUCN WHSG Co-Chair; Wildlife Health Australia coordinator/COO per IUCN",
+      "affiliation_id": "O019",
+      "aliases": [],
+      "source_ids": [
+        "S38"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "An operational wildlife-health, preparedness and cross-institutional partnership network.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Employer contact details and personal LinkedIn have not yet been checked.",
+      "next_action": "Verify the professional contact and identify Australian wildlife-rescue/clinical partners.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://iucn.org/our-union/commissions/group/iucn-ssc-wildlife-health-specialist-group",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science",
+        "wildlife"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "P011",
+      "name": "Joan Weill",
+      "entity_type": "person",
+      "groups": [
+        "Philanthropic donors"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "companion_animals"
+      ],
+      "role_summary": "Publicly documented veterinary philanthropy through Weill Family Foundation",
+      "affiliation_id": "O011",
+      "aliases": [],
+      "source_ids": [
+        "S22"
+      ],
+      "priority_score": 7,
+      "score_components": {
+        "strategic_fit_0_3": 2,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 0,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Documented donation to a relevant veterinary institution.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "No verified direct professional contact; a pledge does not imply an open grant programme.",
+      "next_action": "Investigate institutional research-support mechanisms through UC Davis.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.ucdavis.edu/news/uc-davis-receives-120m-gift-largest-ever-veterinary-medicine",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "philanthropy"
+      ],
+      "last_activity_date": "2026-01-28",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S22"
+      ],
+      "last_activity_basis": "Weill Family Foundation veterinary-school gift",
+      "last_activity_range_start": "2026-01-28",
+      "last_activity_range_end": "2026-01-28"
+    },
+    {
+      "id": "P012",
+      "name": "Sanford I. Weill",
+      "entity_type": "person",
+      "groups": [
+        "Philanthropic donors"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "companion_animals"
+      ],
+      "role_summary": "Publicly documented veterinary philanthropy through Weill Family Foundation",
+      "affiliation_id": "O011",
+      "aliases": [
+        "Sandy Weill"
+      ],
+      "source_ids": [
+        "S22"
+      ],
+      "priority_score": 7,
+      "score_components": {
+        "strategic_fit_0_3": 2,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 0,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Documented relevant gift; consider contact through the foundation or recipient institution.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "No verified open call, direct contact route or BHOC interest.",
+      "next_action": "First verify the relevant grantmaking or academic-partnership route; avoid mass outreach.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.ucdavis.edu/news/uc-davis-receives-120m-gift-largest-ever-veterinary-medicine",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "philanthropy"
+      ],
+      "last_activity_date": "2026-01-28",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S22"
+      ],
+      "last_activity_basis": "Weill Family Foundation veterinary-school gift",
+      "last_activity_range_start": "2026-01-28",
+      "last_activity_range_end": "2026-01-28"
+    },
+    {
+      "id": "P013",
+      "name": "Tiana Andriamanana",
+      "entity_type": "person",
+      "groups": [
+        "Conservation",
+        "Scientists"
+      ],
+      "country_tags": [
+        "MG"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "golden_crowned_sifaka",
+        "wildlife"
+      ],
+      "role_summary": "Association Fanamby executive director, identified in August 2026 project announcement",
+      "affiliation_id": "O020",
+      "aliases": [],
+      "source_ids": [
+        "S28"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Named leader of an actual species-recovery implementing partner.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "A separate official profile/LinkedIn and direct contact have not yet been verified.",
+      "next_action": "Check the local organisation, veterinary needs and project grant structure.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.rewild.org/press/phoenix-species-project-launch",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science",
+        "wildlife"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O001",
+      "name": "Royal Veterinary College - Queen Mother Hospital for Animals",
+      "entity_type": "organization",
+      "groups": [
+        "Clinics",
+        "Institutes"
+      ],
+      "country_tags": [
+        "GB"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat"
+      ],
+      "role_summary": "Small-animal referral, transfusion and critical care centre",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "priority_score": 9,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 2,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Clinical and research institution with a relevant transfusion service.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Permission and capacity for a specific BHOC pilot have not been assessed.",
+      "next_action": "Map the team, research interests and criteria for collaborative studies.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.rvc.ac.uk/small-animal-vet/specialist-referrals/clinical-services/veterinary-/team",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O002",
+      "name": "UC Davis Weill School of Veterinary Medicine",
+      "entity_type": "organization",
+      "groups": [
+        "Clinics",
+        "Institutes",
+        "Scientists"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat",
+        "horse",
+        "wildlife"
+      ],
+      "role_summary": "Veterinary academic and clinical institution",
+      "affiliation_id": null,
+      "aliases": [
+        "UC Davis School of Veterinary Medicine"
+      ],
+      "source_ids": [
+        "S03",
+        "S22",
+        "S23"
+      ],
+      "priority_score": 9,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Clinical researchers and documented veterinary research funding.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "A suitable grant route or access for an external company has not been established.",
+      "next_action": "Check clinical trials/industry partnerships and available veterinary research funding.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.vetmed.ucdavis.edu/",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science"
+      ],
+      "last_activity_date": "2026-01-28",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S22"
+      ],
+      "last_activity_basis": "Weill Family Foundation veterinary-school gift",
+      "last_activity_range_start": "2026-01-28",
+      "last_activity_range_end": "2026-01-28"
+    },
+    {
+      "id": "O003",
+      "name": "Dubai Equine Hospital",
+      "entity_type": "organization",
+      "groups": [
+        "Clinics"
+      ],
+      "country_tags": [
+        "AE"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "horse"
+      ],
+      "role_summary": "Equine hospital in Dubai",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S20",
+        "S21"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Equine medicine, established clinical infrastructure and a UAE professional base.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "The relevant critical-care specialist or research decision-maker has not yet been identified.",
+      "next_action": "Check the team, publications and professional contact for a clinical-needs discussion.",
+      "linkedin_url": "https://www.linkedin.com/company/dubai-equine-hospitals",
+      "linkedin_status": "public_index_or_official_link_only",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.dubaiequine.ae/",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [
+        "clinical_network"
+      ],
+      "sections": [
+        "veterinary-doctors-and-science"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O004",
+      "name": "Saint Louis Zoo - Institute for Conservation Medicine",
+      "entity_type": "organization",
+      "groups": [
+        "Zoos and rescue",
+        "Institutes",
+        "Conservation"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "wildlife"
+      ],
+      "role_summary": "Institute connecting wildlife, public and ecosystem health",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S06"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "An entry point to wildlife medicine and zoo-based scientific projects.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Clinical-trial capability and potential BHOC funding are unverified.",
+      "next_action": "Separate projects, clinical needs, research partners and donors.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://stlzoo.org/conservation/saint-louis-zoo-institute-for-conservation-medicine/institute-for-conservation-medicine-staff-bios/sharon-deem",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science",
+        "wildlife",
+        "zoos-and-nature-reserves"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O005",
+      "name": "Morris Animal Foundation",
+      "entity_type": "organization",
+      "groups": [
+        "Grants and programmes",
+        "Philanthropic donors"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat",
+        "horse",
+        "wildlife"
+      ],
+      "role_summary": "Animal-health research grantmaker",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S14",
+        "S42"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 2,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Relevant animal-health research funding and a supported-study archive.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Feline Annual pre-proposal deadline is recorded as 30 September 2026; full guidelines, BHOC applicant eligibility and closing time remain unverified. Other calls have separate deadlines.",
+      "next_action": "Check the complete Feline Annual 2026 rules in SmartSimple and a suitable scientific applicant.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": "grantapplications@morrisanimalfoundation.org",
+      "email_status": "publicly_listed_deliverability_not_tested",
+      "contact_page": "https://www.morrisanimalfoundation.org/apply",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "philanthropy",
+        "grants-and-programmes"
+      ],
+      "last_activity_date": "2022-10-05",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S42"
+      ],
+      "last_activity_basis": "Estate gift for Betty White Wildlife Fund",
+      "last_activity_range_start": "2022-10-05",
+      "last_activity_range_end": "2022-10-05"
+    },
+    {
+      "id": "O006",
+      "name": "EveryCat Health Foundation",
+      "entity_type": "organization",
+      "groups": [
+        "Grants and programmes"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "cat"
+      ],
+      "role_summary": "Feline-health research grantmaker",
+      "affiliation_id": null,
+      "aliases": [
+        "Winn Feline Foundation"
+      ],
+      "source_ids": [
+        "S15",
+        "S16",
+        "S17"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 2,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Supports feline research; industry researchers are listed among possible applicant types.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "The Fall 2026 deadline has passed; eligibility of a specific BHOC study is not established.",
+      "next_action": "Monitor the next announced cycle; review requirements and identify a feline investigator.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": "grants@everycat.org",
+      "email_status": "publicly_listed_deliverability_not_tested",
+      "contact_page": "https://everycat.org/the-latest/grants/open-grant-rfps/",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "grants-and-programmes"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O007",
+      "name": "Mohamed bin Zayed Species Conservation Fund",
+      "entity_type": "organization",
+      "groups": [
+        "Grants and programmes",
+        "Conservation"
+      ],
+      "country_tags": [
+        "AE"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "endangered_species",
+        "wildlife"
+      ],
+      "role_summary": "Species-conservation grantmaker",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S18",
+        "S19"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 2,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Red Book/conservation relevance; possible species-specific projects.",
+      "research_depth": "D1",
+      "evidence_confidence": "C",
+      "known_gaps": "Full criteria returned HTTP 403. The maximum amount comes from indexed text; current deadline and eligibility remain unverified.",
+      "next_action": "Obtain current full guidelines; verify species, conservation outcomes and eligible costs.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.speciesconservation.org/",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "wildlife",
+        "grants-and-programmes"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O008",
+      "name": "Digitalis Ventures",
+      "entity_type": "organization",
+      "groups": [
+        "Investors"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
+      "role_summary": "Animal-health venture investor through Companion Funds",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "priority_score": 9,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 2,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Documented veterinary therapeutics investment focus and scientific team.",
+      "research_depth": "D3",
+      "evidence_confidence": "B",
+      "known_gaps": "Available fund balance, current cheque size and BHOC interest are unknown.",
+      "next_action": "Map relevant investments and scientific/commercial fit before preparing an approach.",
+      "linkedin_url": "https://www.linkedin.com/company/digitalis-ventures",
+      "linkedin_status": "public_index_or_official_link_only",
+      "public_professional_email": "info@digitalisventures.com",
+      "email_status": "publicly_listed_deliverability_not_tested",
+      "contact_page": "https://www.digitalisventures.com/animal-health",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [
+        "investor"
+      ],
+      "sections": [
+        "investors-and-funds"
+      ],
+      "last_activity_date": "2023-10-03",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S13"
+      ],
+      "last_activity_basis": "Companion Fund II announced by Mars and Digitalis",
+      "last_activity_range_start": "2023-10-03",
+      "last_activity_range_end": "2023-10-03"
+    },
+    {
+      "id": "O009",
+      "name": "Re:wild",
+      "entity_type": "organization",
+      "groups": [
+        "Conservation",
+        "Philanthropic donors",
+        "Grants and programmes"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "endangered_species",
+        "wildlife"
+      ],
+      "role_summary": "Conservation organization and Phoenix Species Project co-lead",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S27",
+        "S28",
+        "S29"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 0,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "An established network of funders, scientists and local conservation partners.",
+      "research_depth": "D3",
+      "evidence_confidence": "B",
+      "known_gaps": "A general application route is unverified; wildlife support does not imply support for commercial therapeutics development.",
+      "next_action": "Identify a clinically relevant implementing partner and alignment with the Red Book Mission.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.rewild.org/",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "philanthropy",
+        "wildlife",
+        "grants-and-programmes"
+      ],
+      "last_activity_date": "2026-08-04",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S28",
+        "S30"
+      ],
+      "last_activity_basis": "Conservation project partner",
+      "last_activity_range_start": "2026-08-04",
+      "last_activity_range_end": "2026-08-04"
+    },
+    {
+      "id": "O010",
+      "name": "Bezos Earth Fund",
+      "entity_type": "organization",
+      "groups": [
+        "Philanthropic donors",
+        "Conservation"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "endangered_species",
+        "wildlife"
+      ],
+      "role_summary": "Conservation funder, Phoenix Species Project co-lead",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S30",
+        "S29"
+      ],
+      "priority_score": 7,
+      "score_components": {
+        "strategic_fit_0_3": 2,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 0,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Documented substantial conservation commitment; mapping grant recipients could be useful.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "An open applicant call and accessible funding route have not been confirmed.",
+      "next_action": "Investigate supported organisations; do not assume direct applications are accepted.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.bezosearthfund.org/",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "philanthropy",
+        "wildlife"
+      ],
+      "last_activity_date": "2026-08-04",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S28",
+        "S30"
+      ],
+      "last_activity_basis": "Conservation project partner",
+      "last_activity_range_start": "2026-08-04",
+      "last_activity_range_end": "2026-08-04"
+    },
+    {
+      "id": "O011",
+      "name": "Weill Family Foundation",
+      "entity_type": "organization",
+      "groups": [
+        "Philanthropic donors"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "companion_animals"
+      ],
+      "role_summary": "Foundation named as vehicle for the 2026 UC Davis veterinary gift",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S22",
+        "S23"
+      ],
+      "priority_score": 7,
+      "score_components": {
+        "strategic_fit_0_3": 2,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 0,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Documented veterinary philanthropy supporting scientific infrastructure and research.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "No confirmed open grantmaking programme; private contact details were not collected.",
+      "next_action": "Map institutional relationships and research-support mechanisms at UC Davis.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.ucdavis.edu/news/uc-davis-receives-120m-gift-largest-ever-veterinary-medicine",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [
+        "donor"
+      ],
+      "sections": [
+        "philanthropy"
+      ],
+      "last_activity_date": "2026-01-28",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S22"
+      ],
+      "last_activity_basis": "Weill Family Foundation veterinary-school gift",
+      "last_activity_range_start": "2026-01-28",
+      "last_activity_range_end": "2026-01-28"
+    },
+    {
+      "id": "O012",
+      "name": "American Association of Zoo Veterinarians (AAZV)",
+      "entity_type": "organization",
+      "groups": [
+        "Associations",
+        "Zoos and rescue",
+        "Grants and programmes"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "wildlife",
+        "zoo_animals"
+      ],
+      "role_summary": "Professional association linking journal, meetings and Wild Animal Health Fund",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S24",
+        "S25",
+        "S26"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 2,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "One organisation links specialists, publications and wildlife-health research funding.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Current grant guidelines and the appropriate scientific contact have not yet been obtained.",
+      "next_action": "Check funded studies, the research committee and current application rules.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": "Admin@AAZV.org",
+      "email_status": "publicly_listed_deliverability_not_tested",
+      "contact_page": "https://www.aazv.org/",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "zoos-and-nature-reserves",
+        "grants-and-programmes"
+      ],
+      "last_activity_date": "2023-11-01",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S06"
+      ],
+      "last_activity_basis": "Former president",
+      "last_activity_range_start": "2023-11-01",
+      "last_activity_range_end": "2023-11-01"
+    },
+    {
+      "id": "O013",
+      "name": "Journal of Zoo and Wildlife Medicine",
+      "entity_type": "publication",
+      "groups": [
+        "Journals and media"
+      ],
+      "country_tags": [
+        "US"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "wildlife",
+        "zoo_animals"
+      ],
+      "role_summary": "Peer-reviewed journal produced by AAZV",
+      "affiliation_id": "O012",
+      "aliases": [
+        "JZWM"
+      ],
+      "source_ids": [
+        "S24",
+        "S25"
+      ],
+      "priority_score": 7,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "A route to relevant authors, editorial boards and scientific subjects.",
+      "research_depth": "D1",
+      "evidence_confidence": "B",
+      "known_gaps": "Current editors/board and specific oxygen-transport papers have not yet been checked.",
+      "next_action": "Collect relevant papers, authors and editorial contacts; do not confuse an editor with an investor.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.aazv.org/",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "journals-and-media",
+        "wildlife",
+        "zoos-and-nature-reserves"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O014",
+      "name": "Covetrus Netherlands",
+      "entity_type": "organization",
+      "groups": [
+        "Companies",
+        "Distributors"
+      ],
+      "country_tags": [
+        "NL"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat",
+        "horse",
+        "large_animal"
+      ],
+      "role_summary": "Veterinary distribution, sales, practice support and training in Netherlands",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S31"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "A concrete country-level commercial channel, rather than a general global brand.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Access to the BHOC product category, regulatory fit and willingness to act as a dealer are unknown.",
+      "next_action": "Identify a product specialist/business-development contact and verify the permitted product scope.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.covetrus.nl/Covetrus",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [
+        "distributor"
+      ],
+      "sections": [
+        "companies-and-partners"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O015",
+      "name": "Dechra",
+      "entity_type": "organization",
+      "groups": [
+        "Companies",
+        "Manufacturers"
+      ],
+      "country_tags": [
+        "GB",
+        "NL",
+        "HR",
+        "US",
+        "BR",
+        "AU",
+        "DK"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "companion_animals",
+        "horse",
+        "large_animal"
+      ],
+      "role_summary": "Veterinary pharmaceuticals with manufacturing and commercial operations",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S32",
+        "S33"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Veterinary pharmaceuticals profile with owned manufacturing sites.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Countries identify documented operations, not a single headquarters. Haemoglobin-biologic manufacturing capability and suitability of sites for BHOC are not established.",
+      "next_action": "Verify the specific site, dosage forms, biological capability and partnering contact.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.dechra.com/our-business/our-business",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [
+        "manufacturer"
+      ],
+      "sections": [
+        "companies-and-partners"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O016",
+      "name": "knoell - Animal Health",
+      "entity_type": "organization",
+      "groups": [
+        "Companies",
+        "Consultants"
+      ],
+      "country_tags": [
+        "GB",
+        "DE",
+        "US",
+        "CN"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "dog",
+        "cat",
+        "horse",
+        "large_animal"
+      ],
+      "role_summary": "Animal-health regulatory and product-development consultancy / business unit",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S34",
+        "S35"
+      ],
+      "priority_score": 7,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "Candidate for regulatory, CMC and clinical-development consulting.",
+      "research_depth": "D2",
+      "evidence_confidence": "C",
+      "known_gaps": "Some geographic/service evidence is historical (2021); current legal identity and haemoglobin specialisation are unverified.",
+      "next_action": "Check the current business unit, species coverage, CMC expertise and scope of services.",
+      "linkedin_url": "https://uk.linkedin.com/showcase/animal-health-knoell/",
+      "linkedin_status": "public_index_or_official_link_only",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.knoell.com/en/markets/animal-health",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [
+        "consultant"
+      ],
+      "sections": [
+        "companies-and-partners"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O017",
+      "name": "SANCCOB",
+      "entity_type": "organization",
+      "groups": [
+        "Zoos and rescue",
+        "Conservation"
+      ],
+      "country_tags": [
+        "ZA"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "seabirds",
+        "penguin"
+      ],
+      "role_summary": "Seabird rescue, rehabilitation and conservation organization",
+      "affiliation_id": null,
+      "aliases": [
+        "Southern African Foundation for the Conservation of Coastal Birds"
+      ],
+      "source_ids": [
+        "S36",
+        "S37"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "An operational wildlife-rescue network with documented partners.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "Clinical need and species-specific BHOC safety are not established; individual specialists have not yet been identified.",
+      "next_action": "Identify the veterinary team and published intervention needs; distinguish biological fit from conservation fit.",
+      "linkedin_url": "https://za.linkedin.com/company/sanccob",
+      "linkedin_status": "public_index_or_official_link_only",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://za.linkedin.com/company/sanccob",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "wildlife",
+        "zoos-and-nature-reserves"
+      ],
+      "last_activity_date": "2020-02-25",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S37"
+      ],
+      "last_activity_basis": "Ford / SANCCOB support relationship",
+      "last_activity_range_start": "2020-02-25",
+      "last_activity_range_end": "2020-02-25"
+    },
+    {
+      "id": "O018",
+      "name": "Ford Motor Company of Southern Africa",
+      "entity_type": "organization",
+      "groups": [
+        "Companies",
+        "Corporate donors"
+      ],
+      "country_tags": [
+        "ZA"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "penguin",
+        "seabirds"
+      ],
+      "role_summary": "Corporate partner mentioned in 2020 SANCCOB announcement",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S37"
+      ],
+      "priority_score": 6,
+      "score_components": {
+        "strategic_fit_0_3": 2,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "An example of documented corporate conservation support, not a veterinary investor.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "The financial amount, type of support and continuation of the partnership in 2026 are unknown.",
+      "next_action": "Check current CSR programmes; distinguish cash, in-kind support and sponsorship.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.ford.co.za/about-ford/newsroom/2020/ford-partners-with-sancob-to-save-the-endangered-penguin/",
+      "contact_status": "not_contacted",
+      "record_status": "historical_partnership_requires_refresh",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [
+        "donor"
+      ],
+      "sections": [
+        "philanthropy",
+        "companies-and-partners"
+      ],
+      "last_activity_date": "2020-02-25",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S37"
+      ],
+      "last_activity_basis": "Ford / SANCCOB support relationship",
+      "last_activity_range_start": "2020-02-25",
+      "last_activity_range_end": "2020-02-25"
+    },
+    {
+      "id": "O019",
+      "name": "IUCN SSC Wildlife Health Specialist Group",
+      "entity_type": "organization",
+      "groups": [
+        "Associations",
+        "Institutes",
+        "Conservation"
+      ],
+      "country_tags": [],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "wildlife"
+      ],
+      "role_summary": "International specialist network in wildlife health",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S38"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 2,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 0
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "A network of wildlife-health and conservation specialists.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "This is an expert group, not a proven BHOC grant source; country coordinators are not yet mapped.",
+      "next_action": "Separate country/species experts, employers and projects; do not assume potential contacts are group members.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://iucn.org/our-union/commissions/group/iucn-ssc-wildlife-health-specialist-group",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "veterinary-doctors-and-science",
+        "wildlife"
+      ],
+      "last_activity_date": null,
+      "last_activity_date_precision": "unknown",
+      "last_activity_source_ids": [],
+      "last_activity_basis": "No dated activity established. This does not mean the contact is inactive.",
+      "last_activity_range_start": null,
+      "last_activity_range_end": null
+    },
+    {
+      "id": "O020",
+      "name": "Association Fanamby",
+      "entity_type": "organization",
+      "groups": [
+        "Conservation",
+        "Zoos and rescue"
+      ],
+      "country_tags": [
+        "MG"
+      ],
+      "country_tag_meaning": "professional_base_or_documented_operations_not_nationality",
+      "species_tags": [
+        "golden_crowned_sifaka"
+      ],
+      "role_summary": "Local conservation organization identified as Phoenix project grant recipient",
+      "affiliation_id": null,
+      "aliases": [],
+      "source_ids": [
+        "S28"
+      ],
+      "priority_score": 8,
+      "score_components": {
+        "strategic_fit_0_3": 3,
+        "documented_activity_0_2": 2,
+        "decision_relevance_0_2": 1,
+        "public_access_route_0_2": 1,
+        "recent_relevant_signal_0_1": 1
+      },
+      "score_status": "analyst_assessment_provisional",
+      "priority_reason": "An example of a funded implementing partner whose species-specific needs could be investigated.",
+      "research_depth": "D2",
+      "evidence_confidence": "B",
+      "known_gaps": "A separate official website, professional contact and veterinary-needs review is incomplete.",
+      "next_action": "Check the local team and veterinary-care needs; do not assume demand for BHOC.",
+      "linkedin_url": null,
+      "linkedin_status": "not_verified",
+      "public_professional_email": null,
+      "email_status": "not_verified",
+      "contact_page": "https://www.rewild.org/press/phoenix-species-project-launch",
+      "contact_status": "not_contacted",
+      "record_status": "research_candidate",
+      "bhoc_interest": "not_known",
+      "first_added": "2026-09-05",
+      "last_checked": "2026-09-05",
+      "next_review_due": "2026-09-08",
+      "history_coverage": "partial_not_20_year_complete",
+      "review_status": "pending_human_review",
+      "human_reviewed_priority": false,
+      "company_role_tags": [],
+      "sections": [
+        "wildlife",
+        "zoos-and-nature-reserves"
+      ],
+      "last_activity_date": "2026-08-04",
+      "last_activity_date_precision": "day",
+      "last_activity_source_ids": [
+        "S28"
+      ],
+      "last_activity_basis": "Project announces support for",
+      "last_activity_range_start": "2026-08-04",
+      "last_activity_range_end": "2026-08-04"
+    }
+  ],
+  "carl_reviews": [],
+  "suppression": [],
+  "activities": [
+    {
+      "id": "A-W001",
+      "entity_ids": [
+        "P008"
+      ],
+      "date": "2007-01-26",
+      "date_precision": "day",
+      "kind": "journal_article",
+      "title": "A rodenticide exposed and bleeding Beagle dog with hereditary factor VII deficiency",
+      "source_ids": [
+        "S41"
+      ],
+      "evidence_status": "abstract_and_metadata_only",
+      "notes": "Documented public activity in the imported seed; full-text review may still be pending."
+    },
+    {
+      "id": "A-W002",
+      "entity_ids": [
+        "P002"
+      ],
+      "date": "2024",
+      "date_precision": "year",
+      "kind": "journal_article",
+      "title": "2024 RECOVER Guidelines: Updated treatment recommendations for CPR in dogs and cats",
+      "source_ids": [
+        "S03"
+      ],
+      "evidence_status": "institutional_bibliography_only",
+      "notes": "Documented public activity in the imported seed; full-text review may still be pending."
+    },
+    {
+      "id": "A-W003",
+      "entity_ids": [
+        "P002"
+      ],
+      "date": "2024",
+      "date_precision": "year",
+      "kind": "journal_article",
+      "title": "Serial paired arterial and jugular venous point of care values in dogs undergoing manual basic life support",
+      "source_ids": [
+        "S03"
+      ],
+      "evidence_status": "institutional_bibliography_only",
+      "notes": "Documented public activity in the imported seed; full-text review may still be pending."
+    },
+    {
+      "id": "A-W004",
+      "entity_ids": [
+        "P004"
+      ],
+      "date": "2019",
+      "date_precision": "year",
+      "kind": "book",
+      "title": "Introduction to One Health: An Interdisciplinary Approach to Planetary Health",
+      "source_ids": [
+        "S06",
+        "S07"
+      ],
+      "evidence_status": "bibliographic_description_only",
+      "notes": "Documented public activity in the imported seed; full-text review may still be pending."
+    },
+    {
+      "id": "A-W005",
+      "entity_ids": [
+        "P004"
+      ],
+      "date": "2020-09-22",
+      "date_precision": "day",
+      "kind": "talk",
+      "title": "One Health in an Age of Climate Change, Extinctions, and a Pandemic",
+      "source_ids": [
+        "S43"
+      ],
+      "evidence_status": "speaker_event_description_only",
+      "notes": "Documented public activity in the imported seed; full-text review may still be pending."
+    },
+    {
+      "id": "A-W007",
+      "entity_ids": [
+        "P004"
+      ],
+      "date": "2018",
+      "date_precision": "year",
+      "kind": "video_index_entry",
+      "title": "The Ties that Bind: One Health",
+      "source_ids": [
+        "S06",
+        "S45"
+      ],
+      "evidence_status": "organizer_index_and_biography_only",
+      "notes": "Documented public activity in the imported seed; full-text review may still be pending."
+    },
+    {
+      "id": "A-W008",
+      "entity_ids": [
+        "P001"
+      ],
+      "date": "2025-03-01",
+      "date_precision": "day",
+      "kind": "journal_article",
+      "title": "Red blood cell transfusion in canine and feline patients under general anaesthesia",
+      "source_ids": [
+        "S50"
+      ],
+      "evidence_status": "pubmed_indexed_bibliographic_metadata",
+      "notes": "Documented public activity in the imported seed; full-text review may still be pending."
+    },
+    {
+      "id": "A-F001",
+      "entity_ids": [
+        "O011",
+        "O002",
+        "P011",
+        "P012"
+      ],
+      "date": "2026-01-28",
+      "date_precision": "day",
+      "kind": "philanthropic_commitment_announced",
+      "title": "Weill Family Foundation veterinary-school gift",
+      "source_ids": [
+        "S22"
+      ],
+      "evidence_status": "seed_documented_announcement",
+      "notes": "Joan and Sanford Weill are associated with this single commitment; no duplicate personal-gift rows."
+    },
+    {
+      "id": "A-F002",
+      "entity_ids": [
+        "O008"
+      ],
+      "date": "2023-10-03",
+      "date_precision": "day",
+      "kind": "fund_launch",
+      "title": "Companion Fund II announced by Mars and Digitalis",
+      "source_ids": [
+        "S13"
+      ],
+      "evidence_status": "seed_documented_announcement",
+      "notes": "Fund size is not a grant size or a confirmed BHOC allocation."
+    },
+    {
+      "id": "A-F003",
+      "entity_ids": [],
+      "date": "2026-08-04",
+      "date_precision": "day",
+      "kind": "joint_project_commitment_announced",
+      "title": "Phoenix Species Project",
+      "source_ids": [
+        "S28",
+        "S29",
+        "S30"
+      ],
+      "evidence_status": "seed_documented_announcement",
+      "notes": "Programme total; two $100M announced contributions. Do not sum total plus components again. No open-call assumption."
+    },
+    {
+      "id": "A-F004",
+      "entity_ids": [
+        "O005"
+      ],
+      "date": "2022-10-05",
+      "date_precision": "day",
+      "kind": "estate_gift_reported",
+      "title": "Estate gift for Betty White Wildlife Fund",
+      "source_ids": [
+        "S42"
+      ],
+      "evidence_status": "seed_documented_announcement",
+      "notes": "Historical estate gift, not an active individual prospect. Betty White is not listed as a current contact."
+    },
+    {
+      "id": "A-F005",
+      "entity_ids": [
+        "O018",
+        "O017"
+      ],
+      "date": "2020-02-25",
+      "date_precision": "day",
+      "kind": "corporate_support_reported",
+      "title": "Ford / SANCCOB support relationship",
+      "source_ids": [
+        "S37"
+      ],
+      "evidence_status": "seed_documented_announcement",
+      "notes": "Do not label as a cash donation without further source evidence."
+    },
+    {
+      "id": "A-R020",
+      "entity_ids": [
+        "P004",
+        "O012"
+      ],
+      "date": "2023-11-01",
+      "date_precision": "day",
+      "kind": "documented_relationship_event",
+      "title": "Former president",
+      "source_ids": [
+        "S06"
+      ],
+      "evidence_status": "seed_documented",
+      "notes": "Historical term, not current title."
+    },
+    {
+      "id": "A-R026",
+      "entity_ids": [
+        "O009",
+        "O010"
+      ],
+      "date": "2026-08-04",
+      "date_precision": "day",
+      "kind": "documented_relationship_event",
+      "title": "Conservation project partner",
+      "source_ids": [
+        "S28",
+        "S30"
+      ],
+      "evidence_status": "seed_documented",
+      "notes": "Dated relationship, not a current-role assertion."
+    },
+    {
+      "id": "A-R027",
+      "entity_ids": [
+        "O009",
+        "O020"
+      ],
+      "date": "2026-08-04",
+      "date_precision": "day",
+      "kind": "documented_relationship_event",
+      "title": "Project announces support for",
+      "source_ids": [
+        "S28"
+      ],
+      "evidence_status": "seed_documented",
+      "notes": "Recipient named in announcement; exact grant amount to this recipient not stated here."
+    },
+    {
+      "id": "A-S39",
+      "entity_ids": [
+        "P008"
+      ],
+      "date": "2020-06-02",
+      "date_precision": "day",
+      "kind": "professional_award",
+      "title": "Penn Lifetime Achievement Award announcement",
+      "source_ids": [
+        "S39"
+      ],
+      "evidence_status": "seed_documented",
+      "notes": "Historical award; current availability remains unknown."
+    }
+  ],
+  "programmes": [
+    {
+      "id": "G001",
+      "name": "Morris Animal Foundation research programmes",
+      "host_id": "O005",
+      "kind": "research_grants",
+      "species": [
+        "dog",
+        "cat",
+        "horse",
+        "wildlife"
+      ],
+      "status": "programme_verified_individual_calls_require_check",
+      "deadline": null,
+      "max_amount": null,
+      "currency": "USD",
+      "eligibility": "RFP-specific; applicant, institution and study eligibility not established for BHOC.",
+      "source_ids": [
+        "S14"
+      ],
+      "contact_email": "grantapplications@morrisanimalfoundation.org",
+      "next_action": "Check exact active call and funded-study archive."
+    },
+    {
+      "id": "G002",
+      "name": "EveryCat Fall 2026 research cycle",
+      "host_id": "O006",
+      "kind": "research_grant",
+      "species": [
+        "cat"
+      ],
+      "status": "closed_deadline_passed",
+      "deadline": "2026-08-21T23:59:00-04:00",
+      "max_amount": 50000,
+      "currency": "USD",
+      "eligibility": "General guidance allows academia, private practice or industry researchers; project-specific rules and ethics still require review.",
+      "source_ids": [
+        "S15",
+        "S16",
+        "S17"
+      ],
+      "contact_email": "grants@everycat.org",
+      "next_action": "Monitor next published cycle, not submit against expired deadline."
+    },
+    {
+      "id": "G003",
+      "name": "Mohamed bin Zayed Species Conservation Fund grants",
+      "host_id": "O007",
+      "kind": "conservation_grant",
+      "species": [
+        "endangered_species"
+      ],
+      "status": "current_deadline_and_full_criteria_unverified",
+      "deadline": null,
+      "max_amount": 25000,
+      "currency": "USD",
+      "eligibility": "Indexed maximum only; direct criteria page returned 403. Species conservation benefit and applicant eligibility must be verified.",
+      "source_ids": [
+        "S18"
+      ],
+      "contact_email": null,
+      "next_action": "Obtain primary guidelines and latest call. Do not mark open from a generic Apply button."
+    },
+    {
+      "id": "G004",
+      "name": "Companion Fund II",
+      "host_id": "O008",
+      "kind": "venture_investment_fund",
+      "species": [
+        "companion_animals"
+      ],
+      "status": "fund_launch_documented_current_terms_require_check",
+      "deadline": null,
+      "max_amount": null,
+      "currency": "USD",
+      "eligibility": "2023 launch described early/growth animal-health companies, primarily US and Europe. This is not a grant; current mandate and ticket unverified.",
+      "source_ids": [
+        "S11",
+        "S13"
+      ],
+      "contact_email": "info@digitalisventures.com",
+      "next_action": "Research current relevant deals and investment team; never equate fund size with ticket."
+    },
+    {
+      "id": "G005",
+      "name": "Phoenix Species Project",
+      "host_id": "O009",
+      "kind": "species_recovery_programme",
+      "species": [
+        "endangered_species"
+      ],
+      "status": "launched_open_call_not_verified",
+      "deadline": null,
+      "max_amount": null,
+      "currency": "USD",
+      "eligibility": "Named implementation network; no general BHOC application route demonstrated.",
+      "source_ids": [
+        "S28",
+        "S29",
+        "S30"
+      ],
+      "contact_email": null,
+      "next_action": "Map funded partners, species, clinical needs, and access mechanisms."
+    },
+    {
+      "id": "G006",
+      "name": "Betty White Wildlife Fund",
+      "host_id": "O005",
+      "kind": "historical_named_philanthropic_fund",
+      "species": [
+        "wildlife"
+      ],
+      "status": "historical_documented_current_call_unverified",
+      "deadline": null,
+      "max_amount": null,
+      "currency": "USD",
+      "eligibility": "A historical estate gift is evidence of giving, not an open application programme.",
+      "source_ids": [
+        "S42"
+      ],
+      "contact_email": null,
+      "next_action": "Check current fund operation via Morris Animal Foundation; do not contact deceased individual."
+    },
+    {
+      "id": "G007",
+      "name": "Wild Animal Health Fund",
+      "host_id": "O012",
+      "kind": "wildlife_health_research_fund",
+      "species": [
+        "wildlife",
+        "zoo_animals"
+      ],
+      "status": "programme_verified_current_call_unverified",
+      "deadline": null,
+      "max_amount": null,
+      "currency": "USD",
+      "eligibility": "Programme relationship verified; current scientific guidelines, deadline and eligibility not yet reviewed.",
+      "source_ids": [
+        "S24",
+        "S26"
+      ],
+      "contact_email": "Admin@AAZV.org",
+      "next_action": "Review funded studies, current call and research committee."
+    },
+    {
+      "id": "G008",
+      "name": "Morris Animal Foundation - Feline Annual 2026 pre-proposals",
+      "host_id": "O005",
+      "kind": "research_grant",
+      "species": [
+        "cat"
+      ],
+      "status": "open_on_official_calendar_full_rules_not_reviewed",
+      "deadline": "2026-09-30",
+      "deadline_timezone": null,
+      "max_amount": null,
+      "currency": "USD",
+      "eligibility": "Open Topic; Established Investigator, First Award, Pilot Study, Fellowship Training. Full documents are inside SmartSimple; BHOC applicant/project eligibility not established.",
+      "source_ids": [
+        "S14"
+      ],
+      "contact_email": "grantapplications@morrisanimalfoundation.org",
+      "next_action": "Read full official guidelines, verify exact deadline time/timezone, eligible applicant institution and research ethics before considering a submission."
+    }
+  ],
+  "contact_history": [],
+  "funding_events": [
+    {
+      "id": "F001",
+      "event_type": "philanthropic_commitment_announced",
+      "date": "2026-01-28",
+      "date_type": "announcement",
+      "amount": 120000000,
+      "currency": "USD",
+      "amount_status": "announced_commitment_not_disbursement_verified",
+      "giver_id": "O011",
+      "recipient_id": "O002",
+      "programme_id": null,
+      "title": "Weill Family Foundation veterinary-school gift",
+      "source_ids": [
+        "S22"
+      ],
+      "notes": "Joan and Sanford Weill are associated with this single commitment; no duplicate personal-gift rows."
+    },
+    {
+      "id": "F002",
+      "event_type": "fund_launch",
+      "date": "2023-10-03",
+      "date_type": "announcement",
+      "amount": 300000000,
+      "currency": "USD",
+      "amount_status": "fund_size_not_available_balance",
+      "giver_id": null,
+      "recipient_id": "O008",
+      "programme_id": "G004",
+      "title": "Companion Fund II announced by Mars and Digitalis",
+      "source_ids": [
+        "S13"
+      ],
+      "notes": "Fund size is not a grant size or a confirmed BHOC allocation."
+    },
+    {
+      "id": "F003",
+      "event_type": "joint_project_commitment_announced",
+      "date": "2026-08-04",
+      "date_type": "announcement",
+      "amount": 200000000,
+      "currency": "USD",
+      "amount_status": "joint_programme_total_not_disbursement_verified",
+      "giver_id": null,
+      "recipient_id": null,
+      "programme_id": "G005",
+      "title": "Phoenix Species Project",
+      "source_ids": [
+        "S28",
+        "S29",
+        "S30"
+      ],
+      "contributor_ids": [
+        "O009",
+        "O010"
+      ],
+      "notes": "Programme total; two $100M announced contributions. Do not sum total plus components again. No open-call assumption."
+    },
+    {
+      "id": "F004",
+      "event_type": "estate_gift_reported",
+      "date": "2022-10-05",
+      "date_type": "announcement",
+      "amount": 150000,
+      "currency": "USD",
+      "amount_status": "reported_gift_exact_transfer_date_unknown",
+      "giver_id": null,
+      "giver_name": "Betty White Estate",
+      "recipient_id": "O005",
+      "programme_id": "G006",
+      "title": "Estate gift for Betty White Wildlife Fund",
+      "source_ids": [
+        "S42"
+      ],
+      "notes": "Historical estate gift, not an active individual prospect. Betty White is not listed as a current contact."
+    },
+    {
+      "id": "F005",
+      "event_type": "corporate_support_reported",
+      "date": "2020-02-25",
+      "date_type": "publication",
+      "amount": null,
+      "currency": null,
+      "amount_status": "not_disclosed_or_not_verified",
+      "giver_id": "O018",
+      "recipient_id": "O017",
+      "programme_id": null,
+      "title": "Ford / SANCCOB support relationship",
+      "source_ids": [
+        "S37"
+      ],
+      "notes": "Do not label as a cash donation without further source evidence."
+    }
+  ],
+  "works": [
+    {
+      "id": "W001",
+      "title": "A rodenticide exposed and bleeding Beagle dog with hereditary factor VII deficiency",
+      "kind": "journal_article",
+      "year": 2007,
+      "person_ids": [
+        "P008"
+      ],
+      "doi": "10.1111/j.1476-4431.2006.00216.x",
+      "source_ids": [
+        "S41"
+      ],
+      "review_depth": "abstract_and_metadata_only",
+      "notes": "Scientific-history evidence, not BHOC efficacy evidence."
+    },
+    {
+      "id": "W002",
+      "title": "2024 RECOVER Guidelines: Updated treatment recommendations for CPR in dogs and cats",
+      "kind": "journal_article",
+      "year": 2024,
+      "person_ids": [
+        "P002"
+      ],
+      "doi": null,
+      "source_ids": [
+        "S03"
+      ],
+      "review_depth": "institutional_bibliography_only",
+      "notes": "Publisher-level authorship/DOI/full text still to verify."
+    },
+    {
+      "id": "W003",
+      "title": "Serial paired arterial and jugular venous point of care values in dogs undergoing manual basic life support",
+      "kind": "journal_article",
+      "year": 2024,
+      "person_ids": [
+        "P002"
+      ],
+      "doi": null,
+      "source_ids": [
+        "S03"
+      ],
+      "review_depth": "institutional_bibliography_only",
+      "notes": "Relevance to blood-gas endpoints is analyst assessment; findings not reviewed."
+    },
+    {
+      "id": "W004",
+      "title": "Introduction to One Health: An Interdisciplinary Approach to Planetary Health",
+      "kind": "book",
+      "year": 2019,
+      "person_ids": [
+        "P004"
+      ],
+      "doi": null,
+      "source_ids": [
+        "S06",
+        "S07"
+      ],
+      "review_depth": "bibliographic_description_only",
+      "notes": "No full book review."
+    },
+    {
+      "id": "W005",
+      "title": "One Health in an Age of Climate Change, Extinctions, and a Pandemic",
+      "kind": "talk",
+      "year": 2020,
+      "person_ids": [
+        "P004"
+      ],
+      "doi": null,
+      "source_ids": [
+        "S43"
+      ],
+      "review_depth": "speaker_event_description_only",
+      "notes": "Event dated 2020-09-22. Video/transcript not reviewed."
+    },
+    {
+      "id": "W006",
+      "title": "Public LinkedIn post sharing a 2021 One Health conversation",
+      "kind": "linkedin_post",
+      "year": null,
+      "person_ids": [
+        "P004"
+      ],
+      "doi": null,
+      "source_ids": [
+        "S44"
+      ],
+      "review_depth": "public_indexed_post_text",
+      "notes": "Underlying event year is 2021; exact repost date unverified."
+    },
+    {
+      "id": "W007",
+      "title": "The Ties that Bind: One Health",
+      "kind": "video_index_entry",
+      "year": 2018,
+      "person_ids": [
+        "P004"
+      ],
+      "doi": null,
+      "source_ids": [
+        "S06",
+        "S45"
+      ],
+      "review_depth": "organizer_index_and_biography_only",
+      "notes": "Video not watched, no timestamp claims."
+    },
+    {
+      "id": "W008",
+      "title": "Red blood cell transfusion in canine and feline patients under general anaesthesia",
+      "kind": "journal_article",
+      "year": 2025,
+      "person_ids": [
+        "P001"
+      ],
+      "doi": "10.1016/j.vaa.2025.02.014",
+      "source_ids": [
+        "S50"
+      ],
+      "review_depth": "pubmed_indexed_bibliographic_metadata",
+      "notes": "Karen Humm is listed as coauthor. Scientific-history/subject-fit evidence only; full text and findings not reviewed."
+    }
+  ],
+  "discovery_candidates": [],
+  "relationships": [
+    {
+      "id": "R001",
+      "subject_id": "P001",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O001",
+      "source_ids": [
+        "S01"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R002",
+      "subject_id": "P002",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O002",
+      "source_ids": [
+        "S03"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R003",
+      "subject_id": "P004",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O004",
+      "source_ids": [
+        "S06"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R004",
+      "subject_id": "P005",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O008",
+      "source_ids": [
+        "S09"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R005",
+      "subject_id": "P006",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O008",
+      "source_ids": [
+        "S10"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R006",
+      "subject_id": "P007",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O009",
+      "source_ids": [
+        "S27"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R007",
+      "subject_id": "P009",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O019",
+      "source_ids": [
+        "S38"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R008",
+      "subject_id": "P010",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O019",
+      "source_ids": [
+        "S38"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R009",
+      "subject_id": "P011",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O011",
+      "source_ids": [
+        "S22"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R010",
+      "subject_id": "P012",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O011",
+      "source_ids": [
+        "S22"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R011",
+      "subject_id": "P013",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O020",
+      "source_ids": [
+        "S28"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R012",
+      "subject_id": "O013",
+      "predicate": "professional_affiliation_or_parent",
+      "object_id": "O012",
+      "source_ids": [
+        "S24"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Person role or institutional connection only; not a relationship to Archil/BHOC."
+    },
+    {
+      "id": "R020",
+      "subject_id": "P004",
+      "predicate": "former_president",
+      "object_id": "O012",
+      "source_ids": [
+        "S06"
+      ],
+      "start_date": "2023-11-01",
+      "end_date": "2024-10-31",
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Historical term, not current title."
+    },
+    {
+      "id": "R021",
+      "subject_id": "O012",
+      "predicate": "produces_journal",
+      "object_id": "O013",
+      "source_ids": [
+        "S24"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": null
+    },
+    {
+      "id": "R022",
+      "subject_id": "O018",
+      "predicate": "documented_corporate_support_partner",
+      "object_id": "O017",
+      "source_ids": [
+        "S37"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Announced in 2020; current continuation / cash value not established."
+    },
+    {
+      "id": "R023",
+      "subject_id": "O011",
+      "predicate": "announced_philanthropic_commitment_to",
+      "object_id": "O002",
+      "source_ids": [
+        "S22"
+      ],
+      "start_date": "2026-01-28",
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "One joint foundation gift; do not count separate gifts for each individual donor."
+    },
+    {
+      "id": "R024",
+      "subject_id": "P011",
+      "predicate": "publicly_named_foundation_donor",
+      "object_id": "O011",
+      "source_ids": [
+        "S22"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": null
+    },
+    {
+      "id": "R025",
+      "subject_id": "P012",
+      "predicate": "publicly_named_foundation_donor",
+      "object_id": "O011",
+      "source_ids": [
+        "S22"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": null
+    },
+    {
+      "id": "R026",
+      "subject_id": "O009",
+      "predicate": "conservation_project_partner",
+      "object_id": "O010",
+      "source_ids": [
+        "S28",
+        "S30"
+      ],
+      "start_date": "2026-08-04",
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": null
+    },
+    {
+      "id": "R027",
+      "subject_id": "O009",
+      "predicate": "project_announces_support_for",
+      "object_id": "O020",
+      "source_ids": [
+        "S28"
+      ],
+      "start_date": "2026-08-04",
+      "end_date": null,
+      "verified_on": "2026-09-05",
+      "assertion_status": "documented",
+      "limitation": "Recipient named in announcement; exact grant amount to this recipient not stated here."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Karen Humm | Royal Veterinary College",
+      "url": "https://www.rvc.ac.uk/about/our-people/karen-humm",
+      "source_type": "institutional_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Direct open failed. Indexed official page contains inconsistent Professor/Associate Professor titles; use service role, not academic rank."
+    },
+    {
+      "id": "S02",
+      "title": "RVC Transfusion Medicine Team",
+      "url": "https://www.rvc.ac.uk/small-animal-vet/specialist-referrals/clinical-services/veterinary-/team",
+      "source_type": "institutional_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S03",
+      "title": "Kate Hopper | UC Davis faculty",
+      "url": "https://www.vetmed.ucdavis.edu/faculty/kate-hopper",
+      "source_type": "institutional_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S04",
+      "title": "Kate Hopper | UC Davis Profiles",
+      "url": "https://profiles.ucdavis.edu/kate.hopper",
+      "source_type": "institutional_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Institutional profile warns its automatically generated publication list may contain errors. Full publication-level checks remain outstanding."
+    },
+    {
+      "id": "S05",
+      "title": "Kira L. Epstein | University of Georgia",
+      "url": "https://vet.uga.edu/person/kira_l-_epstein/",
+      "source_type": "institutional_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S06",
+      "title": "Sharon Deem | Saint Louis Zoo",
+      "url": "https://stlzoo.org/conservation/saint-louis-zoo-institute-for-conservation-medicine/institute-for-conservation-medicine-staff-bios/sharon-deem",
+      "source_type": "institutional_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "direct_primary_page_text",
+      "limitation": null
+    },
+    {
+      "id": "S07",
+      "title": "Sharon Deem | LinkedIn",
+      "url": "https://www.linkedin.com/in/sharon-deem",
+      "source_type": "public_linkedin_profile",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Public indexed profile only; logged-in activity, connections and comments not audited."
+    },
+    {
+      "id": "S08",
+      "title": "Sharon Deem | professional contact form",
+      "url": "https://drsharondeem.squarespace.com/contact",
+      "source_type": "professional_website",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S09",
+      "title": "Cindy Cole | Digitalis Ventures",
+      "url": "https://www.digitalisventures.com/people/cindy-cole",
+      "source_type": "organization_biography",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "retrieved_text",
+      "limitation": null
+    },
+    {
+      "id": "S10",
+      "title": "Ben Jacobs | Digitalis Ventures",
+      "url": "https://www.digitalisventures.com/people/ben-jacobs",
+      "source_type": "organization_biography",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "retrieved_text",
+      "limitation": null
+    },
+    {
+      "id": "S11",
+      "title": "Digitalis Ventures | Animal Health",
+      "url": "https://www.digitalisventures.com/animal-health",
+      "source_type": "organization_website",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "direct_primary_page_text",
+      "limitation": null
+    },
+    {
+      "id": "S12",
+      "title": "Digitalis Ventures | LinkedIn",
+      "url": "https://www.linkedin.com/company/digitalis-ventures",
+      "source_type": "public_linkedin_company",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "retrieved_text",
+      "limitation": null
+    },
+    {
+      "id": "S13",
+      "title": "Companion Fund II launch | Mars",
+      "url": "https://www.mars.com/nl-nl/news-and-stories/press-releases-statements/mars-en-digitalis-ventures-lanceren-een-fonds-van-300",
+      "source_type": "official_press_release",
+      "published_date": "2023-10-03",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S14",
+      "title": "Morris Animal Foundation | Apply",
+      "url": "https://www.morrisanimalfoundation.org/apply",
+      "source_type": "official_grants_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "direct_primary_page_text",
+      "limitation": "Official calendar directly read: Feline Annual pre-proposals open with 2026-09-30 deadline. Full call documents in SmartSimple not reviewed; other species/calls differ."
+    },
+    {
+      "id": "S15",
+      "title": "EveryCat | Grant eligibility",
+      "url": "https://everycat.org/the-latest/grants/",
+      "source_type": "official_grants_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S16",
+      "title": "EveryCat | Fall 2026 RFP",
+      "url": "https://everycat.org/the-latest/grants/open-grant-rfps/",
+      "source_type": "official_grants_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "direct_primary_page_text",
+      "limitation": null
+    },
+    {
+      "id": "S17",
+      "title": "EveryCat | Grant FAQ",
+      "url": "https://everycat.org/the-latest/grants/faqs/",
+      "source_type": "official_grants_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S18",
+      "title": "MBZ Fund | Application criteria",
+      "url": "https://www.speciesconservation.org/biodiversity-nature-people/conservation-philanthropy/grants/application-criteria/",
+      "source_type": "official_grants_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_only_direct_403",
+      "limitation": "Indexed maximum $25,000; complete criteria, current deadline and applicant eligibility need a successful primary-page read."
+    },
+    {
+      "id": "S19",
+      "title": "MBZ Fund | official homepage",
+      "url": "https://www.speciesconservation.org/",
+      "source_type": "organization_website",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S20",
+      "title": "Dubai Equine Hospital | official website",
+      "url": "https://www.dubaiequine.ae/",
+      "source_type": "organization_website",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S21",
+      "title": "Dubai Equine Hospital | LinkedIn",
+      "url": "https://www.linkedin.com/company/dubai-equine-hospitals",
+      "source_type": "public_linkedin_company",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S22",
+      "title": "UC Davis | $120M Weill gift",
+      "url": "https://www.ucdavis.edu/news/uc-davis-receives-120m-gift-largest-ever-veterinary-medicine",
+      "source_type": "recipient_press_release",
+      "published_date": "2026-01-28",
+      "checked_on": "2026-09-05",
+      "access": "direct_primary_page_text",
+      "limitation": "Announcement reports a commitment; not independent verification of funds disbursed."
+    },
+    {
+      "id": "S23",
+      "title": "UC Davis | 2025-26 fundraising report",
+      "url": "https://www.vetmed.ucdavis.edu/node/45576",
+      "source_type": "recipient_press_release",
+      "published_date": "2026-07-13",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S24",
+      "title": "AAZV | About",
+      "url": "https://www.aazv.org/page/about",
+      "source_type": "professional_association",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S25",
+      "title": "AAZV | Journal and contact",
+      "url": "https://www.aazv.org/",
+      "source_type": "professional_association",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S26",
+      "title": "Wild Animal Health Fund | relationship with AAZV",
+      "url": "https://wildanimalhealthfund.org/relationship-with-aazv/",
+      "source_type": "official_program_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S27",
+      "title": "Re:wild | Leonardo DiCaprio",
+      "url": "https://www.rewild.org/team/leonardo-dicaprio",
+      "source_type": "organization_biography",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S28",
+      "title": "Phoenix Species Project launch | Re:wild",
+      "url": "https://www.rewild.org/press/phoenix-species-project-launch",
+      "source_type": "official_press_release",
+      "published_date": "2026-08-04",
+      "checked_on": "2026-09-05",
+      "access": "direct_primary_page_text",
+      "limitation": null
+    },
+    {
+      "id": "S29",
+      "title": "Phoenix Species Project launch | IUCN",
+      "url": "https://iucn.org/news/202608/phoenix-species-project-launches-global-effort-bring-100-worlds-most-threatened-species",
+      "source_type": "official_press_release",
+      "published_date": "2026-08-04",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S30",
+      "title": "Phoenix Species Project launch | Bezos Earth Fund",
+      "url": "https://www.bezosearthfund.org/news-and-insights/phoenix-species-project-launches-global-effort-to-bring-100-of-the-worlds-most-threatened-species-back-from-the-brink",
+      "source_type": "official_press_release",
+      "published_date": "2026-08-04",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S31",
+      "title": "Covetrus Netherlands | distribution and country operations",
+      "url": "https://www.covetrus.nl/Covetrus",
+      "source_type": "organization_country_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "retrieved_text",
+      "limitation": null
+    },
+    {
+      "id": "S32",
+      "title": "Dechra | Manufacturing & Supply",
+      "url": "https://www.dechra.com/our-business/our-business",
+      "source_type": "organization_website",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S33",
+      "title": "Dechra | Global footprint",
+      "url": "https://www.dechra.com/our-business/our-global-footprint",
+      "source_type": "organization_website",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S34",
+      "title": "knoell Animal Health | LinkedIn",
+      "url": "https://uk.linkedin.com/showcase/animal-health-knoell/",
+      "source_type": "public_linkedin_company",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Business unit, not a verified individual legal entity or manufacturing facility."
+    },
+    {
+      "id": "S35",
+      "title": "knoell | 2021 Animal Health USA exhibitor profile",
+      "url": "https://events.kisacoresearch.com/animal-health-usa-2021/knoell",
+      "source_type": "event_exhibitor_profile",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Historical supplier description; technical scope should be reconfirmed directly before procurement."
+    },
+    {
+      "id": "S36",
+      "title": "SANCCOB | LinkedIn",
+      "url": "https://za.linkedin.com/company/sanccob",
+      "source_type": "public_linkedin_company",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Public organisation page; latest post refers to 2026-2028 City of Cape Town partnership. Exact post date not resolved."
+    },
+    {
+      "id": "S37",
+      "title": "Ford Southern Africa | SANCCOB partnership",
+      "url": "https://www.ford.co.za/about-ford/newsroom/2020/ford-partners-with-sancob-to-save-the-endangered-penguin/",
+      "source_type": "official_press_release",
+      "published_date": "2020-02-25",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Corporate support is documented; cash amount, in-kind value and current continuation are not verified here."
+    },
+    {
+      "id": "S38",
+      "title": "IUCN SSC Wildlife Health Specialist Group",
+      "url": "https://iucn.org/our-union/commissions/group/iucn-ssc-wildlife-health-specialist-group",
+      "source_type": "official_directory",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S39",
+      "title": "Urs Giger | Penn Lifetime Achievement Award",
+      "url": "https://almanac.upenn.edu/articles/urs-giger-lifetime-achievement-award",
+      "source_type": "institutional_news",
+      "published_date": "2020-06-02",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S40",
+      "title": "Penn | Newly retired faculty",
+      "url": "https://almanac.upenn.edu/articles/the-newly-retired-faculty-v66-n35",
+      "source_type": "institutional_news",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "2020 issue, day not captured. Historical evidence of emeritus status; no current clinical leadership inferred."
+    },
+    {
+      "id": "S41",
+      "title": "Daly et al. | rodenticide exposure and factor VII deficiency",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1476-4431.2006.00216.x",
+      "source_type": "journal_article",
+      "published_date": "2007-01-26",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Abstract/metadata only; no full-text review."
+    },
+    {
+      "id": "S42",
+      "title": "Betty White Estate gift | Morris Animal Foundation",
+      "url": "https://www.morrisanimalfoundation.org/article/morris-animal-foundation-receives-gift-betty-white-estate",
+      "source_type": "recipient_press_release",
+      "published_date": "2022-10-05",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S43",
+      "title": "Sharon Deem | TEDxStLouis 2020 event",
+      "url": "https://www.drsharondeem.com/events/tedxstlouis-resilience",
+      "source_type": "speaker_event_page",
+      "published_date": "2020-09-22",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Event description reviewed, not video content."
+    },
+    {
+      "id": "S44",
+      "title": "Sharon Deem | public LinkedIn post on 2021 One Health conversation",
+      "url": "https://www.linkedin.com/posts/sharon-deem_thanks-to-public-health-insight-for-resharing-activity-7149395476440621056-MyPx",
+      "source_type": "public_linkedin_post",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Relative post date not treated as exact; underlying discussion is labelled 2021."
+    },
+    {
+      "id": "S45",
+      "title": "TEDxStLouis | The Ties that Bind: One Health",
+      "url": "https://tedxsaintlouis.org/watch-our-talks-history",
+      "source_type": "event_organizer_video_index",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Video index entry only; no transcript or full video review."
+    },
+    {
+      "id": "S46",
+      "title": "Sharon Deem | professional event archive",
+      "url": "https://www.drsharondeem.com/events",
+      "source_type": "speaker_event_page",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S47",
+      "title": "AVHTM | Karen Humm professional role",
+      "url": "https://www.avhtm.org/vice-president/",
+      "source_type": "professional_association",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "Page states term through 2027-06-30. Research role confirmed; no assumption that office automatically creates access."
+    },
+    {
+      "id": "S48",
+      "title": "GitHub | Pages visibility controls",
+      "url": "https://docs.github.com/en/enterprise-cloud%40latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site",
+      "source_type": "software_documentation",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "retrieved_text",
+      "limitation": null
+    },
+    {
+      "id": "S49",
+      "title": "Make | Active and inactive scenarios",
+      "url": "https://help.make.com/active-and-inactive-scenarios",
+      "source_type": "software_documentation",
+      "published_date": null,
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": null
+    },
+    {
+      "id": "S50",
+      "title": "Red blood cell transfusion in canine and feline patients under general anaesthesia | PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40187999/",
+      "source_type": "journal_metadata_pubmed",
+      "published_date": "2025-03-01",
+      "checked_on": "2026-09-05",
+      "access": "search_index_text",
+      "limitation": "PubMed bibliographic metadata and authorship retrieved through search. Online article date 2025-03-01; issue May-Jun 2025. Full text and findings not reviewed."
+    }
+  ],
+  "taxonomy": {
+    "base_name": "Important Contact",
+    "direction": "Veterinary Direction",
+    "sections": [
+      {
+        "id": "investors-and-funds",
+        "label": "Investors & Funds",
+        "tags": [
+          "Investors"
+        ],
+        "core": true
+      },
+      {
+        "id": "veterinary-doctors-and-science",
+        "label": "Veterinary Doctors & Science",
+        "tags": [
+          "Veterinarians",
+          "Scientists",
+          "Clinics",
+          "Institutes"
+        ],
+        "core": true
+      },
+      {
+        "id": "philanthropy",
+        "label": "Philanthropy",
+        "tags": [
+          "Philanthropic donors",
+          "Corporate donors",
+          "Public figures"
+        ],
+        "core": true
+      },
+      {
+        "id": "wildlife",
+        "label": "Wildlife",
+        "tags": [
+          "Conservation"
+        ],
+        "core": true
+      },
+      {
+        "id": "zoos-and-nature-reserves",
+        "label": "Zoos & Nature Reserves",
+        "tags": [
+          "Zoos and rescue"
+        ],
+        "core": true
+      },
+      {
+        "id": "grants-and-programmes",
+        "label": "Grants & Programmes",
+        "tags": [
+          "Grants and programmes"
+        ],
+        "core": false
+      },
+      {
+        "id": "companies-and-partners",
+        "label": "Companies & Partners",
+        "tags": [
+          "Companies",
+          "Manufacturers",
+          "Distributors",
+          "Consultants"
+        ],
+        "core": false
+      },
+      {
+        "id": "journals-and-media",
+        "label": "Journals & Media",
+        "tags": [
+          "Journals and media"
+        ],
+        "core": false
+      }
+    ],
+    "language": "en",
+    "activity_filters": [
+      "all",
+      "6m",
+      "1y",
+      "3y",
+      "10y",
+      "older10y",
+      "unknown"
+    ],
+    "country_meaning": "Professional base or documented operations, not nationality."
+  },
+  "queue": [
+    {
+      "id": "Q001",
+      "title": "Morris Feline Annual: full guidelines and applicant eligibility",
+      "groups": [
+        "Grants and programmes"
+      ],
+      "priority": 10,
+      "status": "not_started",
+      "entity_ids": [
+        "O005"
+      ],
+      "suggested_query": "Morris Animal Foundation Feline Annual 2026 pre proposal September 30 eligibility commercial institution",
+      "acceptance": "Review the full call, applicant type, funding cap and exact deadline time; do not submit an application.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q002",
+      "title": "Karen Humm: current role, LinkedIn and anaemia/HBOC publications",
+      "groups": [
+        "Veterinarians",
+        "Scientists"
+      ],
+      "priority": 9,
+      "status": "not_started",
+      "entity_ids": [
+        "P001"
+      ],
+      "suggested_query": "\"Karen Humm\" transfusion anemia Oxyglobin hemoglobin oxygen carrier",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q003",
+      "title": "Kate Hopper: verify DOI/authorship and oxygen-delivery endpoints",
+      "groups": [
+        "Veterinarians",
+        "Scientists"
+      ],
+      "priority": 9,
+      "status": "not_started",
+      "entity_ids": [
+        "P002"
+      ],
+      "suggested_query": "\"Kate Hopper\" oxygen delivery anemia resuscitation blood gas transfusion",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q004",
+      "title": "Kira Epstein: equine medicine, coagulation, shock and research history",
+      "groups": [
+        "Veterinarians",
+        "Scientists"
+      ],
+      "priority": 9,
+      "status": "not_started",
+      "entity_ids": [
+        "P003"
+      ],
+      "suggested_query": "\"Kira Epstein\" equine hemorrhage shock coagulation transfusion",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q005",
+      "title": "Sharon Deem: projects, publications and funder relationships",
+      "groups": [
+        "Zoos and rescue",
+        "Conservation"
+      ],
+      "priority": 9,
+      "status": "not_started",
+      "entity_ids": [
+        "P004"
+      ],
+      "suggested_query": "\"Sharon Deem\" funded grants conservation medicine wildlife health",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q006",
+      "title": "Digitalis: veterinary therapeutics investments and responsible team members",
+      "groups": [
+        "Investors"
+      ],
+      "priority": 9,
+      "status": "not_started",
+      "entity_ids": [
+        "O008",
+        "P005",
+        "P006"
+      ],
+      "suggested_query": "Digitalis Ventures animal health therapeutics investment Companion Fund portfolio Cindy Cole Ben Jacobs",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q007",
+      "title": "Wild Animal Health Fund: open calls and scientific committee",
+      "groups": [
+        "Grants and programmes"
+      ],
+      "priority": 9,
+      "status": "not_started",
+      "entity_ids": [
+        "O012"
+      ],
+      "suggested_query": "Wild Animal Health Fund 2026 grant guidelines research committee",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q008",
+      "title": "Phoenix: implementing partners, species and programme access",
+      "groups": [
+        "Conservation",
+        "Philanthropic donors"
+      ],
+      "priority": 8,
+      "status": "not_started",
+      "entity_ids": [
+        "O009",
+        "O010",
+        "O020"
+      ],
+      "suggested_query": "Phoenix Species Project 2026 implementation partners application veterinary species recovery",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q009",
+      "title": "Weill: veterinary philanthropy history and institutional contact route",
+      "groups": [
+        "Philanthropic donors"
+      ],
+      "priority": 8,
+      "status": "not_started",
+      "entity_ids": [
+        "O011",
+        "P011",
+        "P012"
+      ],
+      "suggested_query": "Weill Family Foundation UC Davis veterinary translational research endowment 2018 2026",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q010",
+      "title": "MBZ Fund: obtain the full current application rules",
+      "groups": [
+        "Grants and programmes",
+        "Conservation"
+      ],
+      "priority": 8,
+      "status": "not_started",
+      "entity_ids": [
+        "O007"
+      ],
+      "suggested_query": "Mohamed bin Zayed Species Conservation Fund 2026 application criteria deadline",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q011",
+      "title": "EveryCat: next published application cycle and grant archive",
+      "groups": [
+        "Grants and programmes"
+      ],
+      "priority": 8,
+      "status": "not_started",
+      "entity_ids": [
+        "O006"
+      ],
+      "suggested_query": "EveryCat research grants next cycle 2027 funded anemia transfusion",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q012",
+      "title": "IUCN Wildlife Health: current co-chairs and specialist-group contacts",
+      "groups": [
+        "Conservation",
+        "Scientists"
+      ],
+      "priority": 8,
+      "status": "not_started",
+      "entity_ids": [
+        "P009",
+        "P010",
+        "O019"
+      ],
+      "suggested_query": "IUCN SSC Wildlife Health Specialist Group Marcela Uhart Tiggy Grillo contacts",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q013",
+      "title": "Equine medicine: clinics, surgeons and veterinary donors in Saudi Arabia/UAE",
+      "groups": [
+        "Clinics",
+        "Veterinarians"
+      ],
+      "priority": 8,
+      "status": "not_started",
+      "entity_ids": [
+        "O003"
+      ],
+      "suggested_query": "Saudi Arabia UAE equine hospital critical care transfusion veterinary research donor",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q014",
+      "title": "Netherlands/EU: referral clinics and veterinary networks",
+      "groups": [
+        "Clinics",
+        "Veterinarians"
+      ],
+      "priority": 8,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "Netherlands veterinary referral emergency critical care equine transfusion university",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q015",
+      "title": "Manufacturers: sites and biological capability without assumptions",
+      "groups": [
+        "Manufacturers"
+      ],
+      "priority": 8,
+      "status": "not_started",
+      "entity_ids": [
+        "O015"
+      ],
+      "suggested_query": "Dechra manufacturing biological veterinary sterile site capabilities",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q016",
+      "title": "Distributors/importers by country: distinguish legal and commercial roles",
+      "groups": [
+        "Distributors"
+      ],
+      "priority": 8,
+      "status": "not_started",
+      "entity_ids": [
+        "O014"
+      ],
+      "suggested_query": "veterinary distributor Netherlands Saudi Arabia UAE animal health importer registration",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q017",
+      "title": "Consultants: animal-health regulatory/clinical expertise and geography",
+      "groups": [
+        "Consultants"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [
+        "O016"
+      ],
+      "suggested_query": "knoell animal health veterinary clinical regulatory biologics countries team",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q018",
+      "title": "Journal of Zoo and Wildlife Medicine: current editorial team",
+      "groups": [
+        "Journals and media"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [
+        "O013"
+      ],
+      "suggested_query": "Journal of Zoo and Wildlife Medicine current editorial board editor",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q019",
+      "title": "Other journals: transfusion, emergency/critical care, equine medicine, editors and authors",
+      "groups": [
+        "Journals and media"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "veterinary emergency critical care equine veterinary journal editorial board transfusion",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q020",
+      "title": "SANCCOB: corporate donors, financial and in-kind support",
+      "groups": [
+        "Zoos and rescue",
+        "Corporate donors"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [
+        "O017",
+        "O018"
+      ],
+      "suggested_query": "SANCCOB annual report corporate donors Ford funding sponsorship 2006 2026",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q021",
+      "title": "Public figures: documented support and official professional contact routes only",
+      "groups": [
+        "Public figures",
+        "Philanthropic donors"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [
+        "P007"
+      ],
+      "suggested_query": "animal wildlife conservation celebrity foundation donation official grant report",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q022",
+      "title": "National Red Books: countries, species and experts; distinguish from IUCN status",
+      "groups": [
+        "Conservation"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "national Red Data Book threatened species veterinary rescue scientific committee",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q023",
+      "title": "Nature and planet: ecosystem-restoration funds and scientific implementing partners",
+      "groups": [
+        "Conservation",
+        "Philanthropic donors"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "ecosystem restoration biodiversity philanthropy animal health funded projects official",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q024",
+      "title": "Zoos: capital/research donors and heads of veterinary services",
+      "groups": [
+        "Zoos and rescue",
+        "Philanthropic donors"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "zoo veterinary hospital donor gift research foundation annual report",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q025",
+      "title": "Latin America/Africa: rescue, wildlife medicine and funded projects",
+      "groups": [
+        "Conservation",
+        "Zoos and rescue"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "medicina fauna silvestre centro rescate financiación fundación investigación",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q026",
+      "title": "China: veterinary biologicals, institutes and distributor networks",
+      "groups": [
+        "Manufacturers",
+        "Institutes"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "中国 兽用 生物制品 生产 企业 兽医 科研 经销商",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q027",
+      "title": "Urs Giger: distinguish historical publications from current availability",
+      "groups": [
+        "Scientists"
+      ],
+      "priority": 6,
+      "status": "not_started",
+      "entity_ids": [
+        "P008"
+      ],
+      "suggested_query": "\"Urs Giger\" Oxyglobin transfusion hemoglobin 2006 2026 current emeritus",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q028",
+      "title": "History 2006-2010: search log and separate event dates",
+      "groups": [
+        "Philanthropic donors",
+        "Scientists"
+      ],
+      "priority": 6,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "veterinary animal wildlife research donation transfusion 2006 2007 2008 2009 2010",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q029",
+      "title": "History 2011-2015: funds, projects and role changes",
+      "groups": [
+        "Investors",
+        "Grants and programmes"
+      ],
+      "priority": 6,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "animal health fund investment wildlife veterinary donation 2011 2012 2013 2014 2015",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q030",
+      "title": "History 2016-2020: funded studies, manufacturing and conservation",
+      "groups": [
+        "Scientists",
+        "Companies",
+        "Conservation"
+      ],
+      "priority": 6,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "animal health funded studies wildlife manufacturing donations 2016 2017 2018 2019 2020",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    },
+    {
+      "id": "Q031",
+      "title": "History 2021-2026: distinguish past events from current roles",
+      "groups": [
+        "Investors",
+        "Veterinarians"
+      ],
+      "priority": 7,
+      "status": "not_started",
+      "entity_ids": [],
+      "suggested_query": "veterinary therapeutics funding animal health conservation 2021 2022 2023 2024 2025 2026",
+      "acceptance": "Read a primary source, save dated facts with URLs and update the record, or explicitly record missing confirmation.",
+      "due_review": "2026-09-08",
+      "outreach_authorized": false
+    }
+  ],
+  "generated_at": "2026-09-05"
+}

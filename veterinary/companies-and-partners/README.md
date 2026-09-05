@@ -1,5 +1,5 @@
 # Companies & Partners
 
-Private category for manufacturers, factories, importers, distributors, dealers, marketing partners and consultants by country. Distinguish each actual commercial role.
+Open the authenticated Important Contact application and choose **Companies & Partners**. All role and source-access rules apply. Contacts can belong to multiple views while retaining one canonical record.
 
-Use the authenticated application for editing once deployed. Do not publish private reviews or contact exports.
+Do not publish private contact exports or review notes in a public site.

@@ -1,0 +1,302 @@
+{
+  "repository": "ArchilJali/Important-Contact",
+  "visibility": "private",
+  "primary_directory": "veterinary",
+  "package_version": "2026.09.05-native-private-import",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "df18483fec4367c461763bb5caa06f79b25f472923d0c2b3d31e8482e00c7ca7",
+      "git_blob_sha": "949f817e9ee909ba2f9be2fd8b06e851603c0abb",
+      "mode": "100644"
+    },
+    {
+      "path": ".env.example",
+      "sha256": "82d9d1cae405791d06b58d09a9faac54a9c6c71a79784b6df76f6e83c6782fec",
+      "git_blob_sha": "5314c36845749c7eabdf182a95a7a4afd2ca6a62",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "3b2cf3a14138dd038120c5c63b3eec66253254f83fb5da9f2754721bbad95291",
+      "git_blob_sha": "c2d140a74fb36f1ebafc14b434aa3c70af3b026b",
+      "mode": "100644"
+    },
+    {
+      "path": ".important-contact.json",
+      "sha256": "f6dd64d757a0497fdcaf6f28bd6862f17e8fdbb299a48ea1cc92fc46ab42e99c",
+      "git_blob_sha": "07a6cb64566de2088b46c4b743b82b2b3c4095f8",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "0ff78387c90331dc62f61e67668b700d2919f170bf4b631061885939deda9ad3",
+      "git_blob_sha": "b55ade3d492b2eb3d106c7a8888f7b2e9bcc78bb",
+      "mode": "100644"
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "994a02d1ce2d9b2c0cabc58231996e0914835db0e8d5556f5b08463a902787ac",
+      "git_blob_sha": "8fb4effa171692a842f0bc4cbc218cf2cdeff726",
+      "mode": "100644"
+    },
+    {
+      "path": "PUBLISH.md",
+      "sha256": "75453a3ba15b7089f95b1c224029af74d2edd9c1dff5fbcd43262e79cdf43c8a",
+      "git_blob_sha": "2d0db4ef4756069483a8155b252ec34a43f7b2c7",
+      "mode": "100644"
+    },
+    {
+      "path": "Publish-to-GitHub.command",
+      "sha256": "fdfb79bcc04314bb5b3fe7ecee532c725baf6a505a966a00dfaa92cf0ec17cae",
+      "git_blob_sha": "4a5d26527ac3796adf27d7139ce25157c1d689f7",
+      "mode": "100755"
+    },
+    {
+      "path": "README.md",
+      "sha256": "aa61861ff0cf14e43d827a5525b3c2ec891ddac80258f1c0bfbded995da7dee6",
+      "git_blob_sha": "5ffbed00c5cc1e8b19a19e470577e8de161b4932",
+      "mode": "100644"
+    },
+    {
+      "path": "app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    {
+      "path": "app/main.py",
+      "sha256": "767725e6b50c796473a0436e747d4d5e6178771cbd17ae932b803357c0e1e10b",
+      "git_blob_sha": "56f5a3a0908071b9f6cdfaaa5b1c1659c4ad4556",
+      "mode": "100644"
+    },
+    {
+      "path": "app/settings.py",
+      "sha256": "d1e331d1a6f14a1a204812b8d45d9531b3711590614111603ac2236afb9d2ddc",
+      "git_blob_sha": "bf8011a965dd00426281abaec0f380abd1578599",
+      "mode": "100644"
+    },
+    {
+      "path": "app/static/app.js",
+      "sha256": "7adf2725e5f2502cf2476dfa672f0a062f5c64baa2ea271ba1b06fa14e03032e",
+      "git_blob_sha": "8e14de313951696e5396bd2c98f21c6187996d3d",
+      "mode": "100644"
+    },
+    {
+      "path": "app/static/index.html",
+      "sha256": "06862a6ce3a1293e150d1b4f6590071c43377437fdb88e07c33233d9d1a8d63a",
+      "git_blob_sha": "20a13383e98965dd49c90d0bfa07d9637d069816",
+      "mode": "100644"
+    },
+    {
+      "path": "app/static/style.css",
+      "sha256": "06d1edc977f45dfeedfbd64a98f4840a12e332a5d9dceb9e167a784b04d552b6",
+      "git_blob_sha": "73bf2e84d9979263f1741101418288c6bcaf97e4",
+      "mode": "100644"
+    },
+    {
+      "path": "app/store.py",
+      "sha256": "30c90d257d0ff01458dba607e7ac47c18f760fe1c422ea8bfd364389226cba50",
+      "git_blob_sha": "a639d5db4c5c54317b09cab74804954d78246cdb",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "sha256": "ab94f0d1ab6a603b57da65c6c0dcc5ea713bf8328d793499bf5b030d403024b8",
+      "git_blob_sha": "5d0e0727376d8408a41be6f6db12da0c0a2b8e8e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/PERSISTENT-ACCESS.md",
+      "sha256": "6a7055f1f886596ad3462c1253eea0e187087f8200d9452903fdae2e5c60bdf9",
+      "git_blob_sha": "0ce97d6cf64b5a950892a3fa67707c2b5ebabc2b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "sha256": "3291944f9240c91710c6458d7afc35d8d426c1923ad0d4f580b22c05f2734f53",
+      "git_blob_sha": "77652fcd1c828a8199ffa5a15cddb653f3b33075",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/browser-test-results.json",
+      "sha256": "af4e617b7d988f2a5c0b2b8bd13d77ae592daf616cf2a5e7ca1718a95eb35b3f",
+      "git_blob_sha": "a4894ee121e9704c165df3b8f4da57c994fb0267",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/local-test-results.txt",
+      "sha256": "2519737b0e6ccfebaecae2e12db40d4b37f2f2a56ae83473d2ef478391d7d6fe",
+      "git_blob_sha": "255395f890cf974df452f96af9345fb67deb1670",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/otp-email-template.html",
+      "sha256": "f34ccebb0103e0739c4b2cca6a35cca176e26b8d557993ee6af2ec145812e500",
+      "git_blob_sha": "9895475e7c91a8deffc6d97a6cc5736a0bbd6722",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/release-status.json",
+      "sha256": "a26f2166ce9b327bd99964fa2054fd977562f442aad5d565c2398390e6a412f1",
+      "git_blob_sha": "5d32fb1de6c56a0fd84765e9e242b37aa47e90a9",
+      "mode": "100644"
+    },
+    {
+      "path": "requirements-test.txt",
+      "sha256": "5251456eaba83b1e7cca8ba99b8255ad7b2aa8a42764e1cac64876b329057adf",
+      "git_blob_sha": "d7c509e53993f341579c8518a5c4e8cda2d3562f",
+      "mode": "100644"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "c8bcae19d8c8b7cd24f791dcae348ea23e6e5a8585a51a8f36ca1c2d5943eaa3",
+      "git_blob_sha": "3c348d9314127a1cbfecc9948958eb782974ab14",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/bootstrap.py",
+      "sha256": "89e0683209110b6e101e0f78832c9d0af14c8dadf95f45634318da7cd7d5db92",
+      "git_blob_sha": "85eae9d6819b0a6582430e0d227ce4d115294058",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/publish_github.py",
+      "sha256": "ff3a46ee6c8c31222f2edff201c8b1f4924438387e3f2fb6d64122a07f04f65b",
+      "git_blob_sha": "327083dad54f45a3197bbaba8acb31c9649fd987",
+      "mode": "100755"
+    },
+    {
+      "path": "sql/001_private_workspace.sql",
+      "sha256": "1be7db5552f94feaa668faa9c2ff826d9c2c9d4d366f698c7205e112ed5daa76",
+      "git_blob_sha": "49519151b2d4792c63e9859a8209d502d294cd84",
+      "mode": "100644"
+    },
+    {
+      "path": "sql/002_remember_until_revoked.sql",
+      "sha256": "25e8b0cd6cf7433ade0933f7264784056273456f2d1e9f4c1c6f1a2a2c8edb6e",
+      "git_blob_sha": "4b83909fa692dd6b0f609a38c96430ff920dbb24",
+      "mode": "100644"
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    {
+      "path": "tests/browser_fixture.py",
+      "sha256": "daecc1b61c84328b9475f40d593c5595372f7b176bd6893ecb731cbbe7e5fef6",
+      "git_blob_sha": "f1886637a57f6f13804b6de12f19df8a54e9399e",
+      "mode": "100644"
+    },
+    {
+      "path": "tests/check_browser.py",
+      "sha256": "f691809f39c1a332f27d12534521d74c9070971ec16e146ff08031c81952fcee",
+      "git_blob_sha": "d8ee52959b5871e790b4cabf354f7c25ae48149a",
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_publisher.py",
+      "sha256": "7db38b46324bc85367663e4f1b10990cad519fa4c466cc9869ab71de9375e6e8",
+      "git_blob_sha": "05496c2a373fc2a55d62f41d6e3d33b60cf2b1f4",
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_security.py",
+      "sha256": "0b3f320657ee05e18f3613db22690199b7a38fd926baca5273cc9861842f4483",
+      "git_blob_sha": "66241c291742afd06389e501218c88610ba0137a",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/CONTACTS.md",
+      "sha256": "f4aa4033ae4f173bc447a1f6780126dbda2a14e5653b5a38b55ffc0a5ae15cd3",
+      "git_blob_sha": "8c623e12b3b7fe4a86675a029f36b2e54dcf7325",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/README.md",
+      "sha256": "bce555751206bf44d1604726fc96722323b09f44711377dc220ac6bd08187721",
+      "git_blob_sha": "33a36bc0058d452b2c819ad55ed0ceb8f30a8c75",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/companies-and-partners/README.md",
+      "sha256": "f4593d0470cd38b18626c1f1be13a37c58eb4a18f47c167dd478280c824fd44c",
+      "git_blob_sha": "13108f55433b70c3a61df8138e8b1d3a8818eeef",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/data/snapshot.json",
+      "sha256": "34a97f4bf3d760251b26adf7c853b6ab327cc441277aed64be1ad9f6a1b27aa4",
+      "git_blob_sha": "77a8c047b8626b53e0a6fd0b4a1494f7f18ab65d",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/grants-and-programmes/README.md",
+      "sha256": "9f145c10d38de99949031c3f1634d2348efe43447e318f86dcf8156f8481230c",
+      "git_blob_sha": "9b1f4ca54f78a85a91e244907ff7dcbe3d5147cb",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/investors-and-funds/README.md",
+      "sha256": "70a42c9e1408217dfa231d66abe273f8a03ce5f630248bd3cc4413e1e88d0e49",
+      "git_blob_sha": "17b7941bd521a1fa265eb0e8ba5a2aa267555812",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/journals-and-media/README.md",
+      "sha256": "b15135c362ccd4055a9a86f8d6b280011127f3e1bded7d5c59801e8ce9351407",
+      "git_blob_sha": "8268f3da4fa2ddc01af0e32918cc89f5bfaea5e8",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/philanthropy/README.md",
+      "sha256": "72b20c8f0399aa7fbdf32766d06262c7ddc89b40b71b3b03c7c60ae920127090",
+      "git_blob_sha": "ef512fe45ae7e9187063e89422b6fd72b12f3058",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/research/CHATGPT-AGENT.md",
+      "sha256": "56d0a1343f6a8e47a5f179c702d17c8477b151be7821b8aa010b8dd5ef1aad47",
+      "git_blob_sha": "adcadb7b6810bb24eb331819dd73cb893d5f1a32",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/research/agent.json",
+      "sha256": "0b077839317c066d7b035de3d7cf1cb5d4e2830aa86acfff25ff05d251c6692f",
+      "git_blob_sha": "977c9ea91273b1f76b6f530641442fe3de91f489",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/research/history_coverage.json",
+      "sha256": "4485d4edd10dd25b7f24e70d37f1861ed22bce6bb6659493aeb3dfa3060996a5",
+      "git_blob_sha": "a2d6d93028dd49897e9596cbec0ea87e30e8289c",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/research/web_sources.json",
+      "sha256": "b9332826669b39f98273b0905ca2981b51c35d8aaaab97bdf7cbce9791aae414",
+      "git_blob_sha": "d88311af477c8971cbcae9602a3c618c6b26059a",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/veterinary-doctors-and-science/README.md",
+      "sha256": "c5d560676b9826144c895a75f0533e122def941df6c40af5ea953122e0b0170c",
+      "git_blob_sha": "91297ad4f1905852675d2dd4b7c3aecf863c8d09",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/wildlife/README.md",
+      "sha256": "4975ce4e10f277b2614086cfc2b3bb7fe44aeb997ec3b280fd4f49cbf370fdb2",
+      "git_blob_sha": "39ab1308276fe0ee82d19bcb094849f8bb48812e",
+      "mode": "100644"
+    },
+    {
+      "path": "veterinary/zoos-and-nature-reserves/README.md",
+      "sha256": "3679a3d1372ba74c0265867a787ee226ba94492ea1f8a2a87fb0e71ae654af3e",
+      "git_blob_sha": "c843f5b727f96f72acad2f200a64ce607cc060f9",
+      "mode": "100644"
+    }
+  ]
+}
