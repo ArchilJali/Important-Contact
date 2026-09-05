@@ -1,85 +1,118 @@
 {
-  "name": "Important Contact | Veterinary Intelligence",
+  "name": "Important Contact | Veterinary + Wildlife Intelligence",
   "language": "en",
   "execution_mode": "local",
   "interval_hours": 72,
   "max_runtime_seconds": 1500,
   "request_timeout_seconds": 15,
-  "max_queries_per_run": 3,
+  "max_queries_per_run": 6,
   "max_results_per_query": 12,
-  "max_authors_per_paper": 6,
-  "max_web_pages_per_run": 6,
+  "max_authors_per_paper": 12,
+  "max_web_pages_per_run": 12,
   "max_links_per_page": 12,
-  "history_start": "2006-09-05",
+  "history_start": "1998-01-01",
   "recent_window_days": 30,
   "lookback_bands": [
-    [
-      "2021-01-01",
-      "2026-09-05"
-    ],
-    [
-      "2016-01-01",
-      "2020-12-31"
-    ],
-    [
-      "2011-01-01",
-      "2015-12-31"
-    ],
-    [
-      "2006-09-05",
-      "2010-12-31"
-    ]
+    ["2021-01-01", "2026-09-06"],
+    ["2016-01-01", "2020-12-31"],
+    ["2011-01-01", "2015-12-31"],
+    ["2006-01-01", "2010-12-31"],
+    ["1998-01-01", "2005-12-31"]
   ],
   "outreach_authorized": false,
+  "dedupe": {
+    "enabled": true,
+    "person_sources": [
+      "../CONTACTS.md",
+      "../contact-routes.json",
+      "../data/oxyglobin-authors-institutions.json",
+      "../../wildlife-red-book/contacts.json"
+    ],
+    "match_fields": [
+      "full_name",
+      "publication_alias",
+      "orcid",
+      "verified_linkedin",
+      "official_profile",
+      "publication_authorship",
+      "historical_affiliation"
+    ],
+    "policy": "enrich_existing_canonical_record; never create a second person only because category or publication differs"
+  },
+  "product_aliases": {
+    "oxyglobin": [
+      "Oxyglobin",
+      "HBOC-301",
+      "hemoglobin glutamer-200 (bovine)",
+      "haemoglobin glutamer-200 (bovine)",
+      "Hb-200"
+    ],
+    "hemopure": [
+      "Hemopure",
+      "HBOC-201",
+      "hemoglobin glutamer-250 (bovine)",
+      "haemoglobin glutamer-250 (bovine)"
+    ]
+  },
   "queries": [
     {
+      "id": "oxyglobin_hboc301_people",
+      "query": "(Oxyglobin OR HBOC-301 OR \"hemoglobin glutamer-200\" OR \"haemoglobin glutamer-200\" OR Hb-200) AND (author OR veterinarian OR investigator OR trial OR Biopure OR OPK OR patent OR regulatory OR clinical)",
+      "sections": ["veterinary-doctors-and-science", "companies-and-partners"],
+      "species": ["dog", "cat", "horse", "wildlife"]
+    },
+    {
+      "id": "biopure_legacy_people",
+      "query": "(Biopure OR \"OPK Biotech\" OR \"Hemoglobin Oxygen Therapeutics\" OR \"HbO2 Therapeutics\") AND (Oxyglobin OR HBOC-301 OR HBOC-201 OR Hemopure) AND (team OR scientist OR regulatory OR clinical OR product OR patent OR distribution)",
+      "sections": ["companies-and-partners", "veterinary-doctors-and-science"],
+      "species": []
+    },
+    {
       "id": "transfusion",
-      "query": "(dog OR cat OR equine OR veterinary) AND (\"hemoglobin-based oxygen carrier\" OR Oxyglobin OR \"blood transfusion\" OR \"oxygen delivery\")",
-      "sections": [
-        "veterinary-doctors-and-science"
-      ],
+      "query": "(dog OR cat OR equine OR veterinary) AND (\"hemoglobin-based oxygen carrier\" OR Oxyglobin OR HBOC-301 OR \"blood transfusion\" OR \"oxygen delivery\")",
+      "sections": ["veterinary-doctors-and-science"],
       "species": []
     },
     {
       "id": "equine",
-      "query": "(horse OR equine) AND (\"critical care\" OR shock OR transfusion OR \"oxygen transport\")",
-      "sections": [
-        "veterinary-doctors-and-science"
-      ],
-      "species": [
-        "horse"
-      ]
+      "query": "(horse OR equine) AND (Oxyglobin OR HBOC OR \"critical care\" OR shock OR transfusion OR \"oxygen transport\")",
+      "sections": ["veterinary-doctors-and-science"],
+      "species": ["horse"]
     },
     {
-      "id": "wildlife",
-      "query": "(wildlife OR \"endangered species\") AND (veterinary OR \"wildlife health\" OR \"conservation medicine\")",
-      "sections": [
-        "wildlife",
-        "veterinary-doctors-and-science"
-      ],
-      "species": [
-        "wildlife"
-      ]
+      "id": "wildlife_red_book",
+      "query": "(\"IUCN Red List\" OR endangered OR threatened OR wildlife OR \"species survival\") AND (veterinary OR \"wildlife health\" OR \"conservation medicine\" OR rescue OR reintroduction OR grant OR philanthropy)",
+      "sections": ["wildlife", "zoos-and-nature-reserves", "philanthropy", "grants-and-programmes", "veterinary-doctors-and-science"],
+      "species": ["wildlife"]
     },
     {
-      "id": "zoo",
-      "query": "(zoo OR \"zoological medicine\" OR \"nature reserve\") AND (veterinary OR \"animal health\" OR rescue)",
-      "sections": [
-        "zoos-and-nature-reserves",
-        "wildlife",
-        "veterinary-doctors-and-science"
-      ],
-      "species": [
-        "zoo_animals"
-      ]
+      "id": "zoo_conservation_medicine",
+      "query": "(zoo OR \"zoological medicine\" OR sanctuary OR \"nature reserve\") AND (veterinary OR \"animal health\" OR transfusion OR emergency OR rescue OR conservation)",
+      "sections": ["zoos-and-nature-reserves", "wildlife", "veterinary-doctors-and-science"],
+      "species": ["zoo_animals"]
     }
   ],
-  "human_review_policy": "../../AGENTS.md",
-  "human_only_data_stores": [
-    "carl_reviews",
-    "suppression",
-    "contact_history"
+  "required_person_fields": [
+    "exact_full_name",
+    "publication_aliases",
+    "current_organisation",
+    "current_role",
+    "country",
+    "specialty",
+    "species_focus",
+    "relevance_category",
+    "product_or_project_relationship",
+    "historical_affiliation",
+    "publication_evidence",
+    "verified_linkedin",
+    "official_profile",
+    "public_professional_email",
+    "source_urls",
+    "verified_on",
+    "verification_basis"
   ],
+  "human_review_policy": "../../AGENTS.md",
+  "human_only_data_stores": ["carl_reviews", "suppression", "contact_history"],
   "runtime_status": "not_installed",
   "production_ingestion_status": "requires a dedicated restricted ingestion identity"
 }
