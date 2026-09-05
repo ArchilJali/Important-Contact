@@ -39,7 +39,6 @@ dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
 
 const make=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=String(text);if(cls)n.className=cls;return n;};
 const uniq=a=>[...new Set((a||[]).filter(Boolean))];
-
 function addTags(parent,items){const box=make('div',undefined,'tags');uniq(items).slice(0,7).forEach(t=>box.append(make('span',t)));parent.append(box);}
 function publicationLink(pub){
   const url=pub.article_url||(pub.doi?`https://doi.org/${pub.doi}`:'')||(pub.pmid?`https://pubmed.ncbi.nlm.nih.gov/${pub.pmid}/`:'');
@@ -73,12 +72,9 @@ async function installOxyglobinNetwork(){
     const people=data.people||[];
     status.remove();
 
-    const metrics=make('div',undefined,'network-metrics');
-    [[people.length,'Oxyglobin / HBOC people'],[institutions.length,'institutions / organisations'],[publications.length,'linked publications']].forEach(([n,l])=>{const x=make('div');x.append(make('strong',n),make('span',l));metrics.append(x);});
-    shell.append(metrics);
-
     const controls=make('div',undefined,'network-controls');
-    const peopleBtn=make('button','People','network-mode active');const instBtn=make('button','Institutions / Organisations','network-mode');
+    const peopleBtn=make('button','People','network-mode active');
+    const instBtn=make('button','Institutions / Organisations','network-mode');
     const input=make('input');input.type='search';input.placeholder='Search person, institution, species, article or characteristic…';input.className='network-search';
     controls.append(peopleBtn,instBtn,input);shell.append(controls);
 
