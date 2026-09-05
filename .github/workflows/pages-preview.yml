@@ -29,7 +29,9 @@ jobs:
         uses: actions/checkout@v6
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-      - name: Upload preview only
+        with:
+          enablement: true
+      - name: Upload site only
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
