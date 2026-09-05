@@ -55,6 +55,57 @@
     "Tiana Andriamanana": {
       "organisation": "Association Fanamby",
       "contact_page": "https://www.rewild.org/press/phoenix-species-project-launch"
+    },
+    "Rimma Driscoll": {
+      "organisation": "Zoetis",
+      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team"
+    },
+    "Kevin Esch": {
+      "organisation": "Zoetis",
+      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team"
+    },
+    "Tim Bettington": {
+      "organisation": "Elanco Animal Health",
+      "contact_page": "https://www.elanco.com/us/leadership/executive-committee"
+    },
+    "Ellen de Brabander": {
+      "organisation": "Elanco Animal Health",
+      "contact_page": "https://www.elanco.com/us/leadership/executive-committee"
+    },
+    "Richard DeLuca": {
+      "organisation": "Merck Animal Health",
+      "contact_page": "https://www.merck-animal-health.com/research-and-innovation/business-development/"
+    },
+    "Holger Lehmann": {
+      "organisation": "Merck Animal Health",
+      "contact_page": "https://www.merck-animal-health.com/research-and-innovation/biopharma-research/"
+    }
+  },
+  "organisations": {
+    "Zoetis": {
+      "type": "company",
+      "official_page": "https://www.zoetis.com/our-company/our-story/executive-team"
+    },
+    "Elanco Animal Health": {
+      "type": "company",
+      "official_page": "https://www.elanco.com/us/leadership"
+    },
+    "Merck Animal Health": {
+      "type": "company",
+      "email": "AnimalHealthBD@merck.com",
+      "official_page": "https://www.merck-animal-health.com/research-and-innovation/business-development/"
+    },
+    "Digitalis Ventures": {
+      "type": "investor",
+      "official_page": "https://www.digitalisventures.com/"
+    },
+    "Dechra": {
+      "type": "company",
+      "official_page": "https://www.dechra.com/our-business/our-business"
+    },
+    "Covetrus Netherlands": {
+      "type": "company",
+      "official_page": "https://www.covetrus.nl/Covetrus"
     }
   }
 }
