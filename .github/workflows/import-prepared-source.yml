@@ -1,0 +1,106 @@
+name: Import prepared private source
+
+on:
+  push:
+    branches: [main]
+    paths: ['.private-import/READY']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: important-contact-source-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.repository == 'ArchilJali/Important-Contact' && github.event.repository.private == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the exact import commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 1
+      - name: Verify and materialize prepared source only
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import base64, hashlib, json, lzma, os, pathlib, subprocess
+          root = pathlib.Path.cwd()
+          folder = root / '.private-import'
+          if not (folder / 'READY').is_file():
+              raise SystemExit('No import marker; nothing to do.')
+          expected = [f'part-{i:02d}.b64' for i in range(1, 7)]
+          actual = sorted(p.name for p in folder.glob('part-*.b64'))
+          if actual != expected:
+              raise SystemExit('Import parts are incomplete; no project files changed.')
+          encoded = ''.join((folder / name).read_text().strip() for name in expected)
+          if len(encoded) != 89904:
+              raise SystemExit('Unexpected encoded length.')
+          packed = base64.b64decode(encoded, validate=True)
+          if hashlib.sha256(packed).hexdigest() != 'de1f9d494c066e7f6918fd185fa9e6681e0bd2a66aebfb3ddc51ca1390884868':
+              raise SystemExit('Compressed source checksum mismatch.')
+          raw = lzma.decompress(packed, memlimit=268435456)
+          if hashlib.sha256(raw).hexdigest() != '69db50c194afd10ac7e03a6c530a73f479564990c12ccbdcb6b9dc36a1b89363':
+              raise SystemExit('Source checksum mismatch.')
+          files = json.loads(raw)
+          if not isinstance(files, dict) or len(files) != 50:
+              raise SystemExit('Unexpected file map.')
+          manifest = json.loads(files['.publish-manifest.json'])
+          allowed = {item['path']: item for item in manifest['files']}
+          if set(files) != set(allowed) | {'.publish-manifest.json'}:
+              raise SystemExit('Manifest and file map differ.')
+          # Validate every path and byte before making any project change.
+          for name, text in files.items():
+              path = pathlib.PurePosixPath(name)
+              if not isinstance(text, str) or path.is_absolute() or '..' in path.parts:
+                  raise SystemExit('Invalid path or content.')
+              if path.parts[0] in ('.git', '.github', '.private-import') or name == '.env':
+                  raise SystemExit('Forbidden destination.')
+              target = root / path
+              if not target.resolve().is_relative_to(root) or target.is_symlink():
+                  raise SystemExit('Unsafe destination.')
+              if name in allowed and hashlib.sha256(text.encode()).hexdigest() != allowed[name]['sha256']:
+                  raise SystemExit('File checksum mismatch: ' + name)
+          for name, text in files.items():
+              target = root / name
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(text.encode())
+              if name in allowed:
+                  target.chmod(0o755 if allowed[name]['mode'] == '100755' else 0o644)
+          data = json.loads(files['veterinary/data/snapshot.json'])
+          if len(data['entities']) != 33 or len(data['sources']) != 50 or data['carl_reviews']:
+              raise SystemExit('Unexpected seed counts or invented review state.')
+          receipt = {
+              'repository': 'ArchilJali/Important-Contact',
+              'visibility_checked_by_workflow': 'private',
+              'source_files': len(files),
+              'contacts': len(data['entities']),
+              'sources': len(data['sources']),
+              'seed_sha256': hashlib.sha256(files['veterinary/data/snapshot.json'].encode()).hexdigest(),
+              'import_run_id': os.environ.get('GITHUB_RUN_ID'),
+              'import_trigger_commit': os.environ.get('GITHUB_SHA'),
+              'application_deployed': False,
+              'real_auth_configured': False,
+              'emails_sent': False,
+              'research_scheduler_active': False,
+              'previews': 'Five illustrative PNGs remain in the original ZIP, not required by the app.'
+          }
+          (root / 'docs/GITHUB-PUBLICATION.json').write_text(json.dumps(receipt, indent=2) + '\n')
+          # Only our temporary upload parts and marker are removed.
+          for name in expected + ['READY']:
+              (folder / name).unlink()
+          print('Verified 50 source files, 33 contacts and 50 sources. No Auth accounts or research jobs were created.')
+          PY
+      - name: Commit verified files to the same private repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Important Contact Source Import'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --all
+          git diff --cached --quiet && exit 0
+          git commit -m 'Import verified veterinary database and private application source'
+          git push origin HEAD:main
