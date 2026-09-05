@@ -1,0 +1,149 @@
+{
+  "dataset": "Oxyglobin authors and institutions baseline",
+  "source_page": "https://archiljali.github.io/BHOC-platform/veterinary/Vet-search.html",
+  "source_catalogue": "https://archiljali.github.io/BHOC-platform/veterinary/Vet-publications.json",
+  "created_on": "2026-09-05",
+  "status": "baseline_in_progress",
+  "rules": {
+    "people_and_institutions_are_separate_records": true,
+    "article_affiliation_is_historical_not_current_employment": true,
+    "affiliation_is_not_automatically_study_site": true,
+    "current_role_requires_separate_verification": true
+  },
+  "characteristic_tags": [
+    "OXYGLOBIN AUTHOR",
+    "HBOC AUTHOR",
+    "HEMOGLOBIN GLUTAMER-200",
+    "DOG",
+    "CAT",
+    "EQUINE",
+    "TRANSFUSION",
+    "EMERGENCY/CRITICAL CARE",
+    "OXYGEN DELIVERY",
+    "HEMORRHAGE",
+    "ANEMIA",
+    "MICROCIRCULATION",
+    "PHARMACOKINETICS"
+  ],
+  "publications": [
+    {
+      "id": "OX-PUB-001",
+      "title": "Clinical application of a hemoglobin-based oxygen-carrying solution",
+      "authors": ["Mary Beth Callan", "Virginia T. Rentko"],
+      "year": 2003,
+      "journal": "Veterinary Clinics of North America: Small Animal Practice",
+      "species": ["dog", "cat"],
+      "tags": ["OXYGLOBIN", "ANEMIA", "TRANSFUSION", "HEMORRHAGE"],
+      "pmid": "14664199",
+      "doi": "10.1016/S0195-5616(03)00119-0",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/14664199/",
+      "article_affiliation": "Ryan Veterinary Hospital of the University of Pennsylvania, School of Veterinary Medicine, Philadelphia, USA"
+    },
+    {
+      "id": "OX-PUB-002",
+      "title": "Use of a hemoglobin-based oxygen-carrying solution in cats: 72 cases (1998-2000)",
+      "authors": ["Gillian R. Gibson", "Mary Beth Callan", "Victoria Hoffman", "Urs Giger"],
+      "year": 2002,
+      "journal": "Journal of the American Veterinary Medical Association",
+      "species": ["cat"],
+      "tags": ["OXYGLOBIN", "CAT", "ANEMIA", "CLINICAL USE"],
+      "pmid": "12420832",
+      "doi": "10.2460/javma.2002.221.96",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/12420832/",
+      "article_affiliation": "Department of Clinical Studies, School of Veterinary Medicine, University of Pennsylvania, Philadelphia, USA"
+    },
+    {
+      "id": "OX-PUB-003",
+      "title": "The effects of hemoglobin glutamer-200 (bovine) on the microcirculation in a canine hypovolemia model: a noninvasive computer-assisted intravital microscopy study",
+      "authors": ["A. T. Cheung", "J. S. Jahr", "B. Driessen", "P. L. Duong", "M. S. Chan", "F. Lurie", "M. S. Golkaryeh", "R. K. Kullar", "R. A. Gunther"],
+      "year": 2001,
+      "journal": "Anesthesia & Analgesia",
+      "species": ["dog"],
+      "tags": ["OXYGLOBIN", "HEMOGLOBIN GLUTAMER-200", "DOG", "MICROCIRCULATION", "HYPOVOLEMIA", "OXYGEN DELIVERY"],
+      "pmid": "11574342",
+      "doi": "10.1097/00000539-200110000-00007",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/11574342/",
+      "article_affiliation": "Department of Medical Pathology, University of California Davis School of Medicine, Sacramento, USA"
+    },
+    {
+      "id": "OX-PUB-004",
+      "title": "Inadequacy of low-volume resuscitation with hemoglobin-based oxygen carrier hemoglobin glutamer-200 (bovine) in canine hypovolemia",
+      "authors": ["Bernd Driessen", "J. S. Jahr", "F. Lurie", "R. A. Gunther"],
+      "year": 2001,
+      "journal": "Journal of Veterinary Pharmacology and Therapeutics",
+      "species": ["dog"],
+      "tags": ["OXYGLOBIN", "HEMOGLOBIN GLUTAMER-200", "DOG", "HYPOVOLEMIA", "RESUSCITATION", "OXYGEN DELIVERY"],
+      "pmid": "11348488",
+      "doi": "10.1046/j.1365-2885.2001.00307.x",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/11348488/",
+      "article_affiliations": [
+        "Department of Clinical Studies, School of Veterinary Medicine, University of Pennsylvania, Kennett Square, USA",
+        "Department of Anesthesiology and Pain Medicine, Davis Medical Center, University of California, USA",
+        "Department of Surgery, Davis Medical Center, University of California, USA"
+      ]
+    },
+    {
+      "id": "OX-PUB-005",
+      "title": "The pharmacokinetics of hemoglobin-based oxygen carrier hemoglobin glutamer-200 bovine in the horse",
+      "authors": ["Lawrence R. Soma", "Cornelius E. Uboh", "Fuyu Guan", "Yi Luo", "Peter J. Moate", "Raymond C. Boston", "Bernd Driessen"],
+      "year": 2005,
+      "journal": "Anesthesia & Analgesia",
+      "species": ["horse"],
+      "tags": ["OXYGLOBIN", "HEMOGLOBIN GLUTAMER-200", "EQUINE", "PHARMACOKINETICS"],
+      "pmid": "15920176",
+      "doi": "10.1213/01.ANE.0000154081.38466.09",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/15920176/",
+      "article_affiliations": [
+        "Department of Clinical Studies, School of Veterinary Medicine, University of Pennsylvania",
+        "Department of Chemistry, Pennsylvania Equine Toxicology & Research Center, West Chester University",
+        "Department of Anesthesiology, David Geffen School of Medicine, University of California-Los Angeles"
+      ]
+    },
+    {
+      "id": "OX-PUB-006",
+      "title": "Radiographic, biomechanical, and pathologic effects of hemoglobin glutamer-200 in dogs undergoing cemented total hip arthroplasty",
+      "authors": ["T. D. Braden", "H. W. Tvedten", "C. E. DeCamp", "T. M. Turner", "G. S. Hughes", "Virginia T. Rentko"],
+      "year": 1999,
+      "journal": "American Journal of Veterinary Research",
+      "species": ["dog"],
+      "tags": ["HEMOGLOBIN GLUTAMER-200", "DOG", "SURGERY", "BLOOD VOLUME REPLACEMENT"],
+      "pmid": "10566804",
+      "doi": "10.2460/ajvr.1999.60.11.1337",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/10566804/",
+      "article_affiliation": "Department of Small Animal Clinical Sciences, College of Veterinary Medicine, Michigan State University, East Lansing, USA"
+    }
+  ],
+  "people": [
+    {"id":"OX-P001","name":"Mary Beth Callan","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","DOG","CAT","ANEMIA","TRANSFUSION"],"publication_ids":["OX-PUB-001","OX-PUB-002"],"publication_affiliation_ids":["OX-O001"],"current_role_status":"verification_pending"},
+    {"id":"OX-P002","name":"Virginia T. Rentko","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","DOG","CAT"],"publication_ids":["OX-PUB-001","OX-PUB-006"],"publication_affiliation_ids":["OX-O001","OX-O004"],"current_role_status":"verification_pending"},
+    {"id":"OX-P003","name":"Gillian R. Gibson","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","CAT","ANEMIA"],"publication_ids":["OX-PUB-002"],"publication_affiliation_ids":["OX-O001"],"current_role_status":"verification_pending"},
+    {"id":"OX-P004","name":"Victoria Hoffman","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","CAT","ANEMIA"],"publication_ids":["OX-PUB-002"],"publication_affiliation_ids":["OX-O001"],"current_role_status":"verification_pending"},
+    {"id":"OX-P005","name":"Urs Giger","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","CAT","ANEMIA","TRANSFUSION"],"publication_ids":["OX-PUB-002"],"publication_affiliation_ids":["OX-O001"],"current_role_status":"verification_pending"},
+    {"id":"OX-P006","name":"Bernd Driessen","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HBOC AUTHOR","HEMOGLOBIN GLUTAMER-200","DOG","EQUINE","OXYGEN DELIVERY","PHARMACOKINETICS"],"publication_ids":["OX-PUB-003","OX-PUB-004","OX-PUB-005"],"publication_affiliation_ids":["OX-O001","OX-O002","OX-O003","OX-O005"],"current_role_status":"verification_pending"},
+    {"id":"OX-P007","name":"A. T. Cheung","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","DOG","MICROCIRCULATION","OXYGEN DELIVERY"],"publication_ids":["OX-PUB-003"],"publication_affiliation_ids":["OX-O002"],"current_role_status":"verification_pending"},
+    {"id":"OX-P008","name":"J. S. Jahr","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","DOG","MICROCIRCULATION","OXYGEN DELIVERY"],"publication_ids":["OX-PUB-003","OX-PUB-004"],"publication_affiliation_ids":["OX-O002","OX-O003"],"current_role_status":"verification_pending"},
+    {"id":"OX-P009","name":"F. Lurie","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","DOG","OXYGEN DELIVERY"],"publication_ids":["OX-PUB-003","OX-PUB-004"],"publication_affiliation_ids":["OX-O002","OX-O003"],"current_role_status":"verification_pending"},
+    {"id":"OX-P010","name":"R. A. Gunther","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","DOG","HEMORRHAGE","OXYGEN DELIVERY"],"publication_ids":["OX-PUB-003","OX-PUB-004"],"publication_affiliation_ids":["OX-O002","OX-O003"],"current_role_status":"verification_pending"},
+    {"id":"OX-P011","name":"Lawrence R. Soma","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","EQUINE","PHARMACOKINETICS"],"publication_ids":["OX-PUB-005"],"publication_affiliation_ids":["OX-O001"],"current_role_status":"verification_pending"},
+    {"id":"OX-P012","name":"Cornelius E. Uboh","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","EQUINE","PHARMACOKINETICS"],"publication_ids":["OX-PUB-005"],"publication_affiliation_ids":["OX-O001","OX-O005"],"current_role_status":"verification_pending"},
+    {"id":"OX-P013","name":"Fuyu Guan","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","EQUINE","PHARMACOKINETICS"],"publication_ids":["OX-PUB-005"],"publication_affiliation_ids":["OX-O001"],"current_role_status":"verification_pending"},
+    {"id":"OX-P014","name":"Yi Luo","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","EQUINE","PHARMACOKINETICS"],"publication_ids":["OX-PUB-005"],"publication_affiliation_ids":["OX-O005"],"current_role_status":"verification_pending"},
+    {"id":"OX-P015","name":"Peter J. Moate","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","EQUINE","PHARMACOKINETICS"],"publication_ids":["OX-PUB-005"],"publication_affiliation_ids":["OX-O001"],"current_role_status":"verification_pending"},
+    {"id":"OX-P016","name":"Raymond C. Boston","record_type":"person","characteristics":["OXYGLOBIN AUTHOR","HEMOGLOBIN GLUTAMER-200","EQUINE","PHARMACOKINETICS"],"publication_ids":["OX-PUB-005"],"publication_affiliation_ids":["OX-O001"],"current_role_status":"verification_pending"}
+  ],
+  "institutions": [
+    {"id":"OX-O001","name":"University of Pennsylvania School of Veterinary Medicine / Ryan Veterinary Hospital","record_type":"institution","institution_type":"university_veterinary_school_hospital","country":"US","characteristics":["OXYGLOBIN PUBLICATION AFFILIATION","DOG","CAT","EQUINE","TRANSFUSION","ANEMIA","PHARMACOKINETICS"],"publication_ids":["OX-PUB-001","OX-PUB-002","OX-PUB-004","OX-PUB-005"],"note":"Historical publication affiliation. Not an endorsement."},
+    {"id":"OX-O002","name":"University of California Davis School of Medicine / Davis Medical Center","record_type":"institution","institution_type":"university_medical_center","country":"US","characteristics":["OXYGLOBIN PUBLICATION AFFILIATION","DOG","MICROCIRCULATION","OXYGEN DELIVERY"],"publication_ids":["OX-PUB-003","OX-PUB-004"],"note":"Historical publication affiliation. Not an endorsement."},
+    {"id":"OX-O003","name":"University of California Davis Medical Center - Anesthesiology & Pain Medicine / Surgery","record_type":"institution","institution_type":"academic_medical_center_departments","country":"US","characteristics":["OXYGLOBIN PUBLICATION AFFILIATION","DOG","HYPOVOLEMIA","RESUSCITATION"],"publication_ids":["OX-PUB-004"],"note":"Department-level historical article affiliation."},
+    {"id":"OX-O004","name":"Michigan State University College of Veterinary Medicine","record_type":"institution","institution_type":"university_veterinary_school","country":"US","characteristics":["HEMOGLOBIN GLUTAMER-200 PUBLICATION AFFILIATION","DOG","SURGERY"],"publication_ids":["OX-PUB-006"],"note":"Historical publication affiliation. Not an endorsement."},
+    {"id":"OX-O005","name":"Pennsylvania Equine Toxicology & Research Center / West Chester University","record_type":"institution","institution_type":"research_center_university","country":"US","characteristics":["OXYGLOBIN PUBLICATION AFFILIATION","EQUINE","PHARMACOKINETICS"],"publication_ids":["OX-PUB-005"],"note":"Historical publication affiliation."},
+    {"id":"OX-O006","name":"David Geffen School of Medicine at UCLA - Department of Anesthesiology","record_type":"institution","institution_type":"university_medical_school","country":"US","characteristics":["OXYGLOBIN PUBLICATION AFFILIATION","EQUINE","PHARMACOKINETICS"],"publication_ids":["OX-PUB-005"],"note":"Historical publication affiliation."}
+  ],
+  "next_actions": [
+    "Verify current roles and official profiles for each author separately from historical publication affiliations.",
+    "Expand the baseline to all Oxyglobin / hemoglobin glutamer-200 records in Vet-publications.json.",
+    "Merge verified people and institutions into the main Important Contact entity graph without duplicates.",
+    "Add public-professional LinkedIn/profile/contact routes only when independently verified.",
+    "Keep internal priority and relationship reviews private."
+  ]
+}
