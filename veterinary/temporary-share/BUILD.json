@@ -1,0 +1,16 @@
+{
+  "schema": "important-contact.local-copy-build.v1",
+  "source_seed_sha256": "34a97f4bf3d760251b26adf7c853b6ab327cc441277aed64be1ad9f6a1b27aa4",
+  "source_seed_git_blob": "77a8c047b8626b53e0a6fd0b4a1494f7f18ab65d",
+  "contacts": 33,
+  "sources": 50,
+  "authentication": false,
+  "online_deployment": false,
+  "automatic_sync": false,
+  "private_human_notes_included": false,
+  "files": {
+    "Important-Contact-Karen-View.html": "8cdefca3ac9e4a5576135c1d2642f9f5451494714f70cc76ebfc877beab27271",
+    "Important-Contact-Carl-Review.html": "f65fa37f5baddd7d4526cdf9306e4df3d8879096c0893858294664004f85f8e0",
+    "Important-Contact-Archil-Workspace.html": "73a8b23e130ebc8efa7e177ff0cd7b01813c54f4163b2cbd8a727a4cecdd2524"
+  }
+}
