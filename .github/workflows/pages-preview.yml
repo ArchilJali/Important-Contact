@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'site/**'
+      - 'veterinary/data/oxyglobin-authors-institutions.json'
       - '.github/workflows/pages-preview.yml'
 
 permissions:
@@ -27,11 +28,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Prepare self-contained site data
+        run: |
+          mkdir -p site/data
+          cp veterinary/data/oxyglobin-authors-institutions.json site/data/oxyglobin-authors-institutions.json
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
-      - name: Upload site only
+      - name: Upload Important Contact site only
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
