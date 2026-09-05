@@ -28,10 +28,63 @@ Use exact dates when proven; otherwise retain month/year precision or null. `las
 
 Every completed research pass must report new records, meaningful changes, source links, unresolved identity/contact issues, revised priorities, coverage achieved, failures and next tasks. Avoid duplicate reports of unchanged findings. Drafting/sending outreach is a future workstream requiring separate permission.
 
+## Scout coverage extension | 2026-09-06
+
+### One Scout, two connected directions
+
+Use one unified Scout. Do not create a second parallel people database.
+
+1. **Oxyglobin / HBOC historical intelligence**
+   - Search `Oxyglobin`, `HBOC-301`, `hemoglobin glutamer-200 (bovine)`, `Hb-200`, `Biopure`, `OPK Biotech`, `Hemoglobin Oxygen Therapeutics`, `HbO2 Therapeutics`, `HBOC-201`, `Hemopure`, `hemoglobin glutamer-250`, `polymerized bovine hemoglobin`, veterinary oxygen carriers, clinical trials, product development, regulatory records, manufacturing, distribution and patents.
+   - Treat **Oxyglobin = HBOC-301** and **Hemopure = HBOC-201** as distinct products. Record the exact product relationship for each person or publication.
+   - Search authors, investigators, veterinarians who used or studied the product, former Biopure/OPK/HbO2 personnel, regulatory and clinical-development staff, patent inventors and named distribution/business-development personnel.
+   - A paper or old company filing proves a historical relationship only. It does not prove current employment.
+
+2. **Wildlife / Red Book intelligence**
+   - Search IUCN Red List and Species Survival Commission networks, threatened/endangered species, wildlife medicine, zoo medicine, conservation medicine, species rescue and reintroduction, wildlife emergency/critical care, biodiversity technology, One Health, conservation research, philanthropists, foundations, grants and major species-recovery programmes.
+   - Keep species-conservation relevance separate from general environmental philanthropy.
+   - Where a person already exists in Veterinary, cross-link that canonical person to Wildlife / Red Book instead of making a second person record.
+
+### Strict deduplication gate
+
+Before adding any person, search all current Important Contact sources, including:
+
+- `veterinary/CONTACTS.md`
+- `veterinary/contact-routes.json`
+- `veterinary/data/oxyglobin-authors-institutions.json`
+- `wildlife-red-book/contacts.json`
+- current publication evidence
+
+Canonicalize full name, initials, aliases, diacritics/transliterations, citation form, ORCID, verified LinkedIn/profile URL, current organisation, historical affiliation and publication authorship. If the same person already exists, enrich the existing record. Never duplicate a person because the same individual appears in a different topic, publication or section. Do not merge homonyms unless authoritative identifiers support the merge. Apply the same principle to organisations and publications.
+
+### Full person record
+
+For every new or materially enriched person collect, where publicly verifiable:
+
+- exact full name;
+- author aliases / initials;
+- current organisation;
+- current title / role;
+- country;
+- specialty and species / clinical focus;
+- relevance category;
+- exact Oxyglobin/HBOC-301, HBOC-201/Hemopure or Wildlife/Red Book relationship;
+- historical affiliation separately from current employment;
+- linked publication title, year, journal, PMID and DOI;
+- company / product / project relationship and dates when public;
+- verified LinkedIn only after exact identity matching;
+- official institutional profile / contact page;
+- public professional email only when explicitly published by an authoritative professional source;
+- organisation website;
+- source URLs;
+- verification date;
+- concise verification basis and confidence.
+
+If current identity cannot yet be independently verified, keep the person as a clearly marked **bibliographic / historical lead** rather than guessing present details.
+
 ## Operating boundary
 
 The current chat can perform an explicit research pass when invoked and supplied with supported search/write tools. It must not promise hidden background execution. Native scheduling requires an actual scheduling tool and a returned task ID; GitHub writing requires an available authenticated writer. The supplied local/cloud Python collector is an executable but narrower public-metadata and official-page collector, not a replacement for this full protocol.
-
 
 ## Carl Rausch review boundary
 
