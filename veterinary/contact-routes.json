@@ -1,0 +1,41 @@
+{
+  "updated": "2026-09-05",
+  "rule": "Public professional contact routes only. Missing fields mean not yet verified.",
+  "people": {
+    "Karen Humm": {
+      "email": "KHUMM@rvc.ac.uk",
+      "contact_page": "https://www.rvc.ac.uk/about/our-people/karen-humm"
+    },
+    "Kate Hopper": {
+      "contact_page": "https://www.vetmed.ucdavis.edu/faculty/kate-hopper"
+    },
+    "Kira L. Epstein": {
+      "contact_page": "https://vet.uga.edu/person/kira_l-_epstein/"
+    },
+    "Sharon Deem": {
+      "linkedin": "https://www.linkedin.com/in/sharon-deem",
+      "contact_page": "https://drsharondeem.squarespace.com/contact"
+    },
+    "Cindy Cole": {
+      "contact_page": "https://www.digitalisventures.com/people/cindy-cole"
+    },
+    "Ben Jacobs": {
+      "contact_page": "https://www.digitalisventures.com/people/ben-jacobs"
+    },
+    "Leonardo DiCaprio": {
+      "contact_page": "https://www.rewild.org/team/leonardo-dicaprio"
+    },
+    "Urs Giger": {
+      "contact_page": "https://almanac.upenn.edu/articles/urs-giger-lifetime-achievement-award"
+    },
+    "Marcela (Marcy) Uhart": {
+      "contact_page": "https://iucn.org/our-union/commissions/group/iucn-ssc-wildlife-health-specialist-group"
+    },
+    "Tiggy Grillo": {
+      "contact_page": "https://iucn.org/our-union/commissions/group/iucn-ssc-wildlife-health-specialist-group"
+    },
+    "Tiana Andriamanana": {
+      "contact_page": "https://www.rewild.org/press/phoenix-species-project-launch"
+    }
+  }
+}
