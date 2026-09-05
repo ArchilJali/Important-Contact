@@ -1,19 +1,27 @@
 {
   "updated": "2026-09-05",
-  "rule": "Public professional contact routes only. Missing fields mean not yet verified.",
+  "rule": "Public professional contact routes only. Missing fields mean not yet verified. LinkedIn is added only after exact-name + current-employer + role/specialty identity matching against authoritative sources.",
   "people": {
     "Karen Humm": {
       "organisation": "Royal Veterinary College / Queen Mother Hospital for Animals",
+      "linkedin": "https://uk.linkedin.com/in/karen-humm-185b0013a",
       "email": "KHUMM@rvc.ac.uk",
-      "contact_page": "https://www.rvc.ac.uk/about/our-people/karen-humm"
+      "contact_page": "https://www.rvc.ac.uk/about/our-people/karen-humm",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Exact name and Royal Veterinary College employer matched on LinkedIn; RVC official profile and current RVC LinkedIn content confirm transfusion medicine, emergency and critical care specialty."
     },
     "Kate Hopper": {
       "organisation": "UC Davis School of Veterinary Medicine",
-      "contact_page": "https://www.vetmed.ucdavis.edu/faculty/kate-hopper"
+      "contact_page": "https://profiles.ucdavis.edu/kate.hopper",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Current UC Davis institutional profile confirms full name, professor role and Veterinary Medicine Teaching Hospital leadership. Direct personal LinkedIn URL not yet verified."
     },
     "Kira L. Epstein": {
       "organisation": "University of Georgia College of Veterinary Medicine",
-      "contact_page": "https://vet.uga.edu/person/kira_l-_epstein/"
+      "linkedin": "https://www.linkedin.com/in/kira-epstein-692490111",
+      "contact_page": "https://vet.uga.edu/person/kira_l-_epstein/",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Exact name and University of Georgia employer matched on LinkedIn; UGA official profile confirms Department Head of Large Animal Medicine and emergency/critical care specialty."
     },
     "Sharon Deem": {
       "organisation": "Saint Louis Zoo - Institute for Conservation Medicine",
@@ -22,11 +30,16 @@
     },
     "Cindy Cole": {
       "organisation": "Digitalis Ventures",
-      "contact_page": "https://www.digitalisventures.com/people/cindy-cole"
+      "contact_page": "https://www.digitalisventures.com/people/cindy-cole",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Digitalis Ventures official people page confirms Cindy Cole as Technical Partner and veterinary/pharmacology background. Direct personal LinkedIn URL not yet verified."
     },
     "Ben Jacobs": {
       "organisation": "Digitalis Ventures",
-      "contact_page": "https://www.digitalisventures.com/people/ben-jacobs"
+      "linkedin": "https://www.linkedin.com/in/bendjacobs",
+      "contact_page": "https://www.digitalisventures.com/people/ben-jacobs",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Exact name and Digitalis Ventures employer matched on LinkedIn; Digitalis Ventures official profile confirms Partner role and animal-health/pet-care investment activity."
     },
     "Leonardo DiCaprio": {
       "organisation": "Re:wild",
@@ -37,12 +50,16 @@
       "contact_page": "https://almanac.upenn.edu/articles/urs-giger-lifetime-achievement-award"
     },
     "Marcela (Marcy) Uhart": {
-      "organisation": "IUCN SSC Wildlife Health Specialist Group / UC Davis",
-      "contact_page": "https://iucn.org/our-union/commissions/group/iucn-ssc-wildlife-health-specialist-group"
+      "organisation": "UC Davis Karen C. Drayer Wildlife Health Center / IUCN SSC Wildlife Health Specialist Group",
+      "contact_page": "https://whc.vetmed.ucdavis.edu/people/marcela-uhart",
+      "verified_on": "2026-09-05",
+      "verification_basis": "UC Davis official current profile confirms Marcela Uhart as Director, Latin America Program, veterinarian and wildlife-health/conservation specialist. Direct personal LinkedIn URL not yet verified."
     },
     "Tiggy Grillo": {
-      "organisation": "IUCN SSC Wildlife Health Specialist Group / Wildlife Health Australia",
-      "contact_page": "https://iucn.org/our-union/commissions/group/iucn-ssc-wildlife-health-specialist-group"
+      "organisation": "Wildlife Health Australia / IUCN SSC Wildlife Health Specialist Group",
+      "contact_page": "https://wildlifehealthaustralia.com.au/About-Us/The-Team-Contact-Information",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Wildlife Health Australia and IUCN official pages agree on full name, COO/National Coordinator role and wildlife-health/One Health specialty. Direct personal LinkedIn URL not yet verified."
     },
     "Joan Weill": {
       "organisation": "Weill Family Foundation",
@@ -58,27 +75,43 @@
     },
     "Rimma Driscoll": {
       "organisation": "Zoetis",
-      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team"
+      "linkedin": "https://www.linkedin.com/in/rimma-driscoll",
+      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team/rimma-driscoll",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Exact name, Zoetis employer and executive strategy/business-development role matched between public LinkedIn profile and Zoetis official executive page."
     },
     "Kevin Esch": {
       "organisation": "Zoetis",
-      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team"
+      "linkedin": "https://www.linkedin.com/in/kevin-esch-a610653b",
+      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team/kevin-esch",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Exact name, Zoetis employer, veterinarian/R&D background and global R&D leadership matched between public LinkedIn profile and Zoetis official executive page."
     },
     "Tim Bettington": {
       "organisation": "Elanco Animal Health",
-      "contact_page": "https://www.elanco.com/us/leadership/executive-committee"
+      "contact_page": "https://www.elanco.com/us/leadership/executive-committee/tim-bettington",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Elanco official page confirms exact name, Executive Vice President Center of Strategic Growth role and animal-health strategy background. Direct personal LinkedIn URL not yet verified."
     },
     "Ellen de Brabander": {
       "organisation": "Elanco Animal Health",
-      "contact_page": "https://www.elanco.com/us/leadership/executive-committee"
+      "linkedin": "https://nl.linkedin.com/in/ellen-de-brabander-85840a10",
+      "contact_page": "https://www.elanco.com/us/leadership/executive-committee/ellen-de-brabander",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Exact name, Elanco employer and R&D/innovation role matched between Ellen de Brabander public LinkedIn activity/profile route and Elanco official executive page."
     },
     "Richard DeLuca": {
       "organisation": "Merck Animal Health",
-      "contact_page": "https://www.merck-animal-health.com/research-and-innovation/business-development/"
+      "contact_page": "https://www.merck-animal-health.com/research-and-innovation/business-development/",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Current Merck Animal Health public materials confirm Rick/Richard DeLuca as President. Direct personal LinkedIn URL not yet verified."
     },
     "Holger Lehmann": {
       "organisation": "Merck Animal Health",
-      "contact_page": "https://www.merck-animal-health.com/research-and-innovation/biopharma-research/"
+      "linkedin": "https://www.linkedin.com/in/holger-lehmann-2858b74",
+      "contact_page": "https://www.merck-animal-health.com/news-and-insights/featured-stories/our-drug-discovery-commitment-to-help-livestock-producers/",
+      "verified_on": "2026-09-05",
+      "verification_basis": "Exact name, Merck Animal Health context and pharmaceutical R&D specialty matched between public LinkedIn profile/activity and Merck Animal Health official authored/current-role materials."
     }
   },
   "organisations": {
@@ -97,6 +130,7 @@
     },
     "Digitalis Ventures": {
       "type": "investor",
+      "email": "info@digitalisventures.com",
       "official_page": "https://www.digitalisventures.com/"
     },
     "Dechra": {
