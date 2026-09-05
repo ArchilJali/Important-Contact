@@ -1,0 +1,27 @@
+{
+  "name": "Important Contact | Veterinary Intelligence",
+  "language": "en",
+  "execution_mode": "local",
+  "interval_hours": 72,
+  "max_runtime_seconds": 1500,
+  "request_timeout_seconds": 15,
+  "max_queries_per_run": 3,
+  "max_results_per_query": 12,
+  "max_authors_per_paper": 6,
+  "max_web_pages_per_run": 6,
+  "max_links_per_page": 12,
+  "history_start": "2006-09-05",
+  "recent_window_days": 30,
+  "lookback_bands": [["2021-01-01", "2026-09-05"], ["2016-01-01", "2020-12-31"], ["2011-01-01", "2015-12-31"], ["2006-09-05", "2010-12-31"]],
+  "outreach_authorized": false,
+  "queries": [
+    {"id": "transfusion", "query": "(dog OR cat OR equine OR veterinary) AND (\"hemoglobin-based oxygen carrier\" OR Oxyglobin OR \"blood transfusion\" OR \"oxygen delivery\")", "sections": ["veterinary-doctors-and-science"], "species": []},
+    {"id": "equine", "query": "(horse OR equine) AND (\"critical care\" OR shock OR transfusion OR \"oxygen transport\")", "sections": ["veterinary-doctors-and-science"], "species": ["horse"]},
+    {"id": "wildlife", "query": "(wildlife OR \"endangered species\") AND (veterinary OR \"wildlife health\" OR \"conservation medicine\")", "sections": ["wildlife", "veterinary-doctors-and-science"], "species": ["wildlife"]},
+    {"id": "zoo", "query": "(zoo OR \"zoological medicine\" OR \"nature reserve\") AND (veterinary OR \"animal health\" OR rescue)", "sections": ["zoos-and-nature-reserves", "wildlife", "veterinary-doctors-and-science"], "species": ["zoo_animals"]}
+  ],
+  "human_review_policy": "../../AGENTS.md",
+  "human_only_data_stores": ["carl_reviews", "suppression", "contact_history"],
+  "runtime_status": "not_installed",
+  "production_ingestion_status": "requires a dedicated restricted ingestion identity"
+}

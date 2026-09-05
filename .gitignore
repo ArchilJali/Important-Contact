@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+.local/
+.DS_Store
+
+PUBLISH-RESULT.json
+.tools/
+*.pem
+*.key

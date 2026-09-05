@@ -1,0 +1,9 @@
+{
+  "project_id": "bhoc-important-contact-private",
+  "repository": "ArchilJali/Important-Contact",
+  "primary_direction": "veterinary",
+  "visibility": "private",
+  "package_version": "2026.09.05-veterinary-publish",
+  "application_deployed": false,
+  "scheduler_active": false
+}
