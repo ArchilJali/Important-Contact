@@ -8,6 +8,21 @@
 <style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#f2f4ef}iframe{display:block;width:100%;height:100%;border:0}</style>
 </head>
 <body>
-<iframe src="site/Important-Contact.html" title="Important Contact internal workspace"></iframe>
+<iframe id="app" src="site/Important-Contact.html?v=20260905-4" title="Important Contact internal workspace"></iframe>
+<script>
+const app=document.getElementById('app');
+function syncCounters(){
+  try{
+    const w=app.contentWindow,d=app.contentDocument,rows=w.contacts||[];
+    if(!rows.length)return;
+    const authors=rows.filter(x=>x.isAuthor===true).length;
+    const investors=rows.filter(x=>/investor|venture investor|venture capital|investment|digitalis ventures/i.test(`${x.role||''} ${x.name||''}`)).length;
+    const active=typeof w.status==='function'?rows.filter(x=>w.status(x.id).active==='active').length:0;
+    const a=d.getElementById('authors'),i=d.getElementById('investors'),c=d.getElementById('active');
+    if(a)a.textContent=authors;if(i)i.textContent=investors;if(c)c.textContent=active;
+  }catch(e){}
+}
+app.addEventListener('load',()=>{syncCounters();setInterval(syncCounters,500)});
+</script>
 </body>
 </html>
