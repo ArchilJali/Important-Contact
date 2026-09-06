@@ -6,18 +6,21 @@
 <meta name="robots" content="noindex,nofollow,noarchive">
 <title>Important Contact | BHOC Internal Workspace</title>
 <link rel="stylesheet" href="contacts-v7.css?v=20260906-5">
-<style>.tag.warn{background:#f7e7e3;color:#8a3b2f}.tag.verified{background:#e4f1e8;color:#245a41}.warnText{color:#8a5a32}</style>
+<style>
+.tag.warn{background:#f7e7e3;color:#8a3b2f}.tag.verified{background:#e4f1e8;color:#245a41}.warnText{color:#8a5a32}
+.followCell{min-width:225px}.followGrid{display:grid;grid-template-columns:1fr 1fr;gap:5px}.followGrid label{font-size:8px;font-weight:800;color:#6a7d73;text-transform:uppercase;letter-spacing:.35px}.followGrid select{width:100%;height:29px;margin-top:2px;border:1px solid #ced8d1;border-radius:7px;background:#fff;color:#153a31;padding:0 5px;font-size:9px}.followHistory{margin-top:5px}.followHint{display:block;color:#86968e;font-size:8px;margin-top:3px;text-transform:none;letter-spacing:0}.target-filter{border-color:#cbb987!important;background:#fffcf5!important}
+</style>
 </head>
 <body>
 <header><div class="top">
 <div class="mark" aria-label="BHOC Initiative"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="32" cy="32" r="27" stroke="#B79C61" stroke-width="3"/><path d="M17 38c8-8 22-16 34-18-4 8-5 17-2 24-12 1-23-1-32-6Z" fill="#fff"/><circle cx="22" cy="22" r="4" fill="#75BE89"/></svg></div>
 <div class="brand"><b>Important Contact</b><small>BHOC Initiative · Multi-Direction Contact Intelligence</small></div>
 <nav class="section-nav" aria-label="Important Contact sections">
-<a class="nav-btn" href="../index.html?v=20260906-5">Home</a>
-<a class="nav-btn active" href="contacts-v7.html?v=20260906-6" aria-current="page">Veterinary</a>
+<a class="nav-btn" href="../index.html?v=20260906-7">Home</a>
+<a class="nav-btn active" href="contacts-v7.html?v=20260906-7" aria-current="page">Veterinary</a>
 <a class="nav-btn" href="wildlife-red-book.html?v=20260906-5">Wildlife / Red Book</a>
 </nav>
-<div class="stats"><div class="stat"><strong id="authors">0</strong><span>Authors</span></div><div class="stat"><strong id="iocvs">0</strong><span>IOCVS</span></div><div class="stat"><strong id="working">0</strong><span>We work</span></div></div>
+<div class="stats"><div class="stat"><strong id="authors">0</strong><span>Authors</span></div><div class="stat"><strong id="iocvs">0</strong><span>IOCVS</span></div><div class="stat"><strong id="working">0</strong><span>We work</span></div><div class="stat"><strong id="bothFollow">0</strong><span>Both follow</span></div></div>
 </div></header>
 <main>
 <section class="name-search">
@@ -27,6 +30,10 @@
 </section>
 <section class="filters">
 <label>Status<select id="fStatus"><option value="all">All contacts</option><option value="work">We work</option><option value="know">We know</option><option value="dontknow">We do not know</option><option value="unset">Not marked</option></select></label>
+<label>Target Group<select id="fTarget" class="target-filter"><option value="all">All target groups</option><option value="both">Follows BHOC + Archil</option><option value="archil_only">Follows Archil only</option><option value="bhoc_only">Follows BHOC only</option><option value="neither">Follows neither</option><option value="weknow_not_bhoc">We know + not following BHOC</option><option value="weknow_archil_not_bhoc">We know + follows Archil + not BHOC</option><option value="history_both">Previous BHOC link + follows both</option><option value="history_archil_only">Previous BHOC link + Archil only</option><option value="history_bhoc_only">Previous BHOC link + BHOC only</option><option value="history_neither">Previous BHOC link + follows neither</option><option value="unknown">Follower status incomplete / unknown</option></select><span class="filter-hint">Ready-made combinations for targeted work</span></label>
+<label>Follows Archil<select id="fFollowArchil"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option><option value="unknown">Unknown</option></select></label>
+<label>Follows BHOC<select id="fFollowBHOC"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option><option value="unknown">Unknown</option></select></label>
+<label>Previous BHOC relation<select id="fPriorBHOC"><option value="all">All</option><option value="yes">Yes - Oxyglobin/HBOC/BHOC link</option><option value="no">No known prior link</option></select></label>
 <label>Category<select id="fCategory"><option value="all">All categories</option><option value="grant_program">Grant Program</option><option value="author">Author</option><option value="veterinary">Veterinary</option><option value="wildlife">Wildlife</option><option value="zoo">Zoo</option><option value="science">Institute / Science</option><option value="company">Company</option><option value="investor">Investor</option><option value="philanthropy">Philanthropy</option><option value="organisation">Organisation</option></select></label>
 <label>Direction<select id="fDirection"><option value="all">All directions</option></select></label>
 <label>Contact route<select id="fRoute"><option value="all">All</option><option value="any">Has any contact</option><option value="linkedin">Has LinkedIn</option><option value="email">Has Email</option><option value="phone">Has Phone</option><option value="profile">Has Profile page</option><option value="orcid">Has ORCID</option></select></label>
@@ -38,11 +45,11 @@
 <label>Evidence<select id="fEvidence"><option value="all">All evidence</option><option value="core">Oxyglobin / HBOC focused</option><option value="strategic">Strategic contacts</option><option value="publication">Publication-linked</option><option value="iocvs">IOCVS 2026</option></select></label>
 </section>
 <div class="meta"><span id="count">Loading contacts…</span><button id="reset">Reset filters</button></div>
-<div class="wrap"><table><thead><tr><th>Contact</th><th>Status</th><th>Institution / Company</th><th>Country</th><th>Directions</th><th>Animal / Species</th><th>Contact details</th><th>Latest publication</th><th>Source</th></tr></thead><tbody id="rows"></tbody></table></div>
-<p class="note">A contact may appear under several directions and species groups. “Latest” is independently verified for curated contacts. For uncurated publication authors the table explicitly says “Latest in BHOC library”. Historical/current-unresolved records are not silently treated as current.</p>
+<div class="wrap"><table><thead><tr><th>Contact</th><th>Status</th><th>LinkedIn signals</th><th>Institution / Company</th><th>Country</th><th>Directions</th><th>Animal / Species</th><th>Contact details</th><th>Latest publication</th><th>Source</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p class="note">Follows Archil / Follows BHOC are private working signals stored only in this browser. Mark Yes only after direct LinkedIn confirmation. Previous BHOC relation is derived from verified Oxyglobin / HBOC / BHOC evidence already linked to the contact.</p>
 </main>
 <script src="contacts-v7-core.js?v=20260906-4"></script>
 <script src="contacts-v7-data.js?v=20260906-4"></script>
-<script src="contacts-v7-ui.js?v=20260906-6"></script>
+<script src="contacts-v7-ui.js?v=20260906-7"></script>
 </body>
 </html>
