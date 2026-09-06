@@ -829,6 +829,37 @@
         "large_animal"
       ],
       "publication_status": "not_applicable_role"
+    },
+    "Shahinaz El Jaafary": {
+      "record_status": "verified_current",
+      "organisation": "Gozl Veterinary UAE",
+      "city": "Dammam",
+      "country": [
+        "SA"
+      ],
+      "directions": [
+        "Veterinary",
+        "Animal Health",
+        "Veterinary Pharmaceuticals",
+        "Technical Sales",
+        "Commercial / Market Access",
+        "Equine",
+        "Large Animal",
+        "Small Animal",
+        "Poultry"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "horse",
+        "cattle",
+        "sheep",
+        "poultry",
+        "camel"
+      ],
+      "linkedin": "https://www.linkedin.com/in/shahinaz-el-jaafary-b17883110/",
+      "contact_page": "https://gozlvet.com/",
+      "publication_status": "not_applicable_role"
     }
   }
 }
