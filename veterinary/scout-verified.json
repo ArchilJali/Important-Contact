@@ -43,6 +43,24 @@
       "contact_page": "https://mwiah-prod-cd.cmsmartech.com/our-leadership",
       "verified_on": "2026-09-06",
       "verification_basis": "MWI Animal Health's current leadership page identifies Julia Loew as Chief Commercial Officer. The AHNTI Europe 2026 speaker roster independently lists the same current title, and current MWI materials document her role in commercialization, partnerships and veterinary innovation. A direct personal LinkedIn URL was not independently verified and is not stored."
+    },
+    "Laurent Thoré": {
+      "organisation": "Vetoquinol Global",
+      "role": "Director, Partnerships, Legal Affairs and Risks",
+      "focus": "Strategic partnerships, legal affairs, risk and corporate development in animal health",
+      "linkedin": "https://fr.linkedin.com/in/laurent-thore-6774a228",
+      "contact_page": "https://www.vetoquinol.com/en/vetoquinols-management-organisation",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Vetoquinol's current 2026 management page identifies Laurent Thoré as Director, Partnerships, Legal Affairs and Risks. His public LinkedIn exactly matches Laurent Thoré at Vetoquinol Global in the Lure/Mulhouse area."
+    },
+    "Philippe Gruet": {
+      "organisation": "Vetoquinol Global",
+      "role": "Chief Scientific Officer (CSO)",
+      "focus": "Animal-health R&D, scientific strategy, veterinary pharmacology and product development",
+      "linkedin": "https://fr.linkedin.com/in/philippe-gruet-5957b6b",
+      "contact_page": "https://www.vetoquinol.com/en/vetoquinols-management-organisation",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Vetoquinol's current 2026 management page identifies Philippe Gruet as Chief Scientific Officer. His public LinkedIn exactly matches Vetoquinol Global and describes a long animal-health R&D executive career."
     }
   },
   "organisations": {}
