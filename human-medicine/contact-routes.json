@@ -321,6 +321,56 @@
         "follows_bhoc": "yes"
       },
       "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Dr.Abdulmunem ANANZEH": {
+      "organisation": "Advanced Biopharmaceuticals Industries",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "workplace": "CEO; clinical scientist and pharmaceutical consultant; PharmD focus in clinical pharmacy and pharmaceutical industries",
+      "directions": [
+        "Human Medicine",
+        "CEO / Management",
+        "Pharma / Biotech",
+        "Healthcare Operations",
+        "Medical Devices",
+        "Clinical Pharmacy"
+      ],
+      "linkedin": "https://www.linkedin.com/in/dr-abdulmunem-ananzeh-69528826/",
+      "contact_page": "https://www.linkedin.com/in/dr-abdulmunem-ananzeh-69528826/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact LinkedIn profile identifies Dr.Abdulmunem ANANZEH as CEO of Advanced Biopharmaceuticals Industries and describes clinical-scientist, pharmaceutical-consultant, clinical-pharmacy and pharmaceutical-industry experience. Profile location is Riyadh, Saudi Arabia; the headline also mentions Al-Madinah, so Riyadh is recorded as the current profile location.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Dr.Sumyea Kabir": {
+      "organisation": "Z.H. Sikder Women’s Medical College & Hospital",
+      "country": "Bangladesh",
+      "city": "Dhaka",
+      "workplace": "Assistant Professor and Head of Transfusion Medicine; transfusion medicine, apheresis, stem-cell/cellular therapy and transplant interests",
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Transfusion Medicine",
+        "Apheresis",
+        "Stem Cell / Cellular Therapy",
+        "Transplantation"
+      ],
+      "linkedin": "https://www.linkedin.com/in/tinzz/",
+      "contact_page": "https://www.zhswmc.edu.bd/Departments/transfusion_medicine.html",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact LinkedIn profile identifies Dr.Sumyea Kabir in Dhaka as Assistant Professor in Transfusion Medicine and says she is Head of Department at ZHSWMCH Dhaka, with transfusion, stem-cell, apheresis and bone-marrow-transplant interests. The official Z.H. Sikder department page confirms Syeda Sumyea Kabir as Assistant Professor in Transfusion Medicine and publishes the institutional email route.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
     }
   },
   "organisations": {}
