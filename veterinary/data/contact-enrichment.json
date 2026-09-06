@@ -28,242 +28,731 @@
   "people": {
     "Karen Humm": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Small Animal", "Emergency / Critical Care", "Hematology / Transfusion", "Blood Banking", "Research"],
-      "species": ["dog", "cat", "companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Small Animal",
+        "Emergency / Critical Care",
+        "Hematology / Transfusion",
+        "Blood Banking",
+        "Research"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
       "orcid": "https://orcid.org/0000-0002-5770-7950",
-      "latest_publication": {"date":"2026-02-18","title":"Retrospective evaluation of dogs presenting with hemothorax","url":"https://doi.org/10.1093/jvimsj/aalag018","type":"peer-reviewed journal article"},
+      "latest_publication": {
+        "date": "2026-02-18",
+        "title": "Retrospective evaluation of dogs presenting with hemothorax",
+        "url": "https://doi.org/10.1093/jvimsj/aalag018",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_global_latest"
     },
     "Kate Hopper": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Small Animal", "Emergency / Critical Care", "Perfusion / Lactate", "Acid-Base", "Research"],
-      "species": ["dog", "cat", "companion_animals"],
-      "latest_publication": {"date":"2026-08-14","title":"Retrospective Evaluation of Acid–Base Disorders in Dogs With Hyperlactatemia Using Traditional and Semiquantitative Analysis: 3866 Cases","url":"https://doi.org/10.1111/vec.70148","type":"peer-reviewed journal article"},
+      "directions": [
+        "Veterinary",
+        "Small Animal",
+        "Emergency / Critical Care",
+        "Perfusion / Lactate",
+        "Acid-Base",
+        "Research"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
+      "latest_publication": {
+        "date": "2026-08-14",
+        "title": "Retrospective Evaluation of Acid–Base Disorders in Dogs With Hyperlactatemia Using Traditional and Semiquantitative Analysis: 3866 Cases",
+        "url": "https://doi.org/10.1111/vec.70148",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_global_latest"
     },
     "Kira L. Epstein": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Equine", "Large Animal", "Emergency / Critical Care", "Coagulation", "Surgery", "Research"],
-      "species": ["horse", "large_animal"],
-      "latest_publication": {"date":"2025-08-10","title":"Retrospective Evaluation of Synchronous Diaphragmatic Flutter in Horses: 37 Cases (2004-2022)","url":"https://doi.org/10.1111/vec.70009","type":"peer-reviewed journal article"},
+      "directions": [
+        "Veterinary",
+        "Equine",
+        "Large Animal",
+        "Emergency / Critical Care",
+        "Coagulation",
+        "Surgery",
+        "Research"
+      ],
+      "species": [
+        "horse",
+        "large_animal"
+      ],
+      "latest_publication": {
+        "date": "2025-08-10",
+        "title": "Retrospective Evaluation of Synchronous Diaphragmatic Flutter in Horses: 37 Cases (2004-2022)",
+        "url": "https://doi.org/10.1111/vec.70009",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_latest_found"
     },
     "Sharon Deem": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Zoo", "Wildlife", "Red Book", "Conservation Medicine", "One Health", "Endangered Species", "Research"],
-      "species": ["wildlife", "zoo_animals", "elephant", "turtle", "jaguar", "birds"],
+      "directions": [
+        "Veterinary",
+        "Zoo",
+        "Wildlife",
+        "Red Book",
+        "Conservation Medicine",
+        "One Health",
+        "Endangered Species",
+        "Research"
+      ],
+      "species": [
+        "wildlife",
+        "zoo_animals",
+        "elephant",
+        "turtle",
+        "jaguar",
+        "birds"
+      ],
       "email": "deem@stlzoo.org",
       "contact_page": "https://stlzoo.org/conservation/saint-louis-zoo-institute-for-conservation-medicine/institute-for-conservation-medicine-staff-bios/sharon-deem",
-      "latest_publication": {"date":"2026","title":"A decade of tracking reveals strong nest site fidelity in four Galapagos giant tortoise species","url":"https://doi.org/10.1002/oik.12326","type":"peer-reviewed journal article"},
+      "latest_publication": {
+        "date": "2026",
+        "title": "A decade of tracking reveals strong nest site fidelity in four Galapagos giant tortoise species",
+        "url": "https://doi.org/10.1002/oik.12326",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_latest_found"
     },
     "Cindy Cole": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Animal Health", "Investment", "Venture Capital", "Pharmacology", "Strategy"],
-      "species": ["dog", "cat", "horse", "companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Animal Health",
+        "Investment",
+        "Venture Capital",
+        "Pharmacology",
+        "Strategy"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "horse",
+        "companion_animals"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Ben Jacobs": {
       "record_status": "verified_current",
-      "directions": ["Animal Health", "Companion Animal", "Investment", "Venture Capital", "Strategy"],
-      "species": ["dog", "cat", "companion_animals"],
+      "directions": [
+        "Animal Health",
+        "Companion Animal",
+        "Investment",
+        "Venture Capital",
+        "Strategy"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Leonardo DiCaprio": {
       "record_status": "verified_current",
-      "directions": ["Wildlife", "Red Book", "Conservation", "Philanthropy", "Endangered Species"],
-      "species": ["wildlife", "endangered_species"],
+      "directions": [
+        "Wildlife",
+        "Red Book",
+        "Conservation",
+        "Philanthropy",
+        "Endangered Species"
+      ],
+      "species": [
+        "wildlife",
+        "endangered_species"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Urs Giger": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Small Animal", "Hematology / Transfusion", "Genetics", "Research"],
-      "species": ["dog", "cat", "companion_animals"],
-      "latest_publication": {"date":"2026-01-22","title":"Cystinuria in an Australian Cattle Dog Family—A Seemingly Androgen-Associated Autosomal Dominant Trait","url":"https://doi.org/10.3390/vetsci13010111","type":"peer-reviewed journal article"},
+      "directions": [
+        "Veterinary",
+        "Small Animal",
+        "Hematology / Transfusion",
+        "Genetics",
+        "Research"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
+      "latest_publication": {
+        "date": "2026-01-22",
+        "title": "Cystinuria in an Australian Cattle Dog Family—A Seemingly Androgen-Associated Autosomal Dominant Trait",
+        "url": "https://doi.org/10.3390/vetsci13010111",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_latest_found"
     },
     "Marcela (Marcy) Uhart": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Wildlife", "Red Book", "Marine Mammals", "Bird", "Conservation Medicine", "One Health", "Disease Surveillance", "Research"],
-      "species": ["wildlife", "whale", "marine_mammals", "penguin", "albatross", "petrel", "seabirds"],
+      "directions": [
+        "Veterinary",
+        "Wildlife",
+        "Red Book",
+        "Marine Mammals",
+        "Bird",
+        "Conservation Medicine",
+        "One Health",
+        "Disease Surveillance",
+        "Research"
+      ],
+      "species": [
+        "wildlife",
+        "whale",
+        "marine_mammals",
+        "penguin",
+        "albatross",
+        "petrel",
+        "seabirds"
+      ],
       "email": "muhart@ucdavis.edu",
       "phone": "+54 9280 4696332",
-      "latest_publication": {"date":"2026-08-11","title":"Early-life exposure to plastics is associated with health parameters and biomarkers in southern giant petrels","url":"https://doi.org/10.1016/j.ecoenv.2026.120628","type":"peer-reviewed journal article"},
+      "latest_publication": {
+        "date": "2026-08-11",
+        "title": "Early-life exposure to plastics is associated with health parameters and biomarkers in southern giant petrels",
+        "url": "https://doi.org/10.1016/j.ecoenv.2026.120628",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_global_latest"
     },
     "Tiggy Grillo": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Wildlife", "Red Book", "One Health", "Disease Surveillance", "Conservation Medicine", "Policy", "Research"],
-      "species": ["wildlife"],
-      "latest_publication": {"date":"2025-02-20","title":"Guidelines for addressing disease risks in wildlife trade","url":"https://doi.org/10.1016/j.onehlt.2025.100998","type":"peer-reviewed journal article"},
+      "directions": [
+        "Veterinary",
+        "Wildlife",
+        "Red Book",
+        "One Health",
+        "Disease Surveillance",
+        "Conservation Medicine",
+        "Policy",
+        "Research"
+      ],
+      "species": [
+        "wildlife"
+      ],
+      "latest_publication": {
+        "date": "2025-02-20",
+        "title": "Guidelines for addressing disease risks in wildlife trade",
+        "url": "https://doi.org/10.1016/j.onehlt.2025.100998",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_latest_found"
     },
     "Joan Weill": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Companion Animal", "Philanthropy", "Academic Veterinary Medicine"],
-      "species": ["companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Companion Animal",
+        "Philanthropy",
+        "Academic Veterinary Medicine"
+      ],
+      "species": [
+        "companion_animals"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Sanford I. Weill": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Companion Animal", "Philanthropy", "Academic Veterinary Medicine"],
-      "species": ["companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Companion Animal",
+        "Philanthropy",
+        "Academic Veterinary Medicine"
+      ],
+      "species": [
+        "companion_animals"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Tiana Andriamanana": {
       "record_status": "verified_current",
-      "directions": ["Wildlife", "Red Book", "Conservation", "Biodiversity", "Endangered Species", "Field Conservation"],
-      "species": ["wildlife", "endangered_species", "golden_crowned_sifaka"],
+      "directions": [
+        "Wildlife",
+        "Red Book",
+        "Conservation",
+        "Biodiversity",
+        "Endangered Species",
+        "Field Conservation"
+      ],
+      "species": [
+        "wildlife",
+        "endangered_species",
+        "golden_crowned_sifaka"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Rimma Driscoll": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Animal Health", "Business Development", "Strategy", "Portfolio", "Executive"],
-      "species": ["dog", "cat", "horse", "livestock", "companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Animal Health",
+        "Business Development",
+        "Strategy",
+        "Portfolio",
+        "Executive"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "horse",
+        "livestock",
+        "companion_animals"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Kevin Esch": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Animal Health", "R&D", "Pharmaceuticals", "Innovation", "Executive"],
-      "species": ["dog", "cat", "horse", "livestock", "companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Animal Health",
+        "R&D",
+        "Pharmaceuticals",
+        "Innovation",
+        "Executive"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "horse",
+        "livestock",
+        "companion_animals"
+      ],
       "publication_status": "not_applicable_current_executive_role"
     },
     "Tim Bettington": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Animal Health", "Strategy", "Growth", "Business Development", "Executive"],
-      "species": ["dog", "cat", "horse", "livestock", "companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Animal Health",
+        "Strategy",
+        "Growth",
+        "Business Development",
+        "Executive"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "horse",
+        "livestock",
+        "companion_animals"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Ellen de Brabander": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Animal Health", "R&D", "Regulatory", "Innovation", "Executive"],
-      "species": ["dog", "cat", "horse", "livestock", "companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Animal Health",
+        "R&D",
+        "Regulatory",
+        "Innovation",
+        "Executive"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "horse",
+        "livestock",
+        "companion_animals"
+      ],
       "publication_status": "not_applicable_current_executive_role"
     },
     "Richard DeLuca": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Animal Health", "Executive", "Strategy", "Business Development"],
-      "species": ["dog", "cat", "horse", "livestock", "poultry"],
+      "directions": [
+        "Veterinary",
+        "Animal Health",
+        "Executive",
+        "Strategy",
+        "Business Development"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "horse",
+        "livestock",
+        "poultry"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Holger Lehmann": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Animal Health", "R&D", "Pharmaceuticals", "Drug Discovery", "Research"],
-      "species": ["dog", "cat", "livestock"],
+      "directions": [
+        "Veterinary",
+        "Animal Health",
+        "R&D",
+        "Pharmaceuticals",
+        "Drug Discovery",
+        "Research"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "livestock"
+      ],
       "publication_status": "current_latest_not_independently_verified"
     },
     "Bernd Driessen": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Equine", "Large Animal", "Anesthesia", "Emergency / Critical Care", "Hemorrhagic Shock", "Oxygen Delivery", "HBOC / Oxyglobin", "Research"],
-      "species": ["horse", "dog", "large_animal"],
+      "directions": [
+        "Veterinary",
+        "Equine",
+        "Large Animal",
+        "Anesthesia",
+        "Emergency / Critical Care",
+        "Hemorrhagic Shock",
+        "Oxygen Delivery",
+        "HBOC / Oxyglobin",
+        "Research"
+      ],
+      "species": [
+        "horse",
+        "dog",
+        "large_animal"
+      ],
       "orcid": "https://orcid.org/0000-0001-5522-6072",
-      "latest_publication": {"date":"2026-04-19","title":"Trendelenburg positioning with or without norepinephrine infusion for haemodynamic support in anaesthetised hypovolemic horses","url":"https://doi.org/10.1002/evj.70169","type":"peer-reviewed journal article"},
+      "latest_publication": {
+        "date": "2026-04-19",
+        "title": "Trendelenburg positioning with or without norepinephrine infusion for haemodynamic support in anaesthetised hypovolemic horses",
+        "url": "https://doi.org/10.1002/evj.70169",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_global_latest"
     },
     "Amanda Boag": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Small Animal", "Emergency / Critical Care", "Hematology / Transfusion", "HBOC / Oxyglobin", "Clinical Leadership", "Research"],
-      "species": ["dog", "cat", "companion_animals"],
-      "latest_publication": {"date":"2026-02-14","title":"Spontaneous disease in animals model for human conditions","url":"https://doi.org/10.1002/vetr.70423","type":"peer-reviewed journal letter"},
-      "latest_research_publication": {"date":"2026-01-16","title":"Canine chronic idiopathic rhinitis: management and outcome – a single-centre retrospective observational study","url":"https://doi.org/10.1111/jsap.70086","type":"peer-reviewed research article"},
+      "directions": [
+        "Veterinary",
+        "Small Animal",
+        "Emergency / Critical Care",
+        "Hematology / Transfusion",
+        "HBOC / Oxyglobin",
+        "Clinical Leadership",
+        "Research"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
+      "latest_publication": {
+        "date": "2026-02-14",
+        "title": "Spontaneous disease in animals model for human conditions",
+        "url": "https://doi.org/10.1002/vetr.70423",
+        "type": "peer-reviewed journal letter"
+      },
+      "latest_research_publication": {
+        "date": "2026-01-16",
+        "title": "Canine chronic idiopathic rhinitis: management and outcome – a single-centre retrospective observational study",
+        "url": "https://doi.org/10.1111/jsap.70086",
+        "type": "peer-reviewed research article"
+      },
       "publication_status": "verified_latest_found"
     },
     "Sophie Adamantos": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Small Animal", "Emergency / Critical Care", "Hematology / Transfusion", "Blood Banking", "HBOC / Oxyglobin", "Research"],
-      "species": ["dog", "cat", "companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Small Animal",
+        "Emergency / Critical Care",
+        "Hematology / Transfusion",
+        "Blood Banking",
+        "HBOC / Oxyglobin",
+        "Research"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
       "orcid": "https://orcid.org/0000-0002-9494-7793",
-      "latest_publication": {"date":"2026-06-23","title":"Feline blood transfusions","url":"https://doi.org/10.12968/coan.2024.0006","type":"peer-reviewed clinical review"},
+      "latest_publication": {
+        "date": "2026-06-23",
+        "title": "Feline blood transfusions",
+        "url": "https://doi.org/10.12968/coan.2024.0006",
+        "type": "peer-reviewed clinical review"
+      },
       "publication_status": "verified_global_latest"
     },
     "Marie E. Kerl": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Small Animal", "Emergency / Critical Care", "Hematology / Transfusion", "HBOC / Oxyglobin", "Clinical Operations", "Research"],
-      "species": ["dog", "cat", "companion_animals"],
-      "latest_publication": {"date":"2026-06-04","title":"Use of gastric residual volume measured by nasogastric feeding tubes for management of dogs and cats after gastrointestinal foreign body surgery: a retrospective study","url":"https://doi.org/10.3389/fvets.2026.1791629","type":"peer-reviewed journal article"},
+      "directions": [
+        "Veterinary",
+        "Small Animal",
+        "Emergency / Critical Care",
+        "Hematology / Transfusion",
+        "HBOC / Oxyglobin",
+        "Clinical Operations",
+        "Research"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
+      "latest_publication": {
+        "date": "2026-06-04",
+        "title": "Use of gastric residual volume measured by nasogastric feeding tubes for management of dogs and cats after gastrointestinal foreign body surgery: a retrospective study",
+        "url": "https://doi.org/10.3389/fvets.2026.1791629",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_global_latest"
     },
     "Anthony B. Zambelli": {
       "record_status": "historical_current_unresolved",
-      "directions": ["Veterinary", "Small Animal", "Internal Medicine", "Oncology", "Hematology / Transfusion", "Babesiosis", "HBOC / Oxyglobin", "Research"],
-      "species": ["dog", "cat", "companion_animals"],
-      "latest_verified_matched_publication": {"date":"2013-12-03","title":"Hypercalcaemic multicentric lymphoma in a dog presenting as clitoromegaly","url":"https://doi.org/10.4102/jsava.v84i1.1004","type":"peer-reviewed article"},
+      "directions": [
+        "Veterinary",
+        "Small Animal",
+        "Internal Medicine",
+        "Oncology",
+        "Hematology / Transfusion",
+        "Babesiosis",
+        "HBOC / Oxyglobin",
+        "Research"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
+      "latest_verified_matched_publication": {
+        "date": "2013-12-03",
+        "title": "Hypercalcaemic multicentric lymphoma in a dog presenting as clitoromegaly",
+        "url": "https://doi.org/10.4102/jsava.v84i1.1004",
+        "type": "peer-reviewed article"
+      },
       "publication_status": "latest_current_unresolved_identity_historical"
     },
     "Andrew L. Leisewitz": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Small Animal", "Internal Medicine", "Infectious Disease", "Hematology / Transfusion", "Babesiosis", "HBOC / Oxyglobin", "Research"],
-      "species": ["dog", "companion_animals"],
-      "latest_publication": {"date":"2026-03-12","title":"Thromboinflammation in dogs with virulent babesiosis","url":"https://doi.org/10.3389/fvets.2026.1712262","type":"peer-reviewed journal article"},
+      "directions": [
+        "Veterinary",
+        "Small Animal",
+        "Internal Medicine",
+        "Infectious Disease",
+        "Hematology / Transfusion",
+        "Babesiosis",
+        "HBOC / Oxyglobin",
+        "Research"
+      ],
+      "species": [
+        "dog",
+        "companion_animals"
+      ],
+      "latest_publication": {
+        "date": "2026-03-12",
+        "title": "Thromboinflammation in dogs with virulent babesiosis",
+        "url": "https://doi.org/10.3389/fvets.2026.1712262",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_global_latest"
     },
     "Dennis T. Crowe Jr.": {
       "record_status": "historical_current_unresolved",
-      "directions": ["Veterinary", "Small Animal", "Surgery", "Emergency / Critical Care", "Trauma", "Oxygen Delivery", "HBOC / Oxyglobin"],
-      "species": ["dog", "cat", "companion_animals"],
+      "directions": [
+        "Veterinary",
+        "Small Animal",
+        "Surgery",
+        "Emergency / Critical Care",
+        "Trauma",
+        "Oxygen Delivery",
+        "HBOC / Oxyglobin"
+      ],
+      "species": [
+        "dog",
+        "cat",
+        "companion_animals"
+      ],
       "publication_status": "current_latest_unresolved"
     },
     "Barry Scott": {
       "record_status": "historical_current_unresolved",
-      "directions": ["Animal Health", "Business Development", "Commercial", "Historical Oxyglobin / Biopure"],
-      "species": ["dog"],
+      "directions": [
+        "Animal Health",
+        "Business Development",
+        "Commercial",
+        "Historical Oxyglobin / Biopure"
+      ],
+      "species": [
+        "dog"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Tiana Gorham": {
       "record_status": "historical_current_unresolved",
-      "directions": ["Animal Health", "Investor Relations", "Corporate Communications", "Historical Oxyglobin / Biopure"],
-      "species": ["dog"],
+      "directions": [
+        "Animal Health",
+        "Investor Relations",
+        "Corporate Communications",
+        "Historical Oxyglobin / Biopure"
+      ],
+      "species": [
+        "dog"
+      ],
       "publication_status": "not_applicable_role"
     },
     "Jonathan S. Jahr": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Anesthesiology", "HBOC / Oxyglobin", "Oxygen Delivery", "Hemorrhagic Shock", "Transfusion", "Research"],
-      "species": ["human", "dog"],
+      "directions": [
+        "Human Medicine",
+        "Anesthesiology",
+        "HBOC / Oxyglobin",
+        "Oxygen Delivery",
+        "Hemorrhagic Shock",
+        "Transfusion",
+        "Research"
+      ],
+      "species": [
+        "human",
+        "dog"
+      ],
       "email": "j.s.jahr@ucla.edu",
-      "latest_publication": {"date":"2025-01-02","title":"Hemoglobin-based oxygen carriers: Biochemical, biophysical differences, and safety","url":"https://doi.org/10.1111/trf.18116","type":"peer-reviewed journal article"},
+      "latest_publication": {
+        "date": "2025-01-02",
+        "title": "Hemoglobin-based oxygen carriers: Biochemical, biophysical differences, and safety",
+        "url": "https://doi.org/10.1111/trf.18116",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_latest_found"
     },
     "Fedor Lurie": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Vascular Medicine", "Hemodynamics", "Historical HBOC / Oxyglobin", "Research"],
-      "species": ["human", "dog"],
+      "directions": [
+        "Human Medicine",
+        "Vascular Medicine",
+        "Hemodynamics",
+        "Historical HBOC / Oxyglobin",
+        "Research"
+      ],
+      "species": [
+        "human",
+        "dog"
+      ],
       "email": "fedor.lurie@promedica.org",
       "orcid": "https://orcid.org/0000-0003-0644-0560",
-      "latest_publication": {"date":"2026-02-16","title":"Quantitative Doppler ultrasound criteria for identifying central venous hypertension in patients with chronic venous disease","url":"https://doi.org/10.1177/1358863X251409764","type":"peer-reviewed journal article"},
+      "latest_publication": {
+        "date": "2026-02-16",
+        "title": "Quantitative Doppler ultrasound criteria for identifying central venous hypertension in patients with chronic venous disease",
+        "url": "https://doi.org/10.1177/1358863X251409764",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_global_latest"
     },
     "Mohammad S. Golkaryeh": {
       "record_status": "historical_current_unresolved",
-      "directions": ["Veterinary Research", "Hemorrhagic Shock", "Historical HBOC / Oxyglobin"],
-      "species": ["dog"],
+      "directions": [
+        "Veterinary Research",
+        "Hemorrhagic Shock",
+        "Historical HBOC / Oxyglobin"
+      ],
+      "species": [
+        "dog"
+      ],
       "publication_status": "current_latest_unresolved",
-      "relevant_publication": {"date":"2003","title":"Historical Oxyglobin / Hb-200 canine hypovolemic-shock dose-response research","url":"https://pubmed.ncbi.nlm.nih.gov/12794419/"}
+      "relevant_publication": {
+        "date": "2003",
+        "title": "Historical Oxyglobin / Hb-200 canine hypovolemic-shock dose-response research",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12794419/"
+      }
     },
     "Robert A. Gunther": {
       "record_status": "verified_current_emeritus",
-      "directions": ["Human Medicine", "Surgery", "Emergency / Critical Care", "Hemorrhagic Shock", "Resuscitation", "Historical HBOC / Oxyglobin", "Research"],
-      "species": ["human", "dog"],
-      "latest_publication": {"date":"2024-12-17","title":"Decreases in hemoglobin and hematocrit may signal degree of hemorrhagic shock: retrospective evaluation in a dog model","url":"https://doi.org/10.2460/ajvr.24.08.0217","type":"peer-reviewed journal article; print 2025-02-01"},
+      "directions": [
+        "Human Medicine",
+        "Surgery",
+        "Emergency / Critical Care",
+        "Hemorrhagic Shock",
+        "Resuscitation",
+        "Historical HBOC / Oxyglobin",
+        "Research"
+      ],
+      "species": [
+        "human",
+        "dog"
+      ],
+      "latest_publication": {
+        "date": "2024-12-17",
+        "title": "Decreases in hemoglobin and hematocrit may signal degree of hemorrhagic shock: retrospective evaluation in a dog model",
+        "url": "https://doi.org/10.2460/ajvr.24.08.0217",
+        "type": "peer-reviewed journal article; print 2025-02-01"
+      },
       "publication_status": "verified_latest_found"
     },
     "Razan Al Mubarak": {
       "record_status": "verified_current",
-      "directions": ["Wildlife", "Red Book", "Conservation Leadership", "IUCN", "Species Conservation", "Philanthropy / Funding", "Ocean Policy"],
-      "species": ["wildlife", "endangered_species"],
+      "directions": [
+        "Wildlife",
+        "Red Book",
+        "Conservation Leadership",
+        "IUCN",
+        "Species Conservation",
+        "Philanthropy / Funding",
+        "Ocean Policy"
+      ],
+      "species": [
+        "wildlife",
+        "endangered_species"
+      ],
       "linkedin": "https://ae.linkedin.com/in/razanalmubarak",
       "publication_status": "not_applicable_role"
     },
     "Wes Sechrest": {
       "record_status": "verified_current",
-      "directions": ["Wildlife", "Red Book", "Conservation Science", "Biodiversity", "Endangered Species", "Research", "Leadership"],
-      "species": ["wildlife", "endangered_species"],
-      "latest_publication": {"date":"2026-02-19","title":"Extent, characteristics and policy applications of Key Biodiversity Areas","url":"https://doi.org/10.1002/brv.70144","type":"peer-reviewed review article"},
+      "directions": [
+        "Wildlife",
+        "Red Book",
+        "Conservation Science",
+        "Biodiversity",
+        "Endangered Species",
+        "Research",
+        "Leadership"
+      ],
+      "species": [
+        "wildlife",
+        "endangered_species"
+      ],
+      "latest_publication": {
+        "date": "2026-02-19",
+        "title": "Extent, characteristics and policy applications of Key Biodiversity Areas",
+        "url": "https://doi.org/10.1002/brv.70144",
+        "type": "peer-reviewed review article"
+      },
       "publication_status": "verified_global_latest"
     },
     "Andrew Greenwood": {
       "record_status": "verified_current",
-      "directions": ["Veterinary", "Zoo", "Wildlife", "Red Book", "Exotic Animals", "Bird", "Marine Mammals", "Conservation Medicine", "Endangered Species"],
-      "species": ["wildlife", "zoo_animals", "birds", "marine_mammals", "endangered_species"],
+      "directions": [
+        "Veterinary",
+        "Zoo",
+        "Wildlife",
+        "Red Book",
+        "Exotic Animals",
+        "Bird",
+        "Marine Mammals",
+        "Conservation Medicine",
+        "Endangered Species"
+      ],
+      "species": [
+        "wildlife",
+        "zoo_animals",
+        "birds",
+        "marine_mammals",
+        "endangered_species"
+      ],
       "email": "info@wildlifevetsinternational.org",
       "phone": "+44 7508 801099",
       "contact_page": "https://www.wildlifevetsinternational.org/about/our-vets",
@@ -272,55 +761,114 @@
     "Tea Barbakadze": {
       "record_status": "verified_current",
       "role_override": "Country Director Georgia, Caucasus Nature Fund",
-      "directions": ["Wildlife", "Red Book", "Conservation Funding", "Protected Areas", "Caucasus", "Georgia", "Biodiversity"],
-      "species": ["wildlife", "endangered_species"],
+      "directions": [
+        "Wildlife",
+        "Red Book",
+        "Conservation Funding",
+        "Protected Areas",
+        "Caucasus",
+        "Georgia",
+        "Biodiversity"
+      ],
+      "species": [
+        "wildlife",
+        "endangered_species"
+      ],
       "linkedin": "https://ge.linkedin.com/in/tea-barbakadze-8825aa166",
       "publication_status": "not_applicable_role"
     },
     "Rodrigo Rial": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Vascular Medicine", "Vascular Surgery", "Phlebology", "Acute Limb Ischemia"],
-      "species": ["human"],
+      "directions": [
+        "Human Medicine",
+        "Vascular Medicine",
+        "Vascular Surgery",
+        "Phlebology",
+        "Acute Limb Ischemia"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/rodrigo-rial-171a775b/",
       "contact_page": "https://www.doctorrial.es/curriculum-vitae/",
       "publication_status": "not_applicable_role"
     },
     "Pedro Ventura-Aguiar": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Nephrology", "Transplantation", "Kidney Transplantation", "Pancreas Transplantation"],
-      "species": ["human"],
+      "directions": [
+        "Human Medicine",
+        "Nephrology",
+        "Transplantation",
+        "Kidney Transplantation",
+        "Pancreas Transplantation"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/pedro-ventura-aguiar-504998212/",
       "contact_page": "https://eptrc.org/members/pedro-ventura-aguiar/",
       "publication_status": "not_applicable_role"
     },
     "Özgür Dandin": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "General Surgery", "Medical Biotechnology", "Regenerative Medicine", "Transplantation"],
-      "species": ["human"],
+      "directions": [
+        "Human Medicine",
+        "General Surgery",
+        "Medical Biotechnology",
+        "Regenerative Medicine",
+        "Transplantation"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/prof-ozgur-dandin/",
       "contact_page": "https://hospital.akdeniz.edu.tr/en/departments/general-surgery-MzI",
       "publication_status": "not_applicable_role"
     },
     "Massimo Baiocchi": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Anesthesiology", "Intensive Care", "Resuscitation", "Emergency Medicine"],
-      "species": ["human"],
+      "directions": [
+        "Human Medicine",
+        "Anesthesiology",
+        "Intensive Care",
+        "Resuscitation",
+        "Emergency Medicine"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/massimo-baiocchi-a300a012/",
       "contact_page": "https://amministrazionetrasparente.auslromagna.it/amministrazione-trasparente/personale/dirigenti/d02-dirigenti/details/27/4870-baiocchi-massimo",
       "publication_status": "not_applicable_role"
     },
     "Maria Paula Gomez Gomez": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Organ Donation", "Organ Transplantation", "Health Management", "Government Health Programmes"],
-      "species": ["human"],
+      "directions": [
+        "Human Medicine",
+        "Organ Donation",
+        "Organ Transplantation",
+        "Health Management",
+        "Government Health Programmes"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/mariapgomez/",
       "contact_page": "https://mohap.gov.ae/en/w/mohap-delegation-visits-spain-to-explore-global-best-practices-in-human-organ-and-tissue-donation-and-transplantation",
       "publication_status": "not_applicable_role"
     },
     "Mohamed Adel Hassan": {
       "record_status": "verified_current",
-      "directions": ["Healthcare", "MENA", "Market Intelligence", "Healthcare Operations", "Strategic Partnerships"],
-      "species": ["human"],
+      "directions": [
+        "Healthcare",
+        "MENA",
+        "Market Intelligence",
+        "Healthcare Operations",
+        "Strategic Partnerships"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/mmaki45/",
       "email": "mohamed@octopusintelligence.com",
       "contact_page": "https://www.octopusintelligence.com/octopus-expands-to-mena-with-dubai-appointment-a-press-release/",
@@ -328,32 +876,59 @@
     },
     "Vassilis Barberis": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Cardiology", "Heart Failure", "Cardiac Imaging", "SCA / Cardiovascular"],
-      "species": ["human"],
+      "directions": [
+        "Human Medicine",
+        "Cardiology",
+        "Heart Failure",
+        "Cardiac Imaging",
+        "SCA / Cardiovascular"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/vassilis-barberis-225237179/",
       "contact_page": "https://esc365.escardio.org/person/4091",
       "publication_status": "not_applicable_role"
     },
     "Giacomo Ramponi": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Emergency Medicine", "Critical Care"],
-      "species": ["human"],
+      "directions": [
+        "Human Medicine",
+        "Emergency Medicine",
+        "Critical Care"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/g-r-078715203/",
       "contact_page": "https://www.policlinico.mi.it/i-nostri-professionisti/profilo/5064/ramponi-giacomo",
       "publication_status": "not_applicable_role"
     },
     "Cvetanka Kochovska": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Blood / Transfusion", "Transfusion Medicine"],
-      "species": ["human"],
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Transfusion Medicine"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/cvetanka-kochovska-73832811b/",
       "contact_page": "https://www.isbtweb.org/communities/young-professionals-council.html",
       "publication_status": "not_applicable_role"
     },
     "Kevin Myer": {
       "record_status": "verified_current",
-      "directions": ["Organ Donation", "Transplantation", "CEO / Management", "Public Health"],
-      "species": ["human"],
+      "directions": [
+        "Organ Donation",
+        "Transplantation",
+        "CEO / Management",
+        "Public Health"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/kevin-myer-4823aa10/",
       "email": "kmyer@lifegift.org",
       "contact_page": "https://www.lifegift.org/about-us/leadership/",
@@ -361,8 +936,15 @@
     },
     "Greg Beilman, MD": {
       "record_status": "verified_current",
-      "directions": ["Human Medicine", "Critical Care", "Trauma Surgery", "CEO / Management"],
-      "species": ["human"],
+      "directions": [
+        "Human Medicine",
+        "Critical Care",
+        "Trauma Surgery",
+        "CEO / Management"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/greg-beilman/",
       "email": "beilman@umn.edu",
       "contact_page": "https://mphysicians.org/leadership",
@@ -370,8 +952,16 @@
     },
     "Johan Prevot": {
       "record_status": "verified_current",
-      "directions": ["Rare Disease", "Patient Advocacy", "Health Policy", "CEO / Management", "Public Health"],
-      "species": ["human"],
+      "directions": [
+        "Rare Disease",
+        "Patient Advocacy",
+        "Health Policy",
+        "CEO / Management",
+        "Public Health"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/johan-prevot-95827712/",
       "contact_page": "https://ipopi.org/wp-content/uploads/2026/07/Johan-Prevot-2.pdf",
       "publication_status": "not_applicable_role"
@@ -379,13 +969,145 @@
     "Steve Osofsky": {
       "record_status": "verified_current",
       "canonical_name": "Steven A. Osofsky",
-      "directions": ["Veterinary", "Wildlife", "Red Book", "One Health", "Conservation Medicine", "Livestock / Wildlife Interface", "Disease Surveillance", "Research"],
-      "species": ["wildlife", "livestock", "elephant", "buffalo"],
+      "directions": [
+        "Veterinary",
+        "Wildlife",
+        "Red Book",
+        "One Health",
+        "Conservation Medicine",
+        "Livestock / Wildlife Interface",
+        "Disease Surveillance",
+        "Research"
+      ],
+      "species": [
+        "wildlife",
+        "livestock",
+        "elephant",
+        "buffalo"
+      ],
       "email": "s.osofsky@cornell.edu",
       "phone": "+1 607 253 3856",
       "contact_page": "https://www.vet.cornell.edu/about-us/people/steven-osofsky-dvm",
-      "latest_publication": {"date":"2026-01-30","title":"Using qualitative risk assessment to re-evaluate the veterinary fence paradigm within the Kavango Zambezi Transfrontier Conservation Area","url":"https://doi.org/10.3389/fvets.2025.1702631","type":"peer-reviewed journal article"},
+      "latest_publication": {
+        "date": "2026-01-30",
+        "title": "Using qualitative risk assessment to re-evaluate the veterinary fence paradigm within the Kavango Zambezi Transfrontier Conservation Area",
+        "url": "https://doi.org/10.3389/fvets.2025.1702631",
+        "type": "peer-reviewed journal article"
+      },
       "publication_status": "verified_latest_found"
+    },
+    "Lee S. Cummings": {
+      "record_status": "verified_current",
+      "organisation": "Tulane University School of Medicine",
+      "city": "New Orleans",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgery",
+        "Transplantation",
+        "Liver Transplantation",
+        "HPB Surgery",
+        "Transplant Quality Improvement"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/lee-s-cummings-3120701/",
+      "contact_page": "https://medicine.tulane.edu/departments/surgery/faculty/lee-s-cummings-md-facs-fics",
+      "publication_status": "not_applicable_role"
+    },
+    "Cristiano Amarelli": {
+      "record_status": "verified_current",
+      "organisation": "Department of Cardiac Surgery and Transplants, Monaldi - A.O. dei Colli",
+      "city": "Naples",
+      "country": [
+        "IT"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Cardiac Surgery",
+        "Heart Transplantation",
+        "Mechanical Circulatory Support",
+        "SCA / Cardiovascular"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/cristiano-amarelli-111aa735/",
+      "email": "cristiano.amarelli@ospedalideicolli.it",
+      "contact_page": "https://pubmed.ncbi.nlm.nih.gov/34810090/",
+      "publication_status": "not_applicable_role"
+    },
+    "Oriol Bestard": {
+      "record_status": "verified_current",
+      "organisation": "Hospital Universitari Vall d'Hebron / Vall d'Hebron Institut de Recerca",
+      "city": "Barcelona",
+      "country": [
+        "ES"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Nephrology",
+        "Dialysis",
+        "Transplantation",
+        "Kidney Transplantation",
+        "Transplant Immunology"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/oriol-bestard-1b57a038/",
+      "email": "oriol.bestard@vallhebron.cat",
+      "contact_page": "https://vhir.vallhebron.com/en/research/nephrology-and-kidney-transplantation",
+      "publication_status": "not_applicable_role"
+    },
+    "Adriana M. Knopfelmacher Couchonal": {
+      "record_status": "verified_current",
+      "organisation": "The University of Texas MD Anderson Cancer Center",
+      "city": "Houston",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Transfusion Medicine",
+        "Blood Banking",
+        "Hemovigilance",
+        "Oncology"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/adriana-m-k-1568172/",
+      "email": "amknopfelmacher@mdanderson.org",
+      "contact_page": "https://www.mdanderson.org/education-training/graduate-medical-education/residencies-fellowships/blood-banking-transfusion-medicine/fellowship-details-requirements.html",
+      "publication_status": "not_applicable_role"
+    },
+    "Roberto Mugavero": {
+      "record_status": "verified_current",
+      "organisation": "European Centre for Disaster Medicine / University of the Republic of San Marino",
+      "city": "San Marino",
+      "country": [
+        "SM"
+      ],
+      "directions": [
+        "Emergency / Critical Care",
+        "Disaster Medicine",
+        "Public Health",
+        "Health Security",
+        "CBRNe",
+        "CEO / Management",
+        "Regulatory"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/roberto-mugavero-cemec-387b18271/",
+      "contact_page": "https://www.unirsm.sm/en/persona/roberto-mugavero/",
+      "publication_status": "not_applicable_role"
     }
   }
 }
