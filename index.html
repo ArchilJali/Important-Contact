@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive">
 <title>Important Contact | BHOC Contact Intelligence</title>
-<style>
+<style>.card.human:before{background:radial-gradient(circle,#7898b52b,transparent 68%)}.result-badge.human{background:#edf1f7;color:#49627a}
+
 :root{--bg:#eef2ee;--panel:#fff;--line:#d8e2da;--ink:#153a31;--muted:#64786f;--brand:#123c31;--brand2:#1a5847;--gold:#b79c61;--soft:#edf3ef}
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;background:linear-gradient(155deg,#e9efea 0%,#f7f9f6 55%,#eef2ee 100%);color:var(--ink);font:14px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
@@ -57,7 +58,7 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
   <div>
     <div class="kicker">BHOC Contact Intelligence</div>
     <h1>People, institutions and funding routes by strategic direction.</h1>
-    <p>Choose a working network. Veterinary remains the current Oxyglobin / HBOC contact intelligence workspace. Wildlife / Red Book is a separate network for endangered species, conservation medicine, philanthropy, grants and research.</p>
+    <p>Choose a working network. Veterinary remains the current Oxyglobin / HBOC contact intelligence workspace. Human Medicine is a separate network for surgery, bloodless medicine, transplantation, transfusion, emergency care, public health, oncology, devices, regulators, executives and investors. Wildlife / Red Book remains a separate network for endangered species, conservation medicine, philanthropy, grants and research.</p>
   </div>
   <div class="live">Live working directory</div>
 </section>
@@ -82,6 +83,17 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
     <p>Oxyglobin, HBOC, veterinary scientists, publication authors, institutions, animal-health companies, zoos, investors and strategic partners.</p>
     <div class="tags"><span class="tag gold">Oxyglobin / HBOC</span><span class="tag">Authors</span><span class="tag">Veterinary</span><span class="tag">Institutions</span></div>
     <div class="go"><span>Open current Veterinary contacts</span><span class="arrow">→</span></div>
+  </a>
+
+  <a class="card human" href="site/human-medicine.html?v=20260906-8">
+    <div class="card-top">
+      <div class="icon" aria-hidden="true">⚕</div>
+      <div class="count"><strong id="humanCount">…</strong><span>contacts</span></div>
+    </div>
+    <h2>Human Medicine</h2>
+    <p>Surgery, bloodless medicine, transplantation, transfusion, emergency and critical care, public health, oncology, devices, regulators, executives and investors.</p>
+    <div class="tags"><span class="tag">Surgery</span><span class="tag">Transplant</span><span class="tag">Blood / Transfusion</span><span class="tag">Public Health</span></div>
+    <div class="go"><span>Open Human Medicine contacts</span><span class="arrow">→</span></div>
   </a>
 
   <a class="card wild" href="site/wildlife-red-book.html?v=20260906-2">
@@ -119,7 +131,7 @@ function parseStrategic(md){
 }
 async function getJSON(url,fallback){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(r.status);return await r.json()}catch(e){return fallback}}
 async function getText(url,fallback=''){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(r.status);return await r.text()}catch(e){return fallback}}
-async function veterinaryCount(parsed){
+async function humanMedicineCount(){try{const md=await getText('human-medicine/CONTACTS.md');return md.split('\n').filter(x=>/^\|\s*P\d+/.test(x)).length}catch(e){return null}}\nasync function veterinaryCount(parsed){
   try{
     const [vets,oxy]=await Promise.all([
       getJSON('/BHOC-platform/veterinary/Vet-publications.json',[]),
@@ -173,7 +185,7 @@ function renderPeopleSearch(){
   if(!matches.length){box.innerHTML='<div class="empty-result">No person found for <b>'+esc(input.value.trim())+'</b>.</div>';box.classList.add('show');return}
   box.innerHTML=matches.map(p=>{
     const meta=[p.role,p.organisation,p.country].filter(Boolean).join(' · ');
-    const badges=[...p.sections].map(s=>'<span class="result-badge '+(s.startsWith('Wildlife')?'wild':'vet')+'">'+esc(s)+'</span>').join('');
+    const badges=[...p.sections].map(s=>'<span class="result-badge '+(s.startsWith('Wildlife')?'wild':s.startsWith('Human')?'human':'vet')+'">'+esc(s)+'</span>').join('');
     const href=p.url||'#';
     return '<a class="result" role="option" href="'+esc(href)+'"'+(href==='#'?'':' target="_blank" rel="noopener"')+'><div><div class="result-name">'+esc(p.name)+'</div><div class="result-meta">'+esc(meta||'Public professional contact')+'</div></div><div class="result-badges">'+badges+'</div></a>';
   }).join('')+'<div class="search-foot">Showing up to 12 matching people. Search is name-based and updates with every letter.</div>';
@@ -187,12 +199,13 @@ document.addEventListener('click',e=>{if(!e.target.closest('.search-panel'))docu
 document.getElementById('personSearch').addEventListener('keydown',e=>{if(e.key==='Escape'){e.currentTarget.value='';renderPeopleSearch();e.currentTarget.blur()}});
 
 (async()=>{
-  const [md,wild]=await Promise.all([getText('veterinary/CONTACTS.md'),getJSON('wildlife-red-book/contacts.json',{contacts:[]})]);
-  const parsed=parseStrategic(md);
-  buildPeopleIndex(parsed.people,wild.contacts||[]);
+  const [md,hmd,wild]=await Promise.all([getText('veterinary/CONTACTS.md'),getText('human-medicine/CONTACTS.md'),getJSON('wildlife-red-book/contacts.json',{contacts:[]})]);
+  const parsed=parseStrategic(md),humanParsed=parseStrategic(hmd);
+  buildPeopleIndex([...parsed.people,...humanParsed.people],wild.contacts||[]);
   const vc=await veterinaryCount(parsed);
   document.getElementById('vetCount').textContent=vc??'—';
   document.getElementById('wildCount').textContent=(wild.contacts||[]).length||'—';
+  document.getElementById('humanCount').textContent=(await humanMedicineCount())??'—';
 })();
 </script>
 </body>
