@@ -450,6 +450,33 @@
         "follows_bhoc": "yes"
       },
       "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Eric Mwenda": {
+      "organisation": "Terumo Blood and Cell Technologies",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "workplace": "Regional Manager East Africa / Country Manager Middle Africa; blood services, therapeutic apheresis, cell technologies, medtech and regional market access",
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Blood Services / Systems",
+        "Therapeutic Apheresis",
+        "Cell Therapy / Stem Cell",
+        "Medical Devices",
+        "Commercial / Market Access",
+        "Public Health"
+      ],
+      "linkedin": "https://www.linkedin.com/in/eric-mwenda-7a60625/",
+      "contact_page": "https://cobaafrica.org/coba-board-members/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact LinkedIn profile identifies Eric Mwenda in Nairobi as Regional Manager East Africa at Terumo BCT and describes over two decades in pharmaceutical/medtech markets. Terumo/CoBA public routes identify him as Country Manager Middle Africa; public blood-sector coverage documents his regional blood-services, apheresis and patient-access work.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
     }
   },
   "organisations": {}
