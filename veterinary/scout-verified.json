@@ -2,75 +2,16 @@
   "updated": "2026-09-06",
   "rule": "Quality-first Scout enrichment queue. Only verified public professional contacts awaiting promotion belong here. A LinkedIn route is included only after exact identity matching by name, current employer and role/specialty against authoritative current evidence. Historical publication affiliation alone is not sufficient.",
   "people": {
-    "Dieter Vancraeynest": {
-      "organisation": "Zoetis",
-      "role": "External Innovation Europe",
-      "focus": "External innovation scouting, emerging technologies and strategic partnerships in animal health",
-      "linkedin": "https://be.linkedin.com/in/dieter-vancraeynest-8385016",
-      "contact_page": "https://www.diah-conference.com/speakers-and-panelists/dieter-vancraeynest",
-      "verified_on": "2026-09-06",
-      "verification_basis": "DIAH 2026 identifies Dieter Vancraeynest, DVM, PhD, in Zoetis External Innovation, responsible for scouting emerging technologies and strategic partnerships. A June 2026 B2Match Zoetis representative page identifies him as External Innovation Europe. The public LinkedIn profile exactly matches Dieter Vancraeynest at Zoetis in Belgium."
-    },
-    "Hervé Poulet": {
-      "organisation": "Boehringer Ingelheim Animal Health",
-      "role": "Senior Director, Strategic Partnering (R&D)",
-      "focus": "Strategic partnering and scouting for animal-health assets and technologies, including oncology, immunological and fibrotic diseases",
-      "linkedin": "https://fr.linkedin.com/in/herv%C3%A9-poulet-1658994",
-      "contact_page": "https://www.biofit-event.com/speaker/herve-poulet/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "BioFIT 2026 identifies Hervé Poulet as Senior Director, Strategic Partnering (R&D), Boehringer Ingelheim Animal Health, and describes his scouting remit. DIAH 2026 independently lists him as Director of Strategic Partnering. His public LinkedIn exactly matches Boehringer-Ingelheim Animal Health and current 2026 partnering activity."
-    },
-    "Austin M. Howes": {
-      "organisation": "Merck Animal Health",
-      "role": "Director of Global Business Development & Licensing",
-      "focus": "Business development and licensing transactions for new animal-health products and technologies",
-      "contact_page": "https://vethealthglobal.com/advisory-board/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Vet Health Global's current advisory committee identifies Austin M. Howes as Director of Global Business Development & Licensing at Merck Animal Health and describes his responsibility for transactions bringing new products and technologies into the division. A direct personal LinkedIn URL was not independently verified and is not stored."
-    },
-    "Stuart Junor": {
-      "organisation": "Merck Animal Health",
-      "role": "Director, Business Development - Europe",
-      "focus": "European animal-health business development and partnering",
-      "contact_page": "https://www.ahnti-eu.com/speakers-6qlr",
-      "verified_on": "2026-09-06",
-      "verification_basis": "The current AHNTI Europe 2026 speaker roster identifies Stuart Junor as Director, Business Development - Europe, Merck Animal Health. A direct personal LinkedIn URL was not independently verified and is not stored."
-    },
-    "Julia Loew": {
-      "organisation": "MWI Animal Health",
-      "role": "Chief Commercial Officer",
-      "focus": "Commercial strategy, commercialization services, strategic business relationships and companion-animal growth",
-      "contact_page": "https://mwiah-prod-cd.cmsmartech.com/our-leadership",
-      "verified_on": "2026-09-06",
-      "verification_basis": "MWI Animal Health's current leadership page identifies Julia Loew as Chief Commercial Officer. The AHNTI Europe 2026 speaker roster independently lists the same current title, and current MWI materials document her role in commercialization, partnerships and veterinary innovation. A direct personal LinkedIn URL was not independently verified and is not stored."
-    },
-    "Laurent Thoré": {
-      "organisation": "Vetoquinol Global",
-      "role": "Director, Partnerships, Legal Affairs and Risks",
-      "focus": "Strategic partnerships, legal affairs, risk and corporate development in animal health",
-      "linkedin": "https://fr.linkedin.com/in/laurent-thore-6774a228",
-      "contact_page": "https://www.vetoquinol.com/en/vetoquinols-management-organisation",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Vetoquinol's current 2026 management page identifies Laurent Thoré as Director, Partnerships, Legal Affairs and Risks. His public LinkedIn exactly matches Laurent Thoré at Vetoquinol Global in the Lure/Mulhouse area."
-    },
-    "Philippe Gruet": {
-      "organisation": "Vetoquinol Global",
-      "role": "Chief Scientific Officer (CSO)",
-      "focus": "Animal-health R&D, scientific strategy, veterinary pharmacology and product development",
-      "linkedin": "https://fr.linkedin.com/in/philippe-gruet-5957b6b",
-      "contact_page": "https://www.vetoquinol.com/en/vetoquinols-management-organisation",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Vetoquinol's current 2026 management page identifies Philippe Gruet as Chief Scientific Officer. His public LinkedIn exactly matches Vetoquinol Global and describes a long animal-health R&D executive career."
-    },
-    "Imtiaz Zahoor": {
-      "organisation": "Abu Dhabi Equine and Camel Hospital (ADECH)",
-      "role": "Ambulatory Clinician - Camel",
-      "focus": "Camel medicine; haemo-parasitic diseases of dromedary camels; diagnostic imaging, lameness and advanced reproductive technologies",
-      "linkedin": "https://ae.linkedin.com/in/imtiazzhr",
-      "contact_page": "https://adech.ae/team-member/dr-javed-rashid/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "ADECH's official current team profile identifies Dr. Imtiaz Zahoor, DVM, as Ambulatory Clinician - Camel. ADECH's official site and current 2026 ADIHEX materials identify him presenting on Surra, Theileriosis, Babesiosis and Anaplasmosis in dromedary camels. His public LinkedIn exactly matches Abu Dhabi Equine and Camel Hospital."
-    }
+    "Dieter Vancraeynest": {"organisation":"Zoetis","role":"External Innovation Europe","focus":"External innovation scouting, emerging technologies and strategic partnerships in animal health","linkedin":"https://be.linkedin.com/in/dieter-vancraeynest-8385016","contact_page":"https://www.diah-conference.com/speakers-and-panelists/dieter-vancraeynest","verified_on":"2026-09-06","verification_basis":"DIAH 2026 identifies Dieter Vancraeynest, DVM, PhD, in Zoetis External Innovation, responsible for scouting emerging technologies and strategic partnerships. A June 2026 B2Match Zoetis representative page identifies him as External Innovation Europe. The public LinkedIn profile exactly matches Dieter Vancraeynest at Zoetis in Belgium."},
+    "Hervé Poulet": {"organisation":"Boehringer Ingelheim Animal Health","role":"Senior Director, Strategic Partnering (R&D)","focus":"Strategic partnering and scouting for animal-health assets and technologies, including oncology, immunological and fibrotic diseases","linkedin":"https://fr.linkedin.com/in/herv%C3%A9-poulet-1658994","contact_page":"https://www.biofit-event.com/speaker/herve-poulet/","verified_on":"2026-09-06","verification_basis":"BioFIT 2026 identifies Hervé Poulet as Senior Director, Strategic Partnering (R&D), Boehringer Ingelheim Animal Health, and describes his scouting remit. DIAH 2026 independently lists him as Director of Strategic Partnering. His public LinkedIn exactly matches Boehringer-Ingelheim Animal Health and current 2026 partnering activity."},
+    "Austin M. Howes": {"organisation":"Merck Animal Health","role":"Director of Global Business Development & Licensing","focus":"Business development and licensing transactions for new animal-health products and technologies","contact_page":"https://vethealthglobal.com/advisory-board/","verified_on":"2026-09-06","verification_basis":"Vet Health Global's current advisory committee identifies Austin M. Howes as Director of Global Business Development & Licensing at Merck Animal Health and describes his responsibility for transactions bringing new products and technologies into the division. A direct personal LinkedIn URL was not independently verified and is not stored."},
+    "Stuart Junor": {"organisation":"Merck Animal Health","role":"Director, Business Development - Europe","focus":"European animal-health business development and partnering","contact_page":"https://www.ahnti-eu.com/speakers-6qlr","verified_on":"2026-09-06","verification_basis":"The current AHNTI Europe 2026 speaker roster identifies Stuart Junor as Director, Business Development - Europe, Merck Animal Health. A direct personal LinkedIn URL was not independently verified and is not stored."},
+    "Julia Loew": {"organisation":"MWI Animal Health","role":"Chief Commercial Officer","focus":"Commercial strategy, commercialization services, strategic business relationships and companion-animal growth","contact_page":"https://mwiah-prod-cd.cmsmartech.com/our-leadership","verified_on":"2026-09-06","verification_basis":"MWI Animal Health's current leadership page identifies Julia Loew as Chief Commercial Officer. The AHNTI Europe 2026 speaker roster independently lists the same current title, and current MWI materials document her role in commercialization, partnerships and veterinary innovation. A direct personal LinkedIn URL was not independently verified and is not stored."},
+    "Laurent Thoré": {"organisation":"Vetoquinol Global","role":"Director, Partnerships, Legal Affairs and Risks","focus":"Strategic partnerships, legal affairs, risk and corporate development in animal health","linkedin":"https://fr.linkedin.com/in/laurent-thore-6774a228","contact_page":"https://www.vetoquinol.com/en/vetoquinols-management-organisation","verified_on":"2026-09-06","verification_basis":"Vetoquinol's current 2026 management page identifies Laurent Thoré as Director, Partnerships, Legal Affairs and Risks. His public LinkedIn exactly matches Laurent Thoré at Vetoquinol Global in the Lure/Mulhouse area."},
+    "Philippe Gruet": {"organisation":"Vetoquinol Global","role":"Chief Scientific Officer (CSO)","focus":"Animal-health R&D, scientific strategy, veterinary pharmacology and product development","linkedin":"https://fr.linkedin.com/in/philippe-gruet-5957b6b","contact_page":"https://www.vetoquinol.com/en/vetoquinols-management-organisation","verified_on":"2026-09-06","verification_basis":"Vetoquinol's current 2026 management page identifies Philippe Gruet as Chief Scientific Officer. His public LinkedIn exactly matches Vetoquinol Global and describes a long animal-health R&D executive career."},
+    "Imtiaz Zahoor": {"organisation":"Abu Dhabi Equine and Camel Hospital (ADECH)","role":"Ambulatory Clinician - Camel","focus":"Camel medicine; haemo-parasitic diseases of dromedary camels; diagnostic imaging, lameness and advanced reproductive technologies","linkedin":"https://ae.linkedin.com/in/imtiazzhr","contact_page":"https://adech.ae/team-member/dr-javed-rashid/","verified_on":"2026-09-06","verification_basis":"ADECH's official current team profile identifies Dr. Imtiaz Zahoor, DVM, as Ambulatory Clinician - Camel. ADECH's official site and current 2026 ADIHEX materials identify him presenting on Surra, Theileriosis, Babesiosis and Anaplasmosis in dromedary camels. His public LinkedIn exactly matches Abu Dhabi Equine and Camel Hospital."},
+    "Nadine Lamberski": {"organisation":"San Diego Zoo Wildlife Alliance","role":"Chief Conservation and Wildlife Health Officer","focus":"Wildlife health, species recovery, endangered-species management, biobanking, genetic rescue and global conservation strategy","linkedin":"https://www.linkedin.com/in/nadine-lamberski-724a7","contact_page":"https://sandiegozoowildlifealliance.org/about-us/key-leaders/nadine-lamberski","verified_on":"2026-09-06","verification_basis":"San Diego Zoo Wildlife Alliance's current official leadership page identifies Nadine Lamberski, DVM, DACZM, DECZM (ZHM), as Chief Conservation and Wildlife Health Officer. The Alliance's current company page lists her as an employee, and her public LinkedIn shows current 2026 SDZWA conservation and wildlife-health activity."},
+    "Christian Walzer": {"organisation":"Wildlife Conservation Society (WCS)","role":"Executive Director of Health","focus":"Wildlife health, One Health, disease ecology, wildlife surveillance, conservation and human-livestock-wildlife interfaces","linkedin":"https://www.linkedin.com/in/christian-walzer-3780b92","contact_page":"https://programs.wcs.org/onehealth/About-Us/Staff/projectid/-1/currentpage/1.aspx","verified_on":"2026-09-06","verification_basis":"WCS's current official Health Program staff page identifies Christian Walzer, Dr. med.vet., Dipl. ECZM, as Executive Director. Current WCS 2026 materials independently identify him as Executive Director of Health, and his public LinkedIn exactly matches Wildlife Conservation Society with active 2026 wildlife-health and One Health work."}
   },
   "organisations": {}
 }
