@@ -371,6 +371,85 @@
         "follows_bhoc": "yes"
       },
       "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Dr. Soleiman I. Al Towyan": {
+      "organisation": "Meena Health",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "workplace": "CEO; healthcare transformation, hospital commissioning, integrated primary care, value-based healthcare, governance and quality",
+      "directions": [
+        "Human Medicine",
+        "CEO / Management",
+        "Healthcare Operations",
+        "Healthcare Quality",
+        "Hospital Commissioning",
+        "Value-Based Care",
+        "Healthcare Governance",
+        "Health Insurance / Payer"
+      ],
+      "linkedin": "https://www.linkedin.com/in/dr-soleiman-i-al-towyan-a2a8a04a/",
+      "contact_page": "https://meena-health.com/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact LinkedIn profile identifies Dr. Soleiman I. Al Towyan as CEO of Meena Health in Riyadh and describes healthcare transformation, hospital commissioning, integrated ecosystems, value-based healthcare, governance and insurance. Public company/profile coverage independently identifies him as Meena Health CEO in Riyadh.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Cory Reynolds": {
+      "organisation": "Eurofins Transplant Genomics",
+      "country": "United States",
+      "city": "Chicago",
+      "workplace": "Regional Transplant Manager; organ-transplant diagnostics and medical-device commercialization, including post-transplant immunosuppression monitoring",
+      "directions": [
+        "Human Medicine",
+        "Transplantation",
+        "Transplant Diagnostics",
+        "Medical Devices",
+        "Commercial / Market Access",
+        "Surgery"
+      ],
+      "linkedin": "https://www.linkedin.com/in/cory-reynolds-%E2%99%A6-sales-leader-%E2%99%A6-organ-transplant-%E2%99%A6-medical-device-2188664a/",
+      "contact_page": "https://transplantgenomics.com/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact LinkedIn profile identifies Cory Reynolds in Chicago as Regional Transplant Manager at Eurofins Transplant Genomics and describes the TruGraf/OmniGraf transplant-monitoring and medical-device commercialization focus. The official Transplant Genomics site confirms blood-based transplant-rejection and immunosuppression monitoring tests.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Kilemi Thambura, OGW": {
+      "organisation": "Jiji Health",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "workplace": "Co-founder; digital-health systems for blood availability, hospital information exchange, blood-service management and emergency coordination",
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Public Health",
+        "Digital Health / Health Data",
+        "Healthcare Operations",
+        "Health Systems",
+        "Healthcare Access",
+        "CEO / Management"
+      ],
+      "linkedin": "https://www.linkedin.com/in/kilemi-thambura-ogw-8619271b6/",
+      "contact_page": "https://jiji.health/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact LinkedIn profile identifies Kilemi Thambura, OGW as Co-founder of Jiji Health in Nairobi and describes digital health, data and healthcare-access work. Independent Jiji/Impacc and Coalition of Blood for Africa pages identify him as co-founder and describe Jiji's blood-management, hospital-information and emergency-coordination systems in Nairobi.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
     }
   },
   "organisations": {}
