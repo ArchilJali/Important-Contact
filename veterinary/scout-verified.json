@@ -61,6 +61,15 @@
       "contact_page": "https://www.vetoquinol.com/en/vetoquinols-management-organisation",
       "verified_on": "2026-09-06",
       "verification_basis": "Vetoquinol's current 2026 management page identifies Philippe Gruet as Chief Scientific Officer. His public LinkedIn exactly matches Vetoquinol Global and describes a long animal-health R&D executive career."
+    },
+    "Imtiaz Zahoor": {
+      "organisation": "Abu Dhabi Equine and Camel Hospital (ADECH)",
+      "role": "Ambulatory Clinician - Camel",
+      "focus": "Camel medicine; haemo-parasitic diseases of dromedary camels; diagnostic imaging, lameness and advanced reproductive technologies",
+      "linkedin": "https://ae.linkedin.com/in/imtiazzhr",
+      "contact_page": "https://adech.ae/team-member/dr-javed-rashid/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "ADECH's official current team profile identifies Dr. Imtiaz Zahoor, DVM, as Ambulatory Clinician - Camel. ADECH's official site and current 2026 ADIHEX materials identify him presenting on Surra, Theileriosis, Babesiosis and Anaplasmosis in dromedary camels. His public LinkedIn exactly matches Abu Dhabi Equine and Camel Hospital."
     }
   },
   "organisations": {}
