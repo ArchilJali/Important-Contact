@@ -829,56 +829,6 @@
         "large_animal"
       ],
       "publication_status": "not_applicable_role"
-    },
-    "Shahinaz El Jaafary": {
-      "record_status": "verified_current",
-      "organisation": "Gozl Veterinary UAE",
-      "city": "Dammam",
-      "country": [
-        "SA"
-      ],
-      "directions": [
-        "Veterinary",
-        "Animal Health",
-        "Veterinary Pharmaceuticals",
-        "Technical Sales",
-        "Commercial / Market Access",
-        "Equine",
-        "Large Animal",
-        "Small Animal",
-        "Poultry"
-      ],
-      "species": [
-        "dog",
-        "cat",
-        "horse",
-        "cattle",
-        "sheep",
-        "poultry",
-        "camel"
-      ],
-      "linkedin": "https://www.linkedin.com/in/shahinaz-el-jaafary-b17883110/",
-      "contact_page": "https://gozlvet.com/",
-      "publication_status": "not_applicable_role"
-    },
-    "Mu Tareq": {
-      "record_status": "verified_current",
-      "organisation": "Gulf Veterinary Services Company",
-      "city": "Riyadh",
-      "country": [
-        "SA"
-      ],
-      "directions": [
-        "Veterinary",
-        "Animal Health",
-        "Veterinary Pharmaceuticals",
-        "Technical Sales",
-        "Commercial / Market Access"
-      ],
-      "species": [],
-      "linkedin": "https://www.linkedin.com/in/mu-tareqx/",
-      "contact_page": "https://www.linkedin.com/company/gulfvet/",
-      "publication_status": "not_applicable_role"
     }
   }
 }
