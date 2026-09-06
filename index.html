@@ -49,7 +49,7 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
         <circle cx="22" cy="22" r="4" fill="#75BE89"/>
       </svg>
     </div>
-    <div class="brand"><b>Important Contact</b><small>BHOC Initiative Â· Contact Intelligence Directory</small></div>
+    <div class="brand"><b>Important Contact</b><small>BHOC Initiative - Contact Directory</small></div>
   </div>
 </header>
 
@@ -60,15 +60,15 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
     <h1>People, institutions and funding routes by strategic direction.</h1>
     <p>Choose a working network. Veterinary remains the current Oxyglobin / HBOC contact intelligence workspace. Human Medicine is a separate network for surgery, bloodless medicine, transplantation, transfusion, emergency care, public health, oncology, devices, regulators, executives and investors. Wildlife / Red Book remains a separate network for endangered species, conservation medicine, philanthropy, grants and research.</p>
   </div>
-  <div class="live">All contacts: <strong id="allCount">â¦</strong> Â· BHOC followers: <strong id="bhocCount">â¦</strong> Â· Archil followers: <strong id="archilCount">â¦</strong></div>
+  <div class="live">All contacts: <strong id="allCount">...</strong> - BHOC followers: <strong id="bhocCount">...</strong> - Archil followers: <strong id="archilCount">...</strong></div>
 </section>
 
 <section class="search-panel" aria-label="Person search">
   <div class="search-label"><b>Find a person</b><span>Type one letter, then the next. Results update instantly.</span></div>
   <div class="search-wrap">
-    <span class="search-icon" aria-hidden="true">â</span>
-    <input id="personSearch" type="search" inputmode="search" autocomplete="off" spellcheck="false" placeholder="Start typing a name, e.g. A â An â And..." aria-label="Search people by name" aria-controls="personResults" aria-autocomplete="list">
-    <button class="clear-search" id="clearSearch" type="button" aria-label="Clear search">Ã</button>
+    <span class="search-icon" aria-hidden="true">&#8981;</span>
+    <input id="personSearch" type="search" inputmode="search" autocomplete="off" spellcheck="false" placeholder="Start typing a name, e.g. A, An, And..." aria-label="Search people by name" aria-controls="personResults" aria-autocomplete="list">
+    <button class="clear-search" id="clearSearch" type="button" aria-label="Clear search">x</button>
   </div>
   <div class="search-results" id="personResults" role="listbox" aria-label="Matching people"></div>
 </section>
@@ -76,35 +76,35 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
 <section class="grid">
   <a class="card" href="site/contacts-v7.html?v=20260906-2">
     <div class="card-top">
-      <div class="icon" aria-hidden="true">â</div>
-      <div class="count"><strong id="vetCount">â¦</strong><span>contacts</span></div>
+      <div class="icon" aria-hidden="true">&#10010;</div>
+      <div class="count"><strong id="vetCount">...</strong><span>contacts</span></div>
     </div>
     <h2>Veterinary</h2>
     <p>Oxyglobin, HBOC, veterinary scientists, publication authors, institutions, animal-health companies, zoos, investors and strategic partners.</p>
     <div class="tags"><span class="tag gold">Oxyglobin / HBOC</span><span class="tag">Authors</span><span class="tag">Veterinary</span><span class="tag">Institutions</span></div>
-    <div class="go"><span>Open current Veterinary contacts</span><span class="arrow">â</span></div>
+    <div class="go"><span>Open current Veterinary contacts</span><span class="arrow">-&gt;</span></div>
   </a>
 
   <a class="card human" href="site/human-medicine.html?v=20260906-8">
     <div class="card-top">
-      <div class="icon" aria-hidden="true">â</div>
-      <div class="count"><strong id="humanCount">â¦</strong><span>contacts</span></div>
+      <div class="icon" aria-hidden="true">&#9877;</div>
+      <div class="count"><strong id="humanCount">...</strong><span>contacts</span></div>
     </div>
     <h2>Human Medicine</h2>
     <p>Surgery, bloodless medicine, transplantation, transfusion, emergency and critical care, public health, oncology, devices, regulators, executives and investors.</p>
     <div class="tags"><span class="tag">Surgery</span><span class="tag">Transplant</span><span class="tag">Blood / Transfusion</span><span class="tag">Public Health</span></div>
-    <div class="go"><span>Open Human Medicine contacts</span><span class="arrow">â</span></div>
+    <div class="go"><span>Open Human Medicine contacts</span><span class="arrow">-&gt;</span></div>
   </a>
 
   <a class="card wild" href="site/wildlife-red-book.html?v=20260906-2">
     <div class="card-top">
-      <div class="icon" aria-hidden="true">â</div>
-      <div class="count"><strong id="wildCount">â¦</strong><span>contacts</span></div>
+      <div class="icon" aria-hidden="true">&#9678;</div>
+      <div class="count"><strong id="wildCount">...</strong><span>contacts</span></div>
     </div>
     <h2>Wildlife / Red Book</h2>
     <p>IUCN Red List, endangered species, wildlife veterinary medicine, conservation biotechnology, global philanthropy, grants, research centres and field partners.</p>
     <div class="tags"><span class="tag gold">Red Book Mission</span><span class="tag">IUCN</span><span class="tag">Grants</span><span class="tag">Wildlife Medicine</span></div>
-    <div class="go"><span>Open Wildlife / Red Book contacts</span><span class="arrow">â</span></div>
+    <div class="go"><span>Open Wildlife / Red Book contacts</span><span class="arrow">-&gt;</span></div>
   </a>
 </section>
 
@@ -161,7 +161,7 @@ function renderPeopleSearch(){
   }).slice(0,12);
   if(!matches.length){box.innerHTML='<div class="empty-result">No person found for <b>'+esc(input.value.trim())+'</b>.</div>';box.classList.add('show');return}
   box.innerHTML=matches.map(p=>{
-    const meta=[p.role,p.organisation,p.country].filter(Boolean).join(' Â· ');
+    const meta=[p.role,p.organisation,p.country].filter(Boolean).join(' - ');
     const badges=[...p.sections].map(s=>'<span class="result-badge '+(s.startsWith('Wildlife')?'wild':s.startsWith('Human')?'human':'vet')+'">'+esc(s)+'</span>').join('');
     const href=p.url||'#';
     return '<a class="result" role="option" href="'+esc(href)+'"'+(href==='#'?'':' target="_blank" rel="noopener"')+'><div><div class="result-name">'+esc(p.name)+'</div><div class="result-meta">'+esc(meta||'Public professional contact')+'</div></div><div class="result-badges">'+badges+'</div></a>';
@@ -180,12 +180,12 @@ document.getElementById('personSearch').addEventListener('keydown',e=>{if(e.key=
   const parsed=parseStrategic(md),humanParsed=parseStrategic(hmd);
   buildPeopleIndex([...parsed.people,...humanParsed.people],wild.contacts||[]);
   const summary=await window.ImportantContactCounts.get();
-  document.getElementById('vetCount').textContent=summary.veterinary??'â';
-  document.getElementById('humanCount').textContent=summary.humanMedicine??'â';
-  document.getElementById('wildCount').textContent=summary.wildlife??'â';
-  document.getElementById('allCount').textContent=summary.total??'â';
-  document.getElementById('bhocCount').textContent=summary.bhocFollowers??'â';
-  document.getElementById('archilCount').textContent=summary.archilFollowers??'â';
+  document.getElementById('vetCount').textContent=summary.veterinary??'-';
+  document.getElementById('humanCount').textContent=summary.humanMedicine??'-';
+  document.getElementById('wildCount').textContent=summary.wildlife??'-';
+  document.getElementById('allCount').textContent=summary.total??'-';
+  document.getElementById('bhocCount').textContent=summary.bhocFollowers??'-';
+  document.getElementById('archilCount').textContent=summary.archilFollowers??'-';
 })();
 </script>
 </body>
