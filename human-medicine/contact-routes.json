@@ -172,6 +172,106 @@
         "follows_archil": "unknown",
         "follows_bhoc": "yes"
       }
+    },
+    "Sarah-Jane Nkrumah": {
+      "organisation": "Sickle Cell Unite",
+      "country": "United Kingdom",
+      "city": "London",
+      "workplace": "Sickle-cell advocacy, patient voice and health-equity work",
+      "directions": [
+        "Human Medicine",
+        "SCD / SCA",
+        "Public Health",
+        "Patient Advocacy"
+      ],
+      "linkedin": "https://www.linkedin.com/in/sarah-jane-nkrumah-64035932b/",
+      "contact_page": "https://www.facebook.com/SickleCellUnite/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "LinkedIn profile exactly matches Sarah-Jane Nkrumah, founder of Sickle Cell Unite and a sickle-cell advocate based in London. The organisation's public profile and independent media coverage corroborate the same founder identity and sickle-cell advocacy work.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Dr. Riaz Akhtar": {
+      "organisation": "Leadership Training and Consultancy",
+      "country": "Saudi Arabia",
+      "city": "Dammam",
+      "workplace": "Healthcare accreditation, JCI/CBAHI preparation, hospital quality and patient-safety standards",
+      "directions": [
+        "Human Medicine",
+        "Regulatory",
+        "Healthcare Quality",
+        "CEO / Management",
+        "Public Health"
+      ],
+      "linkedin": "https://www.linkedin.com/in/dr-riaz-akhtar-785197246/",
+      "contact_page": "https://leadershiptrainingandconsultancy.com/about-us/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "LinkedIn profile exactly matches Dr. Riaz Akhtar as a healthcare accreditation consultant in Dammam. The official Leadership Training and Consultancy profile identifies him as leading the healthcare accreditation practice and confirms the JCI/CBAHI hospital-quality focus.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Lawrence Osei-Tutu": {
+      "organisation": "Komfo Anokye Teaching Hospital",
+      "country": "Ghana",
+      "city": "Kumasi",
+      "workplace": "Pediatric hematology-oncology, sickle-cell care, clinical research and trials",
+      "directions": [
+        "Human Medicine",
+        "SCD / SCA",
+        "Hematology / Transfusion",
+        "Oncology",
+        "Pediatrics",
+        "Clinical Research",
+        "Clinical Trials",
+        "Public Health"
+      ],
+      "linkedin": "https://www.linkedin.com/in/lawrence-osei-tutu-24a1b734/",
+      "contact_page": "https://www.stjude.org/education-training/st-jude-graduate-school-of-biomedical-sciences/students/meet-our-students/directory/o/lawrence-osei-tutu.html",
+      "verified_on": "2026-09-06",
+      "verification_basis": "LinkedIn profile exactly matches Lawrence Osei-Tutu, pediatrician at Komfo Anokye Teaching Hospital in Kumasi. St. Jude's official profile independently confirms his pediatric hematology-oncology, sickle-cell, clinician-researcher and clinical-trials work.",
+      "linkedin_relationship": {
+        "personal_connection": false,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Evans Xorse Amuzu": {
+      "organisation": "Komfo Anokye Teaching Hospital / Kwame Nkrumah University of Science and Technology",
+      "country": "Ghana",
+      "city": "Kumasi",
+      "workplace": "Sickle Cell Unit research management, epidemiology, data science and SPARCo Ghana coordination",
+      "directions": [
+        "Human Medicine",
+        "SCD / SCA",
+        "Public Health",
+        "Disease Surveillance / Epidemiology",
+        "Clinical Research",
+        "Clinical Trials",
+        "Data Science"
+      ],
+      "linkedin": "https://www.linkedin.com/in/evansxamuzu/",
+      "contact_page": "https://sickleinafrica.org/article/93",
+      "verified_on": "2026-09-06",
+      "verification_basis": "LinkedIn profile exactly matches Evans Xorse Amuzu, Research Manager/Data Scientist/Epidemiologist at the Komfo Anokye Teaching Hospital network in Ghana. SickleInAfrica independently identifies him as Ghana Site Coordinator for SPARCo and a health-research officer managing hospital and community studies.",
+      "linkedin_relationship": {
+        "personal_connection": false,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
     }
   },
   "organisations": {}
