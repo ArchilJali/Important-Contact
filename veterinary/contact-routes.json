@@ -116,12 +116,6 @@
       "verified_on": "2026-09-05",
       "verification_basis": "Exact name, Merck Animal Health context and pharmaceutical R&D specialty matched between public LinkedIn profile/activity and Merck Animal Health official authored/current-role materials."
     },
-    "Zaf Zafirelis": {
-      "organisation": "HbO2 Therapeutics",
-      "contact_page": "https://www.hbo2therapeutics.com/about",
-      "verified_on": "2026-09-06",
-      "verification_basis": "HbO2 Therapeutics official team page confirms Zaf Zafirelis as Chief Executive Officer and states that he led the original Biopure team that developed Oxyglobin. SEC historical filings independently document his Biopure product-development and executive history."
-    },
     "Bernd Driessen": {
       "organisation": "University of Pennsylvania School of Veterinary Medicine",
       "linkedin": "https://www.linkedin.com/in/bernd-driessen-64644aa4",
@@ -156,7 +150,6 @@
     "Digitalis Ventures": {"type": "investor", "email": "info@digitalisventures.com", "official_page": "https://www.digitalisventures.com/"},
     "Dechra": {"type": "company", "official_page": "https://www.dechra.com/our-business/our-business"},
     "Covetrus Netherlands": {"type": "company", "official_page": "https://www.covetrus.nl/Covetrus"},
-    "HbO2 Therapeutics": {"type": "company", "official_page": "https://www.hbo2therapeutics.com/about"},
     "University of Pennsylvania School of Veterinary Medicine": {"type": "institution", "official_page": "https://www.vet.upenn.edu/"},
     "Paragon Veterinary Referrals": {"type": "institution", "official_page": "https://www.paragonreferrals.co.uk/"},
     "VCA Animal Hospitals": {"type": "company", "official_page": "https://vcahospitals.com/"}
