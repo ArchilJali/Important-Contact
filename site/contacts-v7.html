@@ -30,8 +30,8 @@
 <label>Follows Archil<select id="fFollowArchil"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option><option value="unknown">Unknown</option></select></label>
 <label>Follows BHOC<select id="fFollowBHOC"><option value="all">All</option><option value="yes">Yes</option><option value="no">No</option><option value="unknown">Unknown</option></select></label>
 <label>Previous BHOC relation<select id="fPriorBHOC"><option value="all">All</option><option value="yes">Yes - Oxyglobin/HBOC/BHOC link</option><option value="no">No known prior link</option></select></label>
-<label>Top-level group<select id="fCategory"><option value="all">All groups</option><option value="surgery">Surgery</option><option value="transplant">Transplant</option><option value="heart_cardiovascular">Heart / Cardiovascular</option><option value="scd_sca">SCD / SCA</option><option value="public_health">Public Health</option><option value="sepsis">Sepsis</option><option value="emergency_critical_care">Emergency / Critical Care</option><option value="blood_transfusion">Blood / Transfusion</option><option value="bloodless_medicine">Bloodless Medicine / PBM</option><option value="oncology">Oncology</option><option value="organ_preservation">Organ Support / Preservation</option><option value="medical_devices">Medical Devices</option><option value="regulatory">Regulatory</option><option value="executive_management">CEO / Management</option><option value="investor">Investor</option><option value="grant_program">Grant Program</option><option value="author">Author</option><option value="veterinary">Veterinary</option><option value="wildlife">Wildlife</option><option value="zoo">Zoo</option><option value="science">Institute / Science</option><option value="company">Company</option><option value="philanthropy">Philanthropy</option><option value="organisation">Organisation</option></select></label>
-<label>Direction<select id="fDirection"><option value="all">All directions</option></select></label>
+<label>Top-level group<select id="fCategory"><option value="all">All groups</option></select><span class="filter-hint">Only groups used in Veterinary</span></label>
+<label>Direction<select id="fDirection"><option value="all">All directions</option></select><span class="filter-hint">Only Veterinary / animal-health directions</span></label>
 <label>Contact route<select id="fRoute"><option value="all">All</option><option value="any">Has any contact</option><option value="linkedin">Has LinkedIn</option><option value="email">Has Email</option><option value="phone">Has Phone</option><option value="profile">Has Profile page</option><option value="orcid">Has ORCID</option></select></label>
 <label>Country<select id="fCountry"><option value="all">All countries</option></select></label>
 <label>Animal / Species<select id="fSpecies"><option value="all">All species</option></select><span class="filter-hint">Priority groups first, then individual species</span></label>
@@ -45,7 +45,7 @@
 <p class="note">Follows Archil / Follows BHOC are private working signals stored only in this browser. Mark Yes only after direct LinkedIn confirmation. Previous BHOC relation is derived from verified Oxyglobin / HBOC / BHOC evidence already linked to the contact.</p>
 </main>
 <script src="contacts-v7-core.js?v=20260906-9"></script>
-<script src="contacts-v7-data.js?v=20260906-9"></script>
+<script>window.CONTACT_SCOPE="veterinary";</script><script src="contacts-v7-data.js?v=20260906-10"></script>
 <script src="directory-counts.js?v=20260906-2"></script>
 <script src="contacts-v7-ui.js?v=20260906-10"></script>
 </body>
