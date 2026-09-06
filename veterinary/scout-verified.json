@@ -1,6 +1,114 @@
 {
   "updated": "2026-09-06",
   "rule": "Quality-first Scout enrichment queue. Only verified public professional contacts awaiting promotion belong here. A LinkedIn route is included only after exact identity matching by name, current employer and role/specialty against authoritative current evidence. Historical publication affiliation alone is not sufficient.",
-  "people": {},
-  "organisations": {}
+  "people": {
+    "Terry Jackson": {
+      "organisation": "Argenta",
+      "role": "Global Head of Quality Assurance and Regulatory Affairs",
+      "focus": "Animal-health pharmaceutical quality systems, regulatory affairs, CRO/CDMO compliance and manufacturing quality",
+      "linkedin": "https://www.linkedin.com/in/terry-jackson-5025527",
+      "contact_page": "https://www.argentaglobal.com/team/terry-jackson",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Argenta's current executive team and individual profile identify Terry Jackson as Global Head of Quality Assurance and Regulatory Affairs. His public LinkedIn exactly matches Terry Jackson at Argenta in the Kansas City area and the same pharmaceutical quality/regulatory career."
+    },
+    "Laura Payo Lewis": {
+      "organisation": "Argenta",
+      "role": "Group Leader Regulatory Affairs",
+      "focus": "Animal-health regulatory affairs, feed and pet-food regulation, EFSA/FDA pathways and market access",
+      "contact_page": "https://www.linkedin.com/company/argentaglobal",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Argenta's current 2026 company materials repeatedly identify Laura Payo Lewis as Group Leader Regulatory Affairs, including the 2026 AAFCO meeting and Animal Health Corridor Summit. A unique personal LinkedIn URL was not independently resolved and is not stored."
+    },
+    "Nick Ashton": {
+      "organisation": "Zoetis",
+      "role": "Executive Vice President and President, Global Manufacturing and Supply",
+      "focus": "Global animal-health manufacturing, supply chain, external manufacturing, procurement, network strategy and manufacturing transformation",
+      "linkedin": "https://ie.linkedin.com/in/nick-ashton-94652a27",
+      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Zoetis' current executive team identifies Nick Ashton as Executive Vice President and President, Global Manufacturing and Supply. His public LinkedIn exactly matches Zoetis and current Global Manufacturing and Supply leadership; he has publicly announced a planned departure at the end of 2026, so the record should be reverified after that date."
+    },
+    "Jay Saccaro": {
+      "organisation": "Zoetis",
+      "role": "Executive Vice President, Chief Financial Officer and Chief Operating Officer",
+      "focus": "Corporate operations, capital allocation, procurement and oversight of Global Manufacturing and Supply",
+      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team/jay-saccaro",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Zoetis' current official executive profile identifies James (Jay) Saccaro as EVP, CFO and COO effective August 2026 and states that he oversees Global Manufacturing and Supply and Procurement. A direct personal LinkedIn URL was not independently verified and is not stored."
+    },
+    "Rebecca Langhorn": {
+      "organisation": "University of Copenhagen, Department of Veterinary Clinical Sciences",
+      "role": "Associate Professor in Veterinary Emergency & Critical Care",
+      "focus": "ICU, veterinary blood bank, transfusion medicine, hematology, hemostasis and critical care",
+      "email": "rel@sund.ku.dk",
+      "contact_page": "https://researchprofiles.ku.dk/en/persons/rebecca-langhorn",
+      "verified_on": "2026-09-06",
+      "verification_basis": "The University of Copenhagen's current official research profile identifies Rebecca Langhorn as Associate Professor in veterinary emergency and critical care and responsible for the ICU and blood bank at the University Hospital for Companion Animals. The university publishes this professional email. A direct personal LinkedIn URL was not independently resolved and is not stored."
+    },
+    "Sarah Musulin": {
+      "organisation": "NC State College of Veterinary Medicine",
+      "role": "Clinical Professor; Blood Bank faculty; AVHTM Director",
+      "focus": "Veterinary emergency and critical care, blood banking, transfusion medicine and transfusion-reaction standards",
+      "email": "semusuli@ncsu.edu",
+      "contact_page": "https://cvm.ncsu.edu/people/semusuli/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "NC State's current faculty and Blood Bank pages identify Sarah Musulin as Clinical Professor and Blood Bank faculty. The Association of Veterinary Hematology and Transfusion Medicine lists her as a current Director with a term through June 30, 2027 and describes her blood-bank/transfusion-medicine leadership."
+    },
+    "Jillian Haines": {
+      "organisation": "Washington State University College of Veterinary Medicine",
+      "role": "Professor; Director of the hospital blood bank",
+      "focus": "Patient blood management, hemovigilance, platelet function and transfusion-based therapies",
+      "email": "jmhaines@wsu.edu",
+      "contact_page": "https://vetmed.wsu.edu/our-team/wsu-profile/jmhaines/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Washington State University's current official profile identifies Jillian Haines as Professor and director of the hospital blood bank, with research interests in patient blood management, hemovigilance, platelet function and transfusion-based therapies. The university publishes this professional email."
+    },
+    "Kate Farrell": {
+      "organisation": "UC Davis Weill School of Veterinary Medicine",
+      "role": "Associate Professor; Assistant Director, Transfusion Medicine Service and Blood Bank",
+      "focus": "Veterinary blood banking, transfusion medicine, emergency and critical care, platelet storage and resuscitation",
+      "contact_page": "https://www.vetmed.ucdavis.edu/node/27826",
+      "verified_on": "2026-09-06",
+      "verification_basis": "UC Davis' current faculty profile identifies Kate Farrell as Associate Professor with research and specialty focus in blood banking and transfusion medicine; the current Emergency and Critical Care Service lists her as Assistant Director of the Transfusion Medicine Service and Blood Bank. A direct personal LinkedIn URL was not independently verified and is not stored."
+    },
+    "Diego Gomez": {
+      "organisation": "Abu Dhabi Equine and Camel Hospital (ADECH)",
+      "role": "Specialist, Internal Medicine",
+      "focus": "Advanced internal medicine for complex equine and camel cases; veterinary infectious disease and clinical care",
+      "contact_page": "https://adech.ae/team-member/dr-diego-gomez/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "ADECH's current official team profile identifies Dr. Diego Gomez, DVM, MSc, MVSc, PhD, DACVIM, as Specialist, Internal Medicine and states that he leads the internal medicine service for complex equine and camel cases. A direct personal LinkedIn URL was not independently verified and is not stored."
+    },
+    "Stefanie Hansen": {
+      "organisation": "Abu Dhabi Equine and Camel Hospital (ADECH)",
+      "role": "Surgeon",
+      "focus": "Board-certified large-animal surgery, equine and camel surgery, emergency and specialist referral care",
+      "contact_page": "https://adech.ae/team-member/dr-stefanie-hansen/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "ADECH's current official team profile identifies Dr. Stefanie Hansen, DVM, MSc, Diplomate ACVS (Large Animal), as Surgeon. Current ADECH materials also show her leading educational content on joint disease in horses and camels. A matching LinkedIn directory identity exists at ADECH, but no unique direct profile URL was independently resolved, so none is stored."
+    }
+  },
+  "organisations": {
+    "University of Copenhagen - Department of Veterinary Clinical Sciences": {
+      "type": "university_veterinary_department",
+      "country": "DK",
+      "focus": "Veterinary clinical sciences, emergency and critical care, ICU, blood banking and companion-animal hospital services",
+      "official_page": "https://ikv.ku.dk/",
+      "verified_on": "2026-09-06"
+    },
+    "NC State College of Veterinary Medicine": {
+      "type": "university_veterinary_school",
+      "country": "US",
+      "focus": "Veterinary teaching hospital, emergency and critical care, blood bank and transfusion medicine",
+      "official_page": "https://cvm.ncsu.edu/",
+      "verified_on": "2026-09-06"
+    },
+    "Washington State University College of Veterinary Medicine": {
+      "type": "university_veterinary_school",
+      "country": "US",
+      "focus": "Veterinary teaching hospital, internal medicine, blood bank, patient blood management and transfusion research",
+      "official_page": "https://vetmed.wsu.edu/",
+      "verified_on": "2026-09-06"
+    }
+  }
 }
