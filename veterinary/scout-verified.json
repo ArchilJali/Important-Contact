@@ -1,0 +1,85 @@
+{
+  "updated": "2026-09-06",
+  "rule": "Quality-first Scout enrichment. A LinkedIn route is included only after exact identity matching by name, current employer and role/specialty against an authoritative current source. Historical publication affiliation alone is not sufficient.",
+  "people": {
+    "Amanda Boag": {
+      "organisation": "Royal Veterinary College",
+      "linkedin": "https://uk.linkedin.com/in/amanda-boag-b323181b",
+      "contact_page": "https://www.rvc.ac.uk/about/our-people/amanda-boag",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact name and Royal Veterinary College employer matched on LinkedIn. RVC official materials confirm Vice Principal (Clinical Services) and emergency/critical-care specialty."
+    },
+    "Marcela (Marcy) Uhart": {
+      "organisation": "UC Davis Karen C. Drayer Wildlife Health Center / IUCN SSC Wildlife Health Specialist Group",
+      "linkedin": "https://ar.linkedin.com/in/marcela-uhart-262777312",
+      "contact_page": "https://whc.vetmed.ucdavis.edu/people/marcela-uhart",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact Marcela Uhart identity, UC Davis professional affiliation and wildlife-health specialty matched with the current UC Davis Wildlife Health Center profile."
+    },
+    "Tiggy Grillo": {
+      "organisation": "Wildlife Health Australia / IUCN SSC Wildlife Health Specialist Group",
+      "linkedin": "https://au.linkedin.com/in/tiggy-g-74b13326",
+      "contact_page": "https://wildlifehealthaustralia.com.au/About-Us/The-Team-Contact-Information",
+      "verified_on": "2026-09-06",
+      "verification_basis": "LinkedIn Tiggy G. profile matches Wildlife Health Australia. WHA official current team page confirms Dr Tiggy Grillo as National Coordinator and COO, veterinarian and IUCN WHSG Co-Chair."
+    },
+    "Richard DeLuca": {
+      "organisation": "Merck Animal Health",
+      "linkedin": "https://www.linkedin.com/in/richard-deluca-86325613",
+      "contact_page": "https://www.merck-animal-health.com/research-and-innovation/business-development/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact Richard DeLuca identity and Merck Animal Health leadership context matched through his public LinkedIn activity and current Merck Animal Health materials identifying him as President."
+    },
+    "Mike Erickson": {
+      "organisation": "IDEXX",
+      "linkedin": "https://www.linkedin.com/in/mike-erickson-87b0409",
+      "contact_page": "https://ir.idexx.com/company-information/executive-team/detail/mike-erickson",
+      "role": "President and Chief Executive Officer, IDEXX; veterinary diagnostics, software, AI and healthcare innovation",
+      "country": "US",
+      "species": ["dog", "cat", "livestock", "companion_animals"],
+      "source": "https://ir.idexx.com/company-information/executive-team/detail/mike-erickson",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact Mike Erickson identity and IDEXX employer matched. IDEXX official executive page confirms President and CEO since May 2026; his public LinkedIn post independently states the same succession and IDEXX role."
+    },
+    "Matthew Stober": {
+      "organisation": "Argenta",
+      "linkedin": "https://www.linkedin.com/in/matthewstober",
+      "contact_page": "https://www.argentaglobal.com/team/matthew-stober",
+      "role": "Chief Executive Officer, Argenta; animal-health CRO/CDMO, pharmaceutical development and manufacturing",
+      "country": "US",
+      "species": ["dog", "cat", "livestock", "horse", "animal_health"],
+      "source": "https://www.argentaglobal.com/team/matthew-stober",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact Matthew Stober identity and Argenta employer matched. Argenta official CEO profile and current public LinkedIn activity both identify him as Chief Executive Officer in the animal-health CRO/CDMO business."
+    },
+    "Jesper D. Nordengaard": {
+      "organisation": "Dechra",
+      "linkedin": "https://www.linkedin.com/in/jesper-d-nordengaard-5781251",
+      "contact_page": "https://www.dechra.com/corporate/senior-executive-team",
+      "role": "Chief Executive Officer, Dechra; veterinary specialty pharmaceuticals, innovation and commercial strategy",
+      "country": "US, GB",
+      "species": ["dog", "cat", "horse", "companion_animals"],
+      "source": "https://www.dechra.com/corporate/senior-executive-team",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact Jesper D. Nordengaard identity and Dechra employer matched. Dechra official senior executive page confirms CEO role; his public LinkedIn profile and posts state that he leads Dechra."
+    }
+  },
+  "organisations": {
+    "IDEXX": {
+      "type": "company",
+      "official_page": "https://ir.idexx.com/company-information/executive-team",
+      "focus": "Veterinary diagnostics, software, imaging, telemedicine and animal-health technology"
+    },
+    "Argenta": {
+      "type": "company",
+      "email": "info@argentaglobal.com",
+      "official_page": "https://www.argentaglobal.com/",
+      "focus": "Animal-health CRO/CDMO, pharmaceutical development, regulatory and manufacturing services"
+    },
+    "Dechra": {
+      "type": "company",
+      "official_page": "https://www.dechra.com/corporate/senior-executive-team",
+      "focus": "Veterinary specialty pharmaceuticals and animal-health innovation"
+    }
+  }
+}
