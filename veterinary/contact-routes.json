@@ -2,495 +2,86 @@
   "updated": "2026-09-06",
   "rule": "Public professional contact routes only. Missing fields mean not yet verified. LinkedIn is added only after exact-name + current-employer + role/specialty identity matching against authoritative sources.",
   "people": {
-    "Karen Humm": {
-      "organisation": "Royal Veterinary College / Queen Mother Hospital for Animals",
-      "linkedin": "https://uk.linkedin.com/in/karen-humm-185b0013a",
-      "email": "KHUMM@rvc.ac.uk",
-      "contact_page": "https://www.rvc.ac.uk/about/our-people/karen-humm",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Exact name and Royal Veterinary College employer matched on LinkedIn; RVC official profile and current RVC LinkedIn content confirm transfusion medicine, emergency and critical care specialty."
-    },
-    "Kate Hopper": {
-      "organisation": "UC Davis School of Veterinary Medicine",
-      "contact_page": "https://profiles.ucdavis.edu/kate.hopper",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Current UC Davis institutional profile confirms full name, professor role and Veterinary Medicine Teaching Hospital leadership. Direct personal LinkedIn URL not yet verified."
-    },
-    "Kira L. Epstein": {
-      "organisation": "University of Georgia College of Veterinary Medicine",
-      "linkedin": "https://www.linkedin.com/in/kira-epstein-692490111",
-      "contact_page": "https://vet.uga.edu/person/kira_l-_epstein/",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Exact name and University of Georgia employer matched on LinkedIn; UGA official profile confirms Department Head of Large Animal Medicine and emergency/critical care specialty."
-    },
-    "Sharon Deem": {
-      "organisation": "Saint Louis Zoo - Institute for Conservation Medicine",
-      "linkedin": "https://www.linkedin.com/in/sharon-deem",
-      "contact_page": "https://drsharondeem.squarespace.com/contact"
-    },
-    "Cindy Cole": {
-      "organisation": "Digitalis Ventures",
-      "contact_page": "https://www.digitalisventures.com/people/cindy-cole",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Digitalis Ventures official people page confirms Cindy Cole as Technical Partner and veterinary/pharmacology background. Direct personal LinkedIn URL not yet verified."
-    },
-    "Ben Jacobs": {
-      "organisation": "Digitalis Ventures",
-      "linkedin": "https://www.linkedin.com/in/bendjacobs",
-      "contact_page": "https://www.digitalisventures.com/people/ben-jacobs",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Exact name and Digitalis Ventures employer matched on LinkedIn; Digitalis Ventures official profile confirms Partner role and animal-health/pet-care investment activity."
-    },
-    "Leonardo DiCaprio": {
-      "organisation": "Re:wild",
-      "contact_page": "https://www.rewild.org/team/leonardo-dicaprio"
-    },
-    "Urs Giger": {
-      "organisation": "University of Pennsylvania School of Veterinary Medicine",
-      "contact_page": "https://almanac.upenn.edu/articles/urs-giger-lifetime-achievement-award"
-    },
-    "Marcela (Marcy) Uhart": {
-      "organisation": "UC Davis Karen C. Drayer Wildlife Health Center / IUCN SSC Wildlife Health Specialist Group",
-      "linkedin": "https://ar.linkedin.com/in/marcela-uhart-262777312",
-      "contact_page": "https://whc.vetmed.ucdavis.edu/people/marcela-uhart",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Exact Marcela Uhart identity, UC Davis professional affiliation and wildlife-health specialty matched with the current UC Davis Wildlife Health Center profile."
-    },
-    "Tiggy Grillo": {
-      "organisation": "Wildlife Health Australia / IUCN SSC Wildlife Health Specialist Group",
-      "linkedin": "https://au.linkedin.com/in/tiggy-g-74b13326",
-      "contact_page": "https://wildlifehealthaustralia.com.au/About-Us/The-Team-Contact-Information",
-      "verified_on": "2026-09-06",
-      "verification_basis": "LinkedIn Tiggy G. profile matches Wildlife Health Australia. WHA official current team page confirms Dr Tiggy Grillo as National Coordinator and COO, veterinarian and IUCN WHSG Co-Chair."
-    },
-    "Joan Weill": {
-      "organisation": "Weill Family Foundation",
-      "contact_page": "https://www.ucdavis.edu/news/uc-davis-receives-120m-gift-largest-ever-veterinary-medicine"
-    },
-    "Sanford I. Weill": {
-      "organisation": "Weill Family Foundation",
-      "contact_page": "https://www.ucdavis.edu/news/uc-davis-receives-120m-gift-largest-ever-veterinary-medicine"
-    },
-    "Tiana Andriamanana": {
-      "organisation": "Association Fanamby",
-      "linkedin": "https://mg.linkedin.com/in/tiana-andriamanana-16406620",
-      "contact_page": "https://fanamby.org/tiana-andriamanana/",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Exact name, Fanamby employer and Executive Director/conservation leadership role matched between Fanamby official team/profile pages, Fanamby LinkedIn job-poster identity and Tiana Andriamanana public LinkedIn activity."
-    },
-    "Rimma Driscoll": {
-      "organisation": "Zoetis",
-      "linkedin": "https://www.linkedin.com/in/rimma-driscoll",
-      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team/rimma-driscoll",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Exact name, Zoetis employer and executive strategy/business-development role matched between public LinkedIn profile and Zoetis official executive page."
-    },
-    "Kevin Esch": {
-      "organisation": "Zoetis",
-      "linkedin": "https://www.linkedin.com/in/kevin-esch-a610653b",
-      "contact_page": "https://www.zoetis.com/our-company/our-story/executive-team/kevin-esch",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Exact name, Zoetis employer, veterinarian/R&D background and global R&D leadership matched between public LinkedIn profile and Zoetis official executive page."
-    },
-    "Tim Bettington": {
-      "organisation": "Elanco Animal Health",
-      "contact_page": "https://www.elanco.com/us/leadership/executive-committee/tim-bettington",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Elanco official page confirms exact name, Executive Vice President Center of Strategic Growth role and animal-health strategy background. Direct personal LinkedIn URL not yet verified."
-    },
-    "Ellen de Brabander": {
-      "organisation": "Elanco Animal Health",
-      "linkedin": "https://nl.linkedin.com/in/ellen-de-brabander-85840a10",
-      "contact_page": "https://www.elanco.com/us/leadership/executive-committee/ellen-de-brabander",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Exact name, Elanco employer and R&D/innovation role matched between Ellen de Brabander public LinkedIn activity/profile route and Elanco official executive page."
-    },
-    "Richard DeLuca": {
-      "organisation": "Merck Animal Health",
-      "linkedin": "https://www.linkedin.com/in/richard-deluca-86325613",
-      "contact_page": "https://www.merck-animal-health.com/research-and-innovation/business-development/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Exact Richard DeLuca identity and Merck Animal Health leadership context matched through his public LinkedIn activity and current Merck Animal Health materials identifying him as President."
-    },
-    "Holger Lehmann": {
-      "organisation": "Merck Animal Health",
-      "linkedin": "https://www.linkedin.com/in/holger-lehmann-2858b74",
-      "contact_page": "https://www.merck-animal-health.com/news-and-insights/featured-stories/our-drug-discovery-commitment-to-help-livestock-producers/",
-      "verified_on": "2026-09-05",
-      "verification_basis": "Exact name, Merck Animal Health context and pharmaceutical R&D specialty matched between public LinkedIn profile/activity and Merck Animal Health official authored/current-role materials."
-    },
-    "Bernd Driessen": {
-      "organisation": "University of Pennsylvania School of Veterinary Medicine",
-      "linkedin": "https://www.linkedin.com/in/bernd-driessen-64644aa4",
-      "email": "driessen@vet.upenn.edu",
-      "contact_page": "https://www.vet.upenn.edu/directory/bernddriessen/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Penn Vet official directory confirms current Professor of Anesthesiology, Chief of Anesthesia and research in hemorrhagic shock/tissue oxygenation; PubMed documents his Oxyglobin/hemoglobin glutamer-200 studies. Public LinkedIn exactly matches Penn Vet identity."
-    },
-    "Amanda Boag": {
-      "organisation": "Royal Veterinary College",
-      "linkedin": "https://uk.linkedin.com/in/amanda-boag-b323181b",
-      "contact_page": "https://www.rvc.ac.uk/about/our-people/amanda-boag",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Exact name and Royal Veterinary College employer matched on LinkedIn. RVC official materials confirm Vice Principal (Clinical Services) and emergency/critical-care specialty; the 2005 In Practice paper documents coauthorship on clinical use of Oxyglobin in dogs and cats."
-    },
-    "Sophie Adamantos": {
-      "organisation": "Paragon Veterinary Referrals",
-      "contact_page": "https://www.paragonreferrals.co.uk/team-members/sophie-adamantos/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Paragon official profile confirms Clinical Director, ECC, anemia/bleeding and transfusion-medicine interests; the 2005 In Practice paper documents coauthorship on clinical Oxyglobin use in dogs and cats. Direct personal LinkedIn not yet stored."
-    },
-    "Marie E. Kerl": {
-      "organisation": "VCA Animal Hospitals / University of Missouri",
-      "contact_page": "https://extension.missouri.edu/people/marie-e-kerl-dvm-mph-mba",
-      "verified_on": "2026-09-06",
-      "verification_basis": "University of Missouri public profile confirms adjunct teaching role and VCA Chief Medical Officer/VP Medical Operations; publication evidence documents clinical biochemistry work after hemoglobin glutamer-200 (Oxyglobin) infusion in dogs. Direct personal LinkedIn not yet stored."
-    },
-    "Anthony B. Zambelli": {
-      "organisation": "Inanda Veterinary Hospital & Specialist Referrals (historical; current role verification pending)",
-      "verified_on": "2026-09-06",
-      "verification_basis": "PubMed confirms exact authorship of the randomized Oxyglobin versus packed RBC canine babesiosis trial. Later public veterinary records document Inanda Veterinary Hospital affiliation, but a 2026 current-role source has not yet been resolved."
-    },
-    "Andrew L. Leisewitz": {
-      "organisation": "Auburn University College of Veterinary Medicine",
-      "linkedin": "https://www.linkedin.com/in/andrew-leisewitz-580aa927b",
-      "email": "all0087@auburn.edu",
-      "contact_page": "https://www.vetmed.auburn.edu/faculty/leisewitz-andrew/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Auburn official faculty page confirms current Professor role, internal-medicine background and hemoprotozoal research; public LinkedIn matches Auburn identity. PubMed confirms coauthorship of the randomized Oxyglobin canine babesiosis trial."
-    },
-    "Dennis T. Crowe Jr.": {
-      "organisation": "Independent veterinary surgery / emergency and critical care (current route verification pending)",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Public veterinary educational literature documents Dennis T. Crowe Jr. as a veterinary surgery and emergency/critical-care authority and explicitly discusses Oxyglobin/HBOC in trauma care. Current direct institutional contact route remains to be independently verified."
-    },
-    "Barry Scott": {
-      "organisation": "Biopure Corporation (historical; current role verification pending)",
-      "verified_on": "2026-09-06",
-      "verification_basis": "SEC-filed Biopure release and the executed Dechra distribution agreement identify Barry Scott as Biopure Vice President, Business Development and signatory for Oxyglobin distribution. Current role/contact route is not yet independently verified."
-    },
-    "Tiana Gorham": {
-      "organisation": "Biopure Corporation (historical; current role verification pending)",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Multiple SEC-filed 2008 Biopure releases identify Tiana Gorham as the corporate/IR contact during the Oxyglobin commercial period. Current role/contact route is not yet independently verified."
-    },
-    "Jonathan S. Jahr": {
-      "organisation": "David Geffen School of Medicine at UCLA / Ronald Reagan UCLA Medical Center",
-      "email": "j.s.jahr@ucla.edu",
-      "contact_page": "https://onlinelibrary.wiley.com/doi/10.1111/trf.18116",
-      "verified_on": "2026-09-06",
-      "verification_basis": "2025 Transfusion correspondence confirms UCLA affiliation and public professional email; current professional materials describe Professor Emeritus status and longstanding HBOC expertise. PubMed confirms historical Oxyglobin/Hb-200 canine-shock coauthorship."
-    },
-    "Fedor Lurie": {
-      "organisation": "Jobst Vascular Institute / University of Michigan",
-      "email": "fedor.lurie@promedica.org",
-      "contact_page": "https://www.uip-phlebology.org/executive-committee",
-      "verified_on": "2026-09-06",
-      "verification_basis": "International Union of Phlebology current executive biography confirms Associate Director, Jobst Vascular Institute and Adjunct Research Professor at University of Michigan; 2026 PubMed correspondence confirms professional email. PubMed confirms historical Oxyglobin/Hb-200 canine-shock coauthorship."
-    },
-    "Mohammad S. Golkaryeh": {
-      "organisation": "Historical Oxyglobin/Hb-200 study affiliation; current role verification pending",
-      "verified_on": "2026-09-06",
-      "verification_basis": "PubMed PMID 12794419 confirms exact coauthorship on Oxyglobin/Hb-200 canine hypovolemic-shock dose-response research. A reliable current professional identity/contact route has not yet been resolved."
-    },
-    "Robert A. Gunther": {
-      "organisation": "UC Davis Department of Surgery",
-      "contact_page": "https://health.ucdavis.edu/surgery/team/index.html",
-      "verified_on": "2026-09-06",
-      "verification_basis": "UC Davis Department of Surgery lists Robert Gunther under Faculty Emeritus in Burn Surgery. PubMed confirms historical coauthorship on Oxyglobin/Hb-200 canine hypovolemic-shock research."
-    },
-    "Mike Erickson": {
-      "organisation": "IDEXX",
-      "linkedin": "https://www.linkedin.com/in/mike-erickson-87b0409",
-      "contact_page": "https://ir.idexx.com/company-information/executive-team/detail/mike-erickson",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Exact Mike Erickson identity and IDEXX employer matched. IDEXX official executive page confirms President and CEO since May 2026; his public LinkedIn activity independently states the same succession and IDEXX role."
-    },
-    "Matthew Stober": {
-      "organisation": "Argenta",
-      "linkedin": "https://www.linkedin.com/in/matthewstober",
-      "contact_page": "https://www.argentaglobal.com/team/matthew-stober",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Exact Matthew Stober identity and Argenta employer matched. Argenta official CEO profile and public LinkedIn activity identify him as Chief Executive Officer in the animal-health CRO/CDMO business."
-    },
-    "Jesper D. Nordengaard": {
-      "organisation": "Dechra",
-      "linkedin": "https://www.linkedin.com/in/jesper-d-nordengaard-5781251",
-      "contact_page": "https://www.dechra.com/corporate/senior-executive-team",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Exact Jesper D. Nordengaard identity and Dechra employer matched. Dechra official senior executive page confirms CEO role; current public LinkedIn activity identifies him as CEO and animal-health leader."
-    },
-    "François Dennewald": {
-      "organisation": "Ceva Animal Health",
-      "linkedin": "https://fr.linkedin.com/in/francois-dennewald",
-      "contact_page": "https://www.ceva.com/about-ceva/governance/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Exact name, Ceva employer and Strategy & Business Development title match between the current Ceva governance page and François Dennewald's public LinkedIn profile/activity."
-    },
-    "Megan Grether": {
-      "organisation": "Boehringer Ingelheim Animal Health",
-      "linkedin": "https://de.linkedin.com/in/megan-grether-3875bb3",
-      "contact_page": "https://www.boehringer-ingelheim.com/partnering/working-together-animal-health/connect-with-us",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Exact Megan Grether identity and Boehringer Ingelheim employer match on LinkedIn. BIO International Convention and current animal-health industry materials identify her as Head of Global Business Development & Licensing, Animal Health."
-    },
-    "Knut Elbers": {
-      "organisation": "Boehringer Ingelheim Animal Health",
-      "linkedin": "https://de.linkedin.com/in/knut-elbers-11bb5b6",
-      "contact_page": "https://www.boehringer-ingelheim.com/animal-health",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Exact Knut Elbers identity and Boehringer Ingelheim employer match on LinkedIn. Boehringer Ingelheim's August 2026 Evax acquisition release identifies him as Head of Global Innovation, Animal Health."
-    },
-    "Mary Beth Callan": {
-      "organisation": "University of Pennsylvania School of Veterinary Medicine",
-      "email": "callan@vet.upenn.edu",
-      "contact_page": "https://www.vet.upenn.edu/directory/marybethcallan/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Penn Vet official directory confirms exact Mary Beth Callan identity, current Professor of Medicine (CE) role and hematology/transfusion-medicine specialty. PubMed PMID 14664199 independently confirms her authorship of the 2003 Oxyglobin clinical application review. Direct personal LinkedIn URL was not verified and is not stored."
-    },
-    "Fuyu Guan": {
-      "organisation": "University of Pennsylvania School of Veterinary Medicine",
-      "linkedin": "https://www.linkedin.com/in/fuyu-guan-06aaa046",
-      "email": "guanf@vet.upenn.edu",
-      "contact_page": "https://www.vet.upenn.edu/directory/fuyuguan/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Penn Vet official directory confirms exact Fuyu Guan identity and current Research Professor of Equine Forensic Chemistry role. PubMed PMID 15920176 and PMID 15373452 confirm equine hemoglobin glutamer-200/HBOC authorship. LinkedIn independently matches Fuyu Guan at University of Pennsylvania in West Chester, Pennsylvania."
-    },
-    "Justine Conway": {
-      "organisation": "Dechra",
-      "linkedin": "https://www.linkedin.com/in/justine-conway-25708711",
-      "contact_page": "https://www.dechra.com/corporate/senior-executive-team",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Dechra appointed Justine Conway Chief Corporate Strategy & Business Development Officer on 17 August 2026. Dechra's current executive page confirms the role, and her public LinkedIn route matches the same animal-health strategy and business-development identity; the former Elanco role is historical."
-    },
-    "Steve Nanchen": {
-      "organisation": "Elanco Animal Health",
-      "linkedin": "https://ch.linkedin.com/in/steve-nanchen-1468891",
-      "contact_page": "https://www.elanco.com/en-au/research-and-development/innovation-portal",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Elanco official Partnering Hub identifies Steve Nanchen, PhD, as Senior Director, External Innovation, EU/APAC. Public LinkedIn matches the exact name and Elanco employer in Basel."
-    },
-    "Juan Escala": {
-      "organisation": "Elanco Animal Health",
-      "linkedin": "https://uk.linkedin.com/in/juanescala",
-      "contact_page": "https://www.elanco.com/en-au/research-and-development/innovation-portal",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Elanco official Partnering Hub identifies Juan Escala, DVM, as Senior Advisor, External Innovation. Public LinkedIn matches the exact name, Elanco employer and Scotland professional base."
-    },
-    "Jonathan Snyder": {
-      "organisation": "Elanco Animal Health",
-      "linkedin": "https://www.linkedin.com/in/jonathan-snyder-4091463a",
-      "contact_page": "https://www.elanco.com/en-au/research-and-development/innovation-portal",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Elanco official Partnering Hub identifies Jonathan Snyder, PhD, as Senior Advisor, External Innovation. Public LinkedIn matches the exact name, Elanco employer and Indianapolis location; current activity also documents his Elanco innovation role and One Health collaboration."
-    },
-    "Virginia Rentko": {
-      "organisation": "VirTech Bio",
-      "linkedin": "https://www.linkedin.com/in/ginny-rentko-14353a10/",
-      "contact_page": "https://virtechbio.com/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Current VirTech Bio team and MTEC member profile identify Virginia Rentko, VMD, as Veterinary Advisor; MTEC provides the direct LinkedIn route. PubMed PMID 14664199 confirms exact Oxyglobin clinical-application authorship, and a 2026 veterinary AI publication lists current Animal Biosciences and Tufts affiliations."
-    },
-    "Leane Oliveira": {
-      "organisation": "Elanco Animal Health",
-      "linkedin": "https://www.linkedin.com/in/leane-oliveira-48ba4143",
-      "contact_page": "https://www.elanco.com/en-au/research-and-development/innovation-portal",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Elanco current Partnering Hub identifies Leane Oliveira, DVM, PhD, as Senior Advisor, External Innovation. The public LinkedIn profile exactly matches Leane Oliveira at Elanco in Indianapolis and current external-innovation activity."
-    },
-    "Karthik Ramachandran": {
-      "organisation": "Elanco Animal Health",
-      "linkedin": "https://www.linkedin.com/in/kansasbioengineer",
-      "contact_page": "https://www.elanco.com/en-au/research-and-development/innovation-portal",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Elanco current Partnering Hub identifies Karthik Ramachandran, PhD, as Senior Advisor, External Innovation. The public LinkedIn profile matches Elanco and Greater Boston; BIO partnering material independently confirms the same animal-health external-innovation role."
-    },
-    "Vinayak Surve": {
-      "organisation": "Virbac",
-      "linkedin": "https://in.linkedin.com/in/dr-vinayak-surve-486b185",
-      "contact_page": "https://in.virbac.com/cattle/diseases/about-worm-bronchitis-in-cattle",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Current Virbac India authored professional pages identify Dr. Vinayak Surve as Senior Manager - R&D and Licensing (RDL). His public LinkedIn exactly matches Dr. Vinayak Surve at Virbac in Mumbai and shows current veterinary/R&D activity."
-    },
-    "Lalit Gaur": {
-      "organisation": "Vetoquinol",
-      "linkedin": "https://www.linkedin.com/in/lalit-gaur-3448622",
-      "contact_page": "https://les2026.org/program/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "LES 2026 programme identifies Lalit Gaur as Global Head, Business Development & Licensing at Vetoquinol; current LES board biography and VetHealth Global advisory-board profile independently confirm the same role. The public LinkedIn profile matches Lalit Gaur in the Raleigh-Durham area and Vetoquinol professional activity."
-    },
-    "Jim McIntyre": {
-      "organisation": "Merck Animal Health",
-      "linkedin": "https://www.linkedin.com/in/jim-mcintyre-6894041",
-      "contact_page": "https://www.merck-animal-health.com/research-and-innovation/business-development/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "The 2026 AHNTI speaker lineup identifies Jim McIntyre as Head of Global Business Development, Merck Animal Health. His public LinkedIn matches the exact name and Merck Animal Health activity; Merck Animal Health public materials also identify him in Global Business Development."
-    },
-    "Benjamin Wolin": {
-      "organisation": "Covetrus",
-      "linkedin": "https://www.linkedin.com/in/benjamin-wolin-557374",
-      "contact_page": "https://covetrus.com/about/leadership/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Covetrus current official leadership page confirms Benjamin Wolin as President and CEO. His public LinkedIn profile matches Covetrus and shows current Covetrus activity and company website."
-    },
-    "Graham Rhodes": {
-      "organisation": "Covetrus",
-      "linkedin": "https://uk.linkedin.com/in/grahammrhodes",
-      "contact_page": "https://covetrus.com/about/leadership/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Covetrus current official leadership page confirms Graham Rhodes as President for Europe, Latin America and Asia Pacific/international operations. His public LinkedIn exactly matches Graham Rhodes at Covetrus in London."
-    },
-    "Christian Burkhardt": {
-      "organisation": "Virbac",
-      "contact_page": "https://corporate.virbac.com/home/news-media/news/pagecontent/toutes-les-actualites-presse-vir/swine-health-virbac-signs-agreement-with-macso.html",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Virbac's official 17 April 2026 MACSO partnership announcement identifies Christian Burkhardt as Director of Business Development & Licensing. No direct personal LinkedIn route is stored because a strict current identity match was not independently resolved."
-    },
-    "Alan Taylor": {
-      "organisation": "Virbac North America",
-      "contact_page": "https://us.virbac.com/home/discover-virbac/executive-leadership-team/dr-alan-taylor.html",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Virbac North America's current official executive profile confirms Dr. Alan Taylor as Vice President, Innovation and Business Development and describes responsibility for external development, acquisitions, R&D, regulatory affairs and technology innovation. No personal LinkedIn route is stored because an exact profile was not independently resolved."
-    },
-    "Bill Ng": {
-      "organisation": "Covetrus",
-      "contact_page": "https://covetrus.com/about/leadership/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "Covetrus current official leadership page confirms Bill Ng as Chief Operating Officer, North America, responsible for service lines, supplier relations, category management, pricing and distribution operations. No personal LinkedIn route is stored because an exact profile was not independently resolved."
-    },
-    "Steve Shell": {
-      "organisation": "MWI Animal Health",
-      "linkedin": "https://www.linkedin.com/in/steve-shell-5590035",
-      "contact_page": "https://www.mwiah.com/Our-Leadership",
-      "verified_on": "2026-09-06",
-      "verification_basis": "MWI Animal Health's current official leadership page confirms Steve Shell as President. His public LinkedIn exactly matches MWI Animal Health and shows current company activity."
-    },
-    "Moamen Karm (DVM)": {
-      "organisation": "Arabian Horses Veterinary Co. (AHV)",
-      "city": "Al Qasim",
-      "workplace": "Equine sports medicine; horse and camel veterinary practice",
-      "directions": [
-        "Veterinary",
-        "Equine",
-        "Large Animal",
-        "Sports Medicine",
-        "Camel",
-        "Animal Health"
-      ],
-      "linkedin": "https://www.linkedin.com/in/moamen-karm-dvm-850031140/",
-      "contact_page": "https://www.linkedin.com/company/arabian-horses-veterinary-co-ahv/",
-      "verified_on": "2026-09-06",
-      "verification_basis": "LinkedIn profile exactly matches Moamen Karm (DVM), Al Qasim, Saudi Arabia, with current Arabian Horses Veterinary Co. (AHV) affiliation and horse/camel sports-medicine focus. AHV's company page lists him among current employees.",
-      "linkedin_relationship": {
-        "personal_connection": true,
-        "bhoc_page_follower": "unknown",
-        "follows_archil": "unknown",
-        "follows_bhoc": "unknown"
-      }
-    }
+    "Karen Humm": {"organisation":"Royal Veterinary College / Queen Mother Hospital for Animals","linkedin":"https://uk.linkedin.com/in/karen-humm-185b0013a","email":"KHUMM@rvc.ac.uk","contact_page":"https://www.rvc.ac.uk/about/our-people/karen-humm","verified_on":"2026-09-05","verification_basis":"Exact name and Royal Veterinary College employer matched on LinkedIn; RVC official profile and current RVC LinkedIn content confirm transfusion medicine, emergency and critical care specialty."},
+    "Kate Hopper": {"organisation":"UC Davis School of Veterinary Medicine","contact_page":"https://profiles.ucdavis.edu/kate.hopper","verified_on":"2026-09-05","verification_basis":"Current UC Davis institutional profile confirms full name, professor role and Veterinary Medicine Teaching Hospital leadership. Direct personal LinkedIn URL not yet verified."},
+    "Kira L. Epstein": {"organisation":"University of Georgia College of Veterinary Medicine","linkedin":"https://www.linkedin.com/in/kira-epstein-692490111","contact_page":"https://vet.uga.edu/person/kira_l-_epstein/","verified_on":"2026-09-05","verification_basis":"Exact name and University of Georgia employer matched on LinkedIn; UGA official profile confirms Department Head of Large Animal Medicine and emergency/critical care specialty."},
+    "Sharon Deem": {"organisation":"Saint Louis Zoo - Institute for Conservation Medicine","linkedin":"https://www.linkedin.com/in/sharon-deem","contact_page":"https://drsharondeem.squarespace.com/contact"},
+    "Cindy Cole": {"organisation":"Digitalis Ventures","contact_page":"https://www.digitalisventures.com/people/cindy-cole","verified_on":"2026-09-05","verification_basis":"Digitalis Ventures official people page confirms Cindy Cole as Technical Partner and veterinary/pharmacology background. Direct personal LinkedIn URL not yet verified."},
+    "Ben Jacobs": {"organisation":"Digitalis Ventures","linkedin":"https://www.linkedin.com/in/bendjacobs","contact_page":"https://www.digitalisventures.com/people/ben-jacobs","verified_on":"2026-09-05","verification_basis":"Exact name and Digitalis Ventures employer matched on LinkedIn; Digitalis Ventures official profile confirms Partner role and animal-health/pet-care investment activity."},
+    "Leonardo DiCaprio": {"organisation":"Re:wild","contact_page":"https://www.rewild.org/team/leonardo-dicaprio"},
+    "Urs Giger": {"organisation":"University of Zurich / University of Pennsylvania School of Veterinary Medicine","contact_page":"https://www.zi.uzh.ch/dam/jcr:9ebaab0f-f660-4c23-ae77-f5d715714304/DozierendeVetsuisseFakultaet.pdf","verified_on":"2026-09-06","verification_basis":"University of Zurich's official Spring 2026 Vetsuisse faculty listing identifies Urs Giger as Titularprofessor and Professor of the University of Pennsylvania. A January 2026 PubMed-indexed veterinary paper lists current affiliations with both University of Zurich and Penn Vet. PubMed PMID 12420832 confirms exact authorship of the Oxyglobin feline clinical-use paper. No personal LinkedIn route is stored."},
+    "Marcela (Marcy) Uhart": {"organisation":"UC Davis Karen C. Drayer Wildlife Health Center / IUCN SSC Wildlife Health Specialist Group","linkedin":"https://ar.linkedin.com/in/marcela-uhart-262777312","contact_page":"https://whc.vetmed.ucdavis.edu/people/marcela-uhart","verified_on":"2026-09-06","verification_basis":"Exact Marcela Uhart identity, UC Davis professional affiliation and wildlife-health specialty matched with the current UC Davis Wildlife Health Center profile."},
+    "Tiggy Grillo": {"organisation":"Wildlife Health Australia / IUCN SSC Wildlife Health Specialist Group","linkedin":"https://au.linkedin.com/in/tiggy-g-74b13326","contact_page":"https://wildlifehealthaustralia.com.au/About-Us/The-Team-Contact-Information","verified_on":"2026-09-06","verification_basis":"LinkedIn Tiggy G. profile matches Wildlife Health Australia. WHA official current team page confirms Dr Tiggy Grillo as National Coordinator and COO, veterinarian and IUCN WHSG Co-Chair."},
+    "Joan Weill": {"organisation":"Weill Family Foundation","contact_page":"https://www.ucdavis.edu/news/uc-davis-receives-120m-gift-largest-ever-veterinary-medicine"},
+    "Sanford I. Weill": {"organisation":"Weill Family Foundation","contact_page":"https://www.ucdavis.edu/news/uc-davis-receives-120m-gift-largest-ever-veterinary-medicine"},
+    "Tiana Andriamanana": {"organisation":"Association Fanamby","linkedin":"https://mg.linkedin.com/in/tiana-andriamanana-16406620","contact_page":"https://fanamby.org/tiana-andriamanana/","verified_on":"2026-09-05","verification_basis":"Exact name, Fanamby employer and Executive Director/conservation leadership role matched between Fanamby official team/profile pages, Fanamby LinkedIn job-poster identity and Tiana Andriamanana public LinkedIn activity."},
+    "Rimma Driscoll": {"organisation":"Zoetis","linkedin":"https://www.linkedin.com/in/rimma-driscoll","contact_page":"https://www.zoetis.com/our-company/our-story/executive-team/rimma-driscoll","verified_on":"2026-09-05","verification_basis":"Exact name, Zoetis employer and executive strategy/business-development role matched between public LinkedIn profile and Zoetis official executive page."},
+    "Kevin Esch": {"organisation":"Zoetis","linkedin":"https://www.linkedin.com/in/kevin-esch-a610653b","contact_page":"https://www.zoetis.com/our-company/our-story/executive-team/kevin-esch","verified_on":"2026-09-05","verification_basis":"Exact name, Zoetis employer, veterinarian/R&D background and global R&D leadership matched between public LinkedIn profile and Zoetis official executive page."},
+    "Tim Bettington": {"organisation":"Elanco Animal Health","contact_page":"https://www.elanco.com/us/leadership/executive-committee/tim-bettington","verified_on":"2026-09-05","verification_basis":"Elanco official page confirms exact name, Executive Vice President Center of Strategic Growth role and animal-health strategy background. Direct personal LinkedIn URL not yet verified."},
+    "Ellen de Brabander": {"organisation":"Elanco Animal Health","linkedin":"https://nl.linkedin.com/in/ellen-de-brabander-85840a10","contact_page":"https://www.elanco.com/us/leadership/executive-committee/ellen-de-brabander","verified_on":"2026-09-05","verification_basis":"Exact name, Elanco employer and R&D/innovation role matched between public LinkedIn profile/activity and Elanco official executive page."},
+    "Richard DeLuca": {"organisation":"Merck Animal Health","linkedin":"https://www.linkedin.com/in/richard-deluca-86325613","contact_page":"https://www.merck-animal-health.com/research-and-innovation/business-development/","verified_on":"2026-09-06","verification_basis":"Exact Richard DeLuca identity and Merck Animal Health leadership context matched through his public LinkedIn activity and current Merck Animal Health materials identifying him as President."},
+    "Holger Lehmann": {"organisation":"Merck Animal Health","linkedin":"https://www.linkedin.com/in/holger-lehmann-2858b74","contact_page":"https://www.merck-animal-health.com/news-and-insights/featured-stories/our-drug-discovery-commitment-to-help-livestock-producers/","verified_on":"2026-09-05","verification_basis":"Exact name, Merck Animal Health context and pharmaceutical R&D specialty matched between public LinkedIn profile/activity and Merck Animal Health official authored/current-role materials."},
+    "Bernd Driessen": {"organisation":"University of Pennsylvania School of Veterinary Medicine","linkedin":"https://www.linkedin.com/in/bernd-driessen-64644aa4","email":"driessen@vet.upenn.edu","contact_page":"https://www.vet.upenn.edu/directory/bernddriessen/","verified_on":"2026-09-06","verification_basis":"Penn Vet official directory confirms current Professor of Anesthesiology, Chief of Anesthesia and research in hemorrhagic shock/tissue oxygenation; PubMed documents his Oxyglobin/hemoglobin glutamer-200 studies. Public LinkedIn exactly matches Penn Vet identity."},
+    "Amanda Boag": {"organisation":"Royal Veterinary College","linkedin":"https://uk.linkedin.com/in/amanda-boag-b323181b","contact_page":"https://www.rvc.ac.uk/about/our-people/amanda-boag","verified_on":"2026-09-06","verification_basis":"Exact name and Royal Veterinary College employer matched on LinkedIn. RVC official materials confirm Vice Principal (Clinical Services) and emergency/critical-care specialty; the 2005 In Practice paper documents coauthorship on clinical use of Oxyglobin in dogs and cats."},
+    "Sophie Adamantos": {"organisation":"Paragon Veterinary Referrals","contact_page":"https://www.paragonreferrals.co.uk/team-members/sophie-adamantos/","verified_on":"2026-09-06","verification_basis":"Paragon official profile confirms Clinical Director, ECC, anemia/bleeding and transfusion-medicine interests; the 2005 In Practice paper documents coauthorship on clinical Oxyglobin use in dogs and cats. Direct personal LinkedIn not yet stored."},
+    "Marie E. Kerl": {"organisation":"VCA Animal Hospitals / University of Missouri","contact_page":"https://extension.missouri.edu/people/marie-e-kerl-dvm-mph-mba","verified_on":"2026-09-06","verification_basis":"University of Missouri public profile confirms adjunct teaching role and VCA Chief Medical Officer/VP Medical Operations; publication evidence documents clinical biochemistry work after hemoglobin glutamer-200 (Oxyglobin) infusion in dogs. Direct personal LinkedIn not yet stored."},
+    "Anthony B. Zambelli": {"organisation":"VetPartners Australia and New Zealand / ONE Cancer Care for Pets","linkedin":"https://au.linkedin.com/in/anthony-zambelli-58b4bb43","contact_page":"https://onepetcancercare.com/team/dr-anthony-zambelli/","verified_on":"2026-09-06","verification_basis":"ONE Cancer Care's current team page identifies Dr Anthony Zambelli as an oncology clinician now based in Sydney. His public LinkedIn exactly matches VetPartners Australia and New Zealand / ONE Cancer Care for Pets and current veterinary oncology activity. PubMed PMID 19691591 confirms exact authorship of the randomized Oxyglobin HB-200 versus packed-RBC canine babesiosis trial."},
+    "Andrew L. Leisewitz": {"organisation":"Auburn University College of Veterinary Medicine","linkedin":"https://www.linkedin.com/in/andrew-leisewitz-580aa927b","email":"all0087@auburn.edu","contact_page":"https://www.vetmed.auburn.edu/faculty/leisewitz-andrew/","verified_on":"2026-09-06","verification_basis":"Auburn official faculty page confirms current Professor role, internal-medicine background and hemoprotozoal research; public LinkedIn matches Auburn identity. PubMed confirms coauthorship of the randomized Oxyglobin canine babesiosis trial."},
+    "Dennis T. Crowe Jr.": {"organisation":"Mobile Veterinary Surgery of Georgia","email":"tcrowedvm@gmail.com","contact_page":"https://online.acvs.org/acvsssa/rflcustomdisplay.detail_page?p_vendor_serno=103591","verified_on":"2026-09-06","verification_basis":"The current American College of Veterinary Surgeons listing identifies Dennis Tim Crowe, DVM, DACVS at Mobile Veterinary Surgery of Georgia, confirms ACVS and DACVECC/FCCM credentials, trauma/resuscitation and critical-care interests, and publishes this professional email. His current practice website independently confirms mobile surgery and emergency/critical-care consulting. Historical veterinary literature documents Oxyglobin/HBOC use in trauma care."},
+    "Jonathan S. Jahr": {"organisation":"David Geffen School of Medicine at UCLA / Ronald Reagan UCLA Medical Center","email":"j.s.jahr@ucla.edu","contact_page":"https://onlinelibrary.wiley.com/doi/10.1111/trf.18116","verified_on":"2026-09-06","verification_basis":"2025 Transfusion correspondence confirms UCLA affiliation and public professional email; current professional materials describe Professor Emeritus status and longstanding HBOC expertise. PubMed confirms historical Oxyglobin/Hb-200 canine-shock coauthorship."},
+    "Fedor Lurie": {"organisation":"Jobst Vascular Institute / University of Michigan","email":"fedor.lurie@promedica.org","contact_page":"https://www.uip-phlebology.org/executive-committee","verified_on":"2026-09-06","verification_basis":"International Union of Phlebology current executive biography confirms Associate Director, Jobst Vascular Institute and Adjunct Research Professor at University of Michigan; 2026 PubMed correspondence confirms professional email. PubMed confirms historical Oxyglobin/Hb-200 canine-shock coauthorship."},
+    "Robert A. Gunther": {"organisation":"UC Davis Department of Surgery","contact_page":"https://health.ucdavis.edu/surgery/team/index.html","verified_on":"2026-09-06","verification_basis":"UC Davis Department of Surgery lists Robert Gunther under Faculty Emeritus in Burn Surgery. PubMed confirms historical coauthorship on Oxyglobin/Hb-200 canine hypovolemic-shock research."},
+    "Mike Erickson": {"organisation":"IDEXX","linkedin":"https://www.linkedin.com/in/mike-erickson-87b0409","contact_page":"https://ir.idexx.com/company-information/executive-team/detail/mike-erickson","verified_on":"2026-09-06","verification_basis":"Exact Mike Erickson identity and IDEXX employer matched. IDEXX official executive page confirms President and CEO since May 2026; his public LinkedIn activity independently states the same succession and IDEXX role."},
+    "Matthew Stober": {"organisation":"Argenta","linkedin":"https://www.linkedin.com/in/matthewstober","contact_page":"https://www.argentaglobal.com/team/matthew-stober","verified_on":"2026-09-06","verification_basis":"Exact Matthew Stober identity and Argenta employer matched. Argenta official CEO profile and public LinkedIn activity identify him as Chief Executive Officer in the animal-health CRO/CDMO business."},
+    "Jesper D. Nordengaard": {"organisation":"Dechra","linkedin":"https://www.linkedin.com/in/jesper-d-nordengaard-5781251","contact_page":"https://www.dechra.com/corporate/senior-executive-team","verified_on":"2026-09-06","verification_basis":"Exact Jesper D. Nordengaard identity and Dechra employer matched. Dechra official senior executive page confirms CEO role; current public LinkedIn activity identifies him as CEO and animal-health leader."},
+    "François Dennewald": {"organisation":"Ceva Animal Health","linkedin":"https://fr.linkedin.com/in/francois-dennewald","contact_page":"https://www.ceva.com/about-ceva/governance/","verified_on":"2026-09-06","verification_basis":"Exact name, Ceva employer and Strategy & Business Development title match between the current Ceva governance page and François Dennewald's public LinkedIn profile/activity."},
+    "Megan Grether": {"organisation":"Boehringer Ingelheim Animal Health","linkedin":"https://de.linkedin.com/in/megan-grether-3875bb3","contact_page":"https://www.boehringer-ingelheim.com/partnering/working-together-animal-health/connect-with-us","verified_on":"2026-09-06","verification_basis":"Exact Megan Grether identity and Boehringer Ingelheim employer match on LinkedIn. BIO International Convention and current animal-health industry materials identify her as Head of Global Business Development & Licensing, Animal Health."},
+    "Knut Elbers": {"organisation":"Boehringer Ingelheim Animal Health","linkedin":"https://de.linkedin.com/in/knut-elbers-11bb5b6","contact_page":"https://www.boehringer-ingelheim.com/animal-health","verified_on":"2026-09-06","verification_basis":"Exact Knut Elbers identity and Boehringer Ingelheim employer match on LinkedIn. Boehringer Ingelheim's August 2026 Evax acquisition release identifies him as Head of Global Innovation, Animal Health."},
+    "Mary Beth Callan": {"organisation":"University of Pennsylvania School of Veterinary Medicine","email":"callan@vet.upenn.edu","contact_page":"https://www.vet.upenn.edu/directory/marybethcallan/","verified_on":"2026-09-06","verification_basis":"Penn Vet official directory confirms exact Mary Beth Callan identity, current Professor of Medicine (CE) role and hematology/transfusion-medicine specialty. PubMed PMID 14664199 independently confirms her authorship of the 2003 Oxyglobin clinical application review. Direct personal LinkedIn URL was not verified and is not stored."},
+    "Fuyu Guan": {"organisation":"University of Pennsylvania School of Veterinary Medicine","linkedin":"https://www.linkedin.com/in/fuyu-guan-06aaa046","email":"guanf@vet.upenn.edu","contact_page":"https://www.vet.upenn.edu/directory/fuyuguan/","verified_on":"2026-09-06","verification_basis":"Penn Vet official directory confirms exact Fuyu Guan identity and current Research Professor of Equine Forensic Chemistry role. PubMed PMID 15920176 and PMID 15373452 confirm equine hemoglobin glutamer-200/HBOC authorship. LinkedIn independently matches Fuyu Guan at University of Pennsylvania in West Chester, Pennsylvania."},
+    "Justine Conway": {"organisation":"Dechra","linkedin":"https://www.linkedin.com/in/justine-conway-25708711","contact_page":"https://www.dechra.com/corporate/senior-executive-team","verified_on":"2026-09-06","verification_basis":"Dechra appointed Justine Conway Chief Corporate Strategy & Business Development Officer on 17 August 2026. Dechra's current executive page confirms the role, and her public LinkedIn route matches the same animal-health strategy and business-development identity; the former Elanco role is historical."},
+    "Steve Nanchen": {"organisation":"Elanco Animal Health","linkedin":"https://ch.linkedin.com/in/steve-nanchen-1468891","contact_page":"https://www.elanco.com/en-au/research-and-development/innovation-portal","verified_on":"2026-09-06","verification_basis":"Elanco official Partnering Hub identifies Steve Nanchen, PhD, as Senior Director, External Innovation, EU/APAC. Public LinkedIn matches the exact name and Elanco employer in Basel."},
+    "Juan Escala": {"organisation":"Elanco Animal Health","linkedin":"https://uk.linkedin.com/in/juanescala","contact_page":"https://www.elanco.com/en-au/research-and-development/innovation-portal","verified_on":"2026-09-06","verification_basis":"Elanco official Partnering Hub identifies Juan Escala, DVM, as Senior Advisor, External Innovation. Public LinkedIn matches the exact name, Elanco employer and Scotland professional base."},
+    "Jonathan Snyder": {"organisation":"Elanco Animal Health","linkedin":"https://www.linkedin.com/in/jonathan-snyder-4091463a","contact_page":"https://www.elanco.com/en-au/research-and-development/innovation-portal","verified_on":"2026-09-06","verification_basis":"Elanco official Partnering Hub identifies Jonathan Snyder, PhD, as Senior Advisor, External Innovation. Public LinkedIn matches the exact name, Elanco employer and Indianapolis location; current activity also documents his Elanco innovation role and One Health collaboration."},
+    "Virginia Rentko": {"organisation":"VirTech Bio","linkedin":"https://www.linkedin.com/in/ginny-rentko-14353a10/","contact_page":"https://virtechbio.com/","verified_on":"2026-09-06","verification_basis":"Current VirTech Bio team and MTEC member profile identify Virginia Rentko, VMD, as Veterinary Advisor; MTEC provides the direct LinkedIn route. PubMed PMID 14664199 confirms exact Oxyglobin clinical-application authorship, and a 2026 veterinary AI publication lists current Animal Biosciences and Tufts affiliations."},
+    "Leane Oliveira": {"organisation":"Elanco Animal Health","linkedin":"https://www.linkedin.com/in/leane-oliveira-48ba4143","contact_page":"https://www.elanco.com/en-au/research-and-development/innovation-portal","verified_on":"2026-09-06","verification_basis":"Elanco current Partnering Hub identifies Leane Oliveira, DVM, PhD, as Senior Advisor, External Innovation. The public LinkedIn profile exactly matches Leane Oliveira at Elanco in Indianapolis and current external-innovation activity."},
+    "Karthik Ramachandran": {"organisation":"Elanco Animal Health","linkedin":"https://www.linkedin.com/in/kansasbioengineer","contact_page":"https://www.elanco.com/en-au/research-and-development/innovation-portal","verified_on":"2026-09-06","verification_basis":"Elanco current Partnering Hub identifies Karthik Ramachandran, PhD, as Senior Advisor, External Innovation. The public LinkedIn profile matches Elanco and Greater Boston; BIO partnering material independently confirms the same animal-health external-innovation role."},
+    "Vinayak Surve": {"organisation":"Virbac","linkedin":"https://in.linkedin.com/in/dr-vinayak-surve-486b185","contact_page":"https://in.virbac.com/cattle/diseases/about-worm-bronchitis-in-cattle","verified_on":"2026-09-06","verification_basis":"Current Virbac India authored professional pages identify Dr. Vinayak Surve as Senior Manager - R&D and Licensing (RDL). His public LinkedIn exactly matches Dr. Vinayak Surve at Virbac in Mumbai and shows current veterinary/R&D activity."},
+    "Lalit Gaur": {"organisation":"Vetoquinol","linkedin":"https://www.linkedin.com/in/lalit-gaur-3448622","contact_page":"https://les2026.org/program/","verified_on":"2026-09-06","verification_basis":"LES 2026 programme identifies Lalit Gaur as Global Head, Business Development & Licensing at Vetoquinol; current LES board biography and VetHealth Global advisory-board profile independently confirm the same role. The public LinkedIn profile matches Lalit Gaur in the Raleigh-Durham area and Vetoquinol professional activity."},
+    "Jim McIntyre": {"organisation":"Merck Animal Health","linkedin":"https://www.linkedin.com/in/jim-mcintyre-6894041","contact_page":"https://www.merck-animal-health.com/research-and-innovation/business-development/","verified_on":"2026-09-06","verification_basis":"The 2026 AHNTI speaker lineup identifies Jim McIntyre as Head of Global Business Development, Merck Animal Health. His public LinkedIn matches the exact name and Merck Animal Health activity; Merck Animal Health public materials also identify him in Global Business Development."},
+    "Benjamin Wolin": {"organisation":"Covetrus","linkedin":"https://www.linkedin.com/in/benjamin-wolin-557374","contact_page":"https://covetrus.com/about/leadership/","verified_on":"2026-09-06","verification_basis":"Covetrus current official leadership page confirms Benjamin Wolin as President and CEO. His public LinkedIn profile matches Covetrus and shows current Covetrus activity and company website."},
+    "Graham Rhodes": {"organisation":"Covetrus","linkedin":"https://uk.linkedin.com/in/grahammrhodes","contact_page":"https://covetrus.com/about/leadership/","verified_on":"2026-09-06","verification_basis":"Covetrus current official leadership page confirms Graham Rhodes as President for Europe, Latin America and Asia Pacific/international operations. His public LinkedIn exactly matches Graham Rhodes at Covetrus in London."},
+    "Christian Burkhardt": {"organisation":"Virbac","contact_page":"https://corporate.virbac.com/home/news-media/news/pagecontent/toutes-les-actualites-presse-vir/swine-health-virbac-signs-agreement-with-macso.html","verified_on":"2026-09-06","verification_basis":"Virbac's official 17 April 2026 MACSO partnership announcement identifies Christian Burkhardt as Director of Business Development & Licensing. No direct personal LinkedIn route is stored because a strict current identity match was not independently resolved."},
+    "Alan Taylor": {"organisation":"Virbac North America","contact_page":"https://us.virbac.com/home/discover-virbac/executive-leadership-team/dr-alan-taylor.html","verified_on":"2026-09-06","verification_basis":"Virbac North America's current official executive profile confirms Dr. Alan Taylor as Vice President, Innovation and Business Development and describes responsibility for external development, acquisitions, R&D, regulatory affairs and technology innovation. No personal LinkedIn route is stored because an exact profile was not independently resolved."},
+    "Bill Ng": {"organisation":"Covetrus","contact_page":"https://covetrus.com/about/leadership/","verified_on":"2026-09-06","verification_basis":"Covetrus current official leadership page confirms Bill Ng as Chief Operating Officer, North America, responsible for service lines, supplier relations, category management, pricing and distribution operations. No personal LinkedIn route is stored because an exact profile was not independently resolved."},
+    "Steve Shell": {"organisation":"MWI Animal Health","linkedin":"https://www.linkedin.com/in/steve-shell-5590035","contact_page":"https://www.mwiah.com/Our-Leadership","verified_on":"2026-09-06","verification_basis":"MWI Animal Health's current official leadership page confirms Steve Shell as President. His public LinkedIn exactly matches MWI Animal Health and shows current company activity."},
+    "Moamen Karm (DVM)": {"organisation":"Arabian Horses Veterinary Co. (AHV)","linkedin":"https://www.linkedin.com/in/moamen-karm-dvm-850031140/","contact_page":"https://www.linkedin.com/company/arabian-horses-veterinary-co-ahv/","verified_on":"2026-09-06","verification_basis":"LinkedIn exactly matches Moamen Karm (DVM) with current Arabian Horses Veterinary Co. (AHV) affiliation. Current public activity confirms FEI veterinarian certification and an equine sports-medicine/reproduction focus. No unverified executive title, camel specialty or relationship-status metadata is stored."}
   },
   "organisations": {
-    "Zoetis": {
-      "type": "company",
-      "official_page": "https://www.zoetis.com/our-company/our-story/executive-team"
-    },
-    "Elanco Animal Health": {
-      "type": "company",
-      "official_page": "https://www.elanco.com/us/leadership"
-    },
-    "Merck Animal Health": {
-      "type": "company",
-      "email": "AnimalHealthBD@merck.com",
-      "official_page": "https://www.merck-animal-health.com/research-and-innovation/business-development/"
-    },
-    "Digitalis Ventures": {
-      "type": "investor",
-      "email": "info@digitalisventures.com",
-      "official_page": "https://www.digitalisventures.com/"
-    },
-    "Dechra": {
-      "type": "company",
-      "official_page": "https://www.dechra.com/corporate/senior-executive-team"
-    },
-    "Covetrus Netherlands": {
-      "type": "company",
-      "official_page": "https://www.covetrus.nl/Covetrus"
-    },
-    "University of Pennsylvania School of Veterinary Medicine": {
-      "type": "institution",
-      "official_page": "https://www.vet.upenn.edu/"
-    },
-    "Paragon Veterinary Referrals": {
-      "type": "institution",
-      "official_page": "https://www.paragonreferrals.co.uk/"
-    },
-    "VCA Animal Hospitals": {
-      "type": "company",
-      "official_page": "https://vcahospitals.com/"
-    },
-    "Auburn University College of Veterinary Medicine": {
-      "type": "institution",
-      "official_page": "https://www.vetmed.auburn.edu/"
-    },
-    "David Geffen School of Medicine at UCLA / Ronald Reagan UCLA Medical Center": {
-      "type": "institution",
-      "official_page": "https://www.uclahealth.org/"
-    },
-    "Jobst Vascular Institute / University of Michigan": {
-      "type": "institution",
-      "official_page": "https://www.uip-phlebology.org/executive-committee"
-    },
-    "UC Davis Department of Surgery": {
-      "type": "institution",
-      "official_page": "https://health.ucdavis.edu/surgery/"
-    },
-    "IDEXX": {
-      "type": "company",
-      "official_page": "https://ir.idexx.com/company-information/executive-team",
-      "focus": "Veterinary diagnostics, software, imaging, telemedicine and animal-health technology"
-    },
-    "Argenta": {
-      "type": "company",
-      "email": "info@argentaglobal.com",
-      "official_page": "https://www.argentaglobal.com/",
-      "focus": "Animal-health CRO/CDMO, pharmaceutical development, regulatory and manufacturing services"
-    },
-    "Ceva Animal Health": {
-      "type": "company",
-      "official_page": "https://www.ceva.com/about-ceva/governance/",
-      "focus": "Global animal-health company; veterinary therapeutics, vaccines, diagnostics, innovation, R&D and business development"
-    },
-    "Boehringer Ingelheim Animal Health": {
-      "type": "company",
-      "official_page": "https://www.boehringer-ingelheim.com/animal-health",
-      "focus": "Global animal-health pharmaceuticals, vaccines, R&D, business development, licensing and external innovation"
-    },
-    "VirTech Bio": {
-      "type": "company",
-      "email": "info@virtechbio.com",
-      "official_page": "https://virtechbio.com/",
-      "focus": "Hemoglobin-based oxygen carrier development for trauma, transplantation, veterinary and research applications"
-    },
-    "Virbac": {
-      "type": "company",
-      "email": "businessdevelopment@virbac.com",
-      "official_page": "https://corporate.virbac.com/",
-      "focus": "Global animal-health pharmaceuticals, vaccines, R&D, licensing and business development"
-    },
-    "Vetoquinol": {
-      "type": "company",
-      "official_page": "https://www.vetoquinol.com/en/vetoquinols-management-organisation",
-      "focus": "Global animal-health pharmaceuticals, R&D, licensing, partnerships and manufacturing"
-    },
-    "Covetrus": {
-      "type": "company",
-      "official_page": "https://covetrus.com/about/leadership/",
-      "focus": "Global veterinary practice improvement, distribution, technology, supplier relations and connected care"
-    },
-    "MWI Animal Health": {
-      "type": "company",
-      "official_page": "https://www.mwiah.com/Our-Leadership",
-      "focus": "Animal-health distribution, veterinary practice support, technology, diagnostics and manufacturer partnerships"
-    }
+    "Zoetis": {"type":"company","official_page":"https://www.zoetis.com/our-company/our-story/executive-team"},
+    "Elanco Animal Health": {"type":"company","official_page":"https://www.elanco.com/us/leadership"},
+    "Merck Animal Health": {"type":"company","email":"AnimalHealthBD@merck.com","official_page":"https://www.merck-animal-health.com/research-and-innovation/business-development/"},
+    "Digitalis Ventures": {"type":"investor","email":"info@digitalisventures.com","official_page":"https://www.digitalisventures.com/"},
+    "Dechra": {"type":"company","official_page":"https://www.dechra.com/corporate/senior-executive-team"},
+    "Covetrus Netherlands": {"type":"company","official_page":"https://www.covetrus.nl/Covetrus"},
+    "University of Pennsylvania School of Veterinary Medicine": {"type":"institution","official_page":"https://www.vet.upenn.edu/"},
+    "Paragon Veterinary Referrals": {"type":"institution","official_page":"https://www.paragonreferrals.co.uk/"},
+    "VCA Animal Hospitals": {"type":"company","official_page":"https://vcahospitals.com/"},
+    "Auburn University College of Veterinary Medicine": {"type":"institution","official_page":"https://www.vetmed.auburn.edu/"},
+    "David Geffen School of Medicine at UCLA / Ronald Reagan UCLA Medical Center": {"type":"institution","official_page":"https://www.uclahealth.org/"},
+    "Jobst Vascular Institute / University of Michigan": {"type":"institution","official_page":"https://www.uip-phlebology.org/executive-committee"},
+    "UC Davis Department of Surgery": {"type":"institution","official_page":"https://health.ucdavis.edu/surgery/"},
+    "IDEXX": {"type":"company","official_page":"https://ir.idexx.com/company-information/executive-team","focus":"Veterinary diagnostics, software, imaging, telemedicine and animal-health technology"},
+    "Argenta": {"type":"company","email":"info@argentaglobal.com","official_page":"https://www.argentaglobal.com/","focus":"Animal-health CRO/CDMO, pharmaceutical development, regulatory and manufacturing services"},
+    "Ceva Animal Health": {"type":"company","official_page":"https://www.ceva.com/about-ceva/governance/","focus":"Global animal-health company; veterinary therapeutics, vaccines, diagnostics, innovation, R&D and business development"},
+    "Boehringer Ingelheim Animal Health": {"type":"company","official_page":"https://www.boehringer-ingelheim.com/animal-health","focus":"Global animal-health pharmaceuticals, vaccines, R&D, business development, licensing and external innovation"},
+    "VirTech Bio": {"type":"company","email":"info@virtechbio.com","official_page":"https://virtechbio.com/","focus":"Hemoglobin-based oxygen carrier development for trauma, transplantation, veterinary and research applications"},
+    "Virbac": {"type":"company","email":"businessdevelopment@virbac.com","official_page":"https://corporate.virbac.com/","focus":"Global animal-health pharmaceuticals, vaccines, R&D, licensing and business development"},
+    "Vetoquinol": {"type":"company","official_page":"https://www.vetoquinol.com/en/vetoquinols-management-organisation","focus":"Global animal-health pharmaceuticals, R&D, licensing, partnerships and manufacturing"},
+    "Covetrus": {"type":"company","official_page":"https://covetrus.com/about/leadership/","focus":"Global veterinary practice improvement, distribution, technology, supplier relations and connected care"},
+    "MWI Animal Health": {"type":"company","official_page":"https://www.mwiah.com/Our-Leadership","focus":"Animal-health distribution, veterinary practice support, technology, diagnostics and manufacturer partnerships"},
+    "ONE Cancer Care for Pets": {"type":"institution","official_page":"https://onepetcancercare.com/","focus":"Specialist veterinary oncology network within VetPartners Australia; advanced cancer diagnosis and treatment"},
+    "Mobile Veterinary Surgery of Georgia": {"type":"practice","official_page":"https://www.vetsurgeryemergency.com/","focus":"Mobile veterinary surgery and emergency/critical-care consulting"},
+    "Arabian Horses Veterinary Co. (AHV)": {"type":"company","email":"info@ahv.com.sa","official_page":"https://www.linkedin.com/company/arabian-horses-veterinary-co-ahv/","focus":"Veterinary services focused on equine care, reproduction, animal-health products and professional education"}
   }
 }
