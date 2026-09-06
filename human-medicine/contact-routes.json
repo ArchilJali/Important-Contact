@@ -126,6 +126,52 @@
       "contact_page": "https://www.unirsm.sm/en/persona/roberto-mugavero/",
       "verified_on": "2026-09-06",
       "verification_basis": "LinkedIn identity matches Roberto Mugavero as President of CEMEC. The University of San Marino profile confirms the current CEMEC presidency, university directorship/professorship and disaster, emergency, CBRNe and health-security focus."
+    },
+    "Heather Munoz": {
+      "organisation": "BBG BioBridge Global Advanced Therapies",
+      "city": "San Antonio",
+      "workplace": "Advanced Therapies; leukapheresis, cord blood and clinical research starting materials",
+      "directions": [
+        "Human Medicine",
+        "Apheresis",
+        "Hematology / Transfusion",
+        "Oncology",
+        "Transplant",
+        "Cell Therapy"
+      ],
+      "linkedin": "https://www.linkedin.com/in/heatherpariseaumunozrn/",
+      "contact_page": "https://influentialwomen.com/connect/heather-munoz",
+      "verified_on": "2026-09-06",
+      "verification_basis": "LinkedIn profile exactly matches Heather Munoz, Apheresis and Infusion Consultant, with hematology, oncology and transplant nursing focus. A recent professional profile identifies her current role as Principal, Global Market Development at BBG BioBridge Global Advanced Therapies in San Antonio, working with leukapheresis, cord blood and clinical research starting materials.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": "unknown",
+        "follows_archil": "unknown",
+        "follows_bhoc": "unknown"
+      }
+    },
+    "Keisha Osmond-Joseph": {
+      "organisation": "London North West University Healthcare NHS Trust",
+      "city": "London",
+      "workplace": "Haemoglobinopathy service; Sickle Cell Society advisory work",
+      "directions": [
+        "Human Medicine",
+        "SCD / SCA",
+        "Hematology / Transfusion",
+        "Public Health"
+      ],
+      "linkedin": "https://www.linkedin.com/in/keisha-osmond-joseph-64318a1ba/",
+      "email": "k.osmond-joseph@nhs.net",
+      "phone": "0208 453 2050",
+      "contact_page": "https://www.westlondonhcc.nhs.uk/about-us/meet-the-team",
+      "verified_on": "2026-09-06",
+      "verification_basis": "LinkedIn profile exactly matches Keisha Osmond-Joseph as Nurse Consultant Haemoglobinopathies at London North West University Healthcare NHS Trust, Nurse Advisor to the Sickle Cell Society and guest lecturer. The West London Haemoglobinopathy Coordinating Care Centre and NHS job listing independently confirm the same current role and specialty.",
+      "linkedin_relationship": {
+        "personal_connection": false,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      }
     }
   },
   "organisations": {}
