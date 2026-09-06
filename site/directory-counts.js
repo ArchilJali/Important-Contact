@@ -136,16 +136,48 @@
     };
   }
 
+  function relationValue(v) {
+    return v === true || v === 'yes' ? 'yes' : v === false || v === 'no' ? 'no' : 'unknown';
+  }
+  function relationshipTotals(routeSets) {
+    const people = new Map();
+    for (const routes of routeSets) {
+      for (const [name, route] of Object.entries((routes && routes.people) || {})) {
+        const relation = (route && route.linkedin_relationship) || {};
+        const key = norm(name);
+        if (!key) continue;
+        const previous = people.get(key) || {bhoc: false, archil: false, personal: false};
+        people.set(key, {
+          bhoc: previous.bhoc || relationValue(relation.follows_bhoc !== undefined ? relation.follows_bhoc : relation.bhoc_page_follower) === 'yes',
+          archil: previous.archil || relationValue(relation.follows_archil) === 'yes',
+          personal: previous.personal || relationValue(relation.personal_connection) === 'yes'
+        });
+      }
+    }
+    return [...people.values()].reduce((totals, relation) => {
+      if (relation.bhoc) totals.bhocFollowers++;
+      if (relation.archil) totals.archilFollowers++;
+      if (relation.personal) totals.personalConnections++;
+      return totals;
+    }, {bhocFollowers: 0, archilFollowers: 0, personalConnections: 0});
+  }
+
   let cached;
   async function get() {
     if (!cached) {
-      cached = Promise.all([veterinaryDirectory(), humanDirectory(), wildlifeDirectory()]).then(([v, h, w]) => {
+      cached = Promise.all([
+        veterinaryDirectory(),
+        humanDirectory(),
+        wildlifeDirectory(),
+        getJSON('veterinary/contact-routes.json', {people: {}}),
+        getJSON('human-medicine/contact-routes.json', {people: {}})
+      ]).then(([v, h, w, veterinaryRoutes, humanRoutes]) => {
         const unique = new Map();
         [...v.names.map(name => ({name})), ...h.names.map(name => ({name})), ...w.names].forEach(x => {
           const key = norm(x.name);
           if (key) unique.set(key, x.name);
         });
-        return {veterinary: v.count, humanMedicine: h.count, wildlife: w.count, total: unique.size};
+        return {veterinary: v.count, humanMedicine: h.count, wildlife: w.count, total: unique.size, ...relationshipTotals([veterinaryRoutes, humanRoutes])};
       });
     }
     return cached;
