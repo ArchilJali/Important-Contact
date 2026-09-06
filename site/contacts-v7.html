@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive">
 <title>Important Contact | BHOC Internal Workspace</title>
-<link rel="stylesheet" href="contacts-v7.css?v=20260906-3">
+<link rel="stylesheet" href="contacts-v7.css?v=20260906-4">
+<style>.tag.warn{background:#f7e7e3;color:#8a3b2f}.tag.verified{background:#e4f1e8;color:#245a41}.warnText{color:#8a5a32}</style>
 </head>
 <body>
 <header><div class="top">
@@ -17,7 +18,7 @@
 <section class="name-search">
 <label for="fName">Search person by name</label>
 <input id="fName" type="search" autocomplete="off" spellcheck="false" placeholder="Start typing a name: A, An, And...">
-<span class="hint">Live search. Results narrow immediately as you type. Works together with all filters below.</span>
+<span class="hint">Live search. Canonical names consolidate known initials / name variants and work together with all filters below.</span>
 </section>
 <section class="filters">
 <label>Status<select id="fStatus"><option value="all">All contacts</option><option value="work">We work</option><option value="know">We know</option><option value="dontknow">We do not know</option><option value="unset">Not marked</option></select></label>
@@ -33,10 +34,10 @@
 </section>
 <div class="meta"><span id="count">Loading contacts…</span><button id="reset">Reset filters</button></div>
 <div class="wrap"><table><thead><tr><th>Contact</th><th>Status</th><th>Institution / Company</th><th>Country</th><th>Directions</th><th>Animal / Species</th><th>Contact details</th><th>Latest publication</th><th>Source</th></tr></thead><tbody id="rows"></tbody></table></div>
-<p class="note">Animal groups are logical views, not exclusive labels. A contact may appear under several groups, for example Wildlife + Red Book + Bird. Companion includes dog, cat and horse, plus other companion / small-animal terms present in the database.</p>
+<p class="note">A contact may appear under several directions and species groups. “Latest” is independently verified for curated contacts. For uncurated publication authors the table explicitly says “Latest in BHOC library”. Historical/current-unresolved records are not silently treated as current.</p>
 </main>
-<script src="contacts-v7-core.js?v=20260906-3"></script>
-<script src="contacts-v7-data.js?v=20260906-3"></script>
-<script src="contacts-v7-ui.js?v=20260906-3"></script>
+<script src="contacts-v7-core.js?v=20260906-4"></script>
+<script src="contacts-v7-data.js?v=20260906-4"></script>
+<script src="contacts-v7-ui.js?v=20260906-4"></script>
 </body>
 </html>
