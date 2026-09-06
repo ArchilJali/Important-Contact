@@ -272,6 +272,55 @@
         "follows_bhoc": "yes"
       },
       "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Mesfer Aldosari": {
+      "organisation": "AcedrA BioPharmaceuticals",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "workplace": "Pharmaceutical and biotech services; regional healthcare operations and strategic management",
+      "directions": [
+        "Human Medicine",
+        "CEO / Management",
+        "Pharma / Biotech",
+        "Healthcare Operations",
+        "Market Access"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mesfer-aldosari-71111b45/",
+      "contact_page": "https://www.acedrarx.com/board-of-directors",
+      "verified_on": "2026-09-06",
+      "verification_basis": "LinkedIn profile exactly matches Mesfer Aldosari as General Manager of AcedrA BioPharmaceuticals in the Riyadh region. AcedrA's official board page independently identifies Mesfer Al Dosari as Co-Founder and General Manager and describes his biotech/pharma and Saudi ecosystem expertise.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "aizebhughele kelvin": {
+      "organisation": "African Medical Centre of Excellence (AMCE)",
+      "country": "Nigeria",
+      "city": "Abuja",
+      "workplace": "Infection prevention and control, IPC epidemiology, surveillance systems/DHIS2 and healthcare data analysis",
+      "directions": [
+        "Human Medicine",
+        "Public Health",
+        "Infection Prevention & Control",
+        "Disease Surveillance / Epidemiology",
+        "Healthcare Quality",
+        "Health Data / DHIS2"
+      ],
+      "linkedin": "https://www.linkedin.com/in/aizebhughele-kelvin-b49878281/",
+      "contact_page": "https://www.linkedin.com/company/african-medical-center-of-excellence-amce/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "LinkedIn profile exactly matches aizebhughele kelvin at the African Medical Centre of Excellence in Abuja, with IPC specialist, IPC epidemiologist, surveillance-system/DHIS2 developer and healthcare-data-analyst roles. AMCE's public posts independently show the same profile and current institutional affiliation.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
     }
   },
   "organisations": {}
