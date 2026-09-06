@@ -1,3 +1,3 @@
 Important Contact workspace
-Build: 2026-09-06.07
-Feature: LinkedIn follower targeting combinations
+Build: 2026-09-06.08
+Feature: Verified human medical contacts, direction groups and country/city fields
