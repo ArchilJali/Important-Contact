@@ -1,0 +1,247 @@
+{
+  "updated": "2026-09-06",
+  "conference": "IOCVS 2026",
+  "rule": "Public professional facts only. directions is intentionally multi-valued so one person can be found under every relevant workstream. latest_publication may be a conference proceeding; latest_peer_reviewed_publication is stored separately when independently verified.",
+  "people": [
+    {
+      "id": "P025",
+      "name": "Patrick Butaye",
+      "organisation": "City University of Hong Kong (CityUHK)",
+      "workplace": "Jockey Club College of Veterinary Medicine and Life Sciences; Department of Infectious Diseases and Public Health",
+      "role": "Associate Dean; Head (PH); Professor",
+      "country": ["HK"],
+      "species": ["companion_animals", "livestock", "zoo_animals", "wildlife", "birds"],
+      "directions": ["Veterinary", "One Health", "Zoo", "Wildlife", "Infectious Disease", "AMR", "Public Health", "Research"],
+      "email": "pabutaye@cityu.edu.hk",
+      "phone": "+852 3442 6394",
+      "linkedin": "https://hk.linkedin.com/in/patrickbutaye",
+      "contact_page": "https://www.cityu.edu.hk/ph/staff/prof-patrick-butaye",
+      "orcid": "https://orcid.org/0000-0003-0780-6384",
+      "latest_publication": {
+        "date": "2026-08-04",
+        "type": "peer-reviewed journal article, online",
+        "title": "Migratory birds at the intersection of ecology and public health: Disseminating critical antimicrobial resistance genes across the globe",
+        "url": "https://doi.org/10.1016/j.avrs.2026.100421"
+      },
+      "relevant_publication": {
+        "date": "2026-08-01",
+        "title": "Zoological gardens as a neglected One Health interface for tigecycline-resistant Escherichia coli",
+        "url": "https://doi.org/10.1016/j.jhazmat.2026.142635"
+      }
+    },
+    {
+      "id": "P026",
+      "name": "Martina Karasová",
+      "organisation": "University of Veterinary Medicine and Pharmacy in Košice",
+      "workplace": "University Veterinary Hospital; Small Animal Clinic",
+      "role": "DVM, PhD; Small Animal Clinic teacher/clinician",
+      "country": ["SK"],
+      "species": ["dog", "cat", "companion_animals"],
+      "directions": ["Veterinary", "Small Animal", "Clinical", "Hematology", "Anemia", "Parasitology", "Infectious Disease", "Research"],
+      "email": "martina.karasova@uvlf.sk",
+      "phone": "+421 915 742 533",
+      "linkedin": "https://sk.linkedin.com/in/martina-karasov%C3%A1-dvm-phd-96361430b",
+      "contact_page": "https://www.uvlf.sk/en/contacts/university-veterinary-hospital/small-animal-clinic",
+      "latest_publication": {
+        "date": "2026-09-02",
+        "type": "IOCVS 2026 proceeding",
+        "title": "Epidemiological Surveillance of Babesia gibsoni in Slovakia: Transmission Routes and Modelling Risk in High-Risk Dog Breeds",
+        "url": "https://sciforum.net/paper/33262"
+      },
+      "latest_peer_reviewed_publication": {
+        "date": "2024-07-03",
+        "title": "Successful Transmammary Treatment of Babesia gibsoni Infection in Newborn Puppies after the Administration of Malarone, Azithromycin, and Artesunate to a Lactating Dam",
+        "url": "https://doi.org/10.3390/pathogens13070562"
+      }
+    },
+    {
+      "id": "P027",
+      "name": "Leyi Wang",
+      "organisation": "University of Illinois Urbana-Champaign, College of Veterinary Medicine",
+      "workplace": "Department of Veterinary Clinical Medicine; Veterinary Diagnostic Laboratory",
+      "role": "Associate Professor; Virology Section Head, Veterinary Diagnostic Laboratory",
+      "country": ["US"],
+      "species": ["zoo_animals", "wildlife", "tiger", "gorilla", "goat", "livestock"],
+      "directions": ["Veterinary", "Zoo", "Wildlife", "Diagnostics", "Virology", "Infectious Disease", "One Health", "Livestock", "Research"],
+      "email": "leyiwang@illinois.edu",
+      "phone": "+1 217 300 6147",
+      "linkedin": "https://www.linkedin.com/in/leyi-wang-5791a6174",
+      "contact_page": "https://vetmed.illinois.edu/directory/profile/?id=leyiwang",
+      "orcid": "https://orcid.org/0000-0001-5813-9505",
+      "latest_publication": {
+        "date": "2026-07",
+        "type": "peer-reviewed journal article",
+        "title": "Effects of phthalate metabolite mixture exposure on mouse oocyte development",
+        "url": "https://doi.org/10.1016/j.envint.2026.110332"
+      },
+      "relevant_publication": {
+        "date": "2026-02-28",
+        "title": "Detection, Follow-Up Testing, and Genomic Characterization of SARS-CoV-2 Omicron in Tigers and Gorillas",
+        "url": "https://www.mdpi.com/2673-8112/6/3/37"
+      }
+    },
+    {
+      "id": "P028",
+      "name": "Somporn Techangamsuwan",
+      "organisation": "Chulalongkorn University, Faculty of Veterinary Science",
+      "workplace": "Department of Pathology; Center of Excellence in Animal Virome and Diagnostic Development",
+      "role": "Professor; veterinary pathology and diagnostic research",
+      "country": ["TH"],
+      "species": ["dog", "cat", "companion_animals", "zoo_animals", "wildlife", "orangutan"],
+      "directions": ["Veterinary", "Small Animal", "Zoo", "Wildlife", "Pathology", "Diagnostics", "Virology", "One Health", "Research"],
+      "email": "somporn.t@chula.ac.th",
+      "phone": "+66 2 218 9614",
+      "contact_page": "https://www.vet.chula.ac.th/en/researcher_info/57",
+      "orcid": "https://orcid.org/0000-0002-4888-2677",
+      "latest_publication": {
+        "date": "2026-07-01",
+        "type": "peer-reviewed journal article",
+        "title": "The Multiplex qPCR Assay Enables Simultaneous Detection, Differentiation, and Quantification of Feline Bocavirus-1, -2, and -3 in Clinical Samples",
+        "url": "https://doi.org/10.1155/tbed/3455556"
+      },
+      "relevant_publication": {
+        "date": "2026-01",
+        "title": "Lymphocryptovirus infection in orangutans associated with interstitial and perivascular pulmonary fibrosis",
+        "url": "https://doi.org/10.1177/03009858251361135"
+      }
+    },
+    {
+      "id": "P029",
+      "name": "Zsófia Lanszki",
+      "organisation": "University of Pécs",
+      "workplace": "National Laboratory of Virology, Szentágothai Research Centre; Institute of Biology",
+      "role": "Researcher / Assistant Professor",
+      "country": ["HU"],
+      "species": ["wildlife", "dog", "carnivores", "mink", "fox"],
+      "directions": ["Veterinary", "Small Animal", "Wildlife", "Virology", "Disease Ecology", "One Health", "Carnivores", "Research"],
+      "email": "lanszki.zsofia@pte.hu",
+      "phone": "+36 72 503 600 ext. 29049",
+      "linkedin": "https://hu.linkedin.com/in/zs%C3%B3fia-lanszki-097917245",
+      "contact_page": "https://vnl.pte.hu/en/colleagues/dr-lanszkizsofia",
+      "latest_publication": {
+        "date": "2026-07-04",
+        "type": "peer-reviewed journal article",
+        "title": "Investigating the evolution of the Arctic lineage of canine distemper virus circulating in Italy",
+        "url": "https://doi.org/10.1186/s13567-026-01801-2"
+      }
+    },
+    {
+      "id": "P030",
+      "name": "Daniel García-Párraga",
+      "organisation": "Oceanogràfic de València / Fundación Oceanogràfic de la Comunitat Valenciana",
+      "workplace": "Oceanogràfic Zoological Operations; Fundación Oceanogràfic marine-health research",
+      "role": "Director of Zoological Operations; marine-health researcher",
+      "country": ["ES"],
+      "species": ["zoo_animals", "wildlife", "cetaceans", "marine_mammals", "dolphin", "beluga", "sea_turtle", "shark", "fish"],
+      "directions": ["Veterinary", "Zoo", "Wildlife", "Marine Mammals", "Exotic Animals", "Conservation Medicine", "One Health", "Hemoglobin / Oxygen Physiology", "Research"],
+      "email": "dgarcia@oceanografic.org",
+      "phone": "+34 960 470 647",
+      "linkedin": "https://es.linkedin.com/in/daniel-garc%C3%ADa-p%C3%A1rraga-53636250",
+      "contact_page": "https://fundacionoceanografic.org/en/who-we-are/",
+      "latest_publication": {
+        "date": "2026-09-03",
+        "type": "IOCVS 2026 proceeding",
+        "title": "Integrated approach to Brucella ceti infection in stranded Mediterranean dolphins",
+        "url": "https://sciforum.net/paper/33365"
+      },
+      "latest_peer_reviewed_publication": {
+        "date": "2026-08-01",
+        "title": "Exposure to pharmaceutical contaminants in stranded wild dolphins of the Western Mediterranean",
+        "url": "https://doi.org/10.1016/j.scitotenv.2026.182064"
+      },
+      "relevant_publication": {
+        "title": "Blood nitric oxide metabolites and hemoglobin functional properties among diving mammals",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27993597/"
+      }
+    },
+    {
+      "id": "P031",
+      "name": "Adriana Cuevas Domínguez",
+      "organisation": "Complutense University of Madrid (UCM)",
+      "workplace": "Faculty of Veterinary Medicine; Department of Animal Health; VISAVET-linked marine health research",
+      "role": "Animal Health researcher / professional staff",
+      "country": ["ES"],
+      "species": ["wildlife", "cetaceans", "marine_mammals", "dolphin"],
+      "directions": ["Veterinary", "Wildlife", "Marine Mammals", "One Health", "Infectious Disease", "Surveillance", "Research"],
+      "email": "adcuevas@ucm.es",
+      "phone": "+34 91 394 3708",
+      "linkedin": "https://es.linkedin.com/in/adrianacuevasdominguez",
+      "contact_page": "https://veterinaria.ucm.es/directorio-alfabetico?cid=999",
+      "latest_publication": {
+        "date": "2026-09-03",
+        "type": "IOCVS 2026 proceeding",
+        "title": "Integrated approach to Brucella ceti infection in stranded Mediterranean dolphins",
+        "url": "https://sciforum.net/paper/33365"
+      }
+    },
+    {
+      "id": "P032",
+      "name": "Touran Tahmasbi",
+      "organisation": "University of Tehran",
+      "workplace": "Faculty of Veterinary Medicine; Comparative Anatomy / Basic Sciences",
+      "role": "DVM; PhD student in Comparative Anatomy and Embryology; rehabilitation/physical therapy interests",
+      "country": ["IR"],
+      "species": ["cat", "dog", "horse", "companion_animals", "equine"],
+      "directions": ["Veterinary", "Small Animal", "Equine", "Rehabilitation", "Comparative Anatomy", "Hematology", "Research"],
+      "linkedin": "https://ir.linkedin.com/in/touran-tahmasbi-8571421aa",
+      "contact_page": "https://sciforum.net/paper/33232",
+      "latest_publication": {
+        "date": "2026-09-02",
+        "type": "IOCVS 2026 proceeding",
+        "title": "Hematologic Mycoplasma Infection in Four Persian and British Cats: Clinical and Laboratory Findings",
+        "url": "https://sciforum.net/paper/33232"
+      },
+      "latest_peer_reviewed_publication": {
+        "date": "2023-01",
+        "title": "Comparing the effects of intravenous injection and intranasal atomisation of detomidine in sheep",
+        "url": "https://doi.org/10.1002/vms3.1023"
+      }
+    },
+    {
+      "id": "P033",
+      "name": "Parichehr Ebrahimi Shahabadi",
+      "organisation": "Shahid Bahonar University of Kerman",
+      "workplace": "Faculty of Veterinary Medicine",
+      "role": "Veterinary researcher",
+      "country": ["IR"],
+      "species": ["dog", "cat", "companion_animals", "lab_animal", "rat"],
+      "directions": ["Veterinary", "Small Animal", "One Health", "Sepsis", "Translational Research", "Laboratory Animal", "Infectious Disease", "Research"],
+      "contact_page": "https://sciforum.net/paper/33187",
+      "orcid": "https://orcid.org/0009-0005-6560-2330",
+      "latest_publication": {
+        "date": "2026-09-02",
+        "type": "IOCVS 2026 proceeding",
+        "title": "The One Health role of interplay between canine parvovirus and Gram-negative bacterial translocation in sepsis and multi-organ failure in dogs",
+        "url": "https://sciforum.net/paper/33187"
+      },
+      "latest_peer_reviewed_publication": {
+        "date": "2026-08-30",
+        "title": "Effects of Human Umbilical Cord Mesenchymal Stem Cell-Derived Exosomes on an Ischemic Stroke Rat Model",
+        "url": "https://doi.org/10.58803/jlar.v5i4.119"
+      },
+      "relevant_publication": {
+        "date": "2026-09-02",
+        "title": "Application of Nanomedicines in the Control of Gastrointestinal Helminths in Dogs and Cats with a One Health Approach: A Systematic Review",
+        "url": "https://sciforum.net/paper/33285"
+      }
+    },
+    {
+      "id": "P034",
+      "name": "Mobina Karami",
+      "organisation": "Shahid Bahonar University of Kerman",
+      "workplace": "Department of Clinical Sciences, Faculty of Veterinary Medicine (IOCVS affiliation)",
+      "role": "Veterinary researcher; IOCVS first author",
+      "country": ["IR"],
+      "species": ["dog", "companion_animals"],
+      "directions": ["Veterinary", "Small Animal", "One Health", "Sepsis", "Critical Care", "Infectious Disease", "Research"],
+      "contact_page": "https://sciforum.net/paper/33187",
+      "latest_publication": {
+        "date": "2026-09-02",
+        "type": "IOCVS 2026 proceeding",
+        "title": "The One Health role of interplay between canine parvovirus and Gram-negative bacterial translocation in sepsis and multi-organ failure in dogs",
+        "url": "https://sciforum.net/paper/33187"
+      },
+      "verification_note": "Direct email/phone/LinkedIn withheld because exact current identity match is not yet sufficiently verified."
+    }
+  ]
+}
