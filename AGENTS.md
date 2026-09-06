@@ -2,6 +2,10 @@
 
 The master contact database, emails, internal assessments and user decisions remain private. Keep the master in the approved private repository. Do not change repository visibility or publish master data, internal notes, exports or credentials on a public website.
 
+## User exclusion - current HbO2 Therapeutics personnel
+
+Archil explicitly excluded current HbO2 Therapeutics personnel from Important Contact targeting on 2026-09-06. Do not add, restore, recommend, enrich for outreach, or promote any person who is currently an employee, executive, consultant, board member or otherwise currently affiliated with HbO2 Therapeutics. This applies across Veterinary, Oxyglobin/HBOC research, Wildlife / Red Book, LinkedIn Scout and any future contact-intelligence view. Historical Oxyglobin/HBOC publications and old Biopure-era evidence may still be retained as scientific/bibliographic evidence, but they must not create a current contact target when the person is presently affiliated with HbO2 Therapeutics. If current affiliation is uncertain, hold the candidate rather than adding them.
+
 ## Temporary local-file exception authorised on 2026-09-05
 
 Archil requested interim work with Carl and Karen without email authentication. The separate builder in `scripts/build_temporary_share.py` generates standalone HTML copies in `veterinary/temporary-share/`. This mode is file sharing, not a live shared website. It must clearly disclose that anyone holding a file can read it and that local edits are not automatically synchronised. Initial shared copies exclude human review histories, suppression records, access configuration and secrets. Browser role labels and claimed authors are NOT identities or protected permissions. Mark exported and imported proposals as unverified, require owner review before acceptance, and preserve red restrictions and conflicting edits. Do not send files or messages without a separate instruction. Do not remove authentication from production code or weaken SQL policies to make the temporary copies work.
