@@ -62,6 +62,39 @@
       "source": "https://www.dechra.com/corporate/senior-executive-team",
       "verified_on": "2026-09-06",
       "verification_basis": "Exact Jesper D. Nordengaard identity and Dechra employer matched. Dechra official senior executive page confirms CEO role; his public LinkedIn profile and posts state that he leads Dechra."
+    },
+    "François Dennewald": {
+      "organisation": "Ceva Animal Health",
+      "linkedin": "https://fr.linkedin.com/in/francois-dennewald",
+      "contact_page": "https://www.ceva.com/about-ceva/governance/",
+      "role": "Executive Vice-President, Strategy & Business Development, Ceva Animal Health",
+      "country": "FR",
+      "species": ["dog", "cat", "livestock", "poultry", "animal_health"],
+      "source": "https://www.ceva.com/about-ceva/governance/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact name, Ceva employer and Strategy & Business Development title match between the current Ceva governance page and François Dennewald's public LinkedIn profile/activity."
+    },
+    "Megan Grether": {
+      "organisation": "Boehringer Ingelheim Animal Health",
+      "linkedin": "https://de.linkedin.com/in/megan-grether-3875bb3",
+      "contact_page": "https://www.boehringer-ingelheim.com/partnering/working-together-animal-health/connect-with-us",
+      "role": "Global Head of Business Development & Licensing, Boehringer Ingelheim Animal Health",
+      "country": "DE",
+      "species": ["dog", "cat", "horse", "livestock", "animal_health"],
+      "source": "https://www.boehringer-ingelheim.com/partnering/working-together-animal-health/connect-with-us",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact Megan Grether identity and Boehringer Ingelheim employer match on LinkedIn. Her public professional posts and Boehringer Ingelheim Animal Health partnering content identify her as Global Head of Business Development & Licensing in Animal Health."
+    },
+    "Knut Elbers": {
+      "organisation": "Boehringer Ingelheim Animal Health",
+      "linkedin": "https://de.linkedin.com/in/knut-elbers-11bb5b6",
+      "contact_page": "https://www.boehringer-ingelheim.com/animal-health",
+      "role": "Head of Global Innovation, Animal Health, Boehringer Ingelheim",
+      "country": "DE",
+      "species": ["dog", "cat", "horse", "livestock", "animal_health"],
+      "source": "https://www.boehringer-ingelheim.com/animal-health",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact Knut Elbers identity and Boehringer Ingelheim employer match on LinkedIn. A current August 2026 Boehringer Ingelheim Animal Health acquisition announcement identifies him as Head of Global Innovation, Animal Health."
     }
   },
   "organisations": {
@@ -80,6 +113,16 @@
       "type": "company",
       "official_page": "https://www.dechra.com/corporate/senior-executive-team",
       "focus": "Veterinary specialty pharmaceuticals and animal-health innovation"
+    },
+    "Ceva Animal Health": {
+      "type": "company",
+      "official_page": "https://www.ceva.com/about-ceva/governance/",
+      "focus": "Global animal-health company; veterinary therapeutics, vaccines, diagnostics, innovation, R&D and business development"
+    },
+    "Boehringer Ingelheim Animal Health": {
+      "type": "company",
+      "official_page": "https://www.boehringer-ingelheim.com/animal-health",
+      "focus": "Global animal-health pharmaceuticals, vaccines, R&D, business development, licensing and external innovation"
     }
   }
 }
