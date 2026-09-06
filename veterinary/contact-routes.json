@@ -456,6 +456,30 @@
         "follows_bhoc": "yes"
       },
       "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+    },
+    "Mu Tareq": {
+      "organisation": "Gulf Veterinary Services Company",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "workplace": "DVM and Senior Sales Representative; veterinary pharmaceuticals, animal health and technical sales",
+      "directions": [
+        "Veterinary",
+        "Animal Health",
+        "Veterinary Pharmaceuticals",
+        "Technical Sales",
+        "Commercial / Market Access"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mu-tareqx/",
+      "contact_page": "https://www.linkedin.com/company/gulfvet/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Exact LinkedIn profile identifies Mu Tareq as a DVM and Senior Sales Representative at Gulf Veterinary Services Company in Saudi Arabia, with veterinary-animal-health sales experience. The public Gulf Veterinary Services Company page identifies the company as a veterinary pharmaceutical and equipment distributor headquartered in Riyadh; no species-specific specialty was added.",
+      "linkedin_relationship": {
+        "personal_connection": true,
+        "bhoc_page_follower": true,
+        "follows_archil": "unknown",
+        "follows_bhoc": "yes"
+      },
+      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
     }
   },
   "organisations": {
