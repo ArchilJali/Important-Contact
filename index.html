@@ -60,7 +60,7 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
     <h1>People, institutions and funding routes by strategic direction.</h1>
     <p>Choose a working network. Veterinary remains the current Oxyglobin / HBOC contact intelligence workspace. Human Medicine is a separate network for surgery, bloodless medicine, transplantation, transfusion, emergency care, public health, oncology, devices, regulators, executives and investors. Wildlife / Red Book remains a separate network for endangered species, conservation medicine, philanthropy, grants and research.</p>
   </div>
-  <div class="live">Live working directory</div>
+  <div class="live">All sections: <strong id="allCount">…</strong> contacts</div>
 </section>
 
 <section class="search-panel" aria-label="Person search">
@@ -111,6 +111,7 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
 <div class="footer"><span>Public professional facts and public institutional contact routes only.</span><span>Relationship status remains local to this browser.</span></div>
 </main>
 
+<script src="site/directory-counts.js?v=20260906-1"></script>
 <script>
 'use strict';
 const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
@@ -131,30 +132,6 @@ function parseStrategic(md){
 }
 async function getJSON(url,fallback){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(r.status);return await r.json()}catch(e){return fallback}}
 async function getText(url,fallback=''){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(r.status);return await r.text()}catch(e){return fallback}}
-async function humanMedicineCount(){try{const md=await getText('human-medicine/CONTACTS.md');return md.split('\n').filter(x=>/^\|\s*P\d+/.test(x)).length}catch(e){return null}}\nasync function veterinaryCount(parsed){
-  try{
-    const [vets,oxy]=await Promise.all([
-      getJSON('/BHOC-platform/veterinary/Vet-publications.json',[]),
-      getJSON('veterinary/data/oxyglobin-authors-institutions.json',{people:[]})
-    ]);
-    const pubs=vets.publications||vets||[];
-    const full=new Map((oxy.people||[]).map(p=>[fullSig(p.name),p.name]));
-    const map=new Map();
-    for(const p of pubs){
-      for(const raw of splitAuthors(p)){
-        const name=full.get(citeSig(raw))||raw;
-        map.set('a:'+citeSig(name),name);
-      }
-    }
-    for(const s of parsed.people){
-      const exists=[...map.values()].some(n=>norm(n)===norm(s.name));
-      if(!exists)map.set('s:'+norm(s.name),s.name);
-    }
-    for(const o of parsed.orgs)map.set('o:'+o.id,o.name);
-    return map.size;
-  }catch(e){return null}
-}
-
 let peopleIndex=[];
 function buildPeopleIndex(vetPeople,wildContacts){
   const map=new Map();
@@ -202,10 +179,11 @@ document.getElementById('personSearch').addEventListener('keydown',e=>{if(e.key=
   const [md,hmd,wild]=await Promise.all([getText('veterinary/CONTACTS.md'),getText('human-medicine/CONTACTS.md'),getJSON('wildlife-red-book/contacts.json',{contacts:[]})]);
   const parsed=parseStrategic(md),humanParsed=parseStrategic(hmd);
   buildPeopleIndex([...parsed.people,...humanParsed.people],wild.contacts||[]);
-  const vc=await veterinaryCount(parsed);
-  document.getElementById('vetCount').textContent=vc??'—';
-  document.getElementById('wildCount').textContent=(wild.contacts||[]).length||'—';
-  document.getElementById('humanCount').textContent=(await humanMedicineCount())??'—';
+  const summary=await window.ImportantContactCounts.get();
+  document.getElementById('vetCount').textContent=summary.veterinary??'—';
+  document.getElementById('humanCount').textContent=summary.humanMedicine??'—';
+  document.getElementById('wildCount').textContent=summary.wildlife??'—';
+  document.getElementById('allCount').textContent=summary.total??'—';
 })();
 </script>
 </body>
