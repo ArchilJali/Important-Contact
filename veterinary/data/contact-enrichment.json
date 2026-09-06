@@ -806,6 +806,29 @@
         "type": "peer-reviewed journal article"
       },
       "publication_status": "verified_latest_found"
+    },
+    "Moamen Karm (DVM)": {
+      "record_status": "verified_current",
+      "organisation": "Arabian Horses Veterinary Co. (AHV)",
+      "workplace": "Equine sports medicine; horse and camel veterinary practice",
+      "city": "Al Qasim",
+      "country": [
+        "SA"
+      ],
+      "directions": [
+        "Veterinary",
+        "Equine",
+        "Large Animal",
+        "Sports Medicine",
+        "Camel",
+        "Animal Health"
+      ],
+      "species": [
+        "horse",
+        "camel",
+        "large_animal"
+      ],
+      "publication_status": "not_applicable_role"
     }
   }
 }
