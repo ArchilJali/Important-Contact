@@ -141,6 +141,59 @@
       "contact_page": "https://extension.missouri.edu/people/marie-e-kerl-dvm-mph-mba",
       "verified_on": "2026-09-06",
       "verification_basis": "University of Missouri public profile confirms adjunct teaching role and VCA Chief Medical Officer/VP Medical Operations; publication evidence documents clinical biochemistry work after hemoglobin glutamer-200 (Oxyglobin) infusion in dogs. Direct personal LinkedIn not yet stored."
+    },
+    "Anthony B. Zambelli": {
+      "organisation": "Inanda Veterinary Hospital & Specialist Referrals (historical; current role verification pending)",
+      "verified_on": "2026-09-06",
+      "verification_basis": "PubMed confirms exact authorship of the randomized Oxyglobin versus packed RBC canine babesiosis trial. Later public veterinary records document Inanda Veterinary Hospital affiliation, but a 2026 current-role source has not yet been resolved."
+    },
+    "Andrew L. Leisewitz": {
+      "organisation": "Auburn University College of Veterinary Medicine",
+      "linkedin": "https://www.linkedin.com/in/andrew-leisewitz-580aa927b",
+      "email": "all0087@auburn.edu",
+      "contact_page": "https://www.vetmed.auburn.edu/faculty/leisewitz-andrew/",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Auburn official faculty page confirms current Professor role, internal-medicine background and hemoprotozoal research; public LinkedIn matches Auburn identity. PubMed confirms coauthorship of the randomized Oxyglobin canine babesiosis trial."
+    },
+    "Dennis T. Crowe Jr.": {
+      "organisation": "Independent veterinary surgery / emergency and critical care (current route verification pending)",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Public veterinary educational literature documents Dennis T. Crowe Jr. as a veterinary surgery and emergency/critical-care authority and explicitly discusses Oxyglobin/HBOC in trauma care. Current direct institutional contact route remains to be independently verified."
+    },
+    "Barry Scott": {
+      "organisation": "Biopure Corporation (historical; current role verification pending)",
+      "verified_on": "2026-09-06",
+      "verification_basis": "SEC-filed Biopure release and the executed Dechra distribution agreement identify Barry Scott as Biopure Vice President, Business Development and signatory for Oxyglobin distribution. Current role/contact route is not yet independently verified."
+    },
+    "Tiana Gorham": {
+      "organisation": "Biopure Corporation (historical; current role verification pending)",
+      "verified_on": "2026-09-06",
+      "verification_basis": "Multiple SEC-filed 2008 Biopure releases identify Tiana Gorham as the corporate/IR contact during the Oxyglobin commercial period. Current role/contact route is not yet independently verified."
+    },
+    "Jonathan S. Jahr": {
+      "organisation": "David Geffen School of Medicine at UCLA / Ronald Reagan UCLA Medical Center",
+      "email": "j.s.jahr@ucla.edu",
+      "contact_page": "https://onlinelibrary.wiley.com/doi/10.1111/trf.18116",
+      "verified_on": "2026-09-06",
+      "verification_basis": "2025 Transfusion correspondence confirms UCLA affiliation and public professional email; current professional materials describe Professor Emeritus status and longstanding HBOC expertise. PubMed confirms historical Oxyglobin/Hb-200 canine-shock coauthorship."
+    },
+    "Fedor Lurie": {
+      "organisation": "Jobst Vascular Institute / University of Michigan",
+      "email": "fedor.lurie@promedica.org",
+      "contact_page": "https://www.uip-phlebology.org/executive-committee",
+      "verified_on": "2026-09-06",
+      "verification_basis": "International Union of Phlebology current executive biography confirms Associate Director, Jobst Vascular Institute and Adjunct Research Professor at University of Michigan; 2026 PubMed correspondence confirms professional email. PubMed confirms historical Oxyglobin/Hb-200 canine-shock coauthorship."
+    },
+    "Mohammad S. Golkaryeh": {
+      "organisation": "Historical Oxyglobin/Hb-200 study affiliation; current role verification pending",
+      "verified_on": "2026-09-06",
+      "verification_basis": "PubMed PMID 12794419 confirms exact coauthorship on Oxyglobin/Hb-200 canine hypovolemic-shock dose-response research. A reliable current professional identity/contact route has not yet been resolved."
+    },
+    "Robert A. Gunther": {
+      "organisation": "UC Davis Department of Surgery",
+      "contact_page": "https://health.ucdavis.edu/surgery/team/index.html",
+      "verified_on": "2026-09-06",
+      "verification_basis": "UC Davis Department of Surgery lists Robert Gunther under Faculty Emeritus in Burn Surgery. PubMed confirms historical coauthorship on Oxyglobin/Hb-200 canine hypovolemic-shock research."
     }
   },
   "organisations": {
@@ -152,6 +205,10 @@
     "Covetrus Netherlands": {"type": "company", "official_page": "https://www.covetrus.nl/Covetrus"},
     "University of Pennsylvania School of Veterinary Medicine": {"type": "institution", "official_page": "https://www.vet.upenn.edu/"},
     "Paragon Veterinary Referrals": {"type": "institution", "official_page": "https://www.paragonreferrals.co.uk/"},
-    "VCA Animal Hospitals": {"type": "company", "official_page": "https://vcahospitals.com/"}
+    "VCA Animal Hospitals": {"type": "company", "official_page": "https://vcahospitals.com/"},
+    "Auburn University College of Veterinary Medicine": {"type": "institution", "official_page": "https://www.vetmed.auburn.edu/"},
+    "David Geffen School of Medicine at UCLA / Ronald Reagan UCLA Medical Center": {"type": "institution", "official_page": "https://www.uclahealth.org/"},
+    "Jobst Vascular Institute / University of Michigan": {"type": "institution", "official_page": "https://www.uip-phlebology.org/executive-committee"},
+    "UC Davis Department of Surgery": {"type": "institution", "official_page": "https://health.ucdavis.edu/surgery/"}
   }
 }
