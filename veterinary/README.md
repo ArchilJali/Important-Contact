@@ -1,22 +1,26 @@
-# Veterinary
+# Veterinary Contact Intelligence
 
-Primary direction in the private `ArchilJali/Important-Contact` repository.
+This directory contains the public-professional data sources used by the BHOC Important Contact working pages.
 
-[Browse the 33-contact seed index](CONTACTS.md) or [open the full original dataset](data/snapshot.json).
+## Current source layers
 
-| Group | Folder |
-|---|---|
-| Investors & Funds | [investors-and-funds/](investors-and-funds/) |
-| Veterinary Doctors & Science | [veterinary-doctors-and-science/](veterinary-doctors-and-science/) |
-| Philanthropy | [philanthropy/](philanthropy/) |
-| Wildlife | [wildlife/](wildlife/) |
-| Zoos & Nature Reserves | [zoos-and-nature-reserves/](zoos-and-nature-reserves/) |
-| Grants & Programmes | [grants-and-programmes/](grants-and-programmes/) |
-| Companies & Partners | [companies-and-partners/](companies-and-partners/) |
-| Journals & Media | [journals-and-media/](journals-and-media/) |
+1. [`CONTACTS.md`](CONTACTS.md) - curated strategic people and organisations with role, country, species and primary public source.
+2. [`contact-routes.json`](contact-routes.json) - verified public professional contact routes such as LinkedIn, institutional email and official profile.
+3. [`data/oxyglobin-authors-institutions.json`](data/oxyglobin-authors-institutions.json) - historical Oxyglobin / HBOC author and institution baseline linked to the BHOC Veterinary publication catalogue.
+4. [`data/iocvs-2026-contacts.json`](data/iocvs-2026-contacts.json) - IOCVS 2026 contacts, multi-direction classifications and conference/publication evidence.
+5. [`data/contact-enrichment.json`](data/contact-enrichment.json) - normalization layer for canonical names and aliases, multi-direction tags, current-vs-historical verification state, verified contact overrides and independently checked latest publications.
+6. `BHOC-platform/veterinary/Vet-publications.json` - the larger publication catalogue loaded by the web interface. For authors without independent enrichment, the UI labels the newest matching record as **Latest in BHOC library**, not as a globally verified latest publication.
 
-The initial private dataset is `data/snapshot.json`: 33 contacts and 50 source records. No external facts have been re-verified in this packaging update. The live database, after secure deployment, is the source of truth for current human decisions and access permissions.
+## Contact model
 
-Research specifications are in `research/`. They describe a proposed 72-hour cadence, not an installed or running scheduler. The private server and English interface are under `../app/`; database migrations are under `../sql/`.
+A person can belong to multiple directions at the same time. Examples include Small Animal + Zoo + Wildlife + One Health, or Equine + Emergency / Critical Care + Hemorrhagic Shock + Oxygen Delivery. Directions are additive and are designed for filtering rather than exclusive classification.
 
-Keep this repository private. Do not publish its source tree or snapshots on GitHub Pages.
+Scientific contacts should have an independently verified latest publication when it can be matched confidently to the same person. If identity or current affiliation is unresolved, the record is explicitly marked historical/current unresolved and no contact detail is guessed. Executive, investment, philanthropy and operational roles may use `publication_status: not_applicable_role` when a scientific publication is not a meaningful field for the role.
+
+## Safety and privacy
+
+Only public professional facts and institutional contact routes belong in Git-tracked/public-page data. Relationship status (`We work`, `We know`, `We do not know`) remains browser-local and must not be converted into public claims or stored as private relationship history in these source files.
+
+Current HbO2 Therapeutics personnel remain excluded from contact targeting under the repository rule in [`../AGENTS.md`](../AGENTS.md). Historical Oxyglobin / Biopure evidence can remain as bibliography, but it must not create a current outreach target where current HbO2 affiliation applies or is uncertain.
+
+Repository visibility is an owner-level setting and is not changed by data-maintenance work. If repository visibility and local metadata disagree, treat that as a configuration issue requiring owner review rather than silently changing access controls.
