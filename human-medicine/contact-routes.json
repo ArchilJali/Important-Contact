@@ -679,6 +679,37 @@
       "contact_page": "https://www.aou.mo.it/Immuno-trasfusionale",
       "verified_on": "2026-09-07",
       "verification_basis": "Exact LinkedIn identity matches Vanessa Agostini as Director of the Immuno-transfusion Unit. The official Azienda Ospedaliero-Universitaria di Modena page confirms her current directorship of the Complex Immuno-transfusion Structure in Modena."
+    },
+    "Prof Jacqueline Dunkley-Bent OBE": {
+      "organisation": "International Confederation of Midwives",
+      "country": "Netherlands",
+      "city": "The Hague",
+      "directions": ["Human Medicine", "Public Health", "Maternal Health", "Health Policy", "Healthcare Governance"],
+      "linkedin": "https://www.linkedin.com/in/prof-jacqueline-dunkley-bent-32790489/",
+      "contact_page": "https://internationalmidwives.org/staff/jacqueline-dunkley-bent/",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Exact LinkedIn identity matches Professor Jacqueline Dunkley-Bent OBE as Chief Midwife at the International Confederation of Midwives. The ICM staff profile confirms her current role and global maternal-health and health-system remit; ICM identifies its office as The Hague, Netherlands."
+    },
+    "Azwidowi Lukhwareni": {
+      "organisation": "National Health Laboratory Service / University of Pretoria",
+      "country": "South Africa",
+      "city": "Pretoria",
+      "directions": ["Human Medicine", "Public Health", "Medical Virology", "Infectious Disease", "Disease Surveillance / Epidemiology", "Research"],
+      "linkedin": "https://www.linkedin.com/in/azwidowi-lukhwareni-42261241/",
+      "email": "azwidowi.lukhwareni@nhls.ac.za",
+      "contact_page": "https://www.up.ac.za/medical-virology/staff-profiles/azwidowi-lukhwareni",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Exact LinkedIn identity matches Azwidowi Lukhwareni as Principal Medical Scientist and Senior Lecturer at the National Health Laboratory Service / University of Pretoria. University of Pretoria and ORCID records confirm the current Pretoria affiliation and medical-virology/public-health research identity."
+    },
+    "Javier Lerín": {
+      "organisation": "NodePharm",
+      "country": "Spain / Denmark",
+      "city": "Barcelona profile; Copenhagen company headquarters",
+      "directions": ["Human Medicine", "Pharma / Biotech", "Commercial / Market Access", "Strategic Partnerships", "CEO / Management"],
+      "linkedin": "https://www.linkedin.com/in/jlerin/",
+      "contact_page": "https://www.linkedin.com/company/nodepharm/",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Exact LinkedIn identity matches Javier Lerín as Partner at NodePharm, with Barcelona profile location. NodePharm's current company page lists Javier Lerín among its two employees and describes the company's pharmaceutical licensing and distribution remit; headquarters are in Copenhagen."
     }
   },
   "organisations": {}
