@@ -1,10 +1,12 @@
 const FOLLOW_STORE='important-contact:linkedin-follow-signals:v1';
 let followSignals={};try{followSignals=JSON.parse(localStorage.getItem(FOLLOW_STORE)||'{}')}catch{followSignals={}}
+const CONNECTION_STORE='important-contact:linkedin-connection-signals:v1';
+let connectionSignals={};try{connectionSignals=JSON.parse(localStorage.getItem(CONNECTION_STORE)||'{}')}catch{connectionSignals={}}
 const baseDataMatch=match;
 function followKey(c){return'person:'+norm(c.name)}
 function relationshipValue(v){return v===true||v==='yes'?'yes':v===false||v==='no'?'no':'unknown'}
 function routeRelationship(c){const r=c.routes&&c.routes.linkedin_relationship||{};return{personal:relationshipValue(r.personal_connection),archil:relationshipValue(r.follows_archil),bhoc:relationshipValue(r.follows_bhoc!==undefined?r.follows_bhoc:r.bhoc_page_follower)}}
-function followState(c){if(c.isOrganisation)return{personal:'na',archil:'na',bhoc:'na'};const route=routeRelationship(c),local=followSignals[followKey(c)]||{};return{personal:route.personal,archil:local.archil&&local.archil!=='unknown'?local.archil:route.archil,bhoc:local.bhoc&&local.bhoc!=='unknown'?local.bhoc:route.bhoc}}
+function followState(c){if(c.isOrganisation)return{personal:'na',archil:'na',bhoc:'na'};const route=routeRelationship(c),local=followSignals[followKey(c)]||{},connection=connectionSignals[followKey(c)]||{};return{personal:connection.personal&&connection.personal!=='unknown'?connection.personal:route.personal,archil:local.archil&&local.archil!=='unknown'?local.archil:route.archil,bhoc:local.bhoc&&local.bhoc!=='unknown'?local.bhoc:route.bhoc}}
 function saveFollow(fkey,field,value){const s=followSignals[fkey]||{archil:'unknown',bhoc:'unknown'};s[field]=value;followSignals[fkey]=s;try{localStorage.setItem(FOLLOW_STORE,JSON.stringify(followSignals))}catch{}render()}
 function hasPriorBHOC(c){const p=c.routes&&c.routes.previous_bhoc_oxyglobin_hboc_relationship;return!!(c.core||c.directions?.has('HBOC / Oxyglobin')&&(p===undefined||p!=='not_verified'&&p!=='no')||p&&p!=='not_verified'&&p!=='no')}
 function knownToUs(c){const s=status(c);return s==='know'||s==='work'}
