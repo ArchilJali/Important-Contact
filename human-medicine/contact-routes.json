@@ -648,6 +648,37 @@
       "contact_page": "https://www.linkedin.com/in/daniel-g-maluf-1111bb9a/",
       "verified_on": "2026-09-06",
       "verification_basis": "Live LinkedIn profile exactly matches Daniel G. Maluf as Director of the Transplantation Unit at University of Maryland, Baltimore, Vice Chair of Surgery and International Liver Transplant Society leadership; the profile location is Keswick, Virginia."
+    },
+    "Daniele Avenoso": {
+      "organisation": "University of Brescia / ASST Spedali Civili di Brescia",
+      "country": "Italy",
+      "city": "Brescia",
+      "directions": ["Human Medicine", "Hematology", "Oncology", "Transplantation", "Stem Cell / Cellular Therapy", "Clinical Research", "Clinical Trials"],
+      "linkedin": "https://www.linkedin.com/in/daniele-avenoso-2b67a9100/",
+      "contact_page": "https://www.unibs.it/sites/default/files/ugov_cvfiles/cv/ugov_cvpersona_en_000239659.pdf",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Exact LinkedIn identity matches Daniele Avenoso, MD, PhD, Associate Professor of Haematology with BMT and cellular-therapy focus. The University of Brescia curriculum vitae confirms the current University of Brescia role, Brescia location and clinical research in GVHD, VOD and allogeneic HSCT."
+    },
+    "Mirko Farina": {
+      "organisation": "ASST Spedali Civili di Brescia / University of Brescia",
+      "country": "Italy",
+      "city": "Brescia",
+      "directions": ["Human Medicine", "Hematology", "Oncology", "Transplantation", "Stem Cell / Cellular Therapy", "Clinical Research"],
+      "linkedin": "https://www.linkedin.com/in/mirko-farina-b91720183/",
+      "email": "mirko.farina@asst-spedalicivili.it",
+      "contact_page": "https://www.asst-spedalicivili.it/persone/mirko-farina",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Exact LinkedIn identity matches Mirko Farina as a hematologist at ASST Spedali Civili di Brescia. The ASST public professional route confirms the name and Brescia institution; a 2026 PubMed-indexed study lists the same affiliation in the Unit of Blood Diseases and Bone Marrow Transplantation, Cell Therapies and Hematology Research Program."
+    },
+    "Vanessa Agostini": {
+      "organisation": "Azienda Ospedaliero-Universitaria di Modena",
+      "country": "Italy",
+      "city": "Modena",
+      "directions": ["Human Medicine", "Blood / Transfusion", "Transfusion Medicine", "Blood Banking", "Clinical Research"],
+      "linkedin": "https://www.linkedin.com/in/vanessa-agostini-07233897/",
+      "contact_page": "https://www.aou.mo.it/Immuno-trasfusionale",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Exact LinkedIn identity matches Vanessa Agostini as Director of the Immuno-transfusion Unit. The official Azienda Ospedaliero-Universitaria di Modena page confirms her current directorship of the Complex Immuno-transfusion Structure in Modena."
     }
   },
   "organisations": {}
