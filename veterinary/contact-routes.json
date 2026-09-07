@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "rule": "Public professional contact routes only. Missing fields mean not yet verified. LinkedIn is added only after exact-name + current-employer + role/specialty identity matching against authoritative sources.",
   "people": {
     "Karen Humm": {
@@ -412,7 +412,7 @@
     },
     "Simon Bellamy": {
       "organisation": "Argenta",
-      "contact_page": "https://www.linkedin.com/posts/argentaglobal_diah2026-klifovetgmbh-argentacro-activity-7459992786793164801-9W6a",
+      "contact_page": "https://www.linkedin.com/posts/argentaglobal_diah2026-klifovetgmbh-ahnti2026-animalhealth-activity-7459992786793164801-9W6a",
       "verified_on": "2026-09-06",
       "verification_basis": "Argenta's own current 2026 DIAH and AHNTI posts identify Simon Bellamy as Business Development Director, CDMO. Argenta's official company site documents the same business-development identity and CDMO growth remit. No direct personal LinkedIn route is stored because a unique exact profile URL was not independently resolved."
     },
@@ -445,14 +445,7 @@
       "linkedin": "https://www.linkedin.com/in/mu-tareqx/",
       "contact_page": "https://www.linkedin.com/company/gulfvet/",
       "verified_on": "2026-09-06",
-      "verification_basis": "Exact LinkedIn profile identifies Mu Tareq as a DVM and Senior Sales Representative at Gulf Veterinary Services Company in Saudi Arabia, with veterinary-animal-health sales experience. The public Gulf Veterinary Services Company page identifies the company as a veterinary pharmaceutical and equipment distributor headquartered in Riyadh; no species-specific specialty was added.",
-      "linkedin_relationship": {
-        "personal_connection": true,
-        "bhoc_page_follower": true,
-        "follows_archil": "unknown",
-        "follows_bhoc": "yes"
-      },
-      "previous_bhoc_oxyglobin_hboc_relationship": "not_verified"
+      "verification_basis": "Exact LinkedIn profile identifies Mu Tareq as a DVM and Senior Sales Representative at Gulf Veterinary Services Company in Saudi Arabia, with veterinary-animal-health sales experience. The public Gulf Veterinary Services Company page identifies the company as a veterinary pharmaceutical and equipment distributor headquartered in Riyadh; no species-specific specialty was added."
     },
     "Joshua Wright": {
       "organisation": "Zoetis",
@@ -471,6 +464,12 @@
       "contact_page": "https://revistas-veterinaria.multimedica.es/autores/ignacio-mesa-sanchez/",
       "verified_on": "2026-09-06",
       "verification_basis": "Live LinkedIn profile exactly matches Ignacio Mesa Sánchez as a veterinary internal-medicine clinician and Director of the Animal Blood Bank. The professional author route identifies the same veterinary blood-bank identity in the Valencia/Paterna area."
+    },
+    "Charles E. DeCamp": {
+      "organisation": "Animal Surgical Center of Michigan",
+      "contact_page": "https://www.animalsurgicalcenter.com/charles-e-decamp-dvm-ms-diplomate-acvs",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Animal Surgical Center of Michigan's current surgeon page identifies Charles E. DeCamp, DVM, MS, Diplomate ACVS, as a veterinary orthopedic surgeon and former Michigan State University professor. The current Veterinary Orthopedic Society directory independently lists Charles DeCamp at Animal Surgical Center of Michigan. PubMed PMID 10566804 confirms C. E. DeCamp as coauthor of the 1999 hemoglobin glutamer-200 canine total-hip arthroplasty study. No unverified LinkedIn or email route is stored."
     }
   },
   "organisations": {
