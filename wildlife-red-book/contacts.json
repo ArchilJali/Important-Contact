@@ -920,6 +920,27 @@
             "source": "https://www.rewild.org/team",
             "verified": "2026-09-07",
             "funding_status": "Strategic"
+        },
+        {
+            "id": "WRB043",
+            "name": "Carrie Stengel",
+            "record_type": "Person",
+            "organisation": "Re:wild",
+            "role": "Senior Manager, Conservation Metrics",
+            "country": "",
+            "region": "Global",
+            "priority": "P1",
+            "category": "Conservation / Metrics",
+            "focus": "Conservation metrics, impact measurement and biodiversity programme evaluation",
+            "opportunity": "Specialist route for defining measurable wildlife-health and conservation outcomes",
+            "funding": "Strategic partnership / expertise route",
+            "deadline": "Strategic outreach",
+            "contact_page": "https://www.rewild.org/team",
+            "official_page": "https://www.rewild.org/team",
+            "email": "",
+            "source": "https://www.rewild.org/team",
+            "verified": "2026-09-07",
+            "funding_status": "Strategic"
         }
     ]
 }
