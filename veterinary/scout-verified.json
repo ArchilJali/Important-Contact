@@ -1,15 +1,1 @@
-{
-  "updated": "2026-09-07",
-  "rule": "Quality-first Scout enrichment queue. Only verified public professional contacts awaiting promotion belong here. A LinkedIn route is included only after exact identity matching by name, current employer and role/specialty against authoritative current evidence. Historical publication affiliation alone is not sufficient.",
-  "people": {
-    "Jeffrey N. Simmons": {
-      "organisation": "Elanco Animal Health",
-      "role": "President and Chief Executive Officer",
-      "focus": "Executive leadership, animal-health strategy, innovation, pet health and farm animal health",
-      "contact_page": "https://www.elanco.com/us/leadership/executive-committee/jeff-simmons",
-      "verified_on": "2026-09-07",
-      "verification_basis": "Elanco's current official executive profile identifies Jeffrey N. Simmons as President and CEO. Elanco's August 5, 2026 second-quarter results independently identify Jeff Simmons as President and CEO, confirming the role is current. A LinkedIn route is not stored because the public LinkedIn profile uses the shortened name Jeff Simmons rather than the exact full-name form Jeffrey N. Simmons used by Elanco."
-    }
-  },
-  "organisations": {}
-}
+{"updated":"2026-09-07","rule":"Quality-first Scout enrichment queue. Only verified public professional contacts awaiting promotion belong here. A LinkedIn route is included only after exact identity matching by name, current employer and role/specialty against authoritative current evidence. Historical publication affiliation alone is not sufficient.","people":{"Jeffrey N. Simmons":{"organisation":"Elanco Animal Health","role":"President and Chief Executive Officer","focus":"Executive leadership, animal-health strategy, innovation, pet health and farm animal health","contact_page":"https://www.elanco.com/us/leadership/executive-committee/jeff-simmons","verified_on":"2026-09-07","verification_basis":"Elanco's current official executive profile identifies Jeffrey N. Simmons as President and CEO. Elanco's August 5, 2026 second-quarter results independently identify Jeff Simmons as President and CEO, confirming the role is current. A LinkedIn route is not stored because the public LinkedIn profile uses the shortened name Jeff Simmons rather than the exact full-name form Jeffrey N. Simmons used by Elanco."},"Matthieu Frechin":{"organisation":"Vetoquinol Global","role":"Chief Executive Officer","focus":"Animal-health company leadership, veterinary pharmaceuticals and global strategic direction","linkedin":"https://www.linkedin.com/in/matthieu-frechin-a9386112","contact_page":"https://www.vetoquinol.com/en/vetoquinols-management-organisation","verified_on":"2026-09-07","verification_basis":"The Vetoquinol Global LinkedIn profile exactly matches Matthieu Frechin as Chief Executive Officer at Vetoquinol in the Greater Paris Metropolitan Region. The current Vetoquinol management page and the public company profile confirm the organisation and leadership role."}},"organisations":{}}
