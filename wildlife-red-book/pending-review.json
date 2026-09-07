@@ -1,0 +1,51 @@
+{
+  "updated": "2026-09-07",
+  "scope": "Candidates seen in Wildlife Vets International or related LinkedIn context but deliberately not imported until current identity, employer, specialty and location can be independently verified.",
+  "rule": "No ambiguous identity is added to the public contact directory. These records are review-only and do not count as contacts.",
+  "candidates": [
+    {
+      "name": "Ashley Clayton",
+      "linkedin": "https://www.linkedin.com/in/ashley-clayton-075b6911a/",
+      "source": "https://www.linkedin.com/company/wildlife-vets-international/people/",
+      "seen_role": "Zoo and Wildlife Veterinarian",
+      "reason_not_imported": "Role and location were visible in the WVI context, but current employer was not independently resolved.",
+      "next_check": "Confirm current employer, specialty and city from the live profile or an authoritative employer page."
+    },
+    {
+      "name": "Chloe White RVN",
+      "linkedin": "https://www.linkedin.com/in/chloe-white-rvn-39407973",
+      "source": "https://www.linkedin.com/company/wildlife-vets-international/posts/?feedView=all",
+      "seen_role": "Registered Veterinary Nurse; Business Development Manager",
+      "reason_not_imported": "The LinkedIn route was found in a WVI discussion, but current employer and city were not verified.",
+      "next_check": "Confirm exact current employer, specialty and location."
+    },
+    {
+      "name": "Malyasri Bhattacharya",
+      "linkedin": "https://www.linkedin.com/in/malyasri-bhattacharya-18728369/",
+      "source": "https://www.linkedin.com/company/wildlife-vets-international/posts/?feedView=all",
+      "reason_not_imported": "The profile could not be independently opened; current employer, specialty and city remain unresolved.",
+      "next_check": "Verify all four identity fields before considering import."
+    },
+    {
+      "name": "Elliott Simpson-Brown",
+      "linkedin": "https://www.linkedin.com/in/elliott-simpson-brown-a31091aa/",
+      "source": "https://www.linkedin.com/company/wildlife-vets-international/posts/?feedView=all",
+      "reason_not_imported": "The profile could not be independently opened; current employer, specialty and city remain unresolved.",
+      "next_check": "Verify all four identity fields before considering import."
+    },
+    {
+      "name": "Afifah Hasna",
+      "linkedin": "https://www.linkedin.com/in/afifahasna/",
+      "source": "https://www.linkedin.com/company/wildlife-vets-international/posts/?feedView=all",
+      "reason_not_imported": "The profile could not be independently opened; current employer, specialty and city remain unresolved.",
+      "next_check": "Verify all four identity fields before considering import."
+    },
+    {
+      "name": "Emma Keating",
+      "linkedin": "https://www.linkedin.com/in/emma-keating-685a26182/",
+      "source": "https://www.linkedin.com/company/wildlife-vets-international/posts/?feedView=all",
+      "reason_not_imported": "The profile could not be independently opened; current employer, specialty and city remain unresolved.",
+      "next_check": "Verify all four identity fields before considering import."
+    }
+  ]
+}
