@@ -750,6 +750,16 @@
       "contact_page": "https://www.linkedin.com/in/giovanni-sbrana-0aa0a541/",
       "verified_on": "2026-09-07",
       "verification_basis": "Exact LinkedIn identity matches Giovanni Sbrana, a first-degree connection in Grosseto. The live profile identifies his current role as medical director at Azienda USL Toscana Sud Est and documents intensive care, territorial and hospital emergency medicine, disaster medicine, military medicine and diving/hyperbaric medicine."
+    },
+    "Ayman Nofal": {
+      "organisation": "TRPHARM",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "directions": ["Human Medicine", "Pharma / Biotech", "Commercial / Market Access", "Rare Disease", "Hematology", "Oncology", "Healthcare Management"],
+      "linkedin": "https://www.linkedin.com/in/drnofal/",
+      "contact_page": "https://www.linkedin.com/in/drnofal/",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Exact LinkedIn identity matches Ayman Nofal, a second-degree BHOC follower in Dubai. The live profile identifies TRPHARM as the current employer and the role as Commercial Manager, with a stated focus on rare disease, hematology and oncology and a healthcare-market-development remit."
     }
   },
   "organisations": {}
