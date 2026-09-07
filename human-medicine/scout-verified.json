@@ -1,0 +1,110 @@
+{
+  "updated": "2026-09-07",
+  "rule": "Verified public professional routes only. Exact current identity, organisation and specialty checked before inclusion.",
+  "people": {
+    "Peter Reese, MD, PhD": {
+      "role": "Director, Vanderbilt Center for Transplant Science; transplant nephrologist; solid-organ transplantation, clinical trials, health policy and transplant bioethics",
+      "organisation": "Vanderbilt Center for Transplant Science / Vanderbilt University Medical Center",
+      "country": ["US"],
+      "city": "Nashville, Tennessee",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Transplantation", "Transplant Nephrology", "Organ Donation", "Clinical Research", "Bioethics", "Health Policy"],
+      "email": "peter.reese@vumc.org",
+      "contact_page": "https://www.vumc.org/surgical-sciences/node/879",
+      "source": "https://www.vumc.org/surgical-sciences/node/879",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Official Vanderbilt profile confirms Peter Reese as Director of VCTS, Professor of Surgery, Biostatistics and Medicine, and a board-certified transplant nephrologist; the same profile publishes his VUMC email."
+    },
+    "Johanna Cimilluca": {
+      "role": "Administrative Officer, Vanderbilt Center for Transplant Science; scientific collaboration and transplant-research administration",
+      "organisation": "Vanderbilt Center for Transplant Science / Vanderbilt University Medical Center",
+      "country": ["US"],
+      "city": "Nashville, Tennessee",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Transplantation", "Research Administration", "Strategic Partnerships", "Clinical Research"],
+      "email": "johanna.cimilluca@vumc.org",
+      "contact_page": "https://www.vumc.org/cts/",
+      "source": "https://www.vumc.org/cts/",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Official VCTS pages identify Johanna Cimilluca as Administrative Officer and the public contact for collaboration and data/research initiatives."
+    },
+    "Marcelo Cypel, MD, MSc, FRCSC": {
+      "role": "Thoracic surgeon and Director, Toronto Lung Transplant Program; lung transplantation, ex vivo lung perfusion, donor-lung repair and organ preservation",
+      "organisation": "University Health Network / University of Toronto / Ajmera Transplant Centre",
+      "country": ["CA"],
+      "city": "Toronto, Ontario",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Transplantation", "Thoracic Surgery", "Lung Transplant", "EVLP", "Organ Preservation", "DCD", "Oxygen Carriers", "Clinical Research"],
+      "email": "marcelo.cypel@uhn.ca",
+      "phone": "+1 416-340-4800 ext. 4314",
+      "contact_page": "https://surgery.utoronto.ca/faculty/marcelo-cypel",
+      "source": "https://surgery.utoronto.ca/faculty/marcelo-cypel",
+      "verified_on": "2026-09-07",
+      "verification_basis": "University of Toronto and UHN profiles confirm Marcelo Cypel as thoracic surgeon and Toronto Lung Transplant Program director, with EVLP and donor-lung preservation work; UHN publishes the email and phone route."
+    },
+    "Anji Wall, MD, PhD, FACS": {
+      "role": "Abdominal transplant surgeon, Baylor University Medical Center; liver, kidney and pancreas transplantation; DCD/NRP and transplant ethics",
+      "organisation": "Baylor Scott & White Annette C. and Harold C. Simmons Transplant Institute / Baylor University Medical Center",
+      "country": ["US"],
+      "city": "Dallas, Texas",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Transplantation", "Abdominal Transplant Surgery", "Organ Donation", "DCD", "Normothermic Regional Perfusion", "Bioethics", "Clinical Research"],
+      "email": "anji.wall@bswhealth.org",
+      "contact_page": "https://www.bswhealth.com/physician/anji-wall",
+      "source": "https://www.bswhealth.com/physician/anji-wall",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Baylor Scott & White confirms Anji Wall as an abdominal transplant surgeon with liver, kidney and pancreas transplant interests; Baylor material documents her DCD/NRP focus, while current peer-reviewed correspondence confirms her public BSW Health email."
+    },
+    "Ciara Shaver, MD, PhD": {
+      "role": "Associate Director, Translational Science, Vanderbilt Center for Transplant Science; pulmonary and critical care; donor-lung injury, transplantation, ex vivo lung perfusion and cell-free hemoglobin research",
+      "organisation": "Vanderbilt Center for Transplant Science / Vanderbilt University Medical Center",
+      "country": ["US"],
+      "city": "Nashville, Tennessee",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Transplantation", "Pulmonary / Critical Care", "Lung Transplant", "Organ Preservation", "EVLP", "Cell-Free Hemoglobin", "Clinical Research"],
+      "email": "ciara.shaver@vumc.org",
+      "contact_page": "https://www.vumc.org/cts/person/ciara-shaver-md-phd",
+      "source": "https://www.vumc.org/cts/person/ciara-shaver-md-phd",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Official VCTS profile confirms Ciara Shaver as Associate Director for Translational Science with donor-organ, transplantation and EVLP research. Vanderbilt material also documents her cell-free hemoglobin research and publishes her VUMC email."
+    },
+    "Ashley Spann, MD, MSACI": {
+      "role": "Vanderbilt transplant hepatology and biomedical informatics faculty; transplant research informatics, machine learning and end-stage liver disease",
+      "organisation": "Vanderbilt University Medical Center / Vanderbilt Center for Transplant Science",
+      "country": ["US"],
+      "city": "Nashville, Tennessee",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Transplantation", "Transplant Hepatology", "Biomedical Informatics", "AI in Healthcare", "Machine Learning", "Clinical Research"],
+      "email": "ashley.spann@vumc.org",
+      "contact_page": "https://www.vumc.org/cphi/person/ashley-spann-md-msaci",
+      "source": "https://www.vumc.org/cphi/person/ashley-spann-md-msaci",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Official Vanderbilt profile confirms Ashley Spann's gastroenterology/hepatology and biomedical informatics faculty roles, transplant-hepatology focus, machine-learning research and public VUMC email."
+    },
+    "Elisa Gordon, PhD, MPH": {
+      "role": "Associate Director, Transplant Outcomes and Ethics Research, Vanderbilt Center for Transplant Science; organ donation, transplant outcomes, bioethics and health disparities",
+      "organisation": "Vanderbilt Center for Transplant Science / Vanderbilt University Medical Center",
+      "country": ["US"],
+      "city": "Nashville, Tennessee",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Transplantation", "Organ Donation", "Bioethics", "Outcomes Research", "Health Disparities", "Health Policy", "Clinical Research"],
+      "email": "elisa.gordon@vumc.org",
+      "contact_page": "https://www.vumc.org/cts/person/elisa-gordon-phd-mph",
+      "source": "https://www.vumc.org/cts/person/elisa-gordon-phd-mph",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Official VCTS and Vanderbilt Surgical Research profiles confirm Elisa Gordon's transplant outcomes and ethics leadership, research in organ transplantation and donation, and public VUMC email."
+    }
+  },
+  "organisations": {
+    "Vanderbilt Center for Transplant Science": {
+      "focus": "Transplant research center; scientific exchange, collaboration and smaller research meetings",
+      "country": "US",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Transplantation", "Organ Donation", "Clinical Research", "Scientific Collaboration"],
+      "email": "vcts@vumc.org",
+      "official_page": "https://www.vumc.org/cts/",
+      "verified_on": "2026-09-07",
+      "verification_basis": "Official VCTS website publishes its mission, scientific-exchange activities, general inquiry email and Nashville VUMC address."
+    }
+  }
+}
