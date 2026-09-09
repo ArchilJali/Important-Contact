@@ -1,30 +1,35 @@
 # Important Contact
 
-Internal BHOC Contact Intelligence workspace for people, institutions, publications, investors, grants, wildlife/conservation contacts and relationship status.
+Public-safe BHOC contact-intelligence evidence for people, institutions, publications, investors, grants and wildlife or conservation organisations.
 
-## Current architecture
+## Publication boundary
 
-- `site/` - current working interface
-- `veterinary/` - source-of-truth research and contact data
-- `veterinary/data/oxyglobin-authors-institutions.json` - Oxyglobin / hemoglobin glutamer-200 author, institution and publication evidence
-- `veterinary/data/snapshot.json` - current structured contact dataset
-- `veterinary/research/` - research-agent instructions and evidence-tracking context
-- `.github/workflows/pages-preview.yml` - GitHub Pages deployment workflow
+This public repository is not the master relationship tracker. It may contain only:
 
-Important Contact is a separate project. Do not place it inside BHOC-platform. BHOC-platform may be used only as a scientific source when needed.
+- public professional identity and current organisation;
+- verified current role or specialty;
+- public professional contact routes;
+- publication and institutional evidence;
+- public grant, programme and organisation information.
 
-## Oxyglobin contact logic
+Private relationship history, follower status, personal connections, internal priority, outreach state, reviews, decisions, private notes, non-public contact details, credentials and confidential assessments belong only in the approved private workspace.
 
-People and institutions are separate records. Preserve the chain:
+## Current structure
 
-`Person -> historical publication affiliation -> publication -> species/model -> Oxyglobin/HBOC relationship`
+- `veterinary/CONTACTS.md` and `veterinary/contact-routes.json`: public-safe veterinary contacts and verified professional routes.
+- `human-medicine/CONTACTS.md` and `human-medicine/contact-routes.json`: public-safe human-medicine contacts and verified professional routes.
+- `wildlife-red-book/contacts.json`: public-safe wildlife and conservation contacts.
+- `veterinary/data/oxyglobin-authors-institutions.json`: Oxyglobin and hemoglobin glutamer-200 publication evidence.
+- `veterinary/research/`: research rules and public-source evidence context.
 
-An article affiliation is historical bibliographic evidence. It does not prove current employment, study location or institutional endorsement. Current roles must be verified separately.
+The former browser directory is disabled while private access controls and data boundaries are being strengthened.
 
-## Working counters
+## Identity rule
 
-The compact workspace uses Authors / Investors / In contact as operational counters. Detailed records remain searchable and filterable below.
+People and institutions are separate records. Preserve the evidence chain:
 
-## Visibility
+`Person -> historical publication affiliation -> publication -> species or model -> Oxyglobin or HBOC relationship`
 
-If this repository is public for GitHub Pages, only public professional facts, public publication evidence, public institutional information and publicly listed professional contact routes should be exposed. Do not publish private relationship history, Carl Review, private notes, non-public emails, secrets or confidential assessments.
+A publication affiliation is historical bibliographic evidence. It does not prove current employment, study location or institutional endorsement. Current roles must be verified separately. Never guess an email address or LinkedIn URL.
+
+Important Contact remains a separate project. Do not place it inside BHOC-platform.
