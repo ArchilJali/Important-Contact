@@ -14,6 +14,8 @@ This public repository is not the master relationship tracker. It may contain on
 
 Private relationship history, follower status, personal connections, internal priority, outreach state, reviews, decisions, private notes, non-public contact details, credentials and confidential assessments belong only in the approved private workspace.
 
+Unverified candidates and pending-review queues are private working data and must not be committed here. Automated public-safety checks block prohibited relationship fields, internal priority fields, private staging files and restoration of the former browser directory.
+
 ## Current structure
 
 - `veterinary/CONTACTS.md` and `veterinary/contact-routes.json`: public-safe veterinary contacts and verified professional routes.
