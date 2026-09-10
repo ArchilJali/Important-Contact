@@ -1,0 +1,3 @@
+Important Contact temporary read-only directory
+Build: 2026-09-10.01
+Feature: Public-safe Veterinary, Human Medicine and Wildlife contact browsing

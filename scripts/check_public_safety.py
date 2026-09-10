@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -26,6 +27,29 @@ FORBIDDEN_PATHS = {
 }
 FORBIDDEN_SUFFIXES = {".db", ".sqlite", ".sqlite3", ".env"}
 ERRORS: list[str] = []
+ALLOWED_SITE_FILES = {
+    "contacts-v7-core.js",
+    "contacts-v7-data.js",
+    "contacts-v7-ui.js",
+    "contacts-v7.css",
+    "contacts-v7.html",
+    "directory-counts.js",
+    "human-medicine.html",
+    "version.txt",
+    "wildlife-red-book.html",
+    "wildlife-red-book.js",
+}
+FORBIDDEN_UI_MARKERS = {
+    "follows_archil",
+    "follows_bhoc",
+    "personal_connection",
+    "linkedin_relationship",
+    "previous_bhoc_oxyglobin_hboc_relationship",
+    "important-contact:relationship",
+    "important-contact:linkedin-follow-signals",
+    "important-contact:linkedin-connection-signals",
+    "important-contact:wildlife-red-book:relationship",
+}
 
 
 def walk_json(value: object, relative: Path, trail: str = "$") -> None:
@@ -41,8 +65,15 @@ def walk_json(value: object, relative: Path, trail: str = "$") -> None:
 
 def main() -> int:
     site = ROOT / "site"
-    if site.exists() and any(path.is_file() for path in site.rglob("*")):
-        ERRORS.append("site/: former public browser directory must remain disabled")
+    if site.exists():
+        site_files = {
+            str(path.relative_to(site))
+            for path in site.rglob("*")
+            if path.is_file()
+        }
+        unexpected = sorted(site_files - ALLOWED_SITE_FILES)
+        if unexpected:
+            ERRORS.append(f"site/: unexpected public UI files: {', '.join(unexpected)}")
 
     for relative_name in FORBIDDEN_PATHS:
         if (ROOT / relative_name).exists():
@@ -67,8 +98,22 @@ def main() -> int:
         ERRORS.append("robots.txt: expected a site-wide crawl disallow rule")
 
     index = (ROOT / "index.html").read_text(encoding="utf-8").lower()
-    if "noindex" not in index or "<script" in index:
-        ERRORS.append("index.html: maintenance page must remain noindex and script-free")
+    if "noindex" not in index:
+        ERRORS.append("index.html: temporary public directory must remain noindex")
+
+    public_ui_files = [ROOT / "index.html"]
+    if site.exists():
+        public_ui_files.extend(path for path in site.rglob("*") if path.is_file())
+    public_ui_text = "\n".join(
+        path.read_text(encoding="utf-8", errors="replace").lower()
+        for path in public_ui_files
+        if path.suffix.lower() in {".html", ".js", ".css", ".txt"}
+    )
+    for marker in sorted(FORBIDDEN_UI_MARKERS):
+        if marker in public_ui_text:
+            ERRORS.append(f"public UI: prohibited private-state marker {marker!r}")
+    if re.search(r"<script[^>]+src=[\"']https?://", public_ui_text):
+        ERRORS.append("public UI: external script source is not permitted")
 
     if ERRORS:
         print("Public-safety validation failed:", file=sys.stderr)
@@ -77,7 +122,7 @@ def main() -> int:
         return 1
 
     json_count = sum(1 for path in ROOT.rglob("*.json") if ".git" not in path.parts)
-    print(f"Validated {json_count} JSON files and the public maintenance boundary.")
+    print(f"Validated {json_count} JSON files and the temporary read-only public boundary.")
     return 0
 
 

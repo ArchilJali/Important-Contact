@@ -2,6 +2,10 @@
 
 The master contact database, emails, internal assessments and user decisions remain private. Keep the master in the approved private repository. Do not change repository visibility or publish master data, internal notes, exports or credentials on a public website.
 
+## Temporary public read-only interface authorised on 2026-09-10
+
+Archil authorised the public-safe contact directory interface to be available temporarily while protected access is prepared. The interface may render only the canonical public-safe sources already permitted by this file. It must remain `noindex`, use no analytics or external scripts, and must not read, write or display relationship status, follower state, personal connections, internal priority, outreach state, private notes, credentials or private staging records. A follow-up task is scheduled for 2026-09-15 to replace this temporary interface with protected access or return it to maintenance mode.
+
 ## Public canonical contact hygiene
 
 `veterinary/CONTACTS.md`, `veterinary/contact-routes.json` and `veterinary/scout-verified.json` are public-safe contact-intelligence files. Store only public professional identity, current organisation, current role/specialty, verified public professional routes and source evidence.

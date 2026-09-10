@@ -5,5 +5,10 @@
   "visibility": "private",
   "package_version": "2026.09.05-veterinary-publish",
   "application_deployed": false,
-  "scheduler_active": false
+  "scheduler_active": false,
+  "temporary_public_ui": {
+    "enabled": true,
+    "mode": "read_only_public_safe",
+    "review_on": "2026-09-15"
+  }
 }

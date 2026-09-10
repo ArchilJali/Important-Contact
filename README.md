@@ -14,7 +14,7 @@ This public repository is not the master relationship tracker. It may contain on
 
 Private relationship history, follower status, personal connections, internal priority, outreach state, reviews, decisions, private notes, non-public contact details, credentials and confidential assessments belong only in the approved private workspace.
 
-Unverified candidates and pending-review queues are private working data and must not be committed here. Automated public-safety checks block prohibited relationship fields, internal priority fields, private staging files and restoration of the former browser directory.
+Unverified candidates and pending-review queues are private working data and must not be committed here. Automated public-safety checks block prohibited relationship fields, internal priority fields, private staging files and any unapproved public interface assets.
 
 ## Current structure
 
@@ -24,7 +24,7 @@ Unverified candidates and pending-review queues are private working data and mus
 - `veterinary/data/oxyglobin-authors-institutions.json`: Oxyglobin and hemoglobin glutamer-200 publication evidence.
 - `veterinary/research/`: research rules and public-source evidence context.
 
-The former browser directory is disabled while private access controls and data boundaries are being strengthened.
+A temporary `noindex`, read-only browser is enabled for the public-safe records only. It contains no private relationship state, internal assessments, credentials, analytics or external scripts. Protected email access remains the intended production mode.
 
 ## Identity rule
 
