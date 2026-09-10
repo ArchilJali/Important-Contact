@@ -1,12 +1,23 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-10",
   "scope": "Verified human-medical professional facts and public contact routes. Relationship status remains private and browser-local.",
   "rules": [
     "Current employer, specialty, country and city are recorded only when independently verified.",
     "Ambiguous identities are not added.",
     "Previous BHOC/Oxyglobin/HBOC relationship is not inferred from LinkedIn following alone."
   ],
-  "aliases": {},
+  "aliases": {
+    "Mapillar Dahn": "Mapillar Dahn-Flemister",
+    "Muhammad Mansoor Mohiuddin": "Muhammad M. Mohiuddin, MD",
+    "Gabriel Oniscu": "Gabriel C. Oniscu, MD",
+    "Stefan Schneeberger, MD, MBA, FEBS": "Stefan Schneeberger, MD, MBA, FEBS",
+    "Matthew D. Neal, MD FACS": "Matthew D. Neal, MD, FACS",
+    "Jeremy Cannon": "Jeremy W. Cannon, MD, SM, FACS",
+    "ABDULRAZAK SIBAI, MD, MSc. HL": "Abdulrazak Sibai, MD, MSc",
+    "Diana Castro Paupério": "Diana Castro Paupério, MD",
+    "Selma Turkovic": "Selma Turković",
+    "Princess Adenike Opalemo": "Princess Adenike J. Opalemo"
+  },
   "people": {
     "Rodrigo Rial": {
       "record_status": "verified_current",
@@ -314,9 +325,18 @@
       "record_status": "verified_current",
       "organisation": "Centre hospitalier de l'Université de Montréal (CHUM)",
       "city": "Montreal",
-      "country": ["CA"],
-      "directions": ["Human Medicine", "Blood / Transfusion", "Hematology", "SCD / SCA"],
-      "species": ["human"],
+      "country": [
+        "CA"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Hematology",
+        "SCD / SCA"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/st%C3%A9phanie-fort%C3%A9-20711188/",
       "contact_page": "https://www.linkedin.com/in/st%C3%A9phanie-fort%C3%A9-20711188/",
       "verified_on": "2026-09-06",
@@ -327,9 +347,18 @@
       "record_status": "verified_current",
       "organisation": "International Society of Blood Transfusion (ISBT)",
       "city": "The Randstad",
-      "country": ["NL"],
-      "directions": ["Human Medicine", "Blood / Transfusion", "Transfusion Medicine", "Scientific / Professional Society"],
-      "species": ["human"],
+      "country": [
+        "NL"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Transfusion Medicine",
+        "Scientific / Professional Society"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/eszter-herczenik-98868917/",
       "contact_page": "https://www.linkedin.com/in/eszter-herczenik-98868917/",
       "verified_on": "2026-09-06",
@@ -340,9 +369,20 @@
       "record_status": "verified_current",
       "organisation": "Australian Red Cross Lifeblood",
       "city": "Adelaide",
-      "country": ["AU"],
-      "directions": ["Human Medicine", "Blood / Transfusion", "Blood Services / Systems", "Biologicals", "Public Health", "CEO / Management"],
-      "species": ["human"],
+      "country": [
+        "AU"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Blood Services / Systems",
+        "Biologicals",
+        "Public Health",
+        "CEO / Management"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/waynebolton/",
       "contact_page": "https://www.linkedin.com/in/waynebolton/",
       "verified_on": "2026-09-06",
@@ -353,9 +393,18 @@
       "record_status": "verified_current",
       "organisation": "NHS Blood and Transplant",
       "city": "Bristol",
-      "country": ["GB"],
-      "directions": ["Human Medicine", "Blood / Transfusion", "Transfusion Medicine", "Hematology"],
-      "species": ["human"],
+      "country": [
+        "GB"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Transfusion Medicine",
+        "Hematology"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/zaheramiah/",
       "contact_page": "https://www.linkedin.com/in/zaheramiah/",
       "verified_on": "2026-09-06",
@@ -366,9 +415,19 @@
       "record_status": "verified_current",
       "organisation": "Federal University of São Paulo (UNIFESP) Blood Center",
       "city": "São Paulo",
-      "country": ["BR"],
-      "directions": ["Human Medicine", "Blood / Transfusion", "Granulocyte Laboratory", "Platelet Laboratory", "Cell Therapy"],
-      "species": ["human"],
+      "country": [
+        "BR"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Granulocyte Laboratory",
+        "Platelet Laboratory",
+        "Cell Therapy"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/elyse-moritz-35aa5089/",
       "contact_page": "https://www.linkedin.com/in/elyse-moritz-35aa5089/",
       "verified_on": "2026-09-06",
@@ -379,9 +438,19 @@
       "record_status": "verified_current",
       "organisation": "Turkish Transplant Foundation",
       "city": "Ankara",
-      "country": ["TR"],
-      "directions": ["Human Medicine", "Transplantation", "Organ Recovery", "Transplant Coordination", "Public Health"],
-      "species": ["human"],
+      "country": [
+        "TR"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Transplantation",
+        "Organ Recovery",
+        "Transplant Coordination",
+        "Public Health"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/gamze-y%C4%B1ld%C4%B1r%C4%B1m-rn-msc-a50595152/",
       "contact_page": "https://www.linkedin.com/in/gamze-y%C4%B1ld%C4%B1r%C4%B1m-rn-msc-a50595152/",
       "verified_on": "2026-09-06",
@@ -392,9 +461,20 @@
       "record_status": "verified_current",
       "organisation": "Beilinson - Rabin Medical Center",
       "city": "Petah Tikva",
-      "country": ["IL"],
-      "directions": ["Human Medicine", "Surgery", "Transplantation", "Heart Transplantation", "Mechanical Circulatory Support", "SCA / Cardiovascular"],
-      "species": ["human"],
+      "country": [
+        "IL"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgery",
+        "Transplantation",
+        "Heart Transplantation",
+        "Mechanical Circulatory Support",
+        "SCA / Cardiovascular"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/udi-jacobzon-49444774/",
       "contact_page": "https://www.linkedin.com/in/udi-jacobzon-49444774/",
       "verified_on": "2026-09-06",
@@ -405,9 +485,19 @@
       "record_status": "verified_current",
       "organisation": "UK Sepsis Trust / Global Sepsis Alliance; profile also lists THIRD EYE MEDICAL LIMITED",
       "city": "West Midlands",
-      "country": ["GB"],
-      "directions": ["Human Medicine", "Sepsis", "Emergency / Critical Care", "Public Health", "CEO / Management"],
-      "species": ["human"],
+      "country": [
+        "GB"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Sepsis",
+        "Emergency / Critical Care",
+        "Public Health",
+        "CEO / Management"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/dr-ron-daniels-bem-69a40722/",
       "contact_page": "https://www.linkedin.com/in/dr-ron-daniels-bem-69a40722/",
       "verified_on": "2026-09-06",
@@ -418,9 +508,18 @@
       "record_status": "verified_current",
       "organisation": "Global Sepsis Alliance / European Sepsis Alliance",
       "city": "Castellón de la Plana",
-      "country": ["ES"],
-      "directions": ["Human Medicine", "Sepsis", "Public Health", "Patient Advocacy"],
-      "species": ["human"],
+      "country": [
+        "ES"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Sepsis",
+        "Public Health",
+        "Patient Advocacy"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/mariannehaverkamp/",
       "contact_page": "https://www.linkedin.com/in/mariannehaverkamp/",
       "verified_on": "2026-09-06",
@@ -431,9 +530,21 @@
       "record_status": "verified_current",
       "organisation": "Ministry of Health Saudi Arabia",
       "city": "Makkah",
-      "country": ["SA"],
-      "directions": ["Human Medicine", "Emergency / Critical Care", "Sepsis", "EMS", "Public Health", "Regulatory", "Healthcare Operations"],
-      "species": ["human"],
+      "country": [
+        "SA"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Emergency / Critical Care",
+        "Sepsis",
+        "EMS",
+        "Public Health",
+        "Regulatory",
+        "Healthcare Operations"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/hattanbojan/",
       "contact_page": "https://www.linkedin.com/in/hattanbojan/",
       "verified_on": "2026-09-06",
@@ -444,9 +555,18 @@
       "record_status": "verified_current",
       "organisation": "Azienda USL di Bologna",
       "city": "Valsamoggia",
-      "country": ["IT"],
-      "directions": ["Human Medicine", "Emergency / Critical Care", "Resuscitation", "Prehospital / EMS"],
-      "species": ["human"],
+      "country": [
+        "IT"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Emergency / Critical Care",
+        "Resuscitation",
+        "Prehospital / EMS"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/carlo-coniglio-b8a61840/",
       "contact_page": "https://www.linkedin.com/in/carlo-coniglio-b8a61840/",
       "verified_on": "2026-09-06",
@@ -457,9 +577,18 @@
       "record_status": "verified_current",
       "organisation": "Medicortex Finland Oyj / Medicortex International AB (publ)",
       "city": "Turku",
-      "country": ["FI"],
-      "directions": ["Human Medicine", "Biotech / MedTech", "Neurotrauma / TBI", "CEO / Management"],
-      "species": ["human"],
+      "country": [
+        "FI"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Biotech / MedTech",
+        "Neurotrauma / TBI",
+        "CEO / Management"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/adrian-harel/",
       "contact_page": "https://www.linkedin.com/in/adrian-harel/",
       "verified_on": "2026-09-06",
@@ -470,9 +599,20 @@
       "record_status": "verified_current",
       "organisation": "Lagniappe Laboratory Consulting, LLC",
       "city": "Raleigh-Durham-Chapel Hill Area",
-      "country": ["US"],
-      "directions": ["Human Medicine", "Blood / Transfusion", "Blood Banking", "Transfusion Medicine", "Laboratory Medicine", "Commercial / Market Access"],
-      "species": ["human"],
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Blood Banking",
+        "Transfusion Medicine",
+        "Laboratory Medicine",
+        "Commercial / Market Access"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/jimmylowery/",
       "contact_page": "https://lagniappelab.com/",
       "verified_on": "2026-09-06",
@@ -483,9 +623,20 @@
       "record_status": "verified_current",
       "organisation": "Ministry of Health Saudi Arabia",
       "city": "Riyadh",
-      "country": ["SA"],
-      "directions": ["Human Medicine", "Blood / Transfusion", "Blood Services / Systems", "Healthcare Quality", "Regulatory", "Public Health"],
-      "species": ["human"],
+      "country": [
+        "SA"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Blood Services / Systems",
+        "Healthcare Quality",
+        "Regulatory",
+        "Public Health"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/rana-al-dhalaan-297b5931/",
       "contact_page": "https://www.linkedin.com/in/rana-al-dhalaan-297b5931/",
       "verified_on": "2026-09-06",
@@ -496,9 +647,19 @@
       "record_status": "verified_current",
       "organisation": "Hospital Universitario Vall d'Hebron / Universitat de Barcelona",
       "city": "Barcelona",
-      "country": ["ES"],
-      "directions": ["Human Medicine", "Surgery", "Transplantation", "Thoracic Surgery", "Lung Transplantation"],
-      "species": ["human"],
+      "country": [
+        "ES"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgery",
+        "Transplantation",
+        "Thoracic Surgery",
+        "Lung Transplantation"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/irene-bello-217947228/",
       "contact_page": "https://vhir.vallhebron.com/en/professionals/irene-bello-rodriguez",
       "verified_on": "2026-09-06",
@@ -509,9 +670,19 @@
       "record_status": "verified_current",
       "organisation": "Areca Financial Services / F3 Funds - Life Sciences and Bio Venture Fund",
       "city": "Miami",
-      "country": ["US"],
-      "directions": ["Human Medicine", "Biotech / MedTech", "CEO / Management", "Healthcare Investors", "Life Sciences Investment"],
-      "species": ["human"],
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Biotech / MedTech",
+        "CEO / Management",
+        "Healthcare Investors",
+        "Life Sciences Investment"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/henrykwdabrowski/",
       "contact_page": "https://www.linkedin.com/in/henrykwdabrowski/",
       "verified_on": "2026-09-06",
@@ -522,9 +693,19 @@
       "record_status": "verified_current",
       "organisation": "Vital Strategies",
       "city": "New York City",
-      "country": ["US"],
-      "directions": ["Human Medicine", "Public Health", "Health Systems", "CEO / Management", "Healthcare Strategy"],
-      "species": ["human"],
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Public Health",
+        "Health Systems",
+        "CEO / Management",
+        "Healthcare Strategy"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/maryann-etiebet-md/",
       "contact_page": "https://www.linkedin.com/in/maryann-etiebet-md/",
       "verified_on": "2026-09-06",
@@ -535,9 +716,19 @@
       "record_status": "verified_current",
       "organisation": "WHO Hub for Pandemic and Epidemic Intelligence / Charité Center for Global Health",
       "city": "Hinxton",
-      "country": ["GB"],
-      "directions": ["Human Medicine", "Public Health", "Health Security", "Disease Surveillance / Epidemiology", "Research"],
-      "species": ["human"],
+      "country": [
+        "GB"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Public Health",
+        "Health Security",
+        "Disease Surveillance / Epidemiology",
+        "Research"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/jolynne-mokaya/",
       "contact_page": "https://www.linkedin.com/in/jolynne-mokaya/",
       "verified_on": "2026-09-06",
@@ -548,13 +739,580 @@
       "record_status": "verified_current",
       "organisation": "University of Maryland, Baltimore (UMB) / International Liver Transplant Society",
       "city": "Baltimore; profile location Keswick, Virginia",
-      "country": ["US"],
-      "directions": ["Human Medicine", "Surgery", "Transplantation", "Liver Transplantation", "CEO / Management"],
-      "species": ["human"],
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgery",
+        "Transplantation",
+        "Liver Transplantation",
+        "CEO / Management"
+      ],
+      "species": [
+        "human"
+      ],
       "linkedin": "https://www.linkedin.com/in/daniel-g-maluf-1111bb9a/",
       "contact_page": "https://www.linkedin.com/in/daniel-g-maluf-1111bb9a/",
       "verified_on": "2026-09-06",
       "verification_basis": "Live LinkedIn profile exactly matches Daniel G. Maluf as Director of the Transplantation Unit at University of Maryland, Baltimore, Vice Chair of Surgery and International Liver Transplant Society leadership; profile location is Keswick, Virginia, while the current employer is in Baltimore, Maryland.",
+      "publication_status": "not_applicable_role"
+    },
+    "Waleed Hassanein, MD": {
+      "record_status": "verified_current",
+      "role_override": "Founder, President and Chief Executive Officer",
+      "organisation": "TransMedics Group, Inc.",
+      "workplace": "TransMedics organ-care and transplant-technology platform",
+      "city": "Greater Boston, Massachusetts",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Cardiac Surgery",
+        "Transplantation",
+        "Organ Preservation",
+        "Medical Devices",
+        "Normothermic Organ Care"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/waleed-hassanein-md-8b6424b",
+      "contact_page": "https://www.transmedics.com/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact name, current TransMedics employer and President and CEO role match current public professional content.",
+      "publication_status": "not_applicable_current_executive_role"
+    },
+    "Kevin B. Mahoney": {
+      "record_status": "verified_current",
+      "role_override": "Chief Executive Officer",
+      "organisation": "University of Pennsylvania Health System / Penn Medicine",
+      "workplace": "Penn Medicine academic health system",
+      "city": "Philadelphia, Pennsylvania",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Health Systems",
+        "Academic Medicine",
+        "Clinical Strategy",
+        "Research Infrastructure"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/kevinbmahoney",
+      "contact_page": "https://www.pennmedicine.org/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact name, Penn Medicine employer and UPHS Chief Executive Officer role match the public LinkedIn profile and current institutional leadership references.",
+      "publication_status": "not_applicable_current_executive_role"
+    },
+    "Elaine Haynes, RPh, MBA": {
+      "record_status": "verified_current",
+      "role_override": "President and Chief Executive Officer",
+      "organisation": "KaloCyte, Inc.",
+      "workplace": "ErythroMer synthetic red-blood-cell programme",
+      "city": "Baltimore-Washington region",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Biotech",
+        "Synthetic Red Blood Cells",
+        "ErythroMer",
+        "Trauma",
+        "Grant Strategy"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/elainehaynes",
+      "email": "info@kalocyte.com",
+      "contact_page": "https://kalocyte.com/team/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "KaloCyte's official team page and current company content agree on the exact identity, President and CEO role and ErythroMer/operations/grant remit.",
+      "publication_status": "not_applicable_current_executive_role"
+    },
+    "Mariam Jashi, MD, MPH, MPA": {
+      "record_status": "verified_current",
+      "role_override": "Chief Executive Officer",
+      "organisation": "Global Sepsis Alliance",
+      "workplace": "Global Sepsis Alliance executive leadership",
+      "city": "Tbilisi",
+      "country": [
+        "GE"
+      ],
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Sepsis",
+        "Public Health",
+        "Global Health",
+        "Advocacy",
+        "Strategic Partnerships"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mariam-jashi-b2a96623",
+      "contact_page": "https://www.global-sepsis-alliance.org/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact name, current Global Sepsis Alliance employer and CEO role match the public LinkedIn profile and current organisation activity.",
+      "publication_status": "not_applicable_current_executive_role"
+    },
+    "Kate Fry, MBA, CAE": {
+      "record_status": "verified_current",
+      "role_override": "Chief Executive Officer",
+      "organisation": "America's Blood Centers",
+      "workplace": "National association of independent community blood centers",
+      "city": "Washington, District of Columbia",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Blood Systems",
+        "Blood Supply",
+        "Donor Policy",
+        "Advocacy",
+        "Association Leadership"
+      ],
+      "species": [
+        "human"
+      ],
+      "contact_page": "https://americasblood.org/about-us/team/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "America's Blood Centers' current official leadership page identifies Kate Fry, MBA, CAE as Chief Executive Officer and documents the blood-supply and advocacy remit.",
+      "publication_status": "not_applicable_current_executive_role"
+    },
+    "Naoya Iwata": {
+      "record_status": "verified_current",
+      "role_override": "Chief Executive Officer and President",
+      "organisation": "OrganOx / Terumo Organ Technologies",
+      "workplace": "OrganOx normothermic machine-perfusion platform",
+      "city": "Tokyo",
+      "country": [
+        "JP"
+      ],
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Transplantation",
+        "Organ Preservation",
+        "Normothermic Machine Perfusion",
+        "Medical Devices",
+        "Commercial Strategy"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://jp.linkedin.com/in/naoya-iwata-286005131",
+      "contact_page": "https://www.organox.com/news/organox-announces-appointment-of-naoya-iwata-as-ceo-and-president",
+      "verified_on": "2026-09-10",
+      "verification_basis": "OrganOx's official 2026 appointment announcement and exact public LinkedIn profile agree on Naoya Iwata, the CEO and President role, OrganOx/Terumo affiliation and Tokyo location.",
+      "publication_status": "not_applicable_current_executive_role"
+    },
+    "Ezequiel Molina, MD": {
+      "record_status": "verified_current",
+      "role_override": "Surgical Director, LVAD and Heart Transplantation",
+      "organisation": "Piedmont Heart Institute",
+      "workplace": "LVAD and Heart Transplant Program",
+      "city": "Atlanta, Georgia",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Cardiac Surgery",
+        "Heart Transplantation",
+        "Advanced Heart Failure",
+        "LVAD",
+        "Mechanical Circulatory Support"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ezequiel-molina-b37431b",
+      "contact_page": "https://www.linkedin.com/in/ezequiel-molina-b37431b",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity, Piedmont employer and Surgical Director, LVAD and Heart Transplantation role match current public professional material.",
+      "publication_status": "current_latest_not_independently_verified"
+    },
+    "Muhammad M. Mohiuddin, MD": {
+      "record_status": "verified_current",
+      "role_override": "Professor of Surgery; Director, Cardiac Xenotransplantation Program",
+      "organisation": "University of Maryland School of Medicine",
+      "workplace": "Cardiac Xenotransplantation Program",
+      "city": "Baltimore, Maryland",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Cardiac Surgery",
+        "Cardiac Xenotransplantation",
+        "Transplantation",
+        "Translational Research"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/muhammad-mansoor-mohiuddin-21b801",
+      "contact_page": "https://www.linkedin.com/in/muhammad-mansoor-mohiuddin-21b801",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity, University of Maryland School of Medicine employer and Cardiac Xenotransplantation Program director role match current public reporting.",
+      "publication_status": "current_latest_not_independently_verified"
+    },
+    "Gabriel C. Oniscu, MD": {
+      "record_status": "verified_current",
+      "role_override": "Head, Department of Transplantation Surgery",
+      "organisation": "Karolinska University Hospital",
+      "workplace": "Department of Transplantation Surgery",
+      "city": "Stockholm",
+      "country": [
+        "SE"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Transplantation",
+        "Liver Transplantation",
+        "Abdominal Surgery",
+        "Transplant Systems"
+      ],
+      "species": [
+        "human"
+      ],
+      "email": "gabriel.oniscu@ki.se",
+      "linkedin": "https://www.linkedin.com/in/gabriel-oniscu",
+      "orcid": "https://orcid.org/0000-0003-1714-920X",
+      "contact_page": "https://ki.se/en/people/gabriel-oniscu",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity, current Karolinska University Hospital employer and Head of Transplantation Surgery role match the current Karolinska Institutet profile; institutional email and ORCID routes belong to that exact identity.",
+      "publication_status": "current_latest_not_independently_verified"
+    },
+    "Stefan Schneeberger, MD, MBA, FEBS": {
+      "record_status": "verified_current",
+      "role_override": "Director, Department of Visceral, Transplant and Thoracic Surgery",
+      "organisation": "Medical University of Innsbruck",
+      "workplace": "Department of Visceral, Transplant and Thoracic Surgery",
+      "city": "Innsbruck",
+      "country": [
+        "AT"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Transplantation",
+        "Visceral Surgery",
+        "Thoracic Surgery",
+        "Vascularized Composite Allotransplantation"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/stefan-schneeberger-md-mba-febs-47358427",
+      "contact_page": "https://www.linkedin.com/in/stefan-schneeberger-md-mba-febs-47358427",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity, current Medical University of Innsbruck employer and department-director role match the current public professional profile.",
+      "publication_status": "current_latest_not_independently_verified"
+    },
+    "Matthew D. Neal, MD, FACS": {
+      "record_status": "verified_current",
+      "role_override": "Professor of Surgery, Critical Care Medicine, and Clinical and Translational Science",
+      "organisation": "University of Pittsburgh / UPMC",
+      "workplace": "Trauma and General Surgery, UPMC Presbyterian",
+      "city": "Pittsburgh, Pennsylvania",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Trauma Surgery",
+        "Critical Care",
+        "Hemorrhagic Shock",
+        "Hemostasis",
+        "Massive Transfusion",
+        "Clinical Research"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/matthew-d-neal-md-facs-3b948015",
+      "contact_page": "https://www.upmc.com/providers/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity and University of Pittsburgh professorship match current public professional material; UPMC's current provider directory independently lists Matthew D. Neal in trauma and general surgery.",
+      "publication_status": "current_latest_not_independently_verified"
+    },
+    "Jeremy W. Cannon, MD, SM, FACS": {
+      "record_status": "verified_current",
+      "role_override": "Professor of Surgery; trauma and surgical critical-care specialist",
+      "organisation": "Penn Medicine / University of Pennsylvania",
+      "workplace": "Penn Traumatology, Surgical Critical Care and Emergency Surgery",
+      "city": "Philadelphia, Pennsylvania",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Trauma Surgery",
+        "Surgical Critical Care",
+        "Emergency Surgery",
+        "Hemorrhage Preparedness",
+        "Military Medicine"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jeremy-cannon-85a7a8167",
+      "contact_page": "https://www.pennmedicine.org/providers/jeremy-cannon",
+      "latest_publication": {
+        "date": "2026",
+        "title": "Do not forget the cryoprecipitate: The impact of the 2019 Joint Trauma System Damage Control Resuscitation Clinical Practice Guideline on mortality",
+        "url": "https://doi.org/10.1097/TA.0000000000004862",
+        "type": "peer-reviewed journal article"
+      },
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity and trauma-preparedness role matched; Penn Medicine's current official provider profile independently confirms Jeremy W. Cannon, Professor of Surgery, trauma surgery and surgical critical care, and lists the 2026 publication.",
+      "publication_status": "verified_latest_found"
+    },
+    "Mapillar Dahn-Flemister": {
+      "record_status": "verified_current",
+      "role_override": "Founder and Executive Director",
+      "organisation": "MTS Sickle Cell Foundation",
+      "workplace": "MTS Sickle Cell Foundation advocacy and family-support programmes",
+      "city": "Hampton, Georgia",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Sickle Cell / SCA",
+        "Patient Advocacy",
+        "Health Equity",
+        "Family Support",
+        "Clinical Research Engagement"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mapillar-dahn-363264248",
+      "contact_page": "https://mythreesicklers.org/about-mapillar-dahn/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Official MTS Sickle Cell Foundation profile and the exact current LinkedIn identity agree on the founder/executive role and sickle-cell advocacy mission; Dahn-Flemister is retained as the current expanded surname form.",
+      "publication_status": "not_applicable_role"
+    },
+    "Obi Light Ogbonnia": {
+      "record_status": "verified_current",
+      "role_override": "Founder and President",
+      "organisation": "Obi Ogbonnia Sickle Cell Foundation (OOSCF)",
+      "workplace": "OOSCF advocacy, screening and patient-support programmes",
+      "city": "Abuja",
+      "country": [
+        "NG"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Sickle Cell / SCA",
+        "Patient Advocacy",
+        "Screening",
+        "Blood Transfusion Access",
+        "Community Support"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/obilightogbonnia",
+      "email": "info@ooscf.com",
+      "contact_page": "https://ooscf.com/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "OOSCF's current official site and the exact LinkedIn identity agree on Obi Light Ogbonnia, the founder/president role and current sickle-cell programmes; the email is the foundation's published professional route.",
+      "publication_status": "not_applicable_role"
+    },
+    "Princess Adenike J. Opalemo": {
+      "record_status": "verified_current",
+      "role_override": "Founder and Executive Director",
+      "organisation": "Nike Opalemo Sickle Cell Foundation",
+      "workplace": "Sickle-cell awareness and community-education programmes",
+      "city": "Lagos",
+      "country": [
+        "NG"
+      ],
+      "directions": [
+        "Human Medicine",
+        "Sickle Cell / SCA",
+        "Patient Advocacy",
+        "Awareness",
+        "Community Education"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/princess-adenike-opalemo-9b0915118",
+      "email": "nosf.sicklecellfoundation@gmail.com",
+      "contact_page": "https://www.instagram.com/nikeopalemosicklecellfoundation/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity and current 2026 foundation content agree on Princess Adenike J. Opalemo, the foundation and founder/executive role; the email is publicly published by the foundation.",
+      "publication_status": "not_applicable_role"
+    },
+    "Abdulrazak Sibai, MD, MSc": {
+      "record_status": "verified_current",
+      "role_override": "Chairman, Patient Blood Management Program",
+      "organisation": "Ministry of National Guard Health Affairs (MNG-HA)",
+      "workplace": "Patient Blood Management Program",
+      "country": [
+        "SA"
+      ],
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Anesthesiology",
+        "Blood Conservation",
+        "Clinical Education"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/abdulrazak-sibai-md-msc-hl-abb720254",
+      "contact_page": "https://www.linkedin.com/in/abdulrazak-sibai-md-msc-hl-abb720254",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity, MNG-HA employer and Patient Blood Management Program chairman role match current public PBM education content.",
+      "publication_status": "not_applicable_role"
+    },
+    "Christine Cahill": {
+      "record_status": "verified_current",
+      "role_override": "Coordinator, Patient Blood Management Program",
+      "organisation": "Mayo Clinic",
+      "workplace": "Patient Blood Management Program",
+      "country": [
+        "US"
+      ],
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Transfusion Stewardship",
+        "Programme Implementation",
+        "Clinical Change"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/christine-cahill-47143245",
+      "contact_page": "https://letstalkpbm.com/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity, Mayo Clinic employer and PBM coordinator role match current public Let's Talk Patient Blood Management content.",
+      "publication_status": "not_applicable_role"
+    },
+    "Diana Castro Paupério, MD": {
+      "record_status": "verified_current",
+      "role_override": "Trustee, International Foundation for Patient Blood Management",
+      "organisation": "International Foundation for Patient Blood Management / ULS Gaia e Espinho",
+      "workplace": "Anesthesiology and Patient Blood Management programmes",
+      "city": "Vila Nova de Gaia",
+      "country": [
+        "PT"
+      ],
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Anesthesiology",
+        "Programme Development",
+        "Clinical Education"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/diana-castro-paup%C3%A9rio-0a879b4a",
+      "contact_page": "https://ifpbm.org/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity, IFPBM trustee role and ULS Gaia e Espinho affiliation match current public PBM programme content.",
+      "publication_status": "not_applicable_role"
+    },
+    "Selma Turković": {
+      "record_status": "verified_current",
+      "role_override": "Patient Blood Management Practitioner",
+      "organisation": "NHS Blood and Transplant",
+      "workplace": "NHSBT Patient Blood Management team",
+      "country": [
+        "GB"
+      ],
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Transfusion Stewardship",
+        "Clinical Education",
+        "Blood Systems"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/selma-turkovic-20296a26",
+      "contact_page": "https://www.nhsbt.nhs.uk/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity, NHS Blood and Transplant employer and PBM Practitioner role match current public NHSBT educational material.",
+      "publication_status": "not_applicable_role"
+    },
+    "Loice Ngugi": {
+      "record_status": "verified_current",
+      "role_override": "Social Media Manager",
+      "organisation": "Let's Talk Patient Blood Management",
+      "workplace": "PBM public education and digital advocacy",
+      "country": [
+        "KE"
+      ],
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Public Education",
+        "Digital Advocacy",
+        "Community Engagement"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/loice-ngugi",
+      "contact_page": "https://letstalkpbm.com/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact LinkedIn identity, Let's Talk Patient Blood Management affiliation and Social Media Manager role match current public PBM content.",
+      "publication_status": "not_applicable_role"
+    },
+    "Mark Chandler": {
+      "record_status": "verified_current",
+      "role_override": "Emergency Communications Program Manager; Resuscitation Academy faculty",
+      "organisation": "RQI Partners / Resuscitation Academy",
+      "workplace": "Emergency communications and telephone-CPR education",
+      "directions": [
+        "Human Medicine",
+        "Emergency / Critical Care",
+        "EMS",
+        "Resuscitation",
+        "Telephone CPR",
+        "Emergency Communications",
+        "Cardiac Arrest"
+      ],
+      "species": [
+        "human"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mark-chandler-73a97318a",
+      "contact_page": "https://www.youtube.com/watch?v=PgBVwdhGWq0",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Exact current LinkedIn identity, RQI Partners employer and emergency-communications role matched; a June 2026 Resuscitation Academy webinar independently names Mark Chandler as a telephone-CPR speaker. Country and city remain unverified.",
       "publication_status": "not_applicable_role"
     }
   }

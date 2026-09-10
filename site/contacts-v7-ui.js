@@ -200,6 +200,7 @@ function mergeScout(parsed, routes, enrichment, scout) {
       merged.enrichment
     );
     filters();
+    applyRequestedCategory();
     render();
     updateDirectoryTotal();
   } catch (error) {

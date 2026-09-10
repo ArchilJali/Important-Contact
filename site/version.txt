@@ -1,3 +1,3 @@
 Important Contact temporary read-only directory
-Build: 2026-09-10.01
-Feature: Public-safe Veterinary, Human Medicine and Wildlife contact browsing
+Build: 2026-09-10.02
+Feature: Public-safe Veterinary, CEO / Strategic, Surgeons, Sickle Cell / SCA and PBM Advocacy browsing

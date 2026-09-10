@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-10",
   "rule": "Public professional contact routes only. Human Medicine records are separated from Veterinary and Wildlife. LinkedIn is retained only after exact-name, current-employer and specialty verification.",
   "people": {
     "Rodrigo Rial": {
@@ -795,6 +795,369 @@
       "contact_page": "https://www.linkedin.com/in/denis-oduor-78679054/",
       "verified_on": "2026-09-07",
       "verification_basis": "Exact LinkedIn identity matches DENIS (BRUTUS) ODUOR, a first-degree BHOC follower in Nairobi County. The live profile identifies him as County Blood Services Coordinator - Nairobi and chairperson of the County Blood Transfusion Coordinators Caucus; his About section confirms donor drives, hospital transfusion committees, blood-sample logistics and equitable access to blood and blood products."
+    },
+    "Waleed Hassanein, MD": {
+      "organisation": "TransMedics Group, Inc.",
+      "country": "United States",
+      "city": "Greater Boston, Massachusetts",
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Cardiac Surgery",
+        "Transplantation",
+        "Organ Preservation",
+        "Medical Devices",
+        "Normothermic Organ Care"
+      ],
+      "linkedin": "https://www.linkedin.com/in/waleed-hassanein-md-8b6424b",
+      "contact_page": "https://www.transmedics.com/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The current public LinkedIn profile exactly matches Waleed Hassanein, MD, TransMedics Group and the President and CEO role; current 2026 professional activity independently confirms active leadership of the OCS transplant platform."
+    },
+    "Kevin B. Mahoney": {
+      "organisation": "University of Pennsylvania Health System / Penn Medicine",
+      "country": "United States",
+      "city": "Philadelphia, Pennsylvania",
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Health Systems",
+        "Academic Medicine",
+        "Clinical Strategy",
+        "Research Infrastructure"
+      ],
+      "linkedin": "https://www.linkedin.com/in/kevinbmahoney",
+      "contact_page": "https://www.pennmedicine.org/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The public LinkedIn profile exactly matches Kevin B. Mahoney and Penn Medicine. Current Penn Medicine public material and institutional leadership references identify him as Chief Executive Officer of the University of Pennsylvania Health System."
+    },
+    "Elaine Haynes, RPh, MBA": {
+      "organisation": "KaloCyte, Inc.",
+      "country": "United States",
+      "city": "Baltimore-Washington region",
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Biotech",
+        "Synthetic Red Blood Cells",
+        "ErythroMer",
+        "Trauma",
+        "Grant Strategy"
+      ],
+      "linkedin": "https://www.linkedin.com/in/elainehaynes",
+      "email": "info@kalocyte.com",
+      "contact_page": "https://kalocyte.com/team/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "KaloCyte's current official team page identifies Elaine Haynes, RPh, MBA as President and CEO and describes her responsibility for business operations, technical development and grant strategy. KaloCyte's current public LinkedIn content independently confirms the same executive identity."
+    },
+    "Mariam Jashi, MD, MPH, MPA": {
+      "organisation": "Global Sepsis Alliance",
+      "country": "Georgia",
+      "city": "Tbilisi",
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Sepsis",
+        "Public Health",
+        "Global Health",
+        "Advocacy",
+        "Strategic Partnerships"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mariam-jashi-b2a96623",
+      "contact_page": "https://www.global-sepsis-alliance.org/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The public LinkedIn profile exactly matches Mariam Jashi, Global Sepsis Alliance and the Chief Executive Officer role. Her current profile and current Global Sepsis Alliance activity corroborate the same sepsis and global-health leadership identity."
+    },
+    "Kate Fry, MBA, CAE": {
+      "organisation": "America's Blood Centers",
+      "country": "United States",
+      "city": "Washington, District of Columbia",
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Blood Systems",
+        "Blood Supply",
+        "Donor Policy",
+        "Advocacy",
+        "Association Leadership"
+      ],
+      "contact_page": "https://americasblood.org/about-us/team/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "America's Blood Centers' current official leadership page identifies Kate Fry, MBA, CAE as Chief Executive Officer and documents her active leadership since 2018. The record is not assigned a personal LinkedIn URL because an exact public profile route was not independently resolved."
+    },
+    "Naoya Iwata": {
+      "organisation": "OrganOx / Terumo Organ Technologies",
+      "country": "Japan",
+      "city": "Tokyo",
+      "directions": [
+        "Human Medicine",
+        "CEO / Strategic",
+        "Transplantation",
+        "Organ Preservation",
+        "Normothermic Machine Perfusion",
+        "Medical Devices",
+        "Commercial Strategy"
+      ],
+      "linkedin": "https://jp.linkedin.com/in/naoya-iwata-286005131",
+      "contact_page": "https://www.organox.com/news/organox-announces-appointment-of-naoya-iwata-as-ceo-and-president",
+      "verified_on": "2026-09-10",
+      "verification_basis": "OrganOx's official 14 May 2026 announcement names Naoya Iwata Chief Executive Officer and President effective 1 June 2026 and describes his Terumo strategy and business-development experience. The public LinkedIn profile exactly matches OrganOx, Terumo Organ Technologies and Tokyo."
+    },
+    "Ezequiel Molina, MD": {
+      "organisation": "Piedmont Heart Institute",
+      "country": "United States",
+      "city": "Atlanta, Georgia",
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Cardiac Surgery",
+        "Heart Transplantation",
+        "Advanced Heart Failure",
+        "LVAD",
+        "Mechanical Circulatory Support"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ezequiel-molina-b37431b",
+      "contact_page": "https://www.linkedin.com/in/ezequiel-molina-b37431b",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Current public professional material exactly matches Ezequiel Molina, Piedmont Heart Institute and the Surgical Director, LVAD and Heart Transplantation role."
+    },
+    "Muhammad M. Mohiuddin, MD": {
+      "organisation": "University of Maryland School of Medicine",
+      "country": "United States",
+      "city": "Baltimore, Maryland",
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Cardiac Surgery",
+        "Cardiac Xenotransplantation",
+        "Transplantation",
+        "Translational Research"
+      ],
+      "linkedin": "https://www.linkedin.com/in/muhammad-mansoor-mohiuddin-21b801",
+      "contact_page": "https://www.linkedin.com/in/muhammad-mansoor-mohiuddin-21b801",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The exact public professional identity matches Muhammad Mansoor Mohiuddin, University of Maryland School of Medicine, Professor of Surgery and Director of the Cardiac Xenotransplantation Program. Current public reporting independently identifies the same programme leadership."
+    },
+    "Gabriel C. Oniscu, MD": {
+      "organisation": "Karolinska University Hospital",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Transplantation",
+        "Liver Transplantation",
+        "Abdominal Surgery",
+        "Transplant Systems"
+      ],
+      "email": "gabriel.oniscu@ki.se",
+      "linkedin": "https://www.linkedin.com/in/gabriel-oniscu",
+      "contact_page": "https://ki.se/en/people/gabriel-oniscu",
+      "verified_on": "2026-09-10",
+      "verification_basis": "Karolinska Institutet's current public profile and the public LinkedIn identity exactly match Gabriel Oniscu, Karolinska University Hospital and the Head of Department of Transplantation Surgery role; the institutional profile publishes the professional email route."
+    },
+    "Stefan Schneeberger, MD, MBA, FEBS": {
+      "organisation": "Medical University of Innsbruck",
+      "country": "Austria",
+      "city": "Innsbruck",
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Transplantation",
+        "Visceral Surgery",
+        "Thoracic Surgery",
+        "Vascularized Composite Allotransplantation"
+      ],
+      "linkedin": "https://www.linkedin.com/in/stefan-schneeberger-md-mba-febs-47358427",
+      "contact_page": "https://www.linkedin.com/in/stefan-schneeberger-md-mba-febs-47358427",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The current public LinkedIn identity exactly matches Stefan Schneeberger, Medical University of Innsbruck and the Director, Department of Visceral, Transplant and Thoracic Surgery role."
+    },
+    "Matthew D. Neal, MD, FACS": {
+      "organisation": "University of Pittsburgh / UPMC",
+      "country": "United States",
+      "city": "Pittsburgh, Pennsylvania",
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Trauma Surgery",
+        "Critical Care",
+        "Hemorrhagic Shock",
+        "Hemostasis",
+        "Massive Transfusion",
+        "Clinical Research"
+      ],
+      "linkedin": "https://www.linkedin.com/in/matthew-d-neal-md-facs-3b948015",
+      "contact_page": "https://www.upmc.com/providers/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The public LinkedIn identity matches Matthew D. Neal, MD, FACS and his University of Pittsburgh professorship in Surgery, Critical Care Medicine, and Clinical and Translational Science. UPMC's current provider directory independently lists Matthew D. Neal in trauma and general surgery."
+    },
+    "Jeremy W. Cannon, MD, SM, FACS": {
+      "organisation": "Penn Medicine / University of Pennsylvania",
+      "country": "United States",
+      "city": "Philadelphia, Pennsylvania",
+      "directions": [
+        "Human Medicine",
+        "Surgeons / Surgery",
+        "Trauma Surgery",
+        "Surgical Critical Care",
+        "Emergency Surgery",
+        "Hemorrhage Preparedness",
+        "Military Medicine"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jeremy-cannon-85a7a8167",
+      "contact_page": "https://www.pennmedicine.org/providers/jeremy-cannon",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The exact LinkedIn identity matches Jeremy Cannon and his trauma/emergency-preparedness leadership. Penn Medicine's current official provider profile independently identifies Jeremy W. Cannon, MD as Professor of Surgery in trauma surgery, general surgery and surgical critical care."
+    },
+    "Mapillar Dahn-Flemister": {
+      "organisation": "MTS Sickle Cell Foundation",
+      "country": "United States",
+      "city": "Hampton, Georgia",
+      "directions": [
+        "Human Medicine",
+        "Sickle Cell / SCA",
+        "Patient Advocacy",
+        "Health Equity",
+        "Family Support",
+        "Clinical Research Engagement"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mapillar-dahn-363264248",
+      "contact_page": "https://mythreesicklers.org/about-mapillar-dahn/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The foundation's official profile identifies Mapillar Dahn as founder of MTS Sickle Cell Foundation. Her exact LinkedIn profile currently identifies her as Founder and Executive Director and is corroborated by current independent sickle-cell advocacy profiles."
+    },
+    "Obi Light Ogbonnia": {
+      "organisation": "Obi Ogbonnia Sickle Cell Foundation (OOSCF)",
+      "country": "Nigeria",
+      "city": "Abuja",
+      "directions": [
+        "Human Medicine",
+        "Sickle Cell / SCA",
+        "Patient Advocacy",
+        "Screening",
+        "Blood Transfusion Access",
+        "Community Support"
+      ],
+      "linkedin": "https://www.linkedin.com/in/obilightogbonnia",
+      "email": "info@ooscf.com",
+      "contact_page": "https://ooscf.com/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "OOSCF's current official website identifies Obi Light Ogbonnia as founder, publishes the organisation contact route and documents active sickle-cell advocacy, screening and transfusion-access programmes. The exact LinkedIn identity matches the foundation and Founder and President role."
+    },
+    "Princess Adenike J. Opalemo": {
+      "organisation": "Nike Opalemo Sickle Cell Foundation",
+      "country": "Nigeria",
+      "city": "Lagos",
+      "directions": [
+        "Human Medicine",
+        "Sickle Cell / SCA",
+        "Patient Advocacy",
+        "Awareness",
+        "Community Education"
+      ],
+      "linkedin": "https://www.linkedin.com/in/princess-adenike-opalemo-9b0915118",
+      "email": "nosf.sicklecellfoundation@gmail.com",
+      "contact_page": "https://www.instagram.com/nikeopalemosicklecellfoundation/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The exact LinkedIn identity matches Princess Adenike J. Opalemo and the Nike Opalemo Sickle Cell Foundation Founder and Executive Director role. Current 2026 public foundation content independently identifies the same founder and publishes the organisation email route."
+    },
+    "Abdulrazak Sibai, MD, MSc": {
+      "organisation": "Ministry of National Guard Health Affairs (MNG-HA)",
+      "country": "Saudi Arabia",
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Anesthesiology",
+        "Blood Conservation",
+        "Clinical Education"
+      ],
+      "linkedin": "https://www.linkedin.com/in/abdulrazak-sibai-md-msc-hl-abb720254",
+      "contact_page": "https://www.linkedin.com/in/abdulrazak-sibai-md-msc-hl-abb720254",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The exact current public LinkedIn profile identifies Abdulrazak Sibai at MNG-HA as Chairman of the Patient Blood Management Program. His public professional PBM education content independently confirms the specialty."
+    },
+    "Christine Cahill": {
+      "organisation": "Mayo Clinic",
+      "country": "United States",
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Transfusion Stewardship",
+        "Programme Implementation",
+        "Clinical Change"
+      ],
+      "linkedin": "https://www.linkedin.com/in/christine-cahill-47143245",
+      "contact_page": "https://letstalkpbm.com/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The exact current public LinkedIn identity matches Christine Cahill, Mayo Clinic and the Coordinator of the Patient Blood Management Program role. Current public Let's Talk Patient Blood Management content independently identifies her PBM implementation work."
+    },
+    "Diana Castro Paupério, MD": {
+      "organisation": "International Foundation for Patient Blood Management / ULS Gaia e Espinho",
+      "country": "Portugal",
+      "city": "Vila Nova de Gaia",
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Anesthesiology",
+        "Programme Development",
+        "Clinical Education"
+      ],
+      "linkedin": "https://www.linkedin.com/in/diana-castro-paup%C3%A9rio-0a879b4a",
+      "contact_page": "https://ifpbm.org/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The exact current public LinkedIn profile identifies Diana Castro Paupério as a trustee of the International Foundation for Patient Blood Management and an anesthesiology professional at ULS Gaia e Espinho. Current public PBM content corroborates her Portugal programme and advocacy activity."
+    },
+    "Selma Turković": {
+      "organisation": "NHS Blood and Transplant",
+      "country": "United Kingdom",
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Transfusion Stewardship",
+        "Clinical Education",
+        "Blood Systems"
+      ],
+      "linkedin": "https://www.linkedin.com/in/selma-turkovic-20296a26",
+      "contact_page": "https://www.nhsbt.nhs.uk/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The exact current public LinkedIn identity matches Selma Turković, NHS Blood and Transplant and the PBM Practitioner role. Current public NHSBT educational material identifies her as part of its Patient Blood Management team."
+    },
+    "Loice Ngugi": {
+      "organisation": "Let's Talk Patient Blood Management",
+      "country": "Kenya",
+      "directions": [
+        "Human Medicine",
+        "PBM Advocacy",
+        "Patient Blood Management",
+        "Public Education",
+        "Digital Advocacy",
+        "Community Engagement"
+      ],
+      "linkedin": "https://www.linkedin.com/in/loice-ngugi",
+      "contact_page": "https://letstalkpbm.com/",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The exact current public LinkedIn identity matches Loice Ngugi, Let's Talk Patient Blood Management and the Social Media Manager role. Current public PBM content corroborates active digital education and community engagement."
+    },
+    "Mark Chandler": {
+      "organisation": "RQI Partners / Resuscitation Academy",
+      "directions": [
+        "Human Medicine",
+        "Emergency / Critical Care",
+        "EMS",
+        "Resuscitation",
+        "Telephone CPR",
+        "Emergency Communications",
+        "Cardiac Arrest"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mark-chandler-73a97318a",
+      "contact_page": "https://www.youtube.com/watch?v=PgBVwdhGWq0",
+      "verified_on": "2026-09-10",
+      "verification_basis": "The exact current LinkedIn profile identifies Mark Chandler as Emergency Communications Program Manager at RQI Partners and Resuscitation Academy faculty. A current June 2026 Resuscitation Academy webinar independently names the same Mark Chandler as a telephone-CPR speaker. Country and city are left blank because they were not independently verified."
     }
   },
   "organisations": {}

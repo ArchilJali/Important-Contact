@@ -2,10 +2,13 @@
 
 This is the separate human-medical contact workspace for Important-Contact.
 
-Top-level directions:
+Top-level directions (the public directory exposes four human priority groups as separate filters and direct links; Veterinary remains a separate directory):
 
-- Surgery
-- Bloodless Medicine / PBM
+- CEO / Strategic
+- Surgeons / Surgery
+- Sickle Cell / SCA
+- PBM Advocacy
+- Bloodless Medicine / PBM Clinical
 - Transplantation
 - Heart / Cardiovascular
 - Blood / Transfusion
@@ -16,7 +19,7 @@ Top-level directions:
 - Organ Support
 - Medical Devices
 - Regulatory
-- CEO / Management
+- Executive / Management
 - Investors
 - Healthcare / Life Sciences Investors
 - Blood Services / Systems
