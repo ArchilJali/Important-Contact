@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-11",
   "rule": "Verified public professional routes only. Exact current identity, organisation and specialty checked before inclusion.",
   "people": {
     "Peter Reese, MD, PhD": {
@@ -93,6 +93,59 @@
       "source": "https://www.vumc.org/cts/person/elisa-gordon-phd-mph",
       "verified_on": "2026-09-07",
       "verification_basis": "Official VCTS and Vanderbilt Surgical Research profiles confirm Elisa Gordon's transplant outcomes and ethics leadership, research in organ transplantation and donation, and public VUMC email."
+    },
+    "Katerina Pavenski": {
+      "role": "Head, Division of Transfusion Medicine, Unity Health Toronto; Professor, Department of Laboratory Medicine and Pathobiology, University of Toronto",
+      "organisation": "Unity Health Toronto / St. Michael's Hospital / University of Toronto",
+      "country": ["CA"],
+      "city": "Toronto, Ontario",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Blood / Transfusion", "Transfusion Medicine", "Patient Blood Management", "Apheresis", "Hematology", "Clinical Research"],
+      "linkedin": "https://www.linkedin.com/in/katerina-pavenski-68145368/",
+      "email": "katerina.pavenski@unityhealth.to",
+      "contact_page": "https://unityhealth.to/physician-directory/dr-katerina-pavenski/",
+      "source": "https://unityhealth.to/physician-directory/dr-katerina-pavenski/",
+      "verified_on": "2026-09-11",
+      "verification_basis": "Unity Health Toronto identifies Katerina Pavenski as Head of the Division of Transfusion Medicine at St. Michael's Hospital and documents her transfusion-medicine, patient-blood-management and apheresis interests. Her current LinkedIn identity matches the same Toronto role and her 2026 University of Toronto professorship."
+    },
+    "Mandeep R. Mehra, MD, MSc": {
+      "role": "Medical Director, Heart and Vascular Center; William Harvey Endowed Chair in Advanced Cardiovascular Medicine",
+      "organisation": "Brigham and Women's Hospital",
+      "country": ["US"],
+      "city": "Boston, Massachusetts",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Cardiology", "Advanced Heart Failure", "Heart Transplantation", "Mechanical Circulatory Support", "Clinical Research", "Academic Medicine"],
+      "linkedin": "https://www.linkedin.com/in/mandeep-mehra-md-msc-frcp-london-0088511a/",
+      "contact_page": "https://physiciandirectory.brighamandwomens.org/details/815/mandeep-mehra-cardiovascular_medicine-boston",
+      "source": "https://physiciandirectory.brighamandwomens.org/details/815/mandeep-mehra-cardiovascular_medicine-boston",
+      "verified_on": "2026-09-11",
+      "verification_basis": "Brigham and Women's Hospital identifies Mandeep R. Mehra as Medical Director of the Heart and Vascular Center and William Harvey Endowed Chair in Advanced Cardiovascular Medicine. His current LinkedIn identity exactly matches the Brigham role and advanced heart-failure and transplantation domain."
+    },
+    "Nicolas Goossens": {
+      "role": "Senior physician in Gastroenterology, Hepatology and Transplantation; co-lead, Centre for Hepatobiliary and Pancreatic Disorders",
+      "organisation": "HUG - Hôpitaux universitaires de Genève",
+      "country": ["CH"],
+      "city": "Geneva",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Transplantation", "Liver Transplantation", "Hepatology", "Gastroenterology", "HPB Medicine", "Clinical Research"],
+      "linkedin": "https://www.linkedin.com/in/nicolas-goossens-75b477b/",
+      "contact_page": "https://pulsations.hug.ch/article-pro/les-atouts-du-centre-des-affections-hepatobiliaires-et-pancreatiques",
+      "source": "https://pulsations.hug.ch/article-pro/les-atouts-du-centre-des-affections-hepatobiliaires-et-pancreatiques",
+      "verified_on": "2026-09-11",
+      "verification_basis": "Current HUG material identifies Nicolas Goossens as a senior physician working across gastroenterology, hepatology and transplantation and as co-lead of the hepatobiliary and pancreatic centre. His current LinkedIn profile exactly matches HUG, Geneva and the gastroenterology/hepatology identity."
+    },
+    "Vera Rosa": {
+      "role": "SHOT Incident Specialist; haemovigilance and transfusion-safety specialist",
+      "organisation": "Serious Hazards of Transfusion (SHOT) / UK Blood Services",
+      "country": ["GB"],
+      "city": "London",
+      "species": ["human"],
+      "directions": ["Human Medicine", "Blood / Transfusion", "Transfusion Medicine", "Haemovigilance", "Transfusion Safety", "Blood Banking", "Clinical Quality"],
+      "linkedin": "https://www.linkedin.com/in/vera-rosa-07bab449/",
+      "contact_page": "https://www.shotuk.org/about/organisational-structure/team/",
+      "source": "https://www.shotuk.org/about/organisational-structure/team/",
+      "verified_on": "2026-09-11",
+      "verification_basis": "SHOT's current team page identifies Vera Rosa as SHOT Incident Specialist. Current SHOT and ISBT material documents her work with transfusion incidents including avoidable, delayed, under- and over-transfusion, and her LinkedIn profile matches the same professional identity."
     }
   },
   "organisations": {
