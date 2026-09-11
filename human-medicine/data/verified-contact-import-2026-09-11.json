@@ -1,0 +1,83 @@
+{
+  "updated": "2026-09-11",
+  "rule": "Public-safe verified professional records only. No relationship, follower, outreach or internal-priority state is stored in this file.",
+  "people": {
+    "Katerina Pavenski": {
+      "organisation": "Unity Health Toronto / St. Michael's Hospital; University of Toronto",
+      "country": "Canada",
+      "city": "Toronto",
+      "role": "Head, Division of Transfusion Medicine, Unity Health Toronto; Professor, Department of Laboratory Medicine and Pathobiology, University of Toronto",
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Transfusion Medicine",
+        "Patient Blood Management",
+        "Apheresis",
+        "Hematology",
+        "Clinical Research"
+      ],
+      "linkedin": "https://www.linkedin.com/in/katerina-pavenski-68145368/",
+      "email": "katerina.pavenski@unityhealth.to",
+      "contact_page": "https://unityhealth.to/physician-directory/dr-katerina-pavenski/",
+      "verified_on": "2026-09-11",
+      "verification_basis": "Unity Health Toronto identifies Katerina Pavenski as Head of the Division of Transfusion Medicine at St. Michael's Hospital and lists her transfusion-medicine, patient-blood-management and apheresis interests. Her current LinkedIn profile matches the same Toronto identity and records her July 2026 promotion to Professor at the University of Toronto."
+    },
+    "Mandeep R. Mehra, MD, MSc": {
+      "organisation": "Brigham and Women's Hospital",
+      "country": "United States",
+      "city": "Boston, Massachusetts",
+      "role": "Medical Director, Heart and Vascular Center; William Harvey Endowed Chair in Advanced Cardiovascular Medicine",
+      "directions": [
+        "Human Medicine",
+        "Cardiology",
+        "Advanced Heart Failure",
+        "Heart Transplantation",
+        "Mechanical Circulatory Support",
+        "Clinical Research",
+        "Academic Medicine"
+      ],
+      "linkedin": "https://www.linkedin.com/in/mandeep-mehra-md-msc-frcp-london-0088511a/",
+      "contact_page": "https://physiciandirectory.brighamandwomens.org/details/815/mandeep-mehra-cardiovascular_medicine-boston",
+      "verified_on": "2026-09-11",
+      "verification_basis": "Brigham and Women's Hospital identifies Mandeep R. Mehra as Medical Director of the Heart and Vascular Center and William Harvey Endowed Chair in Advanced Cardiovascular Medicine. The current LinkedIn profile exactly matches the Brigham identity and advanced cardiovascular-medicine role."
+    },
+    "Nicolas Goossens": {
+      "organisation": "HUG - Hôpitaux universitaires de Genève",
+      "country": "Switzerland",
+      "city": "Geneva",
+      "role": "Consultant / médecin adjoint agrégé in Gastroenterology and Hepatology and Transplantation; co-lead, Centre for Hepatobiliary and Pancreatic Disorders",
+      "directions": [
+        "Human Medicine",
+        "Transplantation",
+        "Liver Transplantation",
+        "Hepatology",
+        "Gastroenterology",
+        "HPB Medicine",
+        "Clinical Research"
+      ],
+      "linkedin": "https://www.linkedin.com/in/nicolas-goossens-75b477b/",
+      "contact_page": "https://pulsations.hug.ch/article-pro/les-atouts-du-centre-des-affections-hepatobiliaires-et-pancreatiques",
+      "verified_on": "2026-09-11",
+      "verification_basis": "Current HUG material identifies Nicolas Goossens as a senior physician working across gastroenterology, hepatology and transplantation and as co-lead of the hepatobiliary and pancreatic centre. His current LinkedIn profile exactly matches HUG, Geneva and the gastroenterology/hepatology identity."
+    },
+    "Vera Rosa": {
+      "organisation": "Serious Hazards of Transfusion (SHOT) / UK Blood Services",
+      "country": "United Kingdom",
+      "city": "London",
+      "role": "SHOT Incident Specialist",
+      "directions": [
+        "Human Medicine",
+        "Blood / Transfusion",
+        "Transfusion Medicine",
+        "Haemovigilance",
+        "Transfusion Safety",
+        "Blood Banking",
+        "Clinical Quality"
+      ],
+      "linkedin": "https://www.linkedin.com/in/vera-rosa-07bab449/",
+      "contact_page": "https://www.shotuk.org/about/organisational-structure/team/",
+      "verified_on": "2026-09-11",
+      "verification_basis": "SHOT's current team page identifies Vera Rosa as SHOT Incident Specialist. Current ISBT and SHOT material documents her responsibility for transfusion incidents including avoidable, delayed, under- and over-transfusion, and her LinkedIn profile matches the same SHOT and blood-transfusion identity."
+    }
+  }
+}
