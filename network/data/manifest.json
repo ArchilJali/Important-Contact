@@ -1,0 +1,21 @@
+{
+  "updated": "2026-09-11",
+  "source": "BHOC_LinkedIn_Contact_Universe_2026-09-10(1).xlsx / Priority Contacts",
+  "total": 5282,
+  "note": "Public-safe professional directory imported from the owner LinkedIn Connections export. Relationship status, email addresses, connection dates and internal priority are not published. Roles and organisations reflect export metadata and are not independently reverified unless separately present in canonical verified records.",
+  "segments": {
+    "Veterinary & Animal Health": 1469,
+    "Science & Academia": 1345,
+    "Pharma, Biotech & Strategic Partnerships": 1150,
+    "Funds, Investment & Philanthropy": 412,
+    "Regulatory & Public Health": 260,
+    "Blood, Transfusion & Hematology": 205,
+    "Emergency, EMS & Resuscitation": 192,
+    "Transplantation & Perfusion": 143,
+    "Cardiology & Heart": 66,
+    "One Health, Biodiversity & Conservation": 38,
+    "General Profile": 2
+  },
+  "data_file": "data/contacts.json.gz",
+  "compressed_bytes": 248534
+}
