@@ -132,12 +132,18 @@
     return {count: map.size, names: [...map.values()].map(x => x.name)};
   }
   async function wildlifeDirectory() {
-    const data = await getJSON('wildlife-red-book/contacts.json', {contacts: []});
-    const records = data.contacts || [];
-    return {
-      count: records.length,
-      names: records.map(x => ({name: x.name || x.title || x.id, type: String(x.record_type || '').toLowerCase() === 'organisation' ? 'organisation' : 'person'})).filter(x => x.name)
-    };
+    const [data, scout] = await Promise.all([
+      getJSON('wildlife-red-book/contacts.json', {contacts: []}),
+      getJSON('wildlife-red-book/scout-verified.json', {contacts: []})
+    ]);
+    const map = new Map();
+    for (const x of [...(data.contacts || []), ...(scout.contacts || [])]) {
+      const name = x && (x.name || x.title || x.id);
+      if (!name) continue;
+      const type = String(x.record_type || '').toLowerCase() === 'organisation' ? 'organisation' : 'person';
+      map.set(type + ':' + norm(name), {name, type});
+    }
+    return {count: map.size, names: [...map.values()]};
   }
 
   let cached;
