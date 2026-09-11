@@ -1,0 +1,44 @@
+{
+  "updated": "2026-09-11",
+  "rule": "Public-safe verified professional records only. No relationship, follower, outreach or internal-priority state is stored in this file.",
+  "people": {
+    "Dr Paul Kariuki Ndang'ang'a": {
+      "organisation": "BirdLife International",
+      "country": "Kenya",
+      "city": "Nairobi",
+      "role": "Regional Director for Africa",
+      "directions": [
+        "Wildlife / Red Book",
+        "Biodiversity",
+        "Conservation",
+        "Africa",
+        "International NGO",
+        "Conservation Policy",
+        "Species Protection"
+      ],
+      "linkedin": "https://www.linkedin.com/in/dr-paul-kariuki-ndang-ang-a-25906320/",
+      "contact_page": "https://www.birdlife.org/team-africa/",
+      "verified_on": "2026-09-11",
+      "verification_basis": "BirdLife International's current Africa team page identifies Paul Kariuki Ndang'ang'a as Regional Director for Africa. BirdLife's current leadership material and his public LinkedIn profile corroborate the same Nairobi-based conservation-leadership identity."
+    },
+    "Martha Isabel \"Pati\" Ruiz Corzo": {
+      "organisation": "Grupo Ecológico Sierra Gorda I.A.P.",
+      "country": "Mexico",
+      "city": "Querétaro / Sierra Gorda",
+      "role": "General Director",
+      "directions": [
+        "Wildlife / Red Book",
+        "Biodiversity",
+        "Conservation",
+        "Biosphere Reserves",
+        "Community Conservation",
+        "Sustainability",
+        "Species Protection"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ruizcorzo/",
+      "contact_page": "https://sierragorda.net/en/the-team/",
+      "verified_on": "2026-09-11",
+      "verification_basis": "Grupo Ecológico Sierra Gorda's current team page identifies Martha Isabel 'Pati' Ruiz Corzo as General Director and documents her long-term leadership of the Sierra Gorda conservation movement and protected-area model. Her current LinkedIn profile matches the same organisation and conservation identity."
+    }
+  }
+}
