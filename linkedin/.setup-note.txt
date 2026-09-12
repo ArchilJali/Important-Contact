@@ -1,0 +1,1 @@
+LinkedIn Network section setup in progress. Source: BHOC_LinkedIn_Contact_Universe_2026-09-10(1).xlsx. Full directory will include 5,282 priority LinkedIn connections plus 10 visible follower profiles, with public professional/classification fields. Email addresses and connection dates are intentionally excluded from public GitHub Pages.
