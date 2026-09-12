@@ -166,3 +166,26 @@
   }
   window.ImportantContactCounts = {get};
 })();
+
+(() => {
+  function addLinkedInSubscribersCard() {
+    const grid = document.querySelector('main .grid');
+    if (!grid || document.getElementById('linkedinSubscribersCard')) return;
+    const card = document.createElement('a');
+    card.id = 'linkedinSubscribersCard';
+    card.className = 'card';
+    card.href = 'linkedin-subscribers/';
+    card.innerHTML = `
+      <div class="card-top">
+        <div class="icon" aria-hidden="true" style="font-weight:900;font-size:20px">in</div>
+        <div class="count"><strong>12,680</strong><span>subscribers</span></div>
+      </div>
+      <h2>LinkedIn Subscribers</h2>
+      <p>Personal LinkedIn subscriber network for professional visibility, BHOC-relevant connections and future contact intelligence.</p>
+      <div class="tags"><span class="tag gold">LinkedIn</span><span class="tag">Subscribers</span><span class="tag">Network</span><span class="tag">Reach</span></div>
+      <div class="go"><span>Open LinkedIn Subscribers</span><span class="arrow">-&gt;</span></div>`;
+    grid.appendChild(card);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addLinkedInSubscribersCard);
+  else addLinkedInSubscribersCard();
+})();
