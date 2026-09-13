@@ -121,14 +121,17 @@
     return {count: map.size, names: [...map.values()].map(x => x.name)};
   }
   async function humanDirectory() {
-    const [markdown, scout] = await Promise.all([
+    const [markdown, scout, authorNetwork] = await Promise.all([
       getText('human-medicine/CONTACTS.md').catch(() => ''),
-      getJSON('human-medicine/scout-verified.json', {people: {}, organisations: {}})
+      getJSON('human-medicine/scout-verified.json', {people: {}, organisations: {}}),
+      getJSON('human-medicine/data/prehospital-rhd-author-network-2026-09-14.json', {people: {}, organisations: {}})
     ]);
     const parsed = mergeScout(parseMD(markdown), scout);
     const map = new Map();
     for (const p of parsed.people) addNamed(map, 'p:' + norm(p.name), p.name, 'person');
-    for (const o of parsed.orgs) addNamed(map, 'o:' + o.id, o.name, 'organisation');
+    for (const o of parsed.orgs) addNamed(map, 'o:' + norm(o.name), o.name, 'organisation');
+    for (const name of Object.keys(authorNetwork.people || {})) addNamed(map, 'p:' + norm(name), name, 'person');
+    for (const name of Object.keys(authorNetwork.organisations || {})) addNamed(map, 'o:' + norm(name), name, 'organisation');
     return {count: map.size, names: [...map.values()].map(x => x.name)};
   }
   async function wildlifeDirectory() {
