@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-13",
   "scope": "Public professional and institutional contact routes only",
   "contacts": [
     {
@@ -951,6 +951,26 @@
       "email": "",
       "source": "https://www.mars.com/news-and-stories/press-releases-statements/mars-impact-fund-awards-more-than-13-million-in-new-grants",
       "verified": "2026-09-08",
+      "funding_status": "Strategic"
+    },
+    {
+      "id": "WRB047",
+      "name": "Kelsey Neam",
+      "record_type": "Person",
+      "organisation": "Re:wild",
+      "role": "Species Priorities and Impact Manager",
+      "country": "",
+      "region": "Global",
+      "category": "Conservation / Species Priorities",
+      "focus": "Species prioritisation, conservation impact and threatened-species programme evaluation",
+      "opportunity": "Specialist Re:wild route for prioritising species-recovery work and measuring conservation impact",
+      "funding": "Strategic partnership / expertise route",
+      "deadline": "Strategic outreach",
+      "contact_page": "https://www.rewild.org/team",
+      "official_page": "https://www.rewild.org/team",
+      "email": "",
+      "source": "https://www.rewild.org/team",
+      "verified": "2026-09-13",
       "funding_status": "Strategic"
     }
   ]
