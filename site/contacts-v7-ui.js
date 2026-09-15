@@ -168,9 +168,6 @@ async function mergeLinkedInNetworkForScope() {
   const sharedDedup = window.ImportantContactCounts && typeof window.ImportantContactCounts.isLinkedInCanonicalDuplicate === 'function'
     ? window.ImportantContactCounts.isLinkedInCanonicalDuplicate
     : null;
-  let sharedSkipped = 0;
-  let matchedContacts = 0;
-  let addedRecords = 0;
   const existingByUrl = new Map();
   const existingByNameOrg = new Map();
   for (const contact of all) {
@@ -188,10 +185,7 @@ async function mergeLinkedInNetworkForScope() {
   for (const record of records) {
     const target = directoryLinkedInScope(record);
     if (target !== scope || !record?.n) continue;
-    if (sharedDedup && sharedDedup(target, record)) {
-      sharedSkipped += 1;
-      continue;
-    }
+    if (sharedDedup && sharedDedup(target, record)) continue;
     const url = normalizeLinkedInUrl(record.l);
     const name = String(record.n).trim();
     const org = String(record.o || '').trim();
@@ -203,7 +197,6 @@ async function mergeLinkedInNetworkForScope() {
     }
     const directions = directoryLinkedInDirections(record, target);
     if (contact) {
-      matchedContacts += 1;
       contact.routes = contact.routes || {};
       if (url && !contact.routes.linkedin) contact.routes.linkedin = url;
       if (!contact.org && org) contact.org = org;
@@ -244,7 +237,6 @@ async function mergeLinkedInNetworkForScope() {
     contact.categories = broadCategories(contact);
     contact.speciesGroups = speciesGroups(contact);
     all.push(contact);
-    addedRecords += 1;
     if (url) existingByUrl.set(url, contact);
     if (org) {
       const list = existingByNameOrg.get(key) || [];
@@ -252,7 +244,6 @@ async function mergeLinkedInNetworkForScope() {
       existingByNameOrg.set(key, list);
     }
   }
-  console.log('LinkedIn directory merge ' + JSON.stringify({scope, records: records.length, sharedDedup: Boolean(sharedDedup), sharedSkipped, matchedContacts, addedRecords}));
 }
 
 async function updateDirectoryTotal() {
