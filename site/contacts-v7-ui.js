@@ -252,7 +252,7 @@ async function mergeLinkedInNetworkForScope() {
       existingByNameOrg.set(key, list);
     }
   }
-  console.log('LinkedIn directory merge', {scope, records: records.length, sharedDedup: Boolean(sharedDedup), sharedSkipped, matchedContacts, addedRecords});
+  console.log('LinkedIn directory merge ' + JSON.stringify({scope, records: records.length, sharedDedup: Boolean(sharedDedup), sharedSkipped, matchedContacts, addedRecords}));
 }
 
 async function updateDirectoryTotal() {
