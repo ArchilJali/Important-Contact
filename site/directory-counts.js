@@ -149,6 +149,63 @@
     return {count: map.size, names: [...map.values()]};
   }
 
+  const linkedInUrl = value => String(value || '').trim().replace(/[?#].*$/, '').replace(/\\/+$/, '').toLowerCase();
+  function linkedInScope(record) {
+    const segment = String(record?.s || '').toLowerCase();
+    const text = String(record?.n || '') + ' ' + String(record?.o || '') + ' ' + String(record?.r || '') + ' ' + String(record?.s || '');
+    if (/one health|biodiversity|conservation|wildlife/.test(segment)) return 'wildlife';
+    if (/veterinary|animal health/.test(segment)) return 'veterinary';
+    if (/transplantation.*perfusion/.test(segment) && /veterinary|animal|canine|feline|equine|vet\\b/i.test(text)) return 'veterinary';
+    return 'human';
+  }
+  function linkedInDirections(record, scope) {
+    const d = new Set();
+    d.add(scope === 'veterinary' ? 'Veterinary' : scope === 'wildlife' ? 'Wildlife' : 'Human Medicine');
+    const segment = String(record?.s || '').trim();
+    if (segment) d.add(segment);
+    const h = (String(record?.n || '') + ' ' + String(record?.o || '') + ' ' + String(record?.r || '') + ' ' + segment).toLowerCase();
+    if (/transplant|perfusion/.test(h)) { d.add('Transplant'); d.add('Organ Support / Preservation'); }
+    if (/surgery|surgeon|surgical/.test(h)) d.add('Surgeons / Surgery');
+    if (/sickle cell|\\bscd\\b|\\bsca\\b/.test(h)) d.add('Sickle Cell / SCA');
+    if (/patient blood management|bloodless|\\bpbm\\b/.test(h)) d.add('PBM Clinical / Bloodless Medicine');
+    if (/public health|population health|health policy/.test(h)) d.add('Public Health');
+    if (/regulatory|regulation|compliance|market access/.test(h)) d.add('Regulatory');
+    if (/sepsis|septic/.test(h)) d.add('Sepsis');
+    if (/emergency|critical care|resuscitation|anaesthesia|anesthesia/.test(h)) d.add('Emergency / Critical Care');
+    if (/transfusion|hematolog|haematolog|blood bank|anemia|anaemia/.test(h)) d.add('Blood / Transfusion');
+    if (/cardiac|cardiovascular|vascular|heart failure|cardio/.test(h)) d.add('Heart / Cardiovascular');
+    if (/invest|venture|capital|funds|philanthrop|donor|grant/.test(h)) d.add('Investor');
+    if (/chief executive|\\bceo\\b|president|executive director|\\bdirector\\b|chief medical officer|vice president|\\bvp\\b|founder|manager/.test(h)) d.add('CEO / Strategic');
+    return d;
+  }
+  let linkedInNetworkCache;
+  async function loadLinkedInNetwork() {
+    if (!linkedInNetworkCache) {
+      linkedInNetworkCache = (async () => {
+        try {
+          const manifest = await getJSON('network/data/manifest.json', {total: 0, data_files: []});
+          const files = Array.isArray(manifest.data_files) && manifest.data_files.length
+            ? manifest.data_files
+            : [manifest.data_file || 'network/data/contacts.json.gz'];
+          const responses = await Promise.all(files.map(path => fetch(source(path) + '?network_ts=' + Date.now(), {cache: 'no-store'})));
+          const bad = responses.find(response => !response.ok);
+          if (bad) throw Error('LinkedIn network HTTP ' + bad.status);
+          if (!('DecompressionStream' in window)) throw Error('This browser does not support gzip decompression');
+          const encoded = (await Promise.all(responses.map(response => response.text()))).join('').replace(/\\s+/g, '');
+          const binary = atob(encoded);
+          const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+          const stream = new Response(bytes).body.pipeThrough(new DecompressionStream('gzip'));
+          const parsed = JSON.parse(await new Response(stream).text());
+          return Array.isArray(parsed.contacts) ? parsed.contacts : [];
+        } catch (error) {
+          console.warn('LinkedIn network source failed', error);
+          return [];
+        }
+      })();
+    }
+    return linkedInNetworkCache;
+  }
+
   let cached;
   async function get() {
     if (!cached) {
@@ -156,17 +213,50 @@
         veterinaryDirectory(),
         humanDirectory(),
         wildlifeDirectory(),
-        getJSON('network/data/manifest.json', {total: 0})
+        loadLinkedInNetwork()
       ]).then(([v, h, w, network]) => {
+        const canonicalNames = new Set([
+          ...v.names.map(name => norm(name)),
+          ...h.names.map(name => norm(name)),
+          ...w.names.map(item => norm(item.name))
+        ].filter(Boolean));
+        const networkNameCounts = new Map();
+        for (const record of network) {
+          const name = norm(record && record.n);
+          if (name) networkNameCounts.set(name, (networkNameCounts.get(name) || 0) + 1);
+        }
+        const sections = {veterinary: new Set(), humanMedicine: new Set(), wildlife: new Set()};
         const unique = new Map();
-        [...v.names.map(name => ({name})), ...h.names.map(name => ({name})), ...w.names].forEach(x => {
-          const key = norm(x.name);
-          if (key) unique.set(key, x.name);
-        });
-        return {veterinary: v.count, humanMedicine: h.count, wildlife: w.count, linkedinNetwork: Number(network.total) || 0, total: unique.size};
+        const addCanonical = (scope, name) => {
+          const key = norm(name);
+          if (!key) return;
+          sections[scope].add('canonical:' + key);
+          unique.set('canonical:' + key, name);
+        };
+        v.names.forEach(name => addCanonical('veterinary', name));
+        h.names.forEach(name => addCanonical('humanMedicine', name));
+        w.names.forEach(item => addCanonical('wildlife', item.name));
+        for (const record of network) {
+          const scope = linkedInScope(record);
+          const name = norm(record && record.n);
+          if (!name) continue;
+          const url = linkedInUrl(record.l);
+          const identity = url || name + '|' + norm(record.o);
+          if (canonicalNames.has(name) && (networkNameCounts.get(name) || 0) === 1) continue;
+          const key = 'linkedin:' + identity;
+          sections[scope === 'human' ? 'humanMedicine' : scope].add(key);
+          unique.set(key, record.n);
+        }
+        return {
+          veterinary: sections.veterinary.size,
+          humanMedicine: sections.humanMedicine.size,
+          wildlife: sections.wildlife.size,
+          linkedinNetwork: network.length,
+          total: unique.size
+        };
       });
     }
     return cached;
   }
-  window.ImportantContactCounts = {get};
+  window.ImportantContactCounts = {get, loadLinkedInNetwork, linkedInScope, linkedInDirections, linkedInUrl};
 })();
