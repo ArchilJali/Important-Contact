@@ -84,19 +84,22 @@
     if (name) map.set(key, {name, type});
   }
   async function veterinaryDirectory() {
-    const [md, vets, oxy, iocvs, enrichment, scout] = await Promise.all([
+    const [md, vets, oxy, iocvs, enrichment, scout, routes] = await Promise.all([
       getText('veterinary/CONTACTS.md').catch(() => ''),
       getJSON('https://archiljali.github.io/BHOC-platform/veterinary/Vet-publications.json', []),
       getJSON('veterinary/data/oxyglobin-authors-institutions.json', {people: []}),
       getJSON('veterinary/data/iocvs-2026-contacts.json', {people: []}),
       getJSON('veterinary/data/contact-enrichment.json', {people: {}, aliases: {}}),
-      getJSON('veterinary/scout-verified.json', {people: {}, organisations: {}})
+      getJSON('veterinary/scout-verified.json', {people: {}, organisations: {}}),
+      getJSON('veterinary/contact-routes.json', {people: {}, organisations: {}})
     ]);
     const parsed = mergeScout(parseMD(md), scout);
     const publications = Array.isArray(vets) ? vets : (vets.publications || []);
     const canon = canonicalIndex(parsed, oxy, enrichment);
     const smap = new Map(parsed.people.map(x => [norm(x.name), x]));
     const map = new Map();
+    const identityKeys = new Set();
+    const linkedinUrls = new Set();
 
     for (const p of publications) {
       for (const raw of splitAuthors(p)) {
@@ -104,6 +107,8 @@
         const mapped = norm(name) !== norm(raw);
         const key = 'a:' + (mapped ? fullSig(name) : citeSig(raw));
         if (!map.has(key)) addNamed(map, key, name, 'person');
+        const organisation = (p.institutions || [])[0];
+        if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
       }
     }
     for (const s of parsed.people) {
@@ -117,22 +122,58 @@
       const iname = canonicalName(i.name, canon);
       const exists = [...map.values()].some(x => norm(x.name) === norm(iname));
       if (!exists) addNamed(map, 'iocvs:' + slug(iname), iname, 'person');
+      if (i.organisation) identityKeys.add(norm(iname) + '|' + norm(i.organisation));
+      if (i.linkedin) linkedinUrls.add(linkedInUrl(i.linkedin));
     }
-    return {count: map.size, names: [...map.values()].map(x => x.name)};
+    for (const [name, route] of Object.entries(routes.people || {})) {
+      const organisation = route.organisation || route.workplace || '';
+      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
+      if (route.linkedin) linkedinUrls.add(linkedInUrl(route.linkedin));
+    }
+    for (const [name, record] of Object.entries(scout.people || {})) {
+      const organisation = record.organisation || record.workplace || '';
+      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
+      if (record.linkedin) linkedinUrls.add(linkedInUrl(record.linkedin));
+    }
+    for (const [name, record] of Object.entries(enrichment.people || {})) {
+      const organisation = record.organisation || record.workplace || '';
+      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
+      if (record.linkedin) linkedinUrls.add(linkedInUrl(record.linkedin));
+    }
+    return {count: map.size, names: [...map.values()].map(x => x.name), identityKeys: [...identityKeys], linkedinUrls: [...linkedinUrls]};
   }
   async function humanDirectory() {
-    const [markdown, scout, authorNetwork] = await Promise.all([
+    const [markdown, scout, authorNetwork, routes] = await Promise.all([
       getText('human-medicine/CONTACTS.md').catch(() => ''),
       getJSON('human-medicine/scout-verified.json', {people: {}, organisations: {}}),
-      getJSON('human-medicine/data/prehospital-rhd-author-network-2026-09-14.json', {people: {}, organisations: {}})
+      getJSON('human-medicine/data/prehospital-rhd-author-network-2026-09-14.json', {people: {}, organisations: {}}),
+      getJSON('human-medicine/contact-routes.json', {people: {}, organisations: {}})
     ]);
     const parsed = mergeScout(parseMD(markdown), scout);
     const map = new Map();
+    const identityKeys = new Set();
+    const linkedinUrls = new Set();
     for (const p of parsed.people) addNamed(map, 'p:' + norm(p.name), p.name, 'person');
     for (const o of parsed.orgs) addNamed(map, 'o:' + norm(o.name), o.name, 'organisation');
-    for (const name of Object.keys(authorNetwork.people || {})) addNamed(map, 'p:' + norm(name), name, 'person');
+    for (const name of Object.keys(authorNetwork.people || {})) {
+      addNamed(map, 'p:' + norm(name), name, 'person');
+      const record = authorNetwork.people[name] || {};
+      const organisation = record.organisation || record.org || record.workplace || '';
+      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
+      if (record.linkedin || record.profile) linkedinUrls.add(linkedInUrl(record.linkedin || record.profile));
+    }
     for (const name of Object.keys(authorNetwork.organisations || {})) addNamed(map, 'o:' + norm(name), name, 'organisation');
-    return {count: map.size, names: [...map.values()].map(x => x.name)};
+    for (const [name, route] of Object.entries(routes.people || {})) {
+      const organisation = route.organisation || route.workplace || '';
+      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
+      if (route.linkedin) linkedinUrls.add(linkedInUrl(route.linkedin));
+    }
+    for (const [name, record] of Object.entries(scout.people || {})) {
+      const organisation = record.organisation || record.workplace || '';
+      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
+      if (record.linkedin) linkedinUrls.add(linkedInUrl(record.linkedin));
+    }
+    return {count: map.size, names: [...map.values()].map(x => x.name), identityKeys: [...identityKeys], linkedinUrls: [...linkedinUrls]};
   }
   async function wildlifeDirectory() {
     const [data, scout] = await Promise.all([
@@ -140,15 +181,19 @@
       getJSON('wildlife-red-book/scout-verified.json', {contacts: []})
     ]);
     const map = new Map();
+    const identityKeys = new Set();
+    const linkedinUrls = new Set();
     for (const x of [...(data.contacts || []), ...(scout.contacts || [])]) {
       const name = x && (x.name || x.title || x.id);
       if (!name) continue;
       const type = String(x.record_type || '').toLowerCase() === 'organisation' ? 'organisation' : 'person';
       map.set(type + ':' + norm(name), {name, type});
+      const organisation = x.organisation || x.org || '';
+      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
+      if (x.linkedin) linkedinUrls.add(linkedInUrl(x.linkedin));
     }
-    return {count: map.size, names: [...map.values()]};
+    return {count: map.size, names: [...map.values()], identityKeys: [...identityKeys], linkedinUrls: [...linkedinUrls]};
   }
-
   const linkedInUrl = value => String(value || '').trim().replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
   function linkedInScope(record) {
     const segment = String(record?.s || '').toLowerCase();
@@ -213,23 +258,19 @@
         wildlifeDirectory(),
         loadLinkedInNetwork()
       ]).then(([v, h, w, network]) => {
-        const canonicalNames = new Set([
-          ...v.names.map(name => norm(name)),
-          ...h.names.map(name => norm(name)),
-          ...w.names.map(item => norm(item.name))
-        ].filter(Boolean));
-        const networkNameCounts = new Map();
-        for (const record of network) {
-          const name = norm(record && record.n);
-          if (name) networkNameCounts.set(name, (networkNameCounts.get(name) || 0) + 1);
-        }
         const sections = {veterinary: new Set(), humanMedicine: new Set(), wildlife: new Set()};
         const unique = new Map();
+        const existing = {
+          veterinary: {identities: new Set(v.identityKeys || []), urls: new Set(v.linkedinUrls || [])},
+          humanMedicine: {identities: new Set(h.identityKeys || []), urls: new Set(h.linkedinUrls || [])},
+          wildlife: {identities: new Set(w.identityKeys || []), urls: new Set(w.linkedinUrls || [])}
+        };
         const addCanonical = (scope, name) => {
           const key = norm(name);
           if (!key) return;
-          sections[scope].add('canonical:' + key);
-          unique.set('canonical:' + key, name);
+          const id = 'canonical:' + key;
+          sections[scope].add(id);
+          unique.set(id, name);
         };
         v.names.forEach(name => addCanonical('veterinary', name));
         h.names.forEach(name => addCanonical('humanMedicine', name));
@@ -237,13 +278,15 @@
         for (const record of network) {
           const scope = linkedInScope(record);
           const name = norm(record && record.n);
-          if (!name) continue;
+          if (!name || !sections[scope]) continue;
           const url = linkedInUrl(record.l);
-          const identity = url || name + '|' + norm(record.o);
-          if (canonicalNames.has(name) && (networkNameCounts.get(name) || 0) === 1) continue;
-          const key = 'linkedin:' + identity;
-          sections[scope === 'human' ? 'humanMedicine' : scope].add(key);
-          unique.set(key, record.n);
+          const identity = name + '|' + norm(record.o);
+          const duplicate = (url && existing[scope].urls.has(url)) || (record.o && existing[scope].identities.has(identity));
+          if (duplicate) continue;
+          const id = url ? 'linkedin:url:' + url : 'linkedin:identity:' + identity;
+          if (sections[scope].has(id)) continue;
+          sections[scope].add(id);
+          unique.set(id, record.n);
         }
         return {
           veterinary: sections.veterinary.size,
@@ -252,7 +295,7 @@
           linkedinNetwork: network.length,
           total: unique.size
         };
-      });
+      });;
     }
     return cached;
   }
