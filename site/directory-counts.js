@@ -149,13 +149,13 @@
     return {count: map.size, names: [...map.values()]};
   }
 
-  const linkedInUrl = value => String(value || '').trim().replace(/[?#].*$/, '').replace(/\\/+$/, '').toLowerCase();
+  const linkedInUrl = value => String(value || '').trim().replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
   function linkedInScope(record) {
     const segment = String(record?.s || '').toLowerCase();
     const text = String(record?.n || '') + ' ' + String(record?.o || '') + ' ' + String(record?.r || '') + ' ' + String(record?.s || '');
     if (/one health|biodiversity|conservation|wildlife/.test(segment)) return 'wildlife';
     if (/veterinary|animal health/.test(segment)) return 'veterinary';
-    if (/transplantation.*perfusion/.test(segment) && /veterinary|animal|canine|feline|equine|vet\\b/i.test(text)) return 'veterinary';
+    if (/transplantation.*perfusion/.test(segment) && /veterinary|animal|canine|feline|equine|vet\b/i.test(text)) return 'veterinary';
     return 'human';
   }
   function linkedInDirections(record, scope) {
@@ -166,8 +166,8 @@
     const h = (String(record?.n || '') + ' ' + String(record?.o || '') + ' ' + String(record?.r || '') + ' ' + segment).toLowerCase();
     if (/transplant|perfusion/.test(h)) { d.add('Transplant'); d.add('Organ Support / Preservation'); }
     if (/surgery|surgeon|surgical/.test(h)) d.add('Surgeons / Surgery');
-    if (/sickle cell|\\bscd\\b|\\bsca\\b/.test(h)) d.add('Sickle Cell / SCA');
-    if (/patient blood management|bloodless|\\bpbm\\b/.test(h)) d.add('PBM Clinical / Bloodless Medicine');
+    if (/sickle cell|\bscd\b|\bsca\b/.test(h)) d.add('Sickle Cell / SCA');
+    if (/patient blood management|bloodless|\bpbm\b/.test(h)) d.add('PBM Clinical / Bloodless Medicine');
     if (/public health|population health|health policy/.test(h)) d.add('Public Health');
     if (/regulatory|regulation|compliance|market access/.test(h)) d.add('Regulatory');
     if (/sepsis|septic/.test(h)) d.add('Sepsis');
@@ -175,7 +175,7 @@
     if (/transfusion|hematolog|haematolog|blood bank|anemia|anaemia/.test(h)) d.add('Blood / Transfusion');
     if (/cardiac|cardiovascular|vascular|heart failure|cardio/.test(h)) d.add('Heart / Cardiovascular');
     if (/invest|venture|capital|funds|philanthrop|donor|grant/.test(h)) d.add('Investor');
-    if (/chief executive|\\bceo\\b|president|executive director|\\bdirector\\b|chief medical officer|vice president|\\bvp\\b|founder|manager/.test(h)) d.add('CEO / Strategic');
+    if (/chief executive|\bceo\b|president|executive director|\bdirector\b|chief medical officer|vice president|\bvp\b|founder|manager/.test(h)) d.add('CEO / Strategic');
     return d;
   }
   let linkedInNetworkCache;
