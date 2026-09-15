@@ -223,6 +223,7 @@
     return d;
   }
   let linkedInNetworkCache;
+  let linkedInDuplicateSets = {veterinary: {identities: new Set(), urls: new Set()}, humanMedicine: {identities: new Set(), urls: new Set()}, wildlife: {identities: new Set(), urls: new Set()}};
   async function loadLinkedInNetwork() {
     if (!linkedInNetworkCache) {
       linkedInNetworkCache = (async () => {
@@ -264,6 +265,7 @@
           humanMedicine: {identities: new Set(h.identityKeys || []), urls: new Set(h.linkedinUrls || [])},
           wildlife: {identities: new Set(w.identityKeys || []), urls: new Set(w.linkedinUrls || [])}
         };
+        linkedInDuplicateSets = existing;
         const addCanonical = (scope, name) => {
           const key = norm(name);
           if (!key) return;
@@ -299,5 +301,13 @@
     }
     return cached;
   }
-  window.ImportantContactCounts = {get, loadLinkedInNetwork, linkedInScope, linkedInDirections, linkedInUrl};
+  function isLinkedInCanonicalDuplicate(scope, record) {
+    const target = scope === 'human' ? 'humanMedicine' : scope;
+    const set = linkedInDuplicateSets[target];
+    if (!set) return false;
+    const url = linkedInUrl(record && record.l);
+    const identity = norm(record && record.n) + '|' + norm(record && record.o);
+    return (url && set.urls.has(url)) || (record && record.o && set.identities.has(identity));
+  }
+  window.ImportantContactCounts = {get, loadLinkedInNetwork, linkedInScope, linkedInDirections, linkedInUrl, isLinkedInCanonicalDuplicate};
 })();
