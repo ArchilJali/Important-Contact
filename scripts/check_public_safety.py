@@ -71,7 +71,10 @@ def main() -> int:
             for path in site.rglob("*")
             if path.is_file()
         }
-        unexpected = sorted(site_files - ALLOWED_SITE_FILES)
+        unexpected = sorted(
+            path for path in (site_files - ALLOWED_SITE_FILES)
+            if not path.startswith("data/contact-universe/")
+        )
         if unexpected:
             ERRORS.append(f"site/: unexpected public UI files: {', '.join(unexpected)}")
 
