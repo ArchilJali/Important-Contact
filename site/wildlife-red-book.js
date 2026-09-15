@@ -12,9 +12,81 @@ function wpubLine(label,p){if(!p)return'';return`<a class="pub" href="${wesc(p.u
 function wlatest(c){if(c.record_type!=='Person')return'<span class="sub">Not applicable - organisation / programme</span>';if(c.latest_publication){let h=wpubLine('Latest',c.latest_publication);if(c.latest_peer_reviewed_publication&&c.latest_peer_reviewed_publication.url!==c.latest_publication.url)h+=wpubLine('Peer-reviewed',c.latest_peer_reviewed_publication);if(c.latest_research_publication&&c.latest_research_publication.url!==c.latest_publication.url)h+=wpubLine('Research',c.latest_research_publication);return h}if(c.latest_verified_matched_publication)return wpubLine('Last verified match',c.latest_verified_matched_publication)+'<span class="sub warnText">Current publication identity unresolved</span>';if(c.publication_status==='not_applicable_role'||c.publication_status==='not_applicable_current_executive_role')return'<span class="sub">Publication: not applicable to this role</span>';return'<span class="sub warnText">Latest publication not independently verified yet</span>'}
 function wmatch(c){const q=wnorm(w$('fSearch').value);if(q&&!wnorm([c.name,c.canonical_name,c.organisation,c.role,c.focus,c.opportunity,c.funding,c.country,c.city,c.region,c.category,...(c.directions||[]),...(c.species||[])].join(' ')).includes(q))return false;if(w$('fType').value!=='all'&&c.record_type!==w$('fType').value)return false;if(w$('fCategory').value!=='all'&&c.category!==w$('fCategory').value)return false;if(w$('fDirection').value!=='all'&&!(c.directions||[]).includes(w$('fDirection').value))return false;if(w$('fFunding').value!=='all'&&c.funding_status!==w$('fFunding').value)return false;if(w$('fCountry').value!=='all'&&c.country!==w$('fCountry').value)return false;return true}
 function fundingTag(c){const f=c.funding_status||'',cls=/Open/i.test(f)?'open':/Upcoming/i.test(f)?'upcoming':'';return f?`<span class="tag ${cls}">${wesc(f)}</span>`:''}
-function recordTag(c){if(c.record_status==='historical_current_unresolved')return'<span class="tag warn">Historical / unresolved</span>';if(c.record_status&&c.record_status.startsWith('verified_current'))return'<span class="tag verified">Current verified</span>';return''}
+function recordTag(c){if(c.record_status==='historical_current_unresolved')return'<span class="tag warn">Historical / unresolved</span>';if(c.record_status&&c.record_status.startsWith('verified_current'))return'<span class="tag verified">Current verified</span>';if(c.record_status==='source_export_requires_current_verification')return'<span class="tag warn">LinkedIn source / verify current role</span>';return''}
 function wrender(){const rows=wall.filter(wmatch).sort((a,b)=>a.name.localeCompare(b.name));w$('rows').innerHTML=rows.map(c=>`<tr><td><span class="name">${wesc(c.canonical_name||c.name)}</span><span class="sub">${wesc(c.category||'')}</span>${recordTag(c)}${fundingTag(c)}</td><td class="org"><strong>${wesc(c.organisation||'-')}</strong><span class="sub">${wesc(c.role||'')}</span></td><td>${wesc(c.record_type||'-')}</td><td>${wesc(c.region||c.country||'-')}<span class="sub">${wesc([c.city,c.country].filter(Boolean).join(' · '))}</span></td><td class="directions">${(c.directions||[]).map(x=>`<span class="chip dir">${wesc(x)}</span>`).join('')||'-'}</td><td class="species">${(c.species||[]).map(x=>`<span class="chip">${wesc(x)}</span>`).join('')||'-'}</td><td class="focus"><strong>${wesc(c.focus||'')}</strong><span class="sub">${wesc(c.opportunity||'')}</span></td><td class="funding">${wesc(c.funding||'-')}<span class="sub">${wesc(c.deadline||'')}</span></td><td class="contact">${wroute(c)}</td><td class="pubs">${wlatest(c)}</td><td class="source"><a class="src" href="${wesc(c.source||c.contact_page||c.official_page||'#')}" target="_blank" rel="noopener">Open source</a><span class="sub">Verified ${wesc(c.verified||'')}</span></td></tr>`).join('');w$('count').textContent=`${rows.length} of ${wall.length} contacts`;w$('total').textContent=wall.length;w$('fundingRoutes').textContent=wall.filter(fundingFlag).length;w$('activeWindows').textContent=wall.filter(c=>/Open|Upcoming|Rolling/i.test(c.funding_status||'')).length}
 ['fSearch'].forEach(id=>w$(id).oninput=wrender);['fType','fCategory','fDirection','fFunding','fCountry'].forEach(id=>w$(id).onchange=wrender);w$('reset').onclick=()=>{w$('fSearch').value='';['fType','fCategory','fDirection','fFunding','fCountry'].forEach(id=>w$(id).value='all');wrender()};
 async function wget(url,fallback){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(`HTTP ${r.status}`);return await r.json()}catch(e){console.warn('Optional source failed',url,e);return fallback}}
+function mergeLinkedInWildlife(records) {
+  if (!window.ImportantContactCounts?.linkedInScope) return;
+  const existingByUrl = new Map();
+  const existingByNameOrg = new Map();
+  for (const contact of wall) {
+    const url = String(contact.linkedin || '').trim().replace(/[?#].*$/, '').replace(/\\/+$/, '').toLowerCase();
+    if (url) existingByUrl.set(url, contact);
+    const key = wnorm((contact.canonical_name || contact.name) + '|' + (contact.organisation || ''));
+    if (key) {
+      const list = existingByNameOrg.get(key) || [];
+      list.push(contact);
+      existingByNameOrg.set(key, list);
+    }
+  }
+  for (const record of records) {
+    if (window.ImportantContactCounts.linkedInScope(record) !== 'wildlife' || !record?.n) continue;
+    const url = String(record.l || '').trim().replace(/[?#].*$/, '').replace(/\\/+$/, '').toLowerCase();
+    const name = String(record.n).trim();
+    const organisation = String(record.o || '').trim();
+    const key = wnorm(name + '|' + organisation);
+    let contact = url ? existingByUrl.get(url) : null;
+    if (!contact && organisation) {
+      const candidates = existingByNameOrg.get(key) || [];
+      if (candidates.length === 1) contact = candidates[0];
+    }
+    const directions = [...window.ImportantContactCounts.linkedInDirections(record, 'wildlife')];
+    if (contact) {
+      if (url && !contact.linkedin) contact.linkedin = url;
+      if (!contact.organisation && organisation) contact.organisation = organisation;
+      if (!contact.role && record.r) contact.role = String(record.r);
+      contact.directions = [...new Set([...(contact.directions || []), ...directions])];
+      contact.directions = [...deriveWildDirections(contact)];
+      continue;
+    }
+    contact = {
+      id: 'linkedin:' + (url || key),
+      name,
+      canonical_name: name,
+      organisation,
+      role: String(record.r || 'LinkedIn source contact; current role requires verification'),
+      record_type: 'Person',
+      country: '',
+      city: '',
+      region: '',
+      category: 'LinkedIn source',
+      species: [],
+      directions,
+      focus: 'Public professional source record',
+      opportunity: 'Verify current employer and specialty before use',
+      funding: '',
+      funding_status: '',
+      deadline: '',
+      contact_page: '',
+      linkedin: url,
+      email: '',
+      phone: '',
+      orcid: '',
+      source: url || 'https://www.linkedin.com/',
+      verified: 'Source export; current role requires verification',
+      record_status: 'source_export_requires_current_verification'
+    };
+    contact.directions = [...deriveWildDirections(contact)];
+    wall.push(contact);
+    if (url) existingByUrl.set(url, contact);
+    if (organisation) {
+      const list = existingByNameOrg.get(key) || [];
+      list.push(contact);
+      existingByNameOrg.set(key, list);
+    }
+  }
+}
+
 async function updateWildlifeDirectoryTotal(){const el=w$('allSectionsCount');if(!el||!window.ImportantContactCounts)return;try{const s=await window.ImportantContactCounts.get();el.textContent=s.total??'-'}catch(e){console.warn('Directory total failed',e);el.textContent='-'}}
-(async()=>{try{const[data,scout,enrichment]=await Promise.all([wget('../wildlife-red-book/contacts.json',{contacts:[]}),wget('../wildlife-red-book/scout-verified.json',{contacts:[]}),wget('../veterinary/data/contact-enrichment.json',{people:{}})]);wall=mergeWildRecords(data.contacts||[],scout.contacts||[]);for(const c of wall){enrichWild(c,enrichment);c.directions=[...deriveWildDirections(c)]}wfill('fCategory','All categories',wall.map(c=>c.category));wfill('fDirection','All directions',wall.flatMap(c=>c.directions||[]));wfill('fFunding','All routes',wall.map(c=>c.funding_status));wfill('fCountry','All countries',wall.map(c=>c.country));wrender();updateWildlifeDirectoryTotal()}catch(e){console.error(e);w$('count').textContent='Could not load Wildlife / Red Book contact data'}})();
+(async()=>{try{const[data,scout,enrichment]=await Promise.all([wget('../wildlife-red-book/contacts.json',{contacts:[]}),wget('../wildlife-red-book/scout-verified.json',{contacts:[]}),wget('../veterinary/data/contact-enrichment.json',{people:{}})]);wall=mergeWildRecords(data.contacts||[],scout.contacts||[]);for(const c of wall){enrichWild(c,enrichment);c.directions=[...deriveWildDirections(c)]}const linkedIn=await window.ImportantContactCounts.loadLinkedInNetwork();mergeLinkedInWildlife(linkedIn);wfill('fCategory','All categories',wall.map(c=>c.category));wfill('fDirection','All directions',wall.flatMap(c=>c.directions||[]));wfill('fFunding','All routes',wall.map(c=>c.funding_status));wfill('fCountry','All countries',wall.map(c=>c.country));wrender();updateWildlifeDirectoryTotal()}catch(e){console.error(e);w$('count').textContent='Could not load Wildlife / Red Book contact data'}})();
