@@ -127,19 +127,11 @@
       if (i.linkedin) linkedinUrls.add(linkedInUrl(i.linkedin));
     }
     for (const item of map.values()) canonicalNames.add(item.name);
-    for (const [name, route] of Object.entries(routes.people || {})) {
-      if (!canonicalNames.has(name)) continue;
-      const organisation = route.organisation || route.workplace || '';
-      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
-      if (route.linkedin) linkedinUrls.add(linkedInUrl(route.linkedin));
-    }
-    for (const [name, record] of Object.entries(scout.people || {})) {
-      if (!canonicalNames.has(name)) continue;
-      const organisation = record.organisation || record.workplace || '';
-      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
-      if (record.linkedin) linkedinUrls.add(linkedInUrl(record.linkedin));
-    }
-    for (const [name, record] of Object.entries(enrichment.people || {})) {
+    const finalSources = new Map();
+    for (const [name, record] of Object.entries(routes.people || {})) finalSources.set(name, {...record});
+    for (const [name, record] of Object.entries(scout.people || {})) finalSources.set(name, {...(finalSources.get(name) || {}), ...record});
+    for (const [name, record] of Object.entries(enrichment.people || {})) finalSources.set(name, {...(finalSources.get(name) || {}), ...record});
+    for (const [name, record] of finalSources) {
       if (!canonicalNames.has(name)) continue;
       const organisation = record.organisation || record.workplace || '';
       if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
@@ -170,17 +162,15 @@
     }
     for (const name of Object.keys(authorNetwork.organisations || {})) addNamed(map, 'o:' + norm(name), name, 'organisation');
     for (const item of map.values()) canonicalNames.add(item.name);
-    for (const [name, route] of Object.entries(routes.people || {})) {
+    const finalSources = new Map();
+    for (const [name, record] of Object.entries(routes.people || {})) finalSources.set(name, {...record});
+    for (const [name, record] of Object.entries(scout.people || {})) finalSources.set(name, {...(finalSources.get(name) || {}), ...record});
+    for (const [name, record] of Object.entries(authorNetwork.people || {})) finalSources.set(name, {...(finalSources.get(name) || {}), ...record});
+    for (const [name, record] of finalSources) {
       if (!canonicalNames.has(name)) continue;
-      const organisation = route.organisation || route.workplace || '';
+      const organisation = record.organisation || record.org || record.workplace || '';
       if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
-      if (route.linkedin) linkedinUrls.add(linkedInUrl(route.linkedin));
-    }
-    for (const [name, record] of Object.entries(scout.people || {})) {
-      if (!canonicalNames.has(name)) continue;
-      const organisation = record.organisation || record.workplace || '';
-      if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
-      if (record.linkedin) linkedinUrls.add(linkedInUrl(record.linkedin));
+      if (record.linkedin || record.profile) linkedinUrls.add(linkedInUrl(record.linkedin || record.profile));
     }
     return {count: map.size, names: [...map.values()].map(x => x.name), identityKeys: [...identityKeys], linkedinUrls: [...linkedinUrls]};
   }
