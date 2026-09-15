@@ -101,7 +101,7 @@ async function getJSON(url, fallback) {
 }
 
 function normalizeLinkedInUrl(value) {
-  return String(value || '').trim().replace(/[?#].*$/, '').replace(/\\/+$/, '').toLowerCase();
+  return String(value || '').trim().replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
 }
 async function mergeLinkedInNetworkForScope() {
   const scope = activeScope();
