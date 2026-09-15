@@ -155,14 +155,15 @@
       cached = Promise.all([
         veterinaryDirectory(),
         humanDirectory(),
-        wildlifeDirectory()
-      ]).then(([v, h, w]) => {
+        wildlifeDirectory(),
+        getJSON('network/data/manifest.json', {total: 0})
+      ]).then(([v, h, w, network]) => {
         const unique = new Map();
         [...v.names.map(name => ({name})), ...h.names.map(name => ({name})), ...w.names].forEach(x => {
           const key = norm(x.name);
           if (key) unique.set(key, x.name);
         });
-        return {veterinary: v.count, humanMedicine: h.count, wildlife: w.count, total: unique.size};
+        return {veterinary: v.count, humanMedicine: h.count, wildlife: w.count, linkedinNetwork: Number(network.total) || 0, total: unique.size};
       });
     }
     return cached;
