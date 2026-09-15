@@ -21,7 +21,7 @@ function mergeLinkedInWildlife(records) {
   const existingByUrl = new Map();
   const existingByNameOrg = new Map();
   for (const contact of wall) {
-    const url = String(contact.linkedin || '').trim().replace(/[?#].*$/, '').replace(/\\/+$/, '').toLowerCase();
+    const url = String(contact.linkedin || '').trim().replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
     if (url) existingByUrl.set(url, contact);
     const key = wnorm((contact.canonical_name || contact.name) + '|' + (contact.organisation || ''));
     if (key) {
@@ -32,7 +32,7 @@ function mergeLinkedInWildlife(records) {
   }
   for (const record of records) {
     if (window.ImportantContactCounts.linkedInScope(record) !== 'wildlife' || !record?.n) continue;
-    const url = String(record.l || '').trim().replace(/[?#].*$/, '').replace(/\\/+$/, '').toLowerCase();
+    const url = String(record.l || '').trim().replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
     const name = String(record.n).trim();
     const organisation = String(record.o || '').trim();
     const key = wnorm(name + '|' + organisation);
