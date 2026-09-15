@@ -162,7 +162,12 @@ async function mergeLinkedInNetworkForScope() {
   const scope = activeScope();
   if (!['veterinary', 'human'].includes(scope) || !window.ImportantContactCounts?.loadLinkedInNetwork) return;
   const records = await loadDirectoryLinkedInNetwork();
-  if (window.ImportantContactCounts?.get) await window.ImportantContactCounts.get();
+  if (window.ImportantContactCounts && typeof window.ImportantContactCounts.get === 'function') {
+    await window.ImportantContactCounts.get();
+  }
+  const sharedDedup = window.ImportantContactCounts && typeof window.ImportantContactCounts.isLinkedInCanonicalDuplicate === 'function'
+    ? window.ImportantContactCounts.isLinkedInCanonicalDuplicate
+    : null;
   const existingByUrl = new Map();
   const existingByNameOrg = new Map();
   for (const contact of all) {
@@ -180,7 +185,7 @@ async function mergeLinkedInNetworkForScope() {
   for (const record of records) {
     const target = directoryLinkedInScope(record);
     if (target !== scope || !record?.n) continue;
-    if (window.ImportantContactCounts?.isLinkedInCanonicalDuplicate && window.ImportantContactCounts.isLinkedInCanonicalDuplicate(target, record)) continue;
+    if (sharedDedup && sharedDedup(target, record)) continue;
     const url = normalizeLinkedInUrl(record.l);
     const name = String(record.n).trim();
     const org = String(record.o || '').trim();
