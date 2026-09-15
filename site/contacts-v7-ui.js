@@ -100,6 +100,90 @@ async function getJSON(url, fallback) {
   }
 }
 
+function normalizeLinkedInUrl(value) {
+  return String(value || '').trim().replace(/[?#].*$/, '').replace(/\\/+$/, '').toLowerCase();
+}
+async function mergeLinkedInNetworkForScope() {
+  const scope = activeScope();
+  if (!['veterinary', 'human'].includes(scope) || !window.ImportantContactCounts?.loadLinkedInNetwork) return;
+  const records = await window.ImportantContactCounts.loadLinkedInNetwork();
+  const existingByUrl = new Map();
+  const existingByNameOrg = new Map();
+  for (const contact of all) {
+    const url = normalizeLinkedInUrl(contact.routes?.linkedin);
+    if (url) existingByUrl.set(url, contact);
+    const name = norm(contact.name);
+    const org = norm(contact.org || contact.workplace);
+    if (name && org) {
+      const key = name + '|' + org;
+      const list = existingByNameOrg.get(key) || [];
+      list.push(contact);
+      existingByNameOrg.set(key, list);
+    }
+  }
+  for (const record of records) {
+    const target = window.ImportantContactCounts.linkedInScope(record);
+    if (target !== scope || !record?.n) continue;
+    const url = normalizeLinkedInUrl(record.l);
+    const name = String(record.n).trim();
+    const org = String(record.o || '').trim();
+    const key = norm(name) + '|' + norm(org);
+    let contact = url ? existingByUrl.get(url) : null;
+    if (!contact && org) {
+      const candidates = existingByNameOrg.get(key) || [];
+      if (candidates.length === 1) contact = candidates[0];
+    }
+    const directions = window.ImportantContactCounts.linkedInDirections(record, target);
+    if (contact) {
+      contact.routes = contact.routes || {};
+      if (url && !contact.routes.linkedin) contact.routes.linkedin = url;
+      if (!contact.org && org) contact.org = org;
+      if (!contact.role && record.r) contact.role = String(record.r);
+      directions.forEach(value => contact.directions.add(value));
+      contact.directions = deriveDirections(contact);
+      contact.categories = broadCategories(contact);
+      contact.speciesGroups = speciesGroups(contact);
+      continue;
+    }
+    contact = {
+      key: 'linkedin:' + (url || key),
+      name,
+      legacyId: null,
+      isAuthor: false,
+      isOrganisation: false,
+      isStrategic: false,
+      isIOCVS: false,
+      recordStatus: 'source_export_requires_current_verification',
+      publicationStatus: '',
+      role: String(record.r || 'LinkedIn source contact; current role requires verification'),
+      org,
+      countries: new Set(),
+      species: new Set(),
+      directions,
+      pubs: [],
+      routes: url ? {linkedin: url} : {},
+      routeType: '',
+      source: url || 'https://www.linkedin.com/',
+      workplace: '',
+      city: '',
+      latest_publication: null,
+      relevant_publication: null,
+      core: false
+    };
+    contact.orgType = orgType(contact.org, '');
+    contact.directions = deriveDirections(contact);
+    contact.categories = broadCategories(contact);
+    contact.speciesGroups = speciesGroups(contact);
+    all.push(contact);
+    if (url) existingByUrl.set(url, contact);
+    if (org) {
+      const list = existingByNameOrg.get(key) || [];
+      list.push(contact);
+      existingByNameOrg.set(key, list);
+    }
+  }
+}
+
 async function updateDirectoryTotal() {
   const element = $('allSectionsCount');
   if (!element || !window.ImportantContactCounts) return;
@@ -199,6 +283,7 @@ function mergeScout(parsed, routes, enrichment, scout) {
       iocvs,
       merged.enrichment
     );
+    await mergeLinkedInNetworkForScope();
     filters();
     applyRequestedCategory();
     render();
