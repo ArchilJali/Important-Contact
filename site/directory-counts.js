@@ -191,7 +191,7 @@
           const bad = responses.find(response => !response.ok);
           if (bad) throw Error('LinkedIn network HTTP ' + bad.status);
           if (!('DecompressionStream' in window)) throw Error('This browser does not support gzip decompression');
-          const encoded = (await Promise.all(responses.map(response => response.text()))).join('').replace(/\\s+/g, '');
+          const encoded = (await Promise.all(responses.map(response => response.text()))).join('').replace(/\s+/g, '');
           const binary = atob(encoded);
           const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
           const stream = new Response(bytes).body.pipeThrough(new DecompressionStream('gzip'));
