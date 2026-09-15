@@ -98,6 +98,7 @@
     const canon = canonicalIndex(parsed, oxy, enrichment);
     const smap = new Map(parsed.people.map(x => [norm(x.name), x]));
     const map = new Map();
+    const canonicalNames = new Set();
     const identityKeys = new Set();
     const linkedinUrls = new Set();
 
@@ -125,17 +126,21 @@
       if (i.organisation) identityKeys.add(norm(iname) + '|' + norm(i.organisation));
       if (i.linkedin) linkedinUrls.add(linkedInUrl(i.linkedin));
     }
+    for (const item of map.values()) canonicalNames.add(item.name);
     for (const [name, route] of Object.entries(routes.people || {})) {
+      if (!canonicalNames.has(name)) continue;
       const organisation = route.organisation || route.workplace || '';
       if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
       if (route.linkedin) linkedinUrls.add(linkedInUrl(route.linkedin));
     }
     for (const [name, record] of Object.entries(scout.people || {})) {
+      if (!canonicalNames.has(name)) continue;
       const organisation = record.organisation || record.workplace || '';
       if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
       if (record.linkedin) linkedinUrls.add(linkedInUrl(record.linkedin));
     }
     for (const [name, record] of Object.entries(enrichment.people || {})) {
+      if (!canonicalNames.has(name)) continue;
       const organisation = record.organisation || record.workplace || '';
       if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
       if (record.linkedin) linkedinUrls.add(linkedInUrl(record.linkedin));
@@ -151,6 +156,7 @@
     ]);
     const parsed = mergeScout(parseMD(markdown), scout);
     const map = new Map();
+    const canonicalNames = new Set();
     const identityKeys = new Set();
     const linkedinUrls = new Set();
     for (const p of parsed.people) addNamed(map, 'p:' + norm(p.name), p.name, 'person');
@@ -163,12 +169,15 @@
       if (record.linkedin || record.profile) linkedinUrls.add(linkedInUrl(record.linkedin || record.profile));
     }
     for (const name of Object.keys(authorNetwork.organisations || {})) addNamed(map, 'o:' + norm(name), name, 'organisation');
+    for (const item of map.values()) canonicalNames.add(item.name);
     for (const [name, route] of Object.entries(routes.people || {})) {
+      if (!canonicalNames.has(name)) continue;
       const organisation = route.organisation || route.workplace || '';
       if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
       if (route.linkedin) linkedinUrls.add(linkedInUrl(route.linkedin));
     }
     for (const [name, record] of Object.entries(scout.people || {})) {
+      if (!canonicalNames.has(name)) continue;
       const organisation = record.organisation || record.workplace || '';
       if (organisation) identityKeys.add(norm(name) + '|' + norm(organisation));
       if (record.linkedin) linkedinUrls.add(linkedInUrl(record.linkedin));
