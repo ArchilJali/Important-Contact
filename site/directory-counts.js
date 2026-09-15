@@ -277,15 +277,16 @@
         w.names.forEach(item => addCanonical('wildlife', item.name));
         for (const record of network) {
           const scope = linkedInScope(record);
+          const target = scope === 'human' ? 'humanMedicine' : scope;
           const name = norm(record && record.n);
-          if (!name || !sections[scope]) continue;
+          if (!name || !sections[target]) continue;
           const url = linkedInUrl(record.l);
           const identity = name + '|' + norm(record.o);
-          const duplicate = (url && existing[scope].urls.has(url)) || (record.o && existing[scope].identities.has(identity));
+          const duplicate = (url && existing[target].urls.has(url)) || (record.o && existing[target].identities.has(identity));
           if (duplicate) continue;
           const id = url ? 'linkedin:url:' + url : 'linkedin:identity:' + identity;
-          if (sections[scope].has(id)) continue;
-          sections[scope].add(id);
+          if (sections[target].has(id)) continue;
+          sections[target].add(id);
           unique.set(id, record.n);
         }
         return {
