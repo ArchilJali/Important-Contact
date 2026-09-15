@@ -187,11 +187,9 @@
           const files = Array.isArray(manifest.data_files) && manifest.data_files.length
             ? manifest.data_files
             : [manifest.data_file || 'network/data/contacts.json.gz'];
-          const responses = await Promise.all(files.map(path => fetch(source(path) + '?network_ts=' + Date.now(), {cache: 'no-store'})));
-          const bad = responses.find(response => !response.ok);
-          if (bad) throw Error('LinkedIn network HTTP ' + bad.status);
+          const responses = await Promise.all(files.map(path => getText('network/' + path)));
           if (!('DecompressionStream' in window)) throw Error('This browser does not support gzip decompression');
-          const encoded = (await Promise.all(responses.map(response => response.text()))).join('').replace(/\s+/g, '');
+          const encoded = responses.join('').replace(/\s+/g, '');
           const binary = atob(encoded);
           const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
           const stream = new Response(bytes).body.pipeThrough(new DecompressionStream('gzip'));
