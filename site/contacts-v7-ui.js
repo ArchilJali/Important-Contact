@@ -12,6 +12,9 @@ function recordBadge(contact) {
   if (contact.recordStatus === 'verified_current') {
     return '<span class="tag verified">Current verified</span>';
   }
+  if (contact.recordStatus === 'source_export_requires_current_verification') {
+    return '<span class="tag warn">LinkedIn source / verify current role</span>';
+  }
   return '';
 }
 
@@ -100,13 +103,65 @@ async function getJSON(url, fallback) {
   }
 }
 
+let directoryLinkedInNetworkCache;
+async function loadDirectoryLinkedInNetwork() {
+  if (!directoryLinkedInNetworkCache) {
+    directoryLinkedInNetworkCache = (async () => {
+      try {
+        const manifest = await getJSON('../network/data/manifest.json', {total: 0, data_files: []});
+        const files = Array.isArray(manifest.data_files) && manifest.data_files.length
+          ? manifest.data_files
+          : [manifest.data_file || '../network/data/contacts.json.gz'];
+        const responses = await Promise.all(files.map(path => getText('../network/' + path)));
+        const encoded = responses.join('').replace(/\s+/g, '');
+        const binary = atob(encoded);
+        const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+        const stream = new Response(bytes).body.pipeThrough(new DecompressionStream('gzip'));
+        const parsed = JSON.parse(await new Response(stream).text());
+        return Array.isArray(parsed.contacts) ? parsed.contacts : [];
+      } catch (error) {
+        console.warn('Direct LinkedIn directory load failed', error);
+        return [];
+      }
+    })();
+  }
+  return directoryLinkedInNetworkCache;
+}
+function directoryLinkedInScope(record) {
+  const segment = String(record?.s || '').toLowerCase();
+  const text = String(record?.n || '') + ' ' + String(record?.o || '') + ' ' + String(record?.r || '') + ' ' + String(record?.s || '');
+  if (/one health|biodiversity|conservation|wildlife/.test(segment)) return 'wildlife';
+  if (/veterinary|animal health/.test(segment)) return 'veterinary';
+  if (/transplantation.*perfusion/.test(segment) && /veterinary|animal|canine|feline|equine|vet\b/i.test(text)) return 'veterinary';
+  return 'human';
+}
+function directoryLinkedInDirections(record, scope) {
+  const d = new Set();
+  d.add(scope === 'veterinary' ? 'Veterinary' : 'Human Medicine');
+  const segment = String(record?.s || '').trim();
+  if (segment) d.add(segment);
+  const h = (String(record?.n || '') + ' ' + String(record?.o || '') + ' ' + String(record?.r || '') + ' ' + segment).toLowerCase();
+  if (/transplant|perfusion/.test(h)) { d.add('Transplant'); d.add('Organ Support / Preservation'); }
+  if (/surgery|surgeon|surgical/.test(h)) d.add('Surgeons / Surgery');
+  if (/sickle cell|\bscd\b|\bsca\b/.test(h)) d.add('Sickle Cell / SCA');
+  if (/patient blood management|bloodless|\bpbm\b/.test(h)) d.add('PBM Clinical / Bloodless Medicine');
+  if (/public health|population health|health policy/.test(h)) d.add('Public Health');
+  if (/regulatory|regulation|compliance|market access/.test(h)) d.add('Regulatory');
+  if (/sepsis|septic/.test(h)) d.add('Sepsis');
+  if (/emergency|critical care|resuscitation|anaesthesia|anesthesia/.test(h)) d.add('Emergency / Critical Care');
+  if (/transfusion|hematolog|haematolog|blood bank|anemia|anaemia/.test(h)) d.add('Blood / Transfusion');
+  if (/cardiac|cardiovascular|vascular|heart failure|cardio/.test(h)) d.add('Heart / Cardiovascular');
+  if (/invest|venture|capital|funds|philanthrop|donor|grant/.test(h)) d.add('Investor');
+  if (/chief executive|\bceo\b|president|executive director|\bdirector\b|chief medical officer|vice president|\bvp\b|founder|manager/.test(h)) d.add('CEO / Strategic');
+  return d;
+}
 function normalizeLinkedInUrl(value) {
   return String(value || '').trim().replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
 }
 async function mergeLinkedInNetworkForScope() {
   const scope = activeScope();
   if (!['veterinary', 'human'].includes(scope) || !window.ImportantContactCounts?.loadLinkedInNetwork) return;
-  const records = await window.ImportantContactCounts.loadLinkedInNetwork();
+  const records = await loadDirectoryLinkedInNetwork();
   const existingByUrl = new Map();
   const existingByNameOrg = new Map();
   for (const contact of all) {
@@ -122,7 +177,7 @@ async function mergeLinkedInNetworkForScope() {
     }
   }
   for (const record of records) {
-    const target = window.ImportantContactCounts.linkedInScope(record);
+    const target = directoryLinkedInScope(record);
     if (target !== scope || !record?.n) continue;
     const url = normalizeLinkedInUrl(record.l);
     const name = String(record.n).trim();
@@ -133,7 +188,7 @@ async function mergeLinkedInNetworkForScope() {
       const candidates = existingByNameOrg.get(key) || [];
       if (candidates.length === 1) contact = candidates[0];
     }
-    const directions = window.ImportantContactCounts.linkedInDirections(record, target);
+    const directions = directoryLinkedInDirections(record, target);
     if (contact) {
       contact.routes = contact.routes || {};
       if (url && !contact.routes.linkedin) contact.routes.linkedin = url;
