@@ -26,7 +26,7 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
 .search-panel{position:relative;z-index:20;margin:0 0 22px;background:#ffffffd9;border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:0 14px 36px #123c310d;backdrop-filter:blur(10px)}
 .search-label{display:flex;justify-content:space-between;gap:12px;align-items:center;margin:0 2px 8px}.search-label b{font-size:12px}.search-label span{font-size:10px;color:var(--muted)}
 .search-wrap{position:relative}.search-icon{position:absolute;left:15px;top:50%;transform:translateY(-50%);font-size:17px;color:#6a7e74;pointer-events:none}.search-wrap input{width:100%;height:50px;border:1px solid #cbd8cf;border-radius:13px;background:#fff;color:var(--ink);padding:0 48px 0 45px;font:600 14px/1.2 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;outline:none;box-shadow:inset 0 1px 2px #123c3106}.search-wrap input:focus{border-color:#79978a;box-shadow:0 0 0 3px #1a584713}.clear-search{position:absolute;right:10px;top:50%;transform:translateY(-50%);width:31px;height:31px;border:0;border-radius:9px;background:#edf3ef;color:#526a60;cursor:pointer;font-size:17px;display:none}.clear-search.show{display:block}.search-results{display:none;margin-top:8px;border:1px solid #d6e0d8;border-radius:13px;background:#fff;overflow:hidden;box-shadow:0 18px 40px #123c3114;max-height:420px;overflow-y:auto}.search-results.show{display:block}.result{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;padding:12px 13px;border-bottom:1px solid #e7ede9;text-decoration:none;align-items:center}.result:last-child{border-bottom:0}.result:hover,.result.active{background:#f5f8f6}.result-name{font-size:13px;font-weight:850;color:#173d33}.result-meta{font-size:10px;color:var(--muted);margin-top:2px;line-height:1.35}.result-badges{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}.result-badge{font-size:8px;font-weight:850;text-transform:uppercase;letter-spacing:.4px;padding:4px 7px;border-radius:999px;background:#edf3ef;color:#526a60}.result-badge.wild{background:#edf4e9;color:#4d684e}.result-badge.vet{background:#f3efe5;color:#715b29}.empty-result{padding:14px;color:var(--muted);font-size:11px}.search-foot{padding:8px 12px;background:#f7f9f7;color:#7a8b82;font-size:9px;border-top:1px solid #e7ede9}
-.priority-nav{display:grid;grid-template-columns:repeat(5,minmax(130px,1fr));gap:9px;margin:0 0 22px}.priority-link{padding:11px 12px;border:1px solid #cedbd2;border-radius:12px;background:#ffffffc9;color:var(--ink);text-decoration:none;box-shadow:0 8px 20px #123c310a;transition:transform .15s ease,border-color .15s ease}.priority-link:hover{transform:translateY(-1px);border-color:var(--gold)}.priority-link b{display:block;font-size:11px;color:var(--brand2)}.priority-link span{display:block;margin-top:3px;font-size:9px;color:var(--muted);line-height:1.3}
+.priority-nav{display:grid;grid-template-columns:repeat(6,minmax(120px,1fr));gap:9px;margin:0 0 22px}.priority-link{padding:11px 12px;border:1px solid #cedbd2;border-radius:12px;background:#ffffffc9;color:var(--ink);text-decoration:none;box-shadow:0 8px 20px #123c310a;transition:transform .15s ease,border-color .15s ease}.priority-link:hover{transform:translateY(-1px);border-color:var(--gold)}.priority-link b{display:block;font-size:11px;color:var(--brand2)}.priority-link span{display:block;margin-top:3px;font-size:9px;color:var(--muted);line-height:1.3}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 .card{position:relative;min-height:310px;background:linear-gradient(145deg,#fff,#f9fbf9);border:1px solid var(--line);border-radius:22px;padding:24px;overflow:hidden;text-decoration:none;box-shadow:0 20px 55px #123c3110;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
 .card:hover{transform:translateY(-3px);box-shadow:0 26px 65px #123c3118;border-color:#c3d2c7}
@@ -38,8 +38,10 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
 .card h2{font-size:24px;margin:27px 0 8px;letter-spacing:-.55px}.card p{color:var(--muted);margin:0;max-width:570px;font-size:12.5px}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin:19px 0 26px}.tag{background:var(--soft);color:#526a60;border-radius:999px;padding:5px 8px;font-size:8.5px;font-weight:850;text-transform:uppercase;letter-spacing:.45px}.tag.gold{background:#f3efe5;color:#705a29}
 .go{position:absolute;left:24px;right:24px;bottom:21px;display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid #e4ebe6;font-size:11px;font-weight:850;color:#1a5847}.arrow{font-size:18px}
+.card.transplant:before{background:radial-gradient(circle,#9c7cb12b,transparent 68%)}
+.group-summary{margin-top:20px;padding:22px 24px;background:#ffffffc9;border:1px solid var(--line);border-radius:22px;box-shadow:0 16px 45px #123c310d}.group-summary-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:16px}.group-summary-head h2{margin:0;font-size:22px;letter-spacing:-.4px}.group-summary-head span{max-width:560px;color:var(--muted);font-size:11px}.group-counts{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:8px}.group-count{padding:12px 13px;border:1px solid #d8e2da;border-radius:12px;background:#f8faf8}.group-count strong{display:block;font-size:23px;line-height:1;color:var(--brand2)}.group-count span{display:block;margin-top:6px;color:var(--muted);font-size:9px;line-height:1.3}.group-loading{color:var(--muted);font-size:11px}
 .footer{margin-top:18px;color:#71847a;font-size:10px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
-@media(max-width:820px){main{padding:30px 15px 50px}.top{padding:0 15px}.hero{grid-template-columns:1fr;gap:14px}.live{justify-self:start}.priority-nav{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}.card{min-height:300px;padding:20px}.go{left:20px;right:20px}.count strong{font-size:32px}h1{letter-spacing:-1px}.search-label{align-items:flex-start;flex-direction:column;gap:2px}.result{grid-template-columns:1fr}.result-badges{justify-content:flex-start}}@media(max-width:470px){.priority-nav{grid-template-columns:1fr}}
+@media(max-width:820px){main{padding:30px 15px 50px}.top{padding:0 15px}.hero{grid-template-columns:1fr;gap:14px}.live{justify-self:start}.priority-nav{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}.card{min-height:300px;padding:20px}.go{left:20px;right:20px}.count strong{font-size:32px}h1{letter-spacing:-1px}.search-label{align-items:flex-start;flex-direction:column;gap:2px}.result{grid-template-columns:1fr}.result-badges{justify-content:flex-start}.group-summary{padding:18px}.group-summary-head{align-items:flex-start;flex-direction:column;gap:5px}.group-counts{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:470px){.priority-nav{grid-template-columns:1fr}.group-counts{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -63,7 +65,7 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
     <h1>People, institutions and funding routes by strategic direction.</h1>
     <p>Choose a working network. Veterinary remains the current Oxyglobin / HBOC contact intelligence workspace. Human Medicine is a separate network for surgery, bloodless medicine, transplantation, transfusion, emergency care, public health, oncology, devices, regulators, executives and investors. Wildlife / Red Book remains a separate network for endangered species, conservation medicine, philanthropy, grants and research.</p>
   </div>
-  <div class="live">Temporary read-only access · All contacts: <strong id="allCount">...</strong></div>
+  <div class="live">Temporary read-only access · All unique contacts: <strong id="allCount">...</strong></div>
 </section>
 
 <section class="search-panel" aria-label="Person search">
@@ -80,6 +82,7 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
   <a class="priority-link" href="site/contacts-v7.html?v=20260910-1"><b>Veterinary</b><span>Animal health and wildlife</span></a>
   <a class="priority-link" href="site/human-medicine.html?group=ceo_strategic"><b>CEO / Strategic</b><span>Decision-makers and partners</span></a>
   <a class="priority-link" href="site/human-medicine.html?group=surgery"><b>Surgeons</b><span>Transplant, cardiac and trauma</span></a>
+  <a class="priority-link" href="site/human-medicine.html?group=transplant"><b>Transplantation</b><span>Transplant and perfusion contacts</span></a>
   <a class="priority-link" href="site/human-medicine.html?group=scd_sca"><b>Sickle Cell / SCA</b><span>Clinical and advocacy leaders</span></a>
   <a class="priority-link" href="site/human-medicine.html?group=pbm_advocacy"><b>PBM Advocacy</b><span>Programmes and public education</span></a>
 </nav>
@@ -107,6 +110,17 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
     <div class="go"><span>Open Human Medicine contacts</span><span class="arrow">-&gt;</span></div>
   </a>
 
+  <a class="card transplant" href="site/human-medicine.html?group=transplant">
+    <div class="card-top">
+      <div class="icon" aria-hidden="true">&#9672;</div>
+      <div class="count"><strong id="transplantCount">...</strong><span>LinkedIn</span></div>
+    </div>
+    <h2>Transplantation &amp; Perfusion</h2>
+    <p>A separate working group inside Human Medicine for transplantation, organ perfusion, preservation and oxygen-support contacts.</p>
+    <div class="tags"><span class="tag gold">Transplant</span><span class="tag">Perfusion</span><span class="tag">Organ support</span><span class="tag">Human Medicine</span></div>
+    <div class="go"><span>Open Transplantation contacts</span><span class="arrow">-&gt;</span></div>
+  </a>
+
   <a class="card wild" href="site/wildlife-red-book.html?v=20260906-2">
     <div class="card-top">
       <div class="icon" aria-hidden="true">&#9678;</div>
@@ -129,13 +143,21 @@ h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-1.7px;margin:
   </a>
 </section>
 
+<section class="group-summary" aria-labelledby="group-summary-title">
+  <div class="group-summary-head">
+    <div><div class="kicker">LinkedIn distribution</div><h2 id="group-summary-title">Contacts by working group</h2></div>
+    <span>Imported LinkedIn records are also routed into the relevant Veterinary, Human Medicine, Wildlife and cross-functional groups.</span>
+  </div>
+  <div class="group-counts" id="groupCounts"><span class="group-loading">Loading group counts...</span></div>
+</section>
+
 <div class="footer"><span>Public professional facts and verified public institutional routes only.</span><span>Private relationship data and internal assessments are not published.</span></div>
 </main>
 
-<script src="site/directory-counts.js?v=20260915-9"></script>
+<script src="site/directory-counts.js?v=20260915-4"></script>
 <script>
 'use strict';
-const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
+const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim().replace(/\s+/g,' ');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const clean=s=>String(s||'').replace(/[.]+$/,'').trim();
 const citeSig=n=>{const t=clean(n).split(/\s+/).filter(Boolean);return t.length<2?norm(n):t[0].toLowerCase()+'|'+t.slice(1).join('').replace(/[^A-Za-z]/g,'').toLowerCase()};
@@ -154,7 +176,7 @@ function parseStrategic(md){
 async function getJSON(url,fallback){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(r.status);return await r.json()}catch(e){return fallback}}
 async function getText(url,fallback=''){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(r.status);return await r.text()}catch(e){return fallback}}
 let peopleIndex=[];
-function buildPeopleIndex(vetPeople,humanPeople,wildContacts){
+function buildPeopleIndex(vetPeople,humanPeople,wildContacts,linkedinRecords){
   const map=new Map();
   function add(x,section){
     if(!x?.name)return;
@@ -170,6 +192,11 @@ function buildPeopleIndex(vetPeople,humanPeople,wildContacts){
   vetPeople.forEach(p=>add({name:p.name,role:p.role,country:p.country,source:p.source},'Veterinary'));
   humanPeople.forEach(p=>add({name:p.name,role:p.role,country:p.country,source:p.source},'Human Medicine'));
   (wildContacts||[]).filter(x=>String(x.record_type||'').toLowerCase()==='person').forEach(p=>add(p,'Wildlife / Red Book'));
+  (linkedinRecords||[]).forEach(p=>{
+    const scope=window.ImportantContactCounts?.linkedInScope?.(p);
+    const section=scope==='veterinary'?'Veterinary':scope==='wildlife'?'Wildlife / Red Book':'Human Medicine';
+    add({name:p.n,role:p.r,organisation:p.o,source:p.l},section);
+  });
   peopleIndex=[...map.values()].sort((a,b)=>a.name.localeCompare(b.name));
 }
 function renderPeopleSearch(){
@@ -197,16 +224,26 @@ document.getElementById('clearSearch').addEventListener('click',()=>{const i=doc
 document.addEventListener('click',e=>{if(!e.target.closest('.search-panel'))document.getElementById('personResults').classList.remove('show')});
 document.getElementById('personSearch').addEventListener('keydown',e=>{if(e.key==='Escape'){e.currentTarget.value='';renderPeopleSearch();e.currentTarget.blur()}});
 
+function renderGroupCounts(summary){
+  const box=document.getElementById('groupCounts');
+  const counts=summary.linkedinSegments||{};
+  const entries=Object.entries(counts).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+  box.innerHTML=entries.map(([label,count])=>'<div class="group-count"><strong>'+Number(count).toLocaleString('en-US')+'</strong><span>'+esc(label)+'</span></div>').join('');
+}
+
 (async()=>{
   const [md,hmd,wild]=await Promise.all([getText('veterinary/CONTACTS.md'),getText('human-medicine/CONTACTS.md'),getJSON('wildlife-red-book/contacts.json',{contacts:[]})]);
   const parsed=parseStrategic(md),humanParsed=parseStrategic(hmd);
-  buildPeopleIndex(parsed.people,humanParsed.people,wild.contacts||[]);
+  const network=await window.ImportantContactCounts.loadLinkedInNetwork();
+  buildPeopleIndex(parsed.people,humanParsed.people,wild.contacts||[],network);
   const summary=await window.ImportantContactCounts.get();
   document.getElementById('vetCount').textContent=summary.veterinary??'-';
   document.getElementById('humanCount').textContent=summary.humanMedicine??'-';
   document.getElementById('wildCount').textContent=summary.wildlife??'-';
   document.getElementById('linkedinCount').textContent=summary.linkedinNetwork??'-';
+  document.getElementById('transplantCount').textContent=summary.transplant??'-';
   document.getElementById('allCount').textContent=summary.total??'-';
+  renderGroupCounts(summary);
 })();
 </script>
 </body>
